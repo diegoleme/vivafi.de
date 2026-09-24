@@ -22,6 +22,10 @@ export default defineConfig({
 
   output: 'static',
 
+  // O CSS da página é pequeno: inline no HTML poupa uma requisição que
+  // bloqueia a renderização (~150 ms no 4G do Lighthouse).
+  build: { inlineStylesheets: 'always' },
+
   site: 'https://vivafi.de',
 
   vite: {

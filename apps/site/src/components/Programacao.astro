@@ -221,7 +221,6 @@ function textoMudanca(m: UpcomingChange): string {
               {g.linhas.map((l) => (
                 <div
                   class:list={['entrada-prog', !l.hora && 'sem-hora']}
-                  role="listitem"
                   data-item
                   data-comunidade={l.c.id}
                 >
@@ -259,7 +258,7 @@ function textoMudanca(m: UpcomingChange): string {
                   <p class="text-sm font-medium">{weekdayName(date)}</p>
                   <p class="tabular text-xs text-ink-muted">{formatShortDate(date)}</p>
                 </div>
-                <div class="entrada-prog" role="listitem" data-item data-comunidade={activity.communityId}>
+                <div class="entrada-prog" data-item data-comunidade={activity.communityId}>
                   <span class="cel-hora tabular font-semibold">{activity.startsAt}</span>
                   {(!umaSo || activity.title || activity.reason) && (
                     <span class="cel-com min-w-0">
