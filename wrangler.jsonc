@@ -6,6 +6,12 @@
   "compatibility_date": "2026-09-24",
   "assets": {
     // Caminho a partir da raiz do repositório, que é onde o build roda.
-    "directory": "./apps/site/dist"
+    "directory": "./apps/site/dist",
+    // `vivafi.de/<slug>` é servido direto, sem redirecionar para a versão com
+    // barra no fim. O padrão (`auto-trailing-slash`) devolvia 307 justamente
+    // no endereço que a secretária dita no telefone — um round trip inteiro
+    // antes do primeiro byte de HTML, que no 3G da porta da igreja custa caro.
+    // Quem chegar com barra é que passa a ser redirecionado.
+    "html_handling": "drop-trailing-slash"
   }
 }
