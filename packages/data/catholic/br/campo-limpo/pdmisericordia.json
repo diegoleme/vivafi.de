@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "slug": "pdmisericordia",
+  "name": "Paróquia da Divina Misericórdia",
+  "patrons": [
+    {
+      "name": "da Divina Misericórdia"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "20:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551145634723",
+    "whatsapp": "+551145634723",
+    "instagram": "Pdmisericordia",
+    "facebook": "https://www.facebook.com/pdmisericordia"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Isabel Rainha de Portugal",
+      "isMain": true,
+      "address": [
+        "Rua Pe. Rodrigues Fernandes, 19",
+        "Jd. Alfredo · São Paulo/SP · 04909-090"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-wed-fri-1900",
+          "kind": "confession",
+          "startsAt": "19:00",
+          "endsAt": "19:45",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.679642,
+        "lng": -46.736026
+      }
+    },
+    {
+      "id": "nossa-senhora-da-visitacao",
+      "name": "Comunidade Nossa Senhora da Visitação",
+      "address": [
+        "Av. Guarapiranga, 1050",
+        "Jd. Alfredo | Guarapiranga · São Paulo/SP · 04762-001"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-visitacao-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.677887,
+        "lng": -46.73437
+      }
+    },
+    {
+      "id": "santa-teresa-de-los-andes",
+      "name": "Comunidade Santa Teresa de Los Andes",
+      "address": [
+        "Rua Dr. Lauro Ribas Braga, 335",
+        "Parque Europa · São Paulo/SP · 04910-090"
+      ],
+      "activities": [
+        {
+          "id": "santa-teresa-de-los-andes-mass-sat-1830",
+          "kind": "mass",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "slug": "pnsbcvp",
+  "name": "Paróquia Nossa Senhora do Bom Conselho",
+  "patrons": [
+    {
+      "name": "Nossa Senhora do Bom Conselho",
+      "feast": {
+        "day": 26,
+        "month": 4
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São Luiz - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551155126134",
+    "whatsapp": "+5511910795927",
+    "instagram": "pnsbcvp",
+    "facebook": "https://www.facebook.com/igrejabomconselho"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora do Bom Conselho",
+      "isMain": true,
+      "address": [
+        "Nossa Sra. do Bom Conselho, 87",
+        "Vila Prel · São Paulo/SP · 05763-470"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1130",
+          "kind": "mass",
+          "startsAt": "11:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-thu-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-wed-1530",
+          "kind": "confession",
+          "startsAt": "15:30",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1800",
+          "kind": "adoration",
+          "startsAt": "18:00",
+          "endsAt": "19:15",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.647788,
+        "lng": -46.756603
+      }
+    },
+    {
+      "id": "nossa-senhora-das-gracas-e-sao-sebastiao",
+      "name": "Comunidade Nossa Senhora das Graças e São Sebastião",
+      "address": [
+        "Rua Eugênio Pradez, 273",
+        "Jd. Piracuama · São Paulo/SP · 05763-340"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-das-gracas-e-sao-sebastiao-mass-2fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.646341,
+        "lng": -46.759433
+      }
+    },
+    {
+      "id": "sao-tarcisio",
+      "name": "Comunidade São Tarcísio",
+      "address": [
+        "Rua Geraldo Beting, 33 - Bloco 3",
+        "Jd. Germânia · São Paulo/SP · 05763-360"
+      ],
+      "activities": [
+        {
+          "id": "sao-tarcisio-mass-3thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "thursday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.649693,
+        "lng": -46.753402
+      }
+    }
+  ]
+}

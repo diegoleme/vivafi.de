@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquia_sagradocoracaojesus",
+  "name": "Paróquia Sagrado Coração de Jesus",
+  "patrons": [
+    {
+      "name": "Sagrado Coração de Jesus"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São Luiz - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "13:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551141194390",
+    "whatsapp": "+5511982966026",
+    "instagram": "paroquia_sagradocoracaojesus",
+    "facebook": "https://www.facebook.com/SagradoCoracaoCampoLimpo"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Sagrado Coração de Jesus",
+      "isMain": true,
+      "address": [
+        "Av. Jacobus Baldi, 288",
+        "Jd. Iracema · São Paulo/SP · 05847-000"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1830",
+          "kind": "mass",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-wed-thu-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-fri-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "6ª das 15h às 17h Benção do Santíssimo na Missa às 19h30"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.654863,
+        "lng": -46.746811
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Francisco Carbonari, 161",
+        "Conj. Promorar · São Paulo/SP · 05846-290"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.65776,
+        "lng": -46.744898
+      }
+    }
+  ]
+}

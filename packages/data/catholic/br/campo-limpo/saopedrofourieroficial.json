@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "slug": "saopedrofourieroficial",
+  "name": "Paróquia São Pedro Fourier",
+  "patrons": [
+    {
+      "name": "São Pedro Fourier",
+      "feast": {
+        "day": 9,
+        "month": 12
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Campo Limpo",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551135071401",
+    "whatsapp": "+551135071401",
+    "instagram": "saopedrofourieroficial",
+    "facebook": "https://www.facebook.com/saopedrofourieroficial",
+    "youtube": "https://www.youtube.com/c/ParoquiaSaoPedroFourier"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Pedro Fourier",
+      "isMain": true,
+      "address": [
+        "Av. Marechal Juarez Távora, 570",
+        "Super Q. Morumbi · São Paulo/SP · 05750-001"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.616103,
+        "lng": -46.747451
+      }
+    },
+    {
+      "id": "sao-joao-batista",
+      "name": "Comunidade São João Batista",
+      "address": [
+        "Rua Charles D'Aviler, 48",
+        "Jd. das Palmas · São Paulo/SP · 05749-260"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-batista-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.621743,
+        "lng": -46.745679
+      }
+    }
+  ]
+}

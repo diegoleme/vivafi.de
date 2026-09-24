@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasantamargarida",
+  "name": "Paróquia Santa Margarida Maria Alacoque",
+  "patrons": [
+    {
+      "name": "Santa Margarida Maria Alacoque",
+      "feast": {
+        "day": 16,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Taboão da Serra",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551141375037",
+    "whatsapp": "+551141375037",
+    "instagram": "paroquiasantamargarida",
+    "facebook": "https://www.facebook.com/StaMargaridaMaria"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Margarida Maria Alacoque",
+      "isMain": true,
+      "address": [
+        "Rua Iside Betro Lupo Issa, 28",
+        "Jd. São Judas Tadeu · Taboão/SP · 06786-210"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Segunda feira | 20h: CEM Santa Tereza de Calcutá CEM Santa Dulce dos Pobres CEM São Francisco de Assis CEM Nossa Senhora da Conceição. Terça feira | 15h: CEM Nossa Senhora da Saúde 20h CEM São José CE"
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "1ª Quinta-feira do mês das 15h às 19h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.626326,
+        "lng": -46.805425
+      }
+    },
+    {
+      "id": "santa-rita-de-cassia",
+      "name": "Comunidade Santa Rita de Cássia",
+      "address": [
+        "Rua Carlos Marques Teixeira, S/N",
+        "Vila Indiana · Taboão da Serra/SP · 06786-230"
+      ],
+      "activities": [
+        {
+          "id": "santa-rita-de-cassia-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.619975,
+        "lng": -46.805843
+      }
+    },
+    {
+      "id": "santo-expedito",
+      "name": "Comunidade Santo Expedito",
+      "address": [
+        "Rua Madre Tereza de Calcutá, S/N",
+        "Jd. Saint Morritz · Taboão da Serra/SP · 06787-545"
+      ],
+      "activities": [
+        {
+          "id": "santo-expedito-mass-sun-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "santo-expedito-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.621318,
+        "lng": -46.803434
+      }
+    },
+    {
+      "id": "sao-francisco-de-assis",
+      "name": "Comunidade São Francisco de Assis",
+      "address": [
+        "Rua Manoel da Nóbrega, 200",
+        "Jd. Salete · Taboão da Serra/SP · 06787-330"
+      ],
+      "activities": [
+        {
+          "id": "sao-francisco-de-assis-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-francisco-de-assis-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.623388,
+        "lng": -46.79743
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasantamariagoretti",
+  "name": "Paróquia Santa Maria Goretti",
+  "patrons": [
+    {
+      "name": "Santa Maria Goretti",
+      "feast": {
+        "day": 6,
+        "month": 7
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São Luiz - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "16:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551142589355",
+    "whatsapp": "+551142589355",
+    "instagram": "paroquiasantamariagoretti",
+    "facebook": "https://www.facebook.com/psmariagoretti"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Maria Goretti",
+      "isMain": true,
+      "address": [
+        "Holda Botto Malanconi, 339/355",
+        "Jd. Duprat · São Paulo/SP · 05853-310"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-mon-tue-fri-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "monday",
+              "tuesday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-mon-tue-fri-1900",
+          "kind": "confession",
+          "startsAt": "19:00",
+          "endsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "1ª Sexta-feira do mês"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.659226,
+        "lng": -46.753081
+      }
+    },
+    {
+      "id": "sao-joao-paulo-ii",
+      "name": "Comunidade São João Paulo II",
+      "address": [
+        "Rua Antônio Bauschert, 51",
+        "Jd. Capelinha · São Paulo/SP · 05850-120"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-paulo-ii-mass-sun-1600",
+          "kind": "mass",
+          "startsAt": "16:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.654865,
+        "lng": -46.754674
+      }
+    }
+  ]
+}

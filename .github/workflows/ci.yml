@@ -1,0 +1,42 @@
+name: CI
+
+# Portão de qualidade, **não** deploy. Quem publica é o Cloudflare Workers
+# Builds, conectado ao repositório.
+#
+# Este workflow existe mesmo assim porque o comando de build do Cloudflare mora
+# num campo do painel: sem histórico, sem diff, sem review. Alguém encurtar
+# aquele campo para só `pnpm build` não deixa rastro nenhum. Aqui o `pnpm check`
+# — que valida os 113 JSONs contra o schema — está versionado, e afrouxá-lo
+# aparece no diff. É a D7 aplicada ao processo.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # Versão vem do campo `packageManager` do package.json — uma fonte só.
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - run: pnpm test
+      - run: pnpm check
+      - run: pnpm build

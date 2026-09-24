@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "slug": "sagradocoracaodejesus.cl",
+  "name": "Paróquia Sagrado Coração de Jesus - Pq. Ipê",
+  "patrons": [
+    {
+      "name": "Sagrado Coração de Jesus - Pq. Ipê",
+      "feast": {
+        "day": 24,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Campo Limpo",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158411786",
+    "whatsapp": "+551158411786",
+    "instagram": "sagradocoracaodejesus.cl",
+    "facebook": "https://www.facebook.com/Paroquiasagradocoracaodejesus.cl",
+    "youtube": "https://www.youtube.com/@paroquiasagradocoracaodeje8343"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Sagrado Coração de Jesus",
+      "isMain": true,
+      "address": [
+        "Rua Joaquim Xavier Curado, 227",
+        "Parque Ipê · São Paulo/SP · 05762-140"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-wed-thu-fri-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "4ª, 5ª e 6ª das 17h às 19h"
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1700",
+          "kind": "adoration",
+          "startsAt": "17:00",
+          "endsAt": "18:45",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.640278,
+        "lng": -46.763612
+      }
+    }
+  ]
+}

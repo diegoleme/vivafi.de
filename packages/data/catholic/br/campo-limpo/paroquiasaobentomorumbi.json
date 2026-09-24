@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasaobentomorumbi",
+  "name": "Paróquia São Bento",
+  "patrons": [
+    {
+      "name": "São Bento",
+      "feast": {
+        "day": 11,
+        "month": 7
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "18:30"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "11:30"
+    }
+  ],
+  "contact": {
+    "phone": "+551135011155",
+    "instagram": "paroquiasaobentomorumbi",
+    "facebook": "https://www.facebook.com/saobentomorumbi"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Bento",
+      "isMain": true,
+      "address": [
+        "Rua Santo Américo, 357",
+        "Jd. Colombo · São Paulo/SP · 05629-020"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-tue-wed-thu-fri-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-fri-1400",
+          "kind": "confession",
+          "startsAt": "14:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-fri-1700",
+          "kind": "adoration",
+          "startsAt": "17:00",
+          "endsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.603791,
+        "lng": -46.7284
+      }
+    },
+    {
+      "id": "nossa-senhora-da-imaculada-conceicao",
+      "name": "Comunidade Nossa Senhora da Imaculada Conceição",
+      "address": [
+        "Rua das Goiabeiras, 07",
+        "Jd. Colombo · São Paulo/SP · 05661-040"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-imaculada-conceicao-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.605085,
+        "lng": -46.726924
+      }
+    }
+  ]
+}

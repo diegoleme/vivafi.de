@@ -1,0 +1,29 @@
+---
+import type { Parish } from '@vivafide/core';
+import Icone from './Icone.astro';
+
+/** Onde acompanhar a paróquia — não é meio de falar com a secretaria. */
+interface Props { parish: Parish }
+const { parish } = Astro.props;
+const c = parish.contact;
+const tem = c?.instagram || c?.facebook || c?.youtube || c?.website;
+---
+
+{tem && (
+  <section aria-label="Redes sociais da paróquia" class="mt-8 border-y border-line py-3">
+    <ul role="list" class="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+      {c.instagram && (
+        <li><a href={`https://instagram.com/${c.instagram}`} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 underline underline-offset-2"><Icone nome="instagram" />@{c.instagram}</a></li>
+      )}
+      {c.facebook && (
+        <li><a href={c.facebook} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 underline underline-offset-2"><Icone nome="facebook" />Facebook</a></li>
+      )}
+      {c.youtube && (
+        <li><a href={c.youtube} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 underline underline-offset-2"><Icone nome="youtube" />YouTube</a></li>
+      )}
+      {c.website && (
+        <li><a href={c.website} target="_blank" rel="noopener" class="underline underline-offset-2 break-all">{c.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></li>
+      )}
+    </ul>
+  </section>
+)}

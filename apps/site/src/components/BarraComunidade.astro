@@ -1,0 +1,104 @@
+---
+import type { Parish } from '@vivafide/core';
+import { nomeIgreja } from '../lib/abreviar';
+
+interface Props { parish: Parish }
+const { parish } = Astro.props;
+const comunidades = parish.communities.filter((c) => c.activities.length > 0);
+---
+
+{comunidades.length > 1 && (
+  <div data-barra hidden class="barra-fixa">
+    <div class="mx-auto w-full max-w-2xl px-4 py-2 sm:px-6">
+      <label for="f-comunidade" class="sr-only">Filtrar por comunidade</label>
+      {/* O texto da primeira opção é o único lugar que sobra para dizer o que
+          o controle faz: sem rótulo visível, "Todas as comunidades" lido
+          sozinho parece título de seção, não coisa que se mexe. */}
+      <select id="f-comunidade" class="w-full rounded border border-line bg-surface px-3 py-2 text-ink">
+        <option value="">Filtrar por comunidade</option>
+        {comunidades.map((c) => <option value={c.id}>{nomeIgreja(c)}</option>)}
+      </select>
+    </div>
+  </div>
+)}
+
+<script is:inline>
+  /**
+   * Melhoria progressiva: avisa se a página está velha e liga o filtro de
+   * comunidade. Sem JS a página inteira aparece, sem filtro, e a barra some —
+   * ninguém encara um controle morto.
+   */
+  (function () {
+    var prog = document.querySelector('[data-prog]');
+    if (prog && window.Intl) {
+      var p = new Intl.DateTimeFormat('en-US', {
+        timeZone: prog.dataset.tz, year: 'numeric', month: '2-digit', day: '2-digit',
+      }).formatToParts(new Date());
+      var v = function (t) { return (p.find(function (x) { return x.type === t; }) || {}).value; };
+      if (v('year') + '-' + v('month') + '-' + v('day') !== prog.dataset.date) {
+        var aviso = document.getElementById('pagina-antiga');
+        if (aviso) aviso.hidden = false;
+      }
+    }
+
+    var barra = document.querySelector('[data-barra]');
+    var select = document.getElementById('f-comunidade');
+    if (!barra || !select) return;
+    barra.hidden = false;
+    document.body.classList.add('com-barra');
+
+    function aplicar() {
+      var escolhida = select.value;
+      document.querySelectorAll('[data-item]').forEach(function (el) {
+        el.hidden = !!escolhida && el.dataset.comunidade !== escolhida;
+      });
+
+      var algum = false;
+      document.querySelectorAll('[data-linha]').forEach(function (linha) {
+        var visiveis = linha.hasAttribute('data-item')
+          ? (linha.hidden ? 0 : 1)
+          : linha.querySelectorAll('[data-item]:not([hidden])').length;
+        linha.hidden = visiveis === 0;
+        if (visiveis > 0) algum = true;
+
+        // O rótulo cobre as linhas que sobraram, não as que existiam no build.
+        var rotulo = linha.querySelector('[data-rotulo]');
+        if (rotulo) rotulo.style.setProperty('--linhas', Math.max(1, visiveis));
+      });
+      /**
+       * Divisor e subtítulo existem só por causa do que vem depois deles.
+       *
+       * O divisor pertence ao grupo seguinte: aparece quando esse grupo está
+       * visível e já houve outro antes — senão sobra linha abrindo a tabela ou
+       * separando nada de nada. O subtítulo cobre até o próximo subtítulo:
+       * some quando todo o sub-bloco dele sumiu.
+       */
+      document.querySelectorAll('[data-decora]').forEach(function (d) {
+        var titulo = d.dataset.decora === 'titulo';
+        var depois = false;
+        for (var el = d.nextElementSibling; el; el = el.nextElementSibling) {
+          if (el.dataset.decora === 'titulo') break;
+          if (el.hasAttribute('data-linha')) {
+            if (!el.hidden) depois = true;
+            if (!titulo) break; // o divisor só responde pelo grupo imediatamente seguinte
+          }
+        }
+        var antes = false;
+        for (var el2 = d.previousElementSibling; el2 && !antes; el2 = el2.previousElementSibling) {
+          antes = el2.hasAttribute('data-linha') && !el2.hidden;
+        }
+        d.hidden = !depois || (!titulo && !antes);
+      });
+
+      document.querySelectorAll('[data-bloco]').forEach(function (bloco) {
+        bloco.hidden = bloco.querySelectorAll('[data-linha]:not([hidden])').length === 0;
+      });
+
+      var vazio = document.querySelector('[data-vazio]');
+      if (vazio) vazio.hidden = algum;
+    }
+
+    select.addEventListener('change', aplicar);
+    aplicar();
+  })();
+</script>

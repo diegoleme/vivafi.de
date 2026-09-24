@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "slug": "santaluziacalu",
+  "name": "Paróquia Santa Luzia",
+  "patrons": [
+    {
+      "name": "Santa Luzia",
+      "feast": {
+        "day": 13,
+        "month": 12
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Mirim-Guaçu",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "08:30",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "14:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158958704",
+    "whatsapp": "+551158958704",
+    "instagram": "santaluziacalu",
+    "facebook": "https://www.facebook.com/santaluzia.calu55",
+    "youtube": "https://www.youtube.com/channel/UCLIlbCre0E1dD1vV6C08wSw"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Cruz",
+      "isMain": true,
+      "address": [
+        "Rua Plínio Dias, 24",
+        "Vila Calú · São Paulo/SP · 04961-020"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.735677,
+        "lng": -46.794739
+      }
+    },
+    {
+      "id": "imaculado-coracao-de-maria",
+      "name": "Comunidade Imaculado Coração de Maria",
+      "address": [
+        "Estrada Abias da Silva, 750",
+        "Jd. Sônia Maria · São Paulo/SP · 06868-700"
+      ],
+      "activities": [
+        {
+          "id": "imaculado-coracao-de-maria-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "imaculado-coracao-de-maria-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.740012,
+        "lng": -46.799608
+      }
+    },
+    {
+      "id": "sao-joao-batista",
+      "name": "Comunidade São João Batista",
+      "address": [
+        "Rua dos Bombeiros, 100",
+        "Jd. Capela · CEP 04960-170 · São Paulo/SP"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-batista-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.733249,
+        "lng": -46.788114
+      }
+    },
+    {
+      "id": "sao-roque",
+      "name": "Comunidade São Roque",
+      "address": [
+        "Rua Barão de Paiva Manso, 95",
+        "Jd. Capela · São Paulo/SP · 04960-110"
+      ],
+      "activities": [
+        {
+          "id": "sao-roque-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-roque-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.729843,
+        "lng": -46.787856
+      }
+    }
+  ]
+}

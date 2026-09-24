@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "slug": "santissimo-sacramento-parque-pinheiros",
+  "name": "Paróquia Santíssimo Sacramento",
+  "patrons": [
+    {
+      "name": "Santíssimo Sacramento"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Taboão da Serra",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+5511977437834",
+    "whatsapp": "+5511949142522",
+    "facebook": "https://www.facebook.com/sacramentodoaltar"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora das Dores",
+      "isMain": true,
+      "address": [
+        "Rua Benedito Afonso Siqueira, 261",
+        "Pq. Pinheiros · Taboão/SP · 06766-160"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "16:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.63208,
+        "lng": -46.779616
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Palmares, 215",
+        "Pq. Pinheiros · Taboão da Serra/SP · 06766-350"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.631125,
+        "lng": -46.776941
+      }
+    }
+  ]
+}

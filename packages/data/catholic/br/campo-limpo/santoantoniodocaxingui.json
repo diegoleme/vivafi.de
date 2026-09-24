@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "slug": "santoantoniodocaxingui",
+  "name": "Paróquia Santo Antônio",
+  "patrons": [
+    {
+      "name": "Santo Antônio",
+      "feast": {
+        "day": 13,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:30",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551137223145",
+    "whatsapp": "+551137223145",
+    "instagram": "santoantoniodocaxingui",
+    "facebook": "https://www.facebook.com/santoantoniodocaxingui",
+    "youtube": "https://www.youtube.com/c/SantoAntoniodoCaxingui"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santo Antônio do Caxingui",
+      "isMain": true,
+      "address": [
+        "Av. Prof. Francisco Morato, 2042",
+        "Caxingui · São Paulo/SP · 05512-200"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-mon-tue-wed-thu-fri-sat-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-wed-thu-fri-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "3ª a 6ª após as missas"
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.584415,
+        "lng": -46.718522
+      }
+    },
+    {
+      "id": "santuario-santa-cruz-da-reconciliacao",
+      "name": "Santuário Santa Cruz da Reconciliação",
+      "address": [
+        "Rua Valdomiro Fleury, 180",
+        "Instituto Previdência | Butantã · São Paulo/SP · 05514-020"
+      ],
+      "activities": [
+        {
+          "id": "santuario-santa-cruz-da-reconciliacao-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santuario-santa-cruz-da-reconciliacao-mass-sun-mon-tue-wed-thu-fri-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "santuario-santa-cruz-da-reconciliacao-mass-sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.579876,
+        "lng": -46.711979
+      }
+    }
+  ]
+}

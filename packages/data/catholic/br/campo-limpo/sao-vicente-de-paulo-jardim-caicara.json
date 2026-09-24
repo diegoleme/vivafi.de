@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "slug": "sao-vicente-de-paulo-jardim-caicara",
+  "name": "Paróquia São Vicente de Paulo",
+  "patrons": [
+    {
+      "name": "São Vicente de Paulo",
+      "feast": {
+        "day": 27,
+        "month": 9
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São José - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158337059",
+    "whatsapp": "+551158337059",
+    "facebook": "https://www.facebook.com/parsaovicente"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Vicente de Paulo",
+      "isMain": true,
+      "address": [
+        "Rua La Condamine, 124",
+        "Jd. Caiçara · São Paulo/SP · 05872-100"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-thu-fri-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-wed-fri-1000",
+          "kind": "confession",
+          "startsAt": "10:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.684606,
+        "lng": -46.775796
+      }
+    },
+    {
+      "id": "santa-rita",
+      "name": "Comunidade Santa Rita",
+      "address": [
+        "Rua Campo Borges,19",
+        "Jd. São Bento Novo · São Paulo/SP · 05872-030"
+      ],
+      "activities": [
+        {
+          "id": "santa-rita-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santa-rita-mass-tue-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.684197,
+        "lng": -46.778728
+      }
+    }
+  ]
+}

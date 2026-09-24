@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "slug": "saosebastiao.cl",
+  "name": "Paróquia São Sebastião",
+  "patrons": [
+    {
+      "name": "São Sebastião",
+      "feast": {
+        "day": 20,
+        "month": 1
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Campo Limpo",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158251395",
+    "whatsapp": "+551158251395",
+    "instagram": "saosebastiao.cl",
+    "facebook": "https://www.facebook.com/paroquiasaosebastiaocampolimpo",
+    "youtube": "https://www.youtube.com/channel/UCwHKrLrnjbev2rfblUQ-5cw"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Sebastião",
+      "isMain": true,
+      "address": [
+        "Rua Koto Mitsutani, 672",
+        "Jd. Mitsutani · São Paulo/SP · 05791-001"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1600",
+          "kind": "mass",
+          "startsAt": "16:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-sat-1030",
+          "kind": "confession",
+          "startsAt": "10:30",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1400",
+          "kind": "adoration",
+          "startsAt": "14:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.649485,
+        "lng": -46.783655
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Prof. Washington Pires, 123",
+        "Jd. Maria Sampaio · São Paulo · 05790-420"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-mass-tue-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.641865,
+        "lng": -46.786185
+      }
+    },
+    {
+      "id": "sagrado-coracao-de-jesus",
+      "name": "Comunidade Sagrado Coração de Jesus",
+      "address": [
+        "Rua Arthur Lundgren, 28B",
+        "Jd. Leme · São Paulo/SP · 05790-130"
+      ],
+      "activities": [
+        {
+          "id": "sagrado-coracao-de-jesus-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sagrado-coracao-de-jesus-mass-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.646248,
+        "lng": -46.791073
+      }
+    },
+    {
+      "id": "santa-luzia",
+      "name": "Comunidade Santa Luzia",
+      "address": [
+        "Rua Vicente da Costa Abreu, 01",
+        "Pq. Sônia · São Paulo/SP · 05856-150"
+      ],
+      "activities": [
+        {
+          "id": "santa-luzia-mass-thu-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday",
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.652287,
+        "lng": -46.780612
+      }
+    }
+  ]
+}

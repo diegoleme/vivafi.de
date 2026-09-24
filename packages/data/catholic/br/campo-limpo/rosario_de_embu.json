@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "slug": "rosario_de_embu",
+  "name": "Paróquia Nossa Senhora do Rosário",
+  "patrons": [
+    {
+      "name": "Nossa Senhora do Rosário",
+      "feast": {
+        "day": 7,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Embu das Artes",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "20:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551147042792",
+    "whatsapp": "+551147042792",
+    "instagram": "rosario_de_embu",
+    "facebook": "https://www.facebook.com/nossasenhoradorosarioembu"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora do Rosário",
+      "isMain": true,
+      "address": [
+        "Rua da Matriz, 11",
+        "Centro · Embu das Artes/SP · 06803-420"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Capelas: São Lázaro está em reforma, por enquanto, sem horário de celebrações."
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "Quintas às 15h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.650581,
+        "lng": -46.853191
+      }
+    },
+    {
+      "id": "de-sao-lazaro",
+      "name": "Capela de São Lázaro",
+      "address": [
+        "Rua da Matriz, 111",
+        "Centro · Embu das Artes/SP · 06803-420"
+      ],
+      "activities": [
+        {
+          "id": "de-sao-lazaro-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Capela: São Lázaro está em reforma, por enquanto, sem horário de celebrações."
+          }
+        }
+      ]
+    },
+    {
+      "id": "santa-cruz",
+      "name": "Capela Santa Cruz",
+      "address": [
+        "Rua Rebolo Gonzales, 185",
+        "Vl Cercado Grande · Embu das Artes/SP · 06804-100 (Ao lado do memorial Sakai)"
+      ],
+      "activities": [
+        {
+          "id": "santa-cruz-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Quintas, 1ª Sextas e datas específicas (Rodízio entre as capelas, é necessário confirmar pelas redes sociais mês a mês @rosario_de_embu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sao-jose",
+      "name": "Capela São José",
+      "address": [
+        "Rua Mar Vermelho, s/nº",
+        "Embuarama · Embu das Artes/SP · 06806-540"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rosario",
+      "name": "Centro Pastoral do Rosário",
+      "address": [
+        "Largo dos Jesuitas, 69",
+        "Centro · Embu das Artes/SP · 06803-480"
+      ],
+      "activities": [
+        {
+          "id": "rosario-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Quintas, 1ª Sextas e datas específicas (Rodízio entre as capelas, é necessário confirmar pelas redes sociais mês a mês @rosario_de_embu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Estrada Orquidófilos, 1098",
+        "Engenho Velho · Embu das Artes · 06843-460"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.654841,
+        "lng": -46.857558
+      }
+    },
+    {
+      "id": "nossa-senhora-auxiliadora",
+      "name": "Comunidade Nossa Senhora Auxiliadora",
+      "address": [
+        "Rua Santo Antônio, 06",
+        "Jd. Maria Auxiliadora · Embu das Artes · 06843-190"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-auxiliadora-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.658933,
+        "lng": -46.860174
+      }
+    },
+    {
+      "id": "nossa-senhora-das-gracas",
+      "name": "Comunidade Nossa Senhora das Graças",
+      "address": [
+        "Rua Benedito Mariano, 24",
+        "Jd. Tomé · Embu das Artes/SP · 06805-150"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-das-gracas-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.621263,
+        "lng": -46.848653
+      }
+    },
+    {
+      "id": "nossa-senhora-de-lourdes",
+      "name": "Comunidade Nossa Senhora de Lourdes",
+      "address": [
+        "Rua Abelardo Caiuby, 76",
+        "Jd. Sílvia · Embu das Artes/SP · 06804-080"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-lourdes-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.645624,
+        "lng": -46.84999
+      }
+    },
+    {
+      "id": "nossa-senhora-do-caravaggio",
+      "name": "Comunidade Nossa Senhora do Caravaggio",
+      "address": [
+        "Rua dos Bancários, 705",
+        "Jd. Embuema · Embu das Artes/SP · 06803-130"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-do-caravaggio-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-do-caravaggio-mass-1fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.645664,
+        "lng": -46.844783
+      }
+    },
+    {
+      "id": "santa-luzia",
+      "name": "Comunidade Santa Luzia",
+      "address": [
+        "Rua Santa Luzia, 56",
+        "Jd. Santa Luzia · Embu das Artes/SP · 06805-040"
+      ],
+      "activities": [
+        {
+          "id": "santa-luzia-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.642358,
+        "lng": -46.857429
+      }
+    }
+  ]
+}

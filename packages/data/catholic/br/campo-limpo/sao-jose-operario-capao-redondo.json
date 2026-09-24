@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "slug": "sao-jose-operario-capao-redondo",
+  "name": "Paróquia São José Operário",
+  "patrons": [
+    {
+      "name": "São José Operário",
+      "feast": {
+        "day": 1,
+        "month": 5
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São José - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "19:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday"
+        ]
+      },
+      "startsAt": "07:00",
+      "endsAt": "18:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "wednesday"
+        ]
+      },
+      "startsAt": "07:00",
+      "endsAt": "19:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "thursday"
+        ]
+      },
+      "startsAt": "07:00",
+      "endsAt": "20:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "07:00",
+      "endsAt": "19:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "sunday"
+        ]
+      },
+      "startsAt": "06:00",
+      "endsAt": "19:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158732009",
+    "whatsapp": "+551158732009",
+    "facebook": "https://www.facebook.com/s.saojoseoperario.capaoredondo"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santuário São José Operário",
+      "isMain": true,
+      "address": [
+        "Rua Alfredo Ometecídio, 32",
+        "Capão Redondo · São Paulo/SP · 05869-170"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0600",
+          "kind": "mass",
+          "startsAt": "06:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-mon-tue-wed-thu-fri-sat-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-mon-wed-fri-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "monday",
+              "wednesday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-wed-thu-fri-sat-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Consultar a secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.676522,
+        "lng": -46.773784
+      }
+    },
+    {
+      "id": "sao-vicente-de-paulo",
+      "name": "Comunidade São Vicente de Paulo",
+      "address": [
+        "Rua Feres Bechara, 92",
+        "Jd. Maracá · São Paulo/SP · 05867-390"
+      ],
+      "activities": [
+        {
+          "id": "sao-vicente-de-paulo-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-vicente-de-paulo-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-vicente-de-paulo-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.671715,
+        "lng": -46.769387
+      }
+    }
+  ]
+}

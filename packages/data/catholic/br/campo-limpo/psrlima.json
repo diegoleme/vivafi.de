@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "slug": "psrlima",
+  "name": "Paróquia Santa Rosa de Lima",
+  "patrons": [
+    {
+      "name": "Santa Rosa de Lima",
+      "feast": {
+        "day": 23,
+        "month": 8
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São Luiz - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "18:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "16:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158512052",
+    "whatsapp": "+551158512052",
+    "instagram": "psrlima",
+    "facebook": "https://facebook.com/parsantarosa"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São João Batista",
+      "isMain": true,
+      "address": [
+        "Rua Pietro Casella, 100",
+        "Jd. São João · São Paulo/SP · 05815-055"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1sat-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "matriz-confession-wed-1800",
+          "kind": "confession",
+          "startsAt": "18:00",
+          "endsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Às sextas-feiras agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1900",
+          "kind": "adoration",
+          "startsAt": "19:00",
+          "endsAt": "21:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.660225,
+        "lng": -46.736798
+      }
+    },
+    {
+      "id": "sagrado-coracao-de-jesus",
+      "name": "Comunidade Sagrado Coração de Jesus",
+      "address": [
+        "Rua Miguel Dias de Arzão, 307",
+        "Jd. Novo Santo Amaro · São Paulo/SP · 05816-200"
+      ],
+      "activities": [
+        {
+          "id": "sagrado-coracao-de-jesus-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sagrado-coracao-de-jesus-mass-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.666785,
+        "lng": -46.740193
+      }
+    },
+    {
+      "id": "santa-isabel-da-hungria",
+      "name": "Comunidade Santa Isabel da Hungria",
+      "address": [
+        "Rua Nova Tuparoquera, 520",
+        "Jd. Novo Santo Amaro · São Paulo/SP · 05820-200"
+      ],
+      "activities": [
+        {
+          "id": "santa-isabel-da-hungria-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.661327,
+        "lng": -46.740238
+      }
+    },
+    {
+      "id": "sao-francisco-de-assis",
+      "name": "Comunidade São Francisco de Assis",
+      "address": [
+        "Rua Dr. Benedito Arruda Viana, 30",
+        "Jd. São Francisco · São Paulo/SP · 05815-004"
+      ],
+      "activities": [
+        {
+          "id": "sao-francisco-de-assis-mass-thu-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday",
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.66259,
+        "lng": -46.736174
+      }
+    }
+  ]
+}

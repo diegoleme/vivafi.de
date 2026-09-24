@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "slug": "psjoaobatista",
+  "name": "Paróquia São João Batista",
+  "patrons": [
+    {
+      "name": "São João Batista",
+      "feast": {
+        "day": 24,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Taboão da Serra",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551141375674",
+    "whatsapp": "+551141375522",
+    "instagram": "psjoaobatista_",
+    "facebook": "https://www.facebook.com/pasaojoaobatista"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São João Batista",
+      "isMain": true,
+      "address": [
+        "Estrada Kizaemon Takeuti, 1785",
+        "Jd. Guaciara · Taboão da Serra/SP · 06775-002"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1700",
+          "kind": "confession",
+          "startsAt": "17:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-sat-1000",
+          "kind": "confession",
+          "startsAt": "10:00",
+          "endsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "3º Domingo do mês às 19h (Comunidade São Pedro)"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.63871,
+        "lng": -46.793144
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida-e-sao-luis-montfort",
+      "name": "Comunidade Nossa Senhora Aparecida e São Luís Montfort",
+      "address": [
+        "Rua Laudeniz Santos Porfirio, 162",
+        "Jd. São Luís · Taboão da Serra/SP · 06785-500"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-e-sao-luis-montfort-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.636234,
+        "lng": -46.809944
+      }
+    },
+    {
+      "id": "sao-lucas-e-sao-patricio",
+      "name": "Comunidade São Lucas e São Patrício",
+      "address": [
+        "Rua Carlos Fernandes, 349",
+        "Pq. Jacarandá · Taboão da Serra/SP · 06774-080"
+      ],
+      "activities": [
+        {
+          "id": "sao-lucas-e-sao-patricio-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.642786,
+        "lng": -46.799238
+      }
+    },
+    {
+      "id": "sao-pedro",
+      "name": "Comunidade São Pedro",
+      "address": [
+        "Estrada Kizaemon Takeuti, 3247",
+        "Pq. São Joaquim · Taboão da Serra/SP · 06775-003"
+      ],
+      "activities": [
+        {
+          "id": "sao-pedro-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-pedro-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-pedro-mass-tue-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.642548,
+        "lng": -46.805441
+      }
+    },
+    {
+      "id": "sao-sebastiao",
+      "name": "Comunidade São Sebastião",
+      "address": [
+        "Rua Joana Vera Maldonado, 94",
+        "Jd. Maria Luiza · Taboão da Serra/SP · 06748-360"
+      ],
+      "activities": [
+        {
+          "id": "sao-sebastiao-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.636775,
+        "lng": -46.788207
+      }
+    }
+  ]
+}

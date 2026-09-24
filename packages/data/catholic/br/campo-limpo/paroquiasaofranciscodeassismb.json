@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasaofranciscodeassismb",
+  "name": "Paróquia São Francisco de Assis",
+  "patrons": [
+    {
+      "name": "São Francisco de Assis",
+      "feast": {
+        "day": 4,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551155181929",
+    "whatsapp": "+551155191929",
+    "instagram": "paroquiasaofranciscodeassismb",
+    "facebook": "https://www.facebook.com/psaofranciscomb"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Francisco de Assis",
+      "isMain": true,
+      "address": [
+        "Rua Martinho Jacob Kremer, 379",
+        "Jd. São Francisco · São Paulo/SP · 04918-010"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.688357,
+        "lng": -46.742313
+      }
+    },
+    {
+      "id": "nossa-senhora-da-esperanca",
+      "name": "Comunidade Nossa Senhora da Esperança",
+      "address": [
+        "Rua Francisco de Almeida Souza, 300",
+        "Jd. Souza · São Paulo/SP · 04917-070"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-esperanca-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-da-esperanca-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.686509,
+        "lng": -46.746442
+      }
+    },
+    {
+      "id": "sao-joaquim-e-sant-ana",
+      "name": "Comunidade São Joaquim e Sant'Ana",
+      "address": [
+        "Rua Bacabinha, 304",
+        "Jd. São Joaquim · São Paulo/SP · 04917-030"
+      ],
+      "activities": [
+        {
+          "id": "sao-joaquim-e-sant-ana-mass-tue-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "sao-joaquim-e-sant-ana-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.687146,
+        "lng": -46.749832
+      }
+    }
+  ]
+}

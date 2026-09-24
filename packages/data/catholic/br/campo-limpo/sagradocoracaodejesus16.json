@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "slug": "sagradocoracaodejesus16",
+  "name": "Paróquia Sagrado Coração de Jesus - Jangadeiro",
+  "patrons": [
+    {
+      "name": "Sagrado Coração de Jesus - Jangadeiro"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São José - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+5511988155397",
+    "whatsapp": "+5511988155397",
+    "instagram": "sagradocoracaodejesus16",
+    "facebook": "https://www.facebook.com/sagradocoracaojangadeiro"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Sagrado Coração de Jesus",
+      "isMain": true,
+      "address": [
+        "Rua Abílio Cesar, 1030",
+        "Jd. Jangadeiro · São Paulo/SP · 05881-020"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-thu-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.686828,
+        "lng": -46.780587
+      }
+    }
+  ]
+}

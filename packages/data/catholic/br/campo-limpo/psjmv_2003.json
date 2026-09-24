@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "slug": "psjmv_2003",
+  "name": "Paróquia São João Maria Vianney",
+  "patrons": [
+    {
+      "name": "São João Maria Vianney",
+      "feast": {
+        "day": 4,
+        "month": 8
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Taboão da Serra",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "14:30",
+      "endsAt": "17:30"
+    }
+  ],
+  "contact": {
+    "phone": "+551141352977",
+    "whatsapp": "+5511947582097",
+    "instagram": "psjmv_2003",
+    "facebook": "https://www.facebook.com/psjmvts",
+    "youtube": "https://www.youtube.com/channel/UCUNriUjSM6KWvixlDv4r6AQ"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora de Lourdes",
+      "isMain": true,
+      "address": [
+        "Rua Águeda Gonçalves, 67",
+        "Jd. Pedro Gonçalves · Taboão/SP · 06760-020"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-thu-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-2000",
+          "kind": "adoration",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.612206,
+        "lng": -46.774202
+      }
+    },
+    {
+      "id": "jesus-bom-pastor",
+      "name": "Comunidade Jesus Bom Pastor",
+      "address": [
+        "Rua Ubatuba, 37",
+        "Pq. Laguna · Taboão da Serra/SP · 06795-020"
+      ],
+      "activities": [
+        {
+          "id": "jesus-bom-pastor-mass-tue-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "jesus-bom-pastor-mass-sat-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.613265,
+        "lng": -46.796759
+      }
+    },
+    {
+      "id": "nossa-senhora-do-perpetuo-socorro",
+      "name": "Comunidade Nossa Senhora do Perpétuo Socorro",
+      "address": [
+        "Rua Colômbia, 100",
+        "Jd. Amércia · Tabo]ao da Serra/SP · 06756-380"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-do-perpetuo-socorro-mass-sun-0630",
+          "kind": "mass",
+          "startsAt": "06:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-do-perpetuo-socorro-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-do-perpetuo-socorro-mass-1fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.607113,
+        "lng": -46.770196
+      }
+    },
+    {
+      "id": "santa-helena",
+      "name": "Comunidade Santa Helena",
+      "address": [
+        "Rua Pederneiras, 67",
+        "Jd. Três Marias · Taboão da Serra/SP · 06790-120"
+      ],
+      "activities": [
+        {
+          "id": "santa-helena-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.612229,
+        "lng": -46.788092
+      }
+    },
+    {
+      "id": "sao-jose-operario",
+      "name": "Comunidade São José Operário",
+      "address": [
+        "Rua Henrique Robba, 197",
+        "Jd. Mirna · Taboão da Serra/SP · 06790-170"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-operario-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-jose-operario-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.610166,
+        "lng": -46.782687
+      }
+    }
+  ]
+}

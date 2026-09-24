@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "slug": "saopedroesaopauloparoquia",
+  "name": "Paróquia São Pedro e São Paulo",
+  "patrons": [
+    {
+      "name": "São Pedro"
+    },
+    {
+      "name": "São Paulo"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551138134183",
+    "whatsapp": "+551138134183",
+    "instagram": "saopedroesaopauloparoquia"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Pedro e São Paulo",
+      "isMain": true,
+      "address": [
+        "Rua Circular do Bosque, 31",
+        "Jd. Guedala · São Paulo/SP · 05604-010"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-sat-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-tue-wed-thu-fri-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-tue-wed-thu-fri-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "2ª, 3ª, 4ª e 6ª das 7h às 8h; as 5ª às 11h e sábado das 10h30 às 11h30"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.587542,
+        "lng": -46.699702
+      }
+    },
+    {
+      "id": "santuario-diocesano-da-mae-tres-vezes-admiravel-de-schoenstatt",
+      "name": "Santuário Diocesano da Mãe Três Vezes Admirável de Schoenstatt",
+      "address": [
+        "Rua Padre José Griecco, 111",
+        "Cidade Jardim · São Paulo/SP · 05676-090"
+      ],
+      "activities": [
+        {
+          "id": "santuario-diocesano-da-mae-tres-vezes-admiravel-de-schoenstatt-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santuario-diocesano-da-mae-tres-vezes-admiravel-de-schoenstatt-mass-sun-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santuario-diocesano-da-mae-tres-vezes-admiravel-de-schoenstatt-mass-mon-tue-wed-thu-fri-sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.595814,
+        "lng": -46.697195
+      }
+    }
+  ]
+}

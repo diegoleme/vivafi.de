@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "slug": "sto.antonio.barnabes",
+  "name": "Paróquia Santo Antônio de Pádua",
+  "patrons": [
+    {
+      "name": "Santo Antônio de Pádua",
+      "feast": {
+        "day": 13,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551146841350",
+    "whatsapp": "+551146841350",
+    "instagram": "sto.antonio.barnabes"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santo Antônio de Pádua",
+      "isMain": true,
+      "address": [
+        "Rua Antônio Soares Godinho, 02",
+        "Centro · Barnabés/SP · 06950-000"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0830",
+          "kind": "mass",
+          "startsAt": "08:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-thu-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-sat-1800",
+          "kind": "adoration",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.985942,
+        "lng": -47.144619
+      }
+    },
+    {
+      "id": "imaculado-coracao-de-maria",
+      "name": "Comunidade Imaculado Coração de Maria",
+      "address": [
+        "Estrada Cachoeira do França, Km 76",
+        "Vitalinos · Juquitiba/SP · 06950-000"
+      ],
+      "activities": [
+        {
+          "id": "imaculado-coracao-de-maria-mass-1sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.955325,
+        "lng": -47.120544
+      }
+    },
+    {
+      "id": "nossa-senhora-de-fatima",
+      "name": "Comunidade Nossa Senhora de Fátima",
+      "address": [
+        "Rua Três, 325",
+        "Oliveira Barros - Serra do Cafezal · Miracatu/SP · 11850-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-fatima-mass-1sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -24.318309,
+        "lng": -47.545254
+      }
+    },
+    {
+      "id": "nossa-senhora-do-carmo",
+      "name": "Comunidade Nossa Senhora do Carmo",
+      "address": [
+        "Rua Alves Nogueira, 50",
+        "Juquitiba · 06950-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-do-carmo-mass-2sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "saturday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "santos-arcanjos",
+      "name": "Comunidade Santos Arcanjos",
+      "address": [
+        "Sítio Jardim Serra Azul",
+        "Ribeirão do Júlio · Miracatu/SP · 11850-991"
+      ],
+      "activities": [
+        {
+          "id": "santos-arcanjos-mass-4sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 4,
+            "day": "saturday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sao-francisco",
+      "name": "Comunidade São Francisco",
+      "address": [
+        "Estrada Cachoeira do França",
+        "Barra Mansa · Juquitiba/SP · 06950-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-francisco-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "2º, 3º, 4º e 5ª Domingo do mês às 17h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.958918,
+        "lng": -47.133509
+      }
+    },
+    {
+      "id": "sao-jose",
+      "name": "Comunidade São José",
+      "address": [
+        "Estrada dos Belchior, 489",
+        "Rosa · Juquitiba/SP · 06950-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-3sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.979569,
+        "lng": -47.130203
+      }
+    },
+    {
+      "id": "nossa-senhora-das-gracas",
+      "name": "Nossa Senhora Das Gracas",
+      "activities": []
+    }
+  ]
+}

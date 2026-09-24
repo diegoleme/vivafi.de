@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "slug": "edwigesparoquiasta",
+  "name": "Paróquia Santa Edwiges",
+  "patrons": [
+    {
+      "name": "Santa Edwiges",
+      "feast": {
+        "day": 16,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "07:30",
+      "endsAt": "16:30"
+    }
+  ],
+  "contact": {
+    "phone": "+5511993567205",
+    "whatsapp": "+5511993567205",
+    "instagram": "edwigesparoquiasta",
+    "facebook": "https://www.facebook.com/EdwigesMorumbi"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Edwiges",
+      "isMain": true,
+      "address": [
+        "Rua Clermont, 65",
+        "Jd. Santo Antônio · São Paulo/SP · 05723-350"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "1ª sábado do mês 10h"
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Após as Santas Missas"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.641722,
+        "lng": -46.730783
+      }
+    },
+    {
+      "id": "nossa-senhora-da-cabeca",
+      "name": "Comunidade Nossa Senhora da Cabeça",
+      "address": [
+        "Rua Itapaiuna - Viela Paraná s/n",
+        "Jd. Recanto Novo Morumbi · São Paulo/SP · 05707-001"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-cabeca-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "3º Domingo do mês 10h."
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.638526,
+        "lng": -46.727377
+      }
+    }
+  ]
+}

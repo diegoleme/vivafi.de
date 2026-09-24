@@ -1,0 +1,2592 @@
+{
+ "paroquia-catedral-sagrada-familia": [
+  {
+   "lat": -23.63077068971892,
+   "lng": -46.77479253569803,
+   "title": "Paróquia Catedral Sagrada Família",
+   "matriz": true
+  }
+ ],
+ "paroquia-cristo-libertador": [
+  {
+   "lat": -23.683986709025472,
+   "lng": -46.7549066309304,
+   "title": "Paróquia Cristo Libertador",
+   "matriz": true
+  },
+  {
+   "lat": -23.68508711121759,
+   "lng": -46.74996304250739,
+   "title": "Comunidade Santa Tereza",
+   "matriz": false
+  }
+ ],
+ "paroquia-cristo-rei": [
+  {
+   "lat": -23.672790058583026,
+   "lng": -46.79366295976567,
+   "title": "Paróquia Cristo Rei",
+   "matriz": true
+  },
+  {
+   "lat": -23.66785057898408,
+   "lng": -46.79006440209549,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.678219753081684,
+   "lng": -46.793109574330224,
+   "title": "Comunidade Nossa Senhora das Vitórias",
+   "matriz": false
+  },
+  {
+   "lat": -23.66678767271553,
+   "lng": -46.791699017436045,
+   "title": "Comunidade São Judas",
+   "matriz": false
+  }
+ ],
+ "paroquia-cristo-ressuscitado": [
+  {
+   "lat": -23.652921252908946,
+   "lng": -46.81459384525201,
+   "title": "Paróquia Cristo Ressuscitado",
+   "matriz": true
+  },
+  {
+   "lat": -23.652122034215285,
+   "lng": -46.821035832505636,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.647276594864685,
+   "lng": -46.82036967433117,
+   "title": "Comunidade Santa Luiza de Marillac",
+   "matriz": false
+  }
+ ],
+ "paroquia-da-divina-misericorida": [
+  {
+   "lat": -23.679642005960766,
+   "lng": -46.73602553093037,
+   "title": "Paróquia da Divina Misericórdia",
+   "matriz": true
+  },
+  {
+   "lat": -23.67788693330759,
+   "lng": -46.734369630930175,
+   "title": "Comunidade Nossa Senhora da Visitação",
+   "matriz": false
+  }
+ ],
+ "paroquia-divino-espirito-santo": [
+  {
+   "lat": -23.634862559480414,
+   "lng": -46.75335709113622,
+   "title": "Paróquia Divino Espírito Santo",
+   "matriz": true
+  },
+  {
+   "lat": -23.632889991552393,
+   "lng": -46.747022984117876,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.63086899795934,
+   "lng": -46.74411564679068,
+   "title": "Comunidade São Félix do Morro",
+   "matriz": false
+  }
+ ],
+ "paroquia-imaculada-conceicao": [
+  {
+   "lat": -23.700099912654647,
+   "lng": -46.77271765976533,
+   "title": "Paróquia Imaculada Conceição",
+   "matriz": true
+  },
+  {
+   "lat": -23.69949067617283,
+   "lng": -46.771527657919,
+   "title": "Comunidade Menino Jesus de Praga",
+   "matriz": false
+  },
+  {
+   "lat": -23.695626701077682,
+   "lng": -46.77765164442458,
+   "title": "Comunidade Sagrada Família de Nazaré",
+   "matriz": false
+  },
+  {
+   "lat": -23.70219503674998,
+   "lng": -46.77549877325945,
+   "title": "Comunidade Santa Paulina",
+   "matriz": false
+  },
+  {
+   "lat": -23.704204613579478,
+   "lng": -46.77431087325959,
+   "title": "Comunidade Santa Rita de Cássia",
+   "matriz": false
+  }
+ ],
+ "paroquia-imaculado-coracao-de-maria": [
+  {
+   "lat": -23.651863540574638,
+   "lng": -46.79028140255109,
+   "title": "Paróquia Imaculado Coração de Maria",
+   "matriz": true
+  },
+  {
+   "lat": -23.657846185840967,
+   "lng": -46.788937143099886,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  }
+ ],
+ "paroquia-jesus-bom-pastor": [
+  {
+   "lat": -23.71897216890012,
+   "lng": -46.78286496734645,
+   "title": "Paróquia Jesus Bom Pastor",
+   "matriz": true
+  },
+  {
+   "lat": -23.714643084602525,
+   "lng": -46.777508130929746,
+   "title": "Comunidade São João Batista",
+   "matriz": false
+  },
+  {
+   "lat": -23.710844737013808,
+   "lng": -46.77629152558853,
+   "title": "Comunidade São José",
+   "matriz": false
+  }
+ ],
+ "paroquia-jesus-de-nazare": [
+  {
+   "lat": -23.758357763387806,
+   "lng": -46.80720667718079,
+   "title": "Paróquia Jesus de Nazaré",
+   "matriz": true
+  },
+  {
+   "lat": -23.710902120922455,
+   "lng": -46.8066232000111,
+   "title": "Comunidade Maria de Nazaré",
+   "matriz": false
+  },
+  {
+   "lat": -23.758077472716153,
+   "lng": -46.80068265749463,
+   "title": "Comunidade Sagrado Coração de Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.759260394763814,
+   "lng": -46.813801473965874,
+   "title": "Comunidade Santo Expedito",
+   "matriz": false
+  }
+ ],
+ "paroquia-maria-mae-da-igreja": [
+  {
+   "lat": -23.67334631062202,
+   "lng": -46.73961785976554,
+   "title": "Paróquia Maria Mãe da Igreja",
+   "matriz": true
+  },
+  {
+   "lat": -23.668494979177463,
+   "lng": -46.73093267326008,
+   "title": "Comunidade Nossa Senhora da Misericórdia",
+   "matriz": false
+  },
+  {
+   "lat": -23.671857601867128,
+   "lng": -46.73528297326014,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  }
+ ],
+ "paroquia-maria-mae-dos-caminhantes": [
+  {
+   "lat": -23.705269117414907,
+   "lng": -46.857075900177755,
+   "title": "Paróquia Maria Mãe dos Caminhantes",
+   "matriz": true
+  }
+ ],
+ "paroquia-nossa-senhora-aparecida-2": [
+  {
+   "lat": -23.85000915566168,
+   "lng": -46.819171357848134,
+   "title": "Paróquia Nossa Senhora Aparecida",
+   "matriz": true
+  },
+  {
+   "lat": -23.923781311615027,
+   "lng": -46.87045287129204,
+   "title": "Comunidade Imaculada Conceição",
+   "matriz": false
+  },
+  {
+   "lat": -23.927736269599215,
+   "lng": -46.91230864124617,
+   "title": "Comunidade Santa Rita de Cássia",
+   "matriz": false
+  },
+  {
+   "lat": -23.900901345003103,
+   "lng": -46.86606646101976,
+   "title": "Comunidade São Sebastião",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-aparecida-e-sao-lourenco": [
+  {
+   "lat": -23.855324923939623,
+   "lng": -46.94405804267827,
+   "title": "Paróquia Nossa Senhora Aparecida e São Lourenço",
+   "matriz": true
+  },
+  {
+   "lat": -23.86020962456246,
+   "lng": -46.96008717872422,
+   "title": "Comunidade Jesus Misericordioso",
+   "matriz": false
+  },
+  {
+   "lat": -23.783987068019304,
+   "lng": -46.91142146443981,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.832939242663382,
+   "lng": -46.901587902092324,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  },
+  {
+   "lat": -23.857731932379657,
+   "lng": -46.92225033154708,
+   "title": "Comunidade Nossa Senhora de Guadalupe",
+   "matriz": false
+  },
+  {
+   "lat": -23.811066622098238,
+   "lng": -46.9256656309279,
+   "title": "Comunidade Nossa Senhora de Lourdes",
+   "matriz": false
+  },
+  {
+   "lat": -23.88448261131742,
+   "lng": -46.97641180896596,
+   "title": "Comunidade Santa Cruz",
+   "matriz": false
+  },
+  {
+   "lat": -23.86086166083699,
+   "lng": -46.95384907325654,
+   "title": "Comunidade Santa Tereza de Calcutá",
+   "matriz": false
+  },
+  {
+   "lat": -23.85328711510375,
+   "lng": -46.94306841003016,
+   "title": "Comunidade Santo Antônio",
+   "matriz": false
+  },
+  {
+   "lat": -23.86172877391402,
+   "lng": -46.9376169698268,
+   "title": "Comunidade São Benedito",
+   "matriz": false
+  },
+  {
+   "lat": -23.8180756731143,
+   "lng": -46.929470887793755,
+   "title": "Comunidade São João Batista",
+   "matriz": false
+  },
+  {
+   "lat": -23.776449817968757,
+   "lng": -46.92123262901294,
+   "title": "Comunidade São José",
+   "matriz": false
+  },
+  {
+   "lat": -23.832949056624408,
+   "lng": -46.901598630927516,
+   "title": "Comunidade São Judas Tadeu",
+   "matriz": false
+  },
+  {
+   "lat": -23.85331100964094,
+   "lng": -46.945844635671286,
+   "title": "Comunidade São Lourenço",
+   "matriz": false
+  },
+  {
+   "lat": -23.87328913000393,
+   "lng": -46.94486425976193,
+   "title": "Comunidade São Paulo Apóstolo",
+   "matriz": false
+  },
+  {
+   "lat": -23.865872700948213,
+   "lng": -46.941594447543714,
+   "title": "Comunidade São Pedro Apóstolo",
+   "matriz": false
+  },
+  {
+   "lat": -23.80448435233337,
+   "lng": -46.93422567325761,
+   "title": "Comunidade São Sebastião",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-aparecida-monte-kemel": [
+  {
+   "lat": -23.60255822171851,
+   "lng": -46.73655370017776,
+   "title": "Paróquia Nossa Senhora Aparecida Monte Kemel",
+   "matriz": true
+  },
+  {
+   "lat": -23.602901315643987,
+   "lng": -46.74279507134258,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-aparecida-peri-peri": [
+  {
+   "lat": -23.58743755433169,
+   "lng": -46.73645467631028,
+   "title": "Paróquia Nossa Senhora Aparecida Peri Peri",
+   "matriz": true
+  },
+  {
+   "lat": -23.588721719965157,
+   "lng": -46.748258302096836,
+   "title": "Comunidade São Pedro e São Paulo",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-aparecida": [
+  {
+   "lat": -23.619827682254712,
+   "lng": -46.7717416341022,
+   "title": "Paróquia Nossa Senhora Aparecida - Taboão",
+   "matriz": true
+  },
+  {
+   "lat": -23.625055925396364,
+   "lng": -46.769991902096315,
+   "title": "Comunidade Bom Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.618878548499474,
+   "lng": -46.7777585715329,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  },
+  {
+   "lat": -23.617386387794753,
+   "lng": -46.76647896681749,
+   "title": "Comunidade Santo Expedito",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-auxiliadora": [
+  {
+   "lat": -23.684946686939018,
+   "lng": -46.7631979443537,
+   "title": "Paróquia Nossa Senhora Auxiliadora",
+   "matriz": true
+  },
+  {
+   "lat": -23.68982293705671,
+   "lng": -46.761426702095115,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.691420312156765,
+   "lng": -46.75720310209505,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-da-conceicao-aparecida": [
+  {
+   "lat": -23.668422082494196,
+   "lng": -46.76594268822992,
+   "title": "Paróquia Nossa Senhora da Conceição Aparecida",
+   "matriz": true
+  },
+  {
+   "lat": -23.66599827842795,
+   "lng": -46.76333685976592,
+   "title": "Comunidade Sagrado Coração de Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.677652833272457,
+   "lng": -46.76769627325979,
+   "title": "Comunidade São Pedro",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-da-esperanca": [
+  {
+   "lat": -23.700148640728138,
+   "lng": -46.763820959765084,
+   "title": "Paróquia Nossa Senhora da Esperança",
+   "matriz": true
+  },
+  {
+   "lat": -23.700034588651434,
+   "lng": -46.768030759765274,
+   "title": "Comunidade dos Arcanjos",
+   "matriz": false
+  },
+  {
+   "lat": -23.696778984611218,
+   "lng": -46.76251163092999,
+   "title": "Comunidade Nossa Senhora da Esperança",
+   "matriz": false
+  },
+  {
+   "lat": -23.70545896462672,
+   "lng": -46.74326727134255,
+   "title": "Comunidade Nossa Senhora do Caminho",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-da-providencia": [
+  {
+   "lat": -23.608689891722996,
+   "lng": -46.70535454735916,
+   "title": "Paróquia Nossa Senhora da Providência",
+   "matriz": true
+  },
+  {
+   "lat": -23.619730435205863,
+   "lng": -46.712839763088795,
+   "title": "Comunidade Pio XII",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-das-dores": [
+  {
+   "lat": -23.932452384495527,
+   "lng": -47.06744610209036,
+   "title": "Paróquia Nossa Senhora das Dores",
+   "matriz": true
+  },
+  {
+   "lat": -23.846039073452385,
+   "lng": -47.08450463555328,
+   "title": "Comunidade Imaculada Conceição",
+   "matriz": false
+  },
+  {
+   "lat": -23.926675260194216,
+   "lng": -47.07010817901482,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.921573370015654,
+   "lng": -47.07694580209065,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  },
+  {
+   "lat": -23.88437263419931,
+   "lng": -47.08141328859672,
+   "title": "Comunidade Santa Catarina de Alexandria",
+   "matriz": false
+  },
+  {
+   "lat": -23.85818526405076,
+   "lng": -47.10586761988292,
+   "title": "Comunidade Santa Terezinha do Menino Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.929042764472413,
+   "lng": -47.072449602090465,
+   "title": "Comunidade Santo Antônio de Pádua",
+   "matriz": false
+  },
+  {
+   "lat": -23.923913935059073,
+   "lng": -47.11557150209072,
+   "title": "Comunidade São Judas Tadeu",
+   "matriz": false
+  },
+  {
+   "lat": -23.923090089971843,
+   "lng": -47.07774505441697,
+   "title": "Comunidade São Sebastião",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-das-gracas": [
+  {
+   "lat": -23.675425558779903,
+   "lng": -46.760364373259975,
+   "title": "Paróquia Nossa Senhora das Graças",
+   "matriz": true
+  },
+  {
+   "lat": -23.67266039811475,
+   "lng": -46.756285830930324,
+   "title": "Comunidade Nossa Senhora das Candeias",
+   "matriz": false
+  },
+  {
+   "lat": -23.679876957710775,
+   "lng": -46.76357534250737,
+   "title": "Comunidade Sagrado Coração de Jesus e Imaculado Coração de Maria",
+   "matriz": false
+  },
+  {
+   "lat": -23.671486606211598,
+   "lng": -46.762302502095295,
+   "title": "Comunidade Santa Teresinha do Menino Jesus",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-das-vitorias-e-sao-lucas": [
+  {
+   "lat": -23.650980230803324,
+   "lng": -46.79432465784814,
+   "title": "Paróquia Nossa Senhora das Vitórias e São Lucas",
+   "matriz": true
+  },
+  {
+   "lat": -23.646258612670977,
+   "lng": -46.79693273093099,
+   "title": "Comunidade São Sebatião",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-de-fatima-2": [
+  {
+   "lat": -23.679520701686585,
+   "lng": -46.75281724627117,
+   "title": "Paróquia Nossa Senhora de Fátima",
+   "matriz": true
+  },
+  {
+   "lat": -23.592900121753505,
+   "lng": -46.74638150001112,
+   "title": "Comunidade Nossa Senhora do Carmo",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-de-fatima": [
+  {
+   "lat": -23.642984199800775,
+   "lng": -46.743058202095746,
+   "title": "Paróquia Nossa Senhora de Fátima",
+   "matriz": true
+  },
+  {
+   "lat": -23.64630392857615,
+   "lng": -46.736967044425434,
+   "title": "Comunidade Nossa Senhora da Penha",
+   "matriz": false
+  },
+  {
+   "lat": -23.642509199693965,
+   "lng": -46.75394853093123,
+   "title": "Comunidade São Francisco de Assis",
+   "matriz": false
+  },
+  {
+   "lat": -23.648864156796883,
+   "lng": -46.74213180209572,
+   "title": "Comunidade São João Batista e Santa Rita",
+   "matriz": false
+  },
+  {
+   "lat": -23.634374526790463,
+   "lng": -46.742227202096046,
+   "title": "Comunidade São Roque",
+   "matriz": false
+  },
+  {
+   "lat": -23.63815115599764,
+   "lng": -46.75885010209595,
+   "title": "Comunidade São Sebastião",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-de-guadalupe-2": [
+  {
+   "lat": -23.73015686015545,
+   "lng": -46.78621176186803,
+   "title": "Paróquia Nossa Senhora de Guadalupe",
+   "matriz": true
+  },
+  {
+   "lat": -23.725646206606246,
+   "lng": -46.78188598875614,
+   "title": "Comunidade Santa Rita de Cássia",
+   "matriz": false
+  },
+  {
+   "lat": -23.72548586688913,
+   "lng": -46.788770000177756,
+   "title": "Comunidade São Francisco de Assis",
+   "matriz": false
+  },
+  {
+   "lat": -23.73008980692898,
+   "lng": -46.78044092945891,
+   "title": "Comunidade São Judas Tadeu",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-de-guadalupe": [
+  {
+   "lat": -23.630525899007274,
+   "lng": -46.73160495898826,
+   "title": "Paróquia Nossa Senhora de Guadalupe",
+   "matriz": true
+  }
+ ],
+ "paroquia-nossa-senhora-de-lourdes": [
+  {
+   "lat": -23.697788112133733,
+   "lng": -46.77851770209476,
+   "title": "Paróquia Nossa Senhora de Lourdes",
+   "matriz": true
+  },
+  {
+   "lat": -23.690925484614215,
+   "lng": -46.777808902094876,
+   "title": "Comunidade Santo Expedito",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-do-bom-conselho": [
+  {
+   "lat": -23.647787879388048,
+   "lng": -46.756602818693814,
+   "title": "Paróquia Nossa Senhora do Bom Conselho",
+   "matriz": true
+  },
+  {
+   "lat": -23.64634101568618,
+   "lng": -46.75943320170817,
+   "title": "Comunidade Nossa Senhora das Graças e São Sebastião",
+   "matriz": false
+  },
+  {
+   "lat": -23.64969270781399,
+   "lng": -46.75340213559351,
+   "title": "Comunidade São Tarcísio",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-do-carmo": [
+  {
+   "lat": -23.66109427695624,
+   "lng": -46.767925530930626,
+   "title": "Paróquia Nossa Senhora do Carmo",
+   "matriz": true
+  },
+  {
+   "lat": -23.661864730906473,
+   "lng": -46.75859900209575,
+   "title": "Comunidade São Pedro e São Judas",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-do-paraiso": [
+  {
+   "lat": -23.614814171236468,
+   "lng": -46.720337525301744,
+   "title": "Paróquia Nossa Senhora do Paraíso",
+   "matriz": true
+  },
+  {
+   "lat": -23.6134111513486,
+   "lng": -46.727390031544275,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  },
+  {
+   "lat": -23.611027837436737,
+   "lng": -46.72375536321754,
+   "title": "Comunidade Santo Expedito",
+   "matriz": false
+  },
+  {
+   "lat": -23.614191587272263,
+   "lng": -46.724062502166554,
+   "title": "Comunidade São Sebastião",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-do-rosario": [
+  {
+   "lat": -23.650581412344067,
+   "lng": -46.85319093093086,
+   "title": "Paróquia Nossa Senhora do Rosário",
+   "matriz": true
+  },
+  {
+   "lat": -23.654840671109756,
+   "lng": -46.857558395431404,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.65893254404186,
+   "lng": -46.86017428636298,
+   "title": "Comunidade Nossa Senhora Auxiliadora",
+   "matriz": false
+  },
+  {
+   "lat": -23.621263427349774,
+   "lng": -46.848652977444225,
+   "title": "Comunidade Nossa Senhora das Graças",
+   "matriz": false
+  },
+  {
+   "lat": -23.64562365655503,
+   "lng": -46.84999043093097,
+   "title": "Comunidade Nossa Senhora de Lourdes",
+   "matriz": false
+  },
+  {
+   "lat": -23.64566394425131,
+   "lng": -46.84478277326055,
+   "title": "Comunidade Nossa Senhora do Caravaggio",
+   "matriz": false
+  },
+  {
+   "lat": -23.642357640679993,
+   "lng": -46.85742941435072,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-dos-prazeres-e-divina-misericordia": [
+  {
+   "lat": -23.717562948139168,
+   "lng": -46.84956745310438,
+   "title": "Paróquia Nossa Senhora dos Prazeres e Divina Misericórdia",
+   "matriz": true
+  },
+  {
+   "lat": -23.7210081397772,
+   "lng": -46.899031873259204,
+   "title": "Comunidade  Santa Tereza de Calcutá",
+   "matriz": false
+  },
+  {
+   "lat": -23.708581564979344,
+   "lng": -46.83507392901295,
+   "title": "Comunidade Beatíssima Virgem Maria",
+   "matriz": false
+  },
+  {
+   "lat": -23.732841610760183,
+   "lng": -46.85963200017776,
+   "title": "Comunidade Menino Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.719640062085613,
+   "lng": -46.85870400209447,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.747651723378446,
+   "lng": -46.900396759764064,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.748677588169627,
+   "lng": -46.901150096011186,
+   "title": "Comunidade Nossa Senhora da Penha",
+   "matriz": false
+  },
+  {
+   "lat": -23.70142856267863,
+   "lng": -46.822896318322506,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-rainha-da-paz": [
+  {
+   "lat": -23.685666009403413,
+   "lng": -46.78881350209518,
+   "title": "Paróquia Nossa Senhora Rainha da Paz",
+   "matriz": true
+  },
+  {
+   "lat": -23.693727086755807,
+   "lng": -46.78810180209496,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  }
+ ],
+ "paroquia-nossa-senhora-rainha-dos-apostolos": [
+  {
+   "lat": -23.6337382855129,
+   "lng": -46.75900652901295,
+   "title": "Paróquia Nossa Senhora Rainha dos Apóstolos",
+   "matriz": true
+  },
+  {
+   "lat": -23.63030078538388,
+   "lng": -46.75703080017775,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  }
+ ],
+ "paroquia-sagrado-coracao-de-jesus-2": [
+  {
+   "lat": -23.654862731819964,
+   "lng": -46.74681145633723,
+   "title": "Paróquia Sagrado Coração de Jesus",
+   "matriz": true
+  },
+  {
+   "lat": -23.657760248788705,
+   "lng": -46.74489783093087,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  }
+ ],
+ "paroquia-sagrado-coracao-de-jesus-3": [
+  {
+   "lat": -23.64027797628437,
+   "lng": -46.763611577555544,
+   "title": "Paróquia Sagrado Coração de Jesus - Pq. Ipê",
+   "matriz": true
+  }
+ ],
+ "paroquia-sagrado-coracao-de-jesus-4": [
+  {
+   "lat": -23.625820557375874,
+   "lng": -46.8089730914047,
+   "title": "Paróquia Sagrado Coração de Jesus",
+   "matriz": true
+  },
+  {
+   "lat": -23.624917139177633,
+   "lng": -46.813370331285974,
+   "title": "Comunidade São José",
+   "matriz": false
+  },
+  {
+   "lat": -23.629166111199524,
+   "lng": -46.81134445014406,
+   "title": "Comunidade São Judas Tadeu",
+   "matriz": false
+  }
+ ],
+ "paroquia-sagrado-coracao-de-jesus": [
+  {
+   "lat": -23.68682823464816,
+   "lng": -46.780586802095,
+   "title": "Paróquia Sagrado Coração de Jesus - Jangadeiro",
+   "matriz": true
+  }
+ ],
+ "paroquia-sagrado-coracao-morumbi": [
+  {
+   "lat": -23.59248251701461,
+   "lng": -46.752787139086564,
+   "title": "Paróquia Sagrado Coração de Jesus",
+   "matriz": true
+  },
+  {
+   "lat": -23.591957024131517,
+   "lng": -46.75547013093195,
+   "title": "Comunidade Nossa Senhora da Esperança",
+   "matriz": false
+  },
+  {
+   "lat": -23.59093311954006,
+   "lng": -46.75238362901295,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-ana-e-sao-joaquim": [
+  {
+   "lat": -23.637159736385406,
+   "lng": -46.80445746373556,
+   "title": "Paróquia Santa Ana e São Joaquim",
+   "matriz": true
+  },
+  {
+   "lat": -23.632845275590736,
+   "lng": -46.79917197393382,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.629531204746904,
+   "lng": -46.79527774096791,
+   "title": "Comunidade São Francisco de Assis",
+   "matriz": false
+  },
+  {
+   "lat": -23.633751546178733,
+   "lng": -46.79678007134302,
+   "title": "Comunidade São José",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-clara-de-assis": [
+  {
+   "lat": -23.687406776162756,
+   "lng": -46.824470961626886,
+   "title": "Paróquia Santa Clara de Assis",
+   "matriz": true
+  },
+  {
+   "lat": -23.688354808101526,
+   "lng": -46.81675167657734,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-cruz": [
+  {
+   "lat": -23.623485885901303,
+   "lng": -46.752867139910805,
+   "title": "Paróquia Santa Cruz",
+   "matriz": true
+  },
+  {
+   "lat": -23.626328307172823,
+   "lng": -46.75146064111551,
+   "title": "Comunidade Santa Rita de Cássia",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-edwiges-e-sao-miguel-arcanjo": [
+  {
+   "lat": -23.679916882607053,
+   "lng": -46.74438484627112,
+   "title": "Paróquia Santa Edwiges e São Miguel Arcanjo",
+   "matriz": true
+  },
+  {
+   "lat": -23.676621630119904,
+   "lng": -46.745946730930434,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.678226005215954,
+   "lng": -46.74008590209527,
+   "title": "Comunidade Santo Expedito",
+   "matriz": false
+  },
+  {
+   "lat": -23.682596710247655,
+   "lng": -46.74295472901296,
+   "title": "Comunidade Senhora de Fátima",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-edwiges": [
+  {
+   "lat": -23.64172231541829,
+   "lng": -46.73078315869775,
+   "title": "Paróquia Santa Edwiges",
+   "matriz": true
+  },
+  {
+   "lat": -23.6385256415747,
+   "lng": -46.72737733093096,
+   "title": "Comunidade Nossa Senhora da Cabeça",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-ines": [
+  {
+   "lat": -23.64220231437297,
+   "lng": -46.81291280234409,
+   "title": "Paróquia Santa Inês",
+   "matriz": true
+  },
+  {
+   "lat": -23.64500051223528,
+   "lng": -46.819937826101736,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  },
+  {
+   "lat": -23.64243700701437,
+   "lng": -46.808797445020986,
+   "title": "Comunidade São Miguel Arcanjo",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-isabel": [
+  {
+   "lat": -23.647550610529734,
+   "lng": -46.778234845494104,
+   "title": "Paróquia Santa Isabel",
+   "matriz": true
+  },
+  {
+   "lat": -23.64956123500933,
+   "lng": -46.77386885058822,
+   "title": "Comunidade Nossa Senhora da Assunção",
+   "matriz": false
+  },
+  {
+   "lat": -23.642982657580408,
+   "lng": -46.77904690017776,
+   "title": "Comunidade Nossa Senhora dos Pobres",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-luzia": [
+  {
+   "lat": -23.735677200740444,
+   "lng": -46.79473894499632,
+   "title": "Paróquia Santa Luzia",
+   "matriz": true
+  },
+  {
+   "lat": -23.740012047553016,
+   "lng": -46.79960842901295,
+   "title": "Comunidade Imaculado Coração de Maria",
+   "matriz": false
+  },
+  {
+   "lat": -23.73324915718695,
+   "lng": -46.78811373200035,
+   "title": "Comunidade São João Batista",
+   "matriz": false
+  },
+  {
+   "lat": -23.72984271087318,
+   "lng": -46.78785610017776,
+   "title": "Comunidade São Roque",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-margarida-maria-alacoque": [
+  {
+   "lat": -23.626325780832488,
+   "lng": -46.805424865335354,
+   "title": "Paróquia Santa Margarida Maria Alacoque",
+   "matriz": true
+  },
+  {
+   "lat": -23.619975494190104,
+   "lng": -46.805843498632846,
+   "title": "Comunidade Santa Rita de Cássia",
+   "matriz": false
+  },
+  {
+   "lat": -23.621318187913165,
+   "lng": -46.803433934263985,
+   "title": "Comunidade Santo Expedito",
+   "matriz": false
+  },
+  {
+   "lat": -23.62338759539736,
+   "lng": -46.7974303020963,
+   "title": "Comunidade São Francisco de Assis",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-maria-goretti": [
+  {
+   "lat": -23.65922624932727,
+   "lng": -46.75308055511755,
+   "title": "Paróquia Santa Maria Goretti",
+   "matriz": true
+  },
+  {
+   "lat": -23.65486495724466,
+   "lng": -46.75467390209579,
+   "title": "Comunidade São João Paulo II",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-otilia": [
+  {
+   "lat": -23.628996513975455,
+   "lng": -46.82457563093142,
+   "title": "Paróquia Santa Otília",
+   "matriz": true
+  },
+  {
+   "lat": -23.624086525251244,
+   "lng": -46.82945883093137,
+   "title": "Comunidade  Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.620221748530046,
+   "lng": -46.81611474654942,
+   "title": "Comunidade Imaculado Coração de Maria",
+   "matriz": false
+  },
+  {
+   "lat": -23.628245529028277,
+   "lng": -46.82880697747229,
+   "title": "Comunidade Sagrado Coração de Jesus",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-paulina": [
+  {
+   "lat": -23.652074183916323,
+   "lng": -46.860826887540426,
+   "title": "Paróquia Menino Jesus e Santa Paulina",
+   "matriz": true
+  },
+  {
+   "lat": -23.644416073230655,
+   "lng": -46.89937612901294,
+   "title": "Comunidade Menino Jesus e Santa Paulina",
+   "matriz": false
+  },
+  {
+   "lat": -23.689938602932486,
+   "lng": -46.90134499442808,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  },
+  {
+   "lat": -23.627149662533068,
+   "lng": -46.87028294741182,
+   "title": "Comunidade Nossa Senhora do Rosário de Fátima",
+   "matriz": false
+  },
+  {
+   "lat": -23.673901706755085,
+   "lng": -46.894499330930365,
+   "title": "Comunidade Sagrada Família",
+   "matriz": false
+  },
+  {
+   "lat": -23.679889105486005,
+   "lng": -46.89689023212991,
+   "title": "Comunidade Sagrado Coração de Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.664124489550673,
+   "lng": -46.91069301402716,
+   "title": "Comunidade Santa Rita de Cássia",
+   "matriz": false
+  },
+  {
+   "lat": -23.7006014606614,
+   "lng": -46.93184480209485,
+   "title": "Comunidade São José",
+   "matriz": false
+  },
+  {
+   "lat": -23.670174034519977,
+   "lng": -46.90741023249839,
+   "title": "Comunidade São Pedro",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-rita-de-cassia-2": [
+  {
+   "lat": -23.930717810625517,
+   "lng": -47.0071000718347,
+   "title": "Paróquia Santa Rita de Cássia",
+   "matriz": true
+  },
+  {
+   "lat": -23.98548647255719,
+   "lng": -47.01898343092468,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.921892457032975,
+   "lng": -46.99265590124004,
+   "title": "Comunidade Santo Antônio",
+   "matriz": false
+  },
+  {
+   "lat": -23.89436643740773,
+   "lng": -46.986666900116056,
+   "title": "Comunidade São José",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-rita-de-cassia": [
+  {
+   "lat": -23.69534721158397,
+   "lng": -46.79596220209476,
+   "title": "Paróquia Santa Rita de Cássia",
+   "matriz": true
+  },
+  {
+   "lat": -23.696445387572716,
+   "lng": -46.80184800209492,
+   "title": "Comunidade Nossa Senhora das Graças",
+   "matriz": false
+  },
+  {
+   "lat": -23.70064694280993,
+   "lng": -46.79455649161693,
+   "title": "Comunidade São Benedito",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-rosa-de-lima": [
+  {
+   "lat": -23.66022470389545,
+   "lng": -46.73679836158104,
+   "title": "Paróquia Santa Rosa de Lima",
+   "matriz": true
+  },
+  {
+   "lat": -23.666785400909838,
+   "lng": -46.74019292774173,
+   "title": "Comunidade Sagrado Coração de Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.661326603925456,
+   "lng": -46.740238330930765,
+   "title": "Comunidade Santa Isabel da Hungria",
+   "matriz": false
+  },
+  {
+   "lat": -23.662589619109117,
+   "lng": -46.73617400306933,
+   "title": "Comunidade São Francisco de Assis",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-suzana": [
+  {
+   "lat": -23.610423823193045,
+   "lng": -46.74115432901296,
+   "title": "Paróquia Santa Suzana e São Carlo Acutis",
+   "matriz": true
+  },
+  {
+   "lat": -23.614367854595244,
+   "lng": -46.73663180209648,
+   "title": "Comunidade Nossa Senhora das Graças",
+   "matriz": false
+  },
+  {
+   "lat": -23.60758048975884,
+   "lng": -46.73572310209662,
+   "title": "Comunidade Santa Suzana",
+   "matriz": false
+  },
+  {
+   "lat": -23.600275216144087,
+   "lng": -46.721039873261475,
+   "title": "Comunidade São Paulo Apóstolo",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-teresa-de-jesus-e-sao-joao-da-cruz": [
+  {
+   "lat": -23.647448705357505,
+   "lng": -46.80053255423451,
+   "title": "Paróquia Santa Teresa de Jesus e São João da Cruz",
+   "matriz": true
+  },
+  {
+   "lat": -23.6502002026578,
+   "lng": -46.80603826961771,
+   "title": "Comunidade Santa Terezinha",
+   "matriz": false
+  },
+  {
+   "lat": -23.651675249603407,
+   "lng": -46.803130567969596,
+   "title": "Comunidade São Pedro",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-terezinha-do-menino-jesus": [
+  {
+   "lat": -23.829521869078206,
+   "lng": -46.814263033629224,
+   "title": "Paróquia Santa Terezinha do Menino Jesus",
+   "matriz": true
+  },
+  {
+   "lat": -23.834519356861225,
+   "lng": -46.813608130927285,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  },
+  {
+   "lat": -23.841489986818974,
+   "lng": -46.794006002883194,
+   "title": "Comunidade Sagrado Coração de Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.811846379306072,
+   "lng": -46.82532951525839,
+   "title": "Comunidade São Felipe e São Thiago Apóstolos",
+   "matriz": false
+  },
+  {
+   "lat": -23.835873283086336,
+   "lng": -46.80929036035837,
+   "title": "Comunidade São José",
+   "matriz": false
+  }
+ ],
+ "paroquia-santa-terezinha": [
+  {
+   "lat": -23.60787154648705,
+   "lng": -46.75332780209641,
+   "title": "Paróquia Santa Terezinha",
+   "matriz": true
+  },
+  {
+   "lat": -23.610608023235574,
+   "lng": -46.74970470209635,
+   "title": "Comunidade Nossa Senhora Aparecida (Jd. Taboão)",
+   "matriz": false
+  },
+  {
+   "lat": -23.60508561578105,
+   "lng": -46.74835110209643,
+   "title": "Comunidade Nossa Senhora Aparecida (Solar)",
+   "matriz": false
+  },
+  {
+   "lat": -23.61444986297101,
+   "lng": -46.76311170209623,
+   "title": "Comunidade Nossa Senhora de Guadalupe",
+   "matriz": false
+  },
+  {
+   "lat": -23.6143168846521,
+   "lng": -46.76604383093158,
+   "title": "Comunidade São Luiz e Santa Zélia Martin",
+   "matriz": false
+  }
+ ],
+ "paroquia-santissima-trindade": [
+  {
+   "lat": -23.745067598068243,
+   "lng": -46.795821346841116,
+   "title": "Paróquia Santíssima Trindade",
+   "matriz": true
+  },
+  {
+   "lat": -23.770447765891586,
+   "lng": -46.79453827325821,
+   "title": "Comunidade Maria Imaculada",
+   "matriz": false
+  },
+  {
+   "lat": -23.7449263923048,
+   "lng": -46.80682231045134,
+   "title": "Comunidade Maria Mãe da Esperança",
+   "matriz": false
+  },
+  {
+   "lat": -23.743455216410563,
+   "lng": -46.807905340252546,
+   "title": "Comunidade Maria Mãe dos Pobres",
+   "matriz": false
+  },
+  {
+   "lat": -23.744141535665594,
+   "lng": -46.79164180387463,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.77671551849971,
+   "lng": -46.804258452656974,
+   "title": "Comunidade Nossa Senhora de Fátima e Santo Antônio",
+   "matriz": false
+  },
+  {
+   "lat": -23.749162971290048,
+   "lng": -46.79429090788163,
+   "title": "Comunidade Nossa Senhora do Carmo",
+   "matriz": false
+  },
+  {
+   "lat": -23.754987390074863,
+   "lng": -46.78903630017777,
+   "title": "Comunidade Nossa Senhora dos Remédios",
+   "matriz": false
+  }
+ ],
+ "paroquia-santissimo-sacramento": [
+  {
+   "lat": -23.632079985681308,
+   "lng": -46.77961567610568,
+   "title": "Paróquia Santíssimo Sacramento",
+   "matriz": true
+  },
+  {
+   "lat": -23.631124791237642,
+   "lng": -46.776940632003104,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  }
+ ],
+ "paroquia-santo-antonio-2": [
+  {
+   "lat": -23.58441473366166,
+   "lng": -46.718521812630016,
+   "title": "Paróquia Santo Antônio",
+   "matriz": true
+  },
+  {
+   "lat": -23.579876066253618,
+   "lng": -46.71197865549885,
+   "title": "Santuário Santa Cruz da Reconciliação",
+   "matriz": false
+  }
+ ],
+ "paroquia-santo-antonio-3": [
+  {
+   "lat": -23.62077035470173,
+   "lng": -46.79112583093141,
+   "title": "Paróquia Santo Antônio",
+   "matriz": true
+  },
+  {
+   "lat": -23.62866715529037,
+   "lng": -46.80049467326089,
+   "title": "Comunidade Santa Ana",
+   "matriz": false
+  },
+  {
+   "lat": -23.62574311422118,
+   "lng": -46.79643040209618,
+   "title": "Comunidade Santa Rita e São João Paulo II",
+   "matriz": false
+  }
+ ],
+ "paroquia-santo-antonio-de-padua-2": [
+  {
+   "lat": -23.98594194823797,
+   "lng": -47.14461884027058,
+   "title": "Paróquia Santo Antônio de Pádua",
+   "matriz": true
+  },
+  {
+   "lat": -23.955324640922843,
+   "lng": -47.120544428088614,
+   "title": "Comunidade Imaculado Coração de Maria",
+   "matriz": false
+  },
+  {
+   "lat": -24.31830930779717,
+   "lng": -47.545253947817045,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  },
+  {
+   "lat": -23.95891768822036,
+   "lng": -47.1335088164753,
+   "title": "Comunidade São Francisco",
+   "matriz": false
+  },
+  {
+   "lat": -23.979568926350986,
+   "lng": -47.13020272711185,
+   "title": "Comunidade São José",
+   "matriz": false
+  }
+ ],
+ "paroquia-santo-antonio-de-padua": [
+  {
+   "lat": -23.679969552963673,
+   "lng": -46.79805686580362,
+   "title": "Paróquia Santo Antônio de Pádua",
+   "matriz": true
+  },
+  {
+   "lat": -23.683059008816496,
+   "lng": -46.79481370209505,
+   "title": "Comunidade Nossa Senhora da Esperança",
+   "matriz": false
+  }
+ ],
+ "paroquia-santo-antonio-de-sant-anna-galvao": [
+  {
+   "lat": -23.66816421319423,
+   "lng": -46.748294429012944,
+   "title": "Paróquia Santo Antônio de Sant'Anna Galvão",
+   "matriz": true
+  },
+  {
+   "lat": -23.667623878915936,
+   "lng": -46.74457330209552,
+   "title": "Comunidade São Judas Tadeu",
+   "matriz": false
+  }
+ ],
+ "paroquia-santo-antonio": [
+  {
+   "lat": -23.670949579914318,
+   "lng": -46.78179735976552,
+   "title": "Paróquia Santo Antônio",
+   "matriz": true
+  },
+  {
+   "lat": -23.680229089964104,
+   "lng": -46.78892884897048,
+   "title": "Comunidade Imaculada Conceição",
+   "matriz": false
+  },
+  {
+   "lat": -23.663800657911732,
+   "lng": -46.77711900209551,
+   "title": "Comunidade Mãe Admirável",
+   "matriz": false
+  },
+  {
+   "lat": -23.664931924852887,
+   "lng": -46.786051930930626,
+   "title": "Comunidade Nossa Senhora Aparecida e São Geraldo",
+   "matriz": false
+  },
+  {
+   "lat": -23.662889923932944,
+   "lng": -46.79344650209552,
+   "title": "Comunidade Santa Isabel de Portugal e São Benedito",
+   "matriz": false
+  },
+  {
+   "lat": -23.65960950353931,
+   "lng": -46.79316880209545,
+   "title": "Comunidade Santa Terezinha do Menino Jesus",
+   "matriz": false
+  }
+ ],
+ "paroquia-santo-eugenio-de-mazenod": [
+  {
+   "lat": -23.665202924974842,
+   "lng": -46.75386840209555,
+   "title": "Paróquia Santo Eugênio de Mazenod",
+   "matriz": true
+  },
+  {
+   "lat": -23.66343390439967,
+   "lng": -46.75057215976562,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.673058554530535,
+   "lng": -46.75443803093053,
+   "title": "Comunidade Santa Rita",
+   "matriz": false
+  },
+  {
+   "lat": -23.66916149522301,
+   "lng": -46.756953973260075,
+   "title": "Comunidade Santo Eugênio de Mazenoud",
+   "matriz": false
+  },
+  {
+   "lat": -23.660097651541022,
+   "lng": -46.756830600177764,
+   "title": "Comunidade São João Batista",
+   "matriz": false
+  },
+  {
+   "lat": -23.67029815575783,
+   "lng": -46.75357137134257,
+   "title": "Comunidade São Roque",
+   "matriz": false
+  },
+  {
+   "lat": -23.666643505121712,
+   "lng": -46.75810780209534,
+   "title": "Comunidade Verbo Divino",
+   "matriz": false
+  }
+ ],
+ "paroquia-santo-expedito": [
+  {
+   "lat": -23.68868657780358,
+   "lng": -46.8512377724126,
+   "title": "Paróquia Santo Expedito",
+   "matriz": true
+  },
+  {
+   "lat": -23.691456532846246,
+   "lng": -46.844006043289745,
+   "title": "Comunidade Nossa Senhora da Penha",
+   "matriz": false
+  },
+  {
+   "lat": -23.701396608011944,
+   "lng": -46.87713895619537,
+   "title": "Comunidade Santa Escolástica",
+   "matriz": false
+  },
+  {
+   "lat": -23.699120612433926,
+   "lng": -46.893095102094826,
+   "title": "Comunidade Santa Isabel da Hungria",
+   "matriz": false
+  },
+  {
+   "lat": -23.689202278489688,
+   "lng": -46.86025157391581,
+   "title": "Comunidade São João Batista",
+   "matriz": false
+  },
+  {
+   "lat": -23.700118242268992,
+   "lng": -46.853234625762084,
+   "title": "Comunidade São João Paulo II",
+   "matriz": false
+  }
+ ],
+ "paroquia-santo-inacio-de-loyola": [
+  {
+   "lat": -23.80633705749471,
+   "lng": -46.8118424908307,
+   "title": "Paróquia Santo Inácio de Loyola",
+   "matriz": true
+  },
+  {
+   "lat": -23.784824478990274,
+   "lng": -46.823621102093284,
+   "title": "Comunidade Imaculado Coração de Maria",
+   "matriz": false
+  },
+  {
+   "lat": -23.785443836395824,
+   "lng": -46.85132921324765,
+   "title": "Comunidade Jesus Bom Pastor",
+   "matriz": false
+  },
+  {
+   "lat": -23.831737972150258,
+   "lng": -46.84698663092736,
+   "title": "Comunidade Santa Clara de Assis",
+   "matriz": false
+  },
+  {
+   "lat": -23.811493293263013,
+   "lng": -46.81921167056331,
+   "title": "Comunidade Santa Isabel de Portugal",
+   "matriz": false
+  },
+  {
+   "lat": -23.835342584391274,
+   "lng": -46.858557206257785,
+   "title": "Comunidade Santo Expedito",
+   "matriz": false
+  },
+  {
+   "lat": -23.836834043473853,
+   "lng": -46.86415839375335,
+   "title": "Comunidade São Francisco de Assis",
+   "matriz": false
+  },
+  {
+   "lat": -23.758493988702273,
+   "lng": -46.838945171352414,
+   "title": "Comunidade São José",
+   "matriz": false
+  },
+  {
+   "lat": -23.757589582046297,
+   "lng": -46.87999774974646,
+   "title": "Comunidade São Judas Tadeu",
+   "matriz": false
+  },
+  {
+   "lat": -23.8097891217127,
+   "lng": -46.8553207732576,
+   "title": "Comunidade São Marcos Evangelista",
+   "matriz": false
+  }
+ ],
+ "paroquia-santos-martires": [
+  {
+   "lat": -23.683499035986713,
+   "lng": -46.76854350017775,
+   "title": "Paróquia Santos Mártires",
+   "matriz": true
+  },
+  {
+   "lat": -23.691936437024218,
+   "lng": -46.76999320209485,
+   "title": "Comunidade Nossa Senhora do Rosário",
+   "matriz": false
+  },
+  {
+   "lat": -23.690037136167756,
+   "lng": -46.76559437325979,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  },
+  {
+   "lat": -23.68930953583963,
+   "lng": -46.76842250209508,
+   "title": "Comunidade São Francisco de Assis",
+   "matriz": false
+  },
+  {
+   "lat": -23.68833098513436,
+   "lng": -46.771913130930244,
+   "title": "Comunidade São Judas Tadeu",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-benedito": [
+  {
+   "lat": -23.597667926060524,
+   "lng": -46.731853527860366,
+   "title": "Paróquia São Benedito",
+   "matriz": true
+  }
+ ],
+ "paroquia-sao-bento-2": [
+  {
+   "lat": -23.603791401522965,
+   "lng": -46.72839962704629,
+   "title": "Paróquia São Bento",
+   "matriz": true
+  },
+  {
+   "lat": -23.605084633879745,
+   "lng": -46.72692404111551,
+   "title": "Comunidade Nossa Senhora da Imaculada Conceição",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-bento": [
+  {
+   "lat": -23.679154753382175,
+   "lng": -46.78401779202629,
+   "title": "Paróquia São Bento",
+   "matriz": true
+  },
+  {
+   "lat": -23.67443316112535,
+   "lng": -46.779447200177756,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  },
+  {
+   "lat": -23.68183128731975,
+   "lng": -46.78609534250738,
+   "title": "Comunidade São Joaquim e Santa Ana",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-francisco-de-assis-2": [
+  {
+   "lat": -23.68657141249015,
+   "lng": -46.792811257848136,
+   "title": "Paróquia São Francisco de Assis",
+   "matriz": true
+  }
+ ],
+ "paroquia-sao-francisco-de-assis-3": [
+  {
+   "lat": -23.5950719527873,
+   "lng": -46.75716520209663,
+   "title": "Paróquia São Francisco de Assis",
+   "matriz": true
+  },
+  {
+   "lat": -23.18094324335879,
+   "lng": -45.82636340017775,
+   "title": "Comunidade Nossa Senhora do Rosário",
+   "matriz": false
+  },
+  {
+   "lat": -23.59993695862504,
+   "lng": -46.752963202096716,
+   "title": "Comunidade São Judas Tadeu",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-francisco-de-assis": [
+  {
+   "lat": -23.688357235410187,
+   "lng": -46.74231337325976,
+   "title": "Paróquia São Francisco de Assis",
+   "matriz": true
+  },
+  {
+   "lat": -23.686508759581503,
+   "lng": -46.74644174442474,
+   "title": "Comunidade Nossa Senhora da Esperança",
+   "matriz": false
+  },
+  {
+   "lat": -23.687145909908004,
+   "lng": -46.749831515589584,
+   "title": "Comunidade São Joaquim e Sant'Ana",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-francisco-e-santo-estevao": [
+  {
+   "lat": -23.634235512131802,
+   "lng": -46.76473453385437,
+   "title": "Paróquia São Francisco e Santo Estevão",
+   "matriz": true
+  },
+  {
+   "lat": -23.63764868334746,
+   "lng": -46.76991996907789,
+   "title": "Comunidade Santa Clara",
+   "matriz": false
+  },
+  {
+   "lat": -23.631072256239104,
+   "lng": -46.76806050017775,
+   "title": "Comunidade Santo Estevão",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-joao-batista-2": [
+  {
+   "lat": -23.683135491341485,
+   "lng": -46.7489391031657,
+   "title": "Paróquia São João Batista",
+   "matriz": true
+  },
+  {
+   "lat": -23.679520701686585,
+   "lng": -46.75281724627117,
+   "title": "Comunidade Mãe da Divina Providência",
+   "matriz": false
+  },
+  {
+   "lat": -23.67748575058258,
+   "lng": -46.75431876949713,
+   "title": "Comunidade Santa Margarida Maria Alacoque",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-joao-batista": [
+  {
+   "lat": -23.63871015169917,
+   "lng": -46.793143905141285,
+   "title": "Paróquia São João Batista",
+   "matriz": true
+  },
+  {
+   "lat": -23.636233540715324,
+   "lng": -46.809943730931174,
+   "title": "Comunidade Nossa Senhora Aparecida e São Luís Montfort",
+   "matriz": false
+  },
+  {
+   "lat": -23.642785628049324,
+   "lng": -46.79923840209582,
+   "title": "Comunidade São Lucas e São Patrício",
+   "matriz": false
+  },
+  {
+   "lat": -23.64254795632557,
+   "lng": -46.80544120209593,
+   "title": "Comunidade São Pedro",
+   "matriz": false
+  },
+  {
+   "lat": -23.636775327149795,
+   "lng": -46.78820713093113,
+   "title": "Comunidade São Sebastião",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-joao-evangelista": [
+  {
+   "lat": -23.65629275456108,
+   "lng": -46.84203121528339,
+   "title": "Paróquia São João Evangelista",
+   "matriz": true
+  },
+  {
+   "lat": -23.672968642888133,
+   "lng": -46.849345840041224,
+   "title": "Comunidade Nossa Senhora das Graças",
+   "matriz": false
+  },
+  {
+   "lat": -23.63964565163515,
+   "lng": -46.829753248809276,
+   "title": "Comunidade Santa Bárbara",
+   "matriz": false
+  },
+  {
+   "lat": -23.67324004051471,
+   "lng": -46.84615616179899,
+   "title": "Comunidade Santo Antônio",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-joao-maria-vianney": [
+  {
+   "lat": -23.61220557936803,
+   "lng": -46.774202089609716,
+   "title": "Paróquia São João Maria Vianney",
+   "matriz": true
+  },
+  {
+   "lat": -23.61326510635512,
+   "lng": -46.79675851166771,
+   "title": "Comunidade Jesus Bom Pastor",
+   "matriz": false
+  },
+  {
+   "lat": -23.60711281220221,
+   "lng": -46.77019567879925,
+   "title": "Comunidade Nossa Senhora do Perpétuo Socorro",
+   "matriz": false
+  },
+  {
+   "lat": -23.61222888465313,
+   "lng": -46.788092402096396,
+   "title": "Comunidade Santa Helena",
+   "matriz": false
+  },
+  {
+   "lat": -23.61016558465417,
+   "lng": -46.782687030931434,
+   "title": "Comunidade São José Operário",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-joao-paulo-ii": [
+  {
+   "lat": -23.652388608276254,
+   "lng": -46.76655110737192,
+   "title": "Paróquia São João Paulo II",
+   "matriz": true
+  }
+ ],
+ "paroquia-sao-jose-2": [
+  {
+   "lat": -23.60273004726058,
+   "lng": -46.75517483093174,
+   "title": "Paróquia São José",
+   "matriz": true
+  },
+  {
+   "lat": -23.597679942601033,
+   "lng": -46.76188142459826,
+   "title": "Comunidade São João Batista",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-jose-e-santo-eduardo": [
+  {
+   "lat": -23.675615905927074,
+   "lng": -46.804641236442016,
+   "title": "Paróquia São José e Santo Eduardo",
+   "matriz": true
+  },
+  {
+   "lat": -23.680250845564903,
+   "lng": -46.80156394945608,
+   "title": "Comunidade Divino Espírito Santo",
+   "matriz": false
+  },
+  {
+   "lat": -23.67193889999996,
+   "lng": -46.80802570017775,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  },
+  {
+   "lat": -23.683365185906357,
+   "lng": -46.80771070021081,
+   "title": "Comunidade Santa Rita de Cássia",
+   "matriz": false
+  },
+  {
+   "lat": -23.66993969292953,
+   "lng": -46.798104570563325,
+   "title": "Comunidade Santo Eduardo",
+   "matriz": false
+  },
+  {
+   "lat": -23.665861211116987,
+   "lng": -46.80306553516774,
+   "title": "Comunidade São Gabriel",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-jose-operario-2": [
+  {
+   "lat": -23.635955870340855,
+   "lng": -46.77236347264825,
+   "title": "Paróquia São José Operário",
+   "matriz": true
+  },
+  {
+   "lat": -23.641151356221425,
+   "lng": -46.77610580209571,
+   "title": "Comunidade Nossa Senhora das Graças",
+   "matriz": false
+  },
+  {
+   "lat": -23.640948078584405,
+   "lng": -46.772714870563306,
+   "title": "Comunidade Santa Terezinha do Menino Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.640424879451018,
+   "lng": -46.77494973200283,
+   "title": "Comunidade São Vicente de Paulo",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-jose-operario": [
+  {
+   "lat": -23.67652223310296,
+   "lng": -46.773783729084116,
+   "title": "Paróquia São José Operário",
+   "matriz": true
+  },
+  {
+   "lat": -23.671714627908592,
+   "lng": -46.769387302095126,
+   "title": "Comunidade São Vicente de Paulo",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-jose": [
+  {
+   "lat": -23.616902333471234,
+   "lng": -46.72867920209643,
+   "title": "Paróquia São José",
+   "matriz": true
+  },
+  {
+   "lat": -23.616367824096912,
+   "lng": -46.7286866309316,
+   "title": "Comunidade Nossa Senhora da Penha",
+   "matriz": false
+  },
+  {
+   "lat": -23.613884223315555,
+   "lng": -46.72549799286491,
+   "title": "Comunidade Nossa Senhora das Graças e Santa Terezinha",
+   "matriz": false
+  },
+  {
+   "lat": -23.62080668739008,
+   "lng": -46.72793330096739,
+   "title": "Comunidade Santa Rita",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-judas-tadeu-e-santa-clara": [
+  {
+   "lat": -23.679478592779365,
+   "lng": -46.85443460613542,
+   "title": "Paróquia São Judas Tadeu e Santa Clara",
+   "matriz": true
+  },
+  {
+   "lat": -23.681645920000395,
+   "lng": -46.863411776943934,
+   "title": "Comunidade Santa Clara",
+   "matriz": false
+  },
+  {
+   "lat": -23.670400640153705,
+   "lng": -46.85500592674742,
+   "title": "Comunidade São Francisco de Assis",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-judas-tadeu": [
+  {
+   "lat": -23.622847906658336,
+   "lng": -46.761269391385,
+   "title": "Paróquia São Judas Tadeu",
+   "matriz": true
+  }
+ ],
+ "paroquia-sao-lucas-evangelista-2": [
+  {
+   "lat": -23.723104467498956,
+   "lng": -46.76429012912596,
+   "title": "Paróquia São Lucas Evangelista",
+   "matriz": true
+  },
+  {
+   "lat": -23.719757466241806,
+   "lng": -46.77080497134257,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.736364608474258,
+   "lng": -46.74295297408591,
+   "title": "Comunidade Santíssima Trindade",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-lucas-evangelista": [
+  {
+   "lat": -23.579170509120583,
+   "lng": -46.72385456535113,
+   "title": "Paróquia São Lucas Evangelista",
+   "matriz": true
+  }
+ ],
+ "paroquia-sao-luis-gonzaga": [
+  {
+   "lat": -23.694467223345374,
+   "lng": -46.78174622611984,
+   "title": "Paróquia São Luís Gonzaga",
+   "matriz": true
+  },
+  {
+   "lat": -23.70256999018763,
+   "lng": -46.79023591896325,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.702447353691035,
+   "lng": -46.785437502516274,
+   "title": "Comunidade Sagrado Coração de Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.697725792515644,
+   "lng": -46.782687382849424,
+   "title": "Comunidade Santo Antônio",
+   "matriz": false
+  },
+  {
+   "lat": -23.708492241549813,
+   "lng": -46.790213394041935,
+   "title": "Comunidade Santos Reis",
+   "matriz": false
+  },
+  {
+   "lat": -23.70453424087141,
+   "lng": -46.78895260017776,
+   "title": "Comunidade São Lourenço",
+   "matriz": false
+  },
+  {
+   "lat": -23.69273517894933,
+   "lng": -46.7821636000111,
+   "title": "Comunidade Senhora da Paz",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-luiz-gonzaga": [
+  {
+   "lat": -23.654924713691685,
+   "lng": -46.73398719858664,
+   "title": "Paróquia São Luiz Gonzaga",
+   "matriz": true
+  },
+  {
+   "lat": -23.65401315718115,
+   "lng": -46.74040073093083,
+   "title": "Comunidade Nossa Senhora da Penha",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-marcos": [
+  {
+   "lat": -23.65986580872515,
+   "lng": -46.81532968732724,
+   "title": "Paróquia São Marcos",
+   "matriz": true
+  },
+  {
+   "lat": -23.66363471753672,
+   "lng": -46.810737090829114,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.65559199289583,
+   "lng": -46.819438000011104,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  },
+  {
+   "lat": -23.659798259296824,
+   "lng": -46.820235173955126,
+   "title": "Comunidade Santa Rita de Cássia",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-miguel-arcanjo": [
+  {
+   "lat": -23.703611388139187,
+   "lng": -46.794208700177755,
+   "title": "Paróquia São Miguel Arcanjo",
+   "matriz": true
+  },
+  {
+   "lat": -23.70753834143683,
+   "lng": -46.80406060017777,
+   "title": "Comunidade Nossa Senhora das Dores",
+   "matriz": false
+  },
+  {
+   "lat": -23.70934860789538,
+   "lng": -46.7988302020946,
+   "title": "Comunidade São José",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-paulo-apostolo": [
+  {
+   "lat": -23.641525215178003,
+   "lng": -46.767088082101225,
+   "title": "Paróquia São Paulo Apóstolo",
+   "matriz": true
+  },
+  {
+   "lat": -23.64554040037543,
+   "lng": -46.77244533093104,
+   "title": "Comunidade Nosso Senhor dos Passos",
+   "matriz": false
+  },
+  {
+   "lat": -23.64991689716265,
+   "lng": -46.77280844435371,
+   "title": "Comunidade São Francisco de Assis e Santo Expedito",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-pedro-apostolo-2": [
+  {
+   "lat": -23.723096110513886,
+   "lng": -46.798700396745,
+   "title": "Paróquia São Pedro Apóstolo",
+   "matriz": true
+  }
+ ],
+ "paroquia-sao-pedro-apostolo": [
+  {
+   "lat": -23.628572677992807,
+   "lng": -46.78413386286963,
+   "title": "Paróquia São Pedro Apóstolo",
+   "matriz": true
+  },
+  {
+   "lat": -23.625471419287422,
+   "lng": -46.77674964725012,
+   "title": "Comunidade Maria Mãe da Igreja",
+   "matriz": false
+  },
+  {
+   "lat": -23.62275572505222,
+   "lng": -46.78453953093143,
+   "title": "Comunidade Nossa Senhora das Graças",
+   "matriz": false
+  },
+  {
+   "lat": -23.634513427711898,
+   "lng": -46.780143300177755,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  },
+  {
+   "lat": -23.632300404759544,
+   "lng": -46.78799997321021,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-pedro-e-sao-paulo-2": [
+  {
+   "lat": -23.719097485705845,
+   "lng": -46.865455275459446,
+   "title": "Paróquia São Pedro e São Paulo",
+   "matriz": true
+  },
+  {
+   "lat": -23.704302960938115,
+   "lng": -46.87073530209459,
+   "title": "Comunidade Nossa Senhora de Fátima",
+   "matriz": false
+  },
+  {
+   "lat": -23.70809058392107,
+   "lng": -46.86995438033413,
+   "title": "Comunidade Sagrada Família",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-pedro-e-sao-paulo": [
+  {
+   "lat": -23.587541783948517,
+   "lng": -46.699702183131734,
+   "title": "Paróquia São Pedro e São Paulo",
+   "matriz": true
+  },
+  {
+   "lat": -23.595814407244337,
+   "lng": -46.69719512945891,
+   "title": "Santuário Diocesano da Mãe Três Vezes Admirável de Schoenstatt",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-pedro-fourier": [
+  {
+   "lat": -23.616103469304573,
+   "lng": -46.74745059752554,
+   "title": "Paróquia São Pedro Fourier",
+   "matriz": true
+  },
+  {
+   "lat": -23.621743157665403,
+   "lng": -46.74567878591051,
+   "title": "Comunidade São João Batista",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-pio-x": [
+  {
+   "lat": -23.653242003720628,
+   "lng": -46.77826372901295,
+   "title": "Paróquia São Pio X",
+   "matriz": true
+  },
+  {
+   "lat": -23.65959839597757,
+   "lng": -46.78136276641491,
+   "title": "Comunidade Nossa Senhora do Carmo",
+   "matriz": false
+  },
+  {
+   "lat": -23.656106927847773,
+   "lng": -46.77874228018276,
+   "title": "Comunidade Santo Antônio de Pádua",
+   "matriz": false
+  },
+  {
+   "lat": -23.658268140698897,
+   "lng": -46.782724757848136,
+   "title": "Comunidade São Vicente de Paulo",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-sebastiao-2": [
+  {
+   "lat": -23.87797372774707,
+   "lng": -46.79337688467036,
+   "title": "Paróquia São Sebastião",
+   "matriz": true
+  },
+  {
+   "lat": -23.867507093970968,
+   "lng": -46.79007645216978,
+   "title": "Comunidade Santa Catarina de Sena",
+   "matriz": false
+  },
+  {
+   "lat": -23.880918003533033,
+   "lng": -46.779300535142305,
+   "title": "Comunidade Santa Rita de Cássia",
+   "matriz": false
+  },
+  {
+   "lat": -23.875219676305647,
+   "lng": -46.77989332166069,
+   "title": "Comunidade São Francisco de Assis",
+   "matriz": false
+  },
+  {
+   "lat": -23.89760185634606,
+   "lng": -46.78428023935038,
+   "title": "Comunidade São João Batista",
+   "matriz": false
+  },
+  {
+   "lat": -23.840611427702484,
+   "lng": -46.785437600688475,
+   "title": "Comunidade São Judas Tadeu",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-sebastiao": [
+  {
+   "lat": -23.649485409949865,
+   "lng": -46.783655419738146,
+   "title": "Paróquia São Sebastião",
+   "matriz": true
+  },
+  {
+   "lat": -23.64186469226967,
+   "lng": -46.78618511286255,
+   "title": "Comunidade Nossa Senhora Aparecida",
+   "matriz": false
+  },
+  {
+   "lat": -23.646248471730424,
+   "lng": -46.79107279247989,
+   "title": "Comunidade Sagrado Coração de Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.6522869879486,
+   "lng": -46.78061213362358,
+   "title": "Comunidade Santa Luzia",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-vicente-de-paulo-e-sao-tiago-apostolo": [
+  {
+   "lat": -23.659113086465805,
+   "lng": -46.805157000177765,
+   "title": "Paróquia São Vicente de Paulo e São Tiago Apóstolo",
+   "matriz": true
+  },
+  {
+   "lat": -23.655142268419585,
+   "lng": -46.808599600177764,
+   "title": "Comunidade São Francisco",
+   "matriz": false
+  },
+  {
+   "lat": -23.661213913455438,
+   "lng": -46.80056342901294,
+   "title": "Comunidade São Tiago",
+   "matriz": false
+  }
+ ],
+ "paroquia-sao-vicente-de-paulo": [
+  {
+   "lat": -23.684606084015428,
+   "lng": -46.77579590209502,
+   "title": "Paróquia São Vicente de Paulo",
+   "matriz": true
+  },
+  {
+   "lat": -23.684196709072598,
+   "lng": -46.77872775976536,
+   "title": "Comunidade Santa Rita",
+   "matriz": false
+  }
+ ],
+ "paroquia-senhor-bom-jesus-de-piraporinha": [
+  {
+   "lat": -23.672381528209094,
+   "lng": -46.74392070209522,
+   "title": "Paróquia Senhor Bom Jesus de Piraporinha",
+   "matriz": true
+  },
+  {
+   "lat": -23.671910601895036,
+   "lng": -46.74701995976556,
+   "title": "Comunidade Santa Ana",
+   "matriz": false
+  }
+ ],
+ "paroquia-senhor-dos-passos-e-nossa-senhora-das-dores": [
+  {
+   "lat": -23.65276484660537,
+   "lng": -46.772849880599615,
+   "title": "Paróquia Senhor dos Passos e Nossa Senhora das Dores",
+   "matriz": true
+  },
+  {
+   "lat": -23.65832968643638,
+   "lng": -46.77204902901295,
+   "title": "Comunidade Mãe Peregrina",
+   "matriz": false
+  },
+  {
+   "lat": -23.65632810453215,
+   "lng": -46.76837780017775,
+   "title": "Comunidade Santa Francisca Xavier Cabrini",
+   "matriz": false
+  }
+ ],
+ "paroquia-todos-os-santos": [
+  {
+   "lat": -23.662161558798253,
+   "lng": -46.79818802965458,
+   "title": "Paróquia Todos os Santos",
+   "matriz": true
+  },
+  {
+   "lat": -23.657656557452952,
+   "lng": -46.79958023093086,
+   "title": "Comunidade Senhor Bom Jesus",
+   "matriz": false
+  }
+ ],
+ "paroquia-verbo-divino": [
+  {
+   "lat": -23.748881708454803,
+   "lng": -46.77990837163656,
+   "title": "Paróquia Verbo Divino",
+   "matriz": true
+  },
+  {
+   "lat": -23.737149205787357,
+   "lng": -46.77912180209404,
+   "title": "Comunidade Sagrado Coração de Jesus",
+   "matriz": false
+  },
+  {
+   "lat": -23.740571372382796,
+   "lng": -46.78041125221136,
+   "title": "Comunidade Santa Edwiges",
+   "matriz": false
+  },
+  {
+   "lat": -23.737424076028862,
+   "lng": -46.78329443498091,
+   "title": "Comunidade São José",
+   "matriz": false
+  }
+ ],
+ "unidade-pastoral-nossa-senhora-aparecida": [
+  {
+   "lat": -23.766926210193663,
+   "lng": -46.855504197585276,
+   "title": "Unidade Pastoral Nossa Senhora Aparecida",
+   "matriz": true
+  }
+ ]
+}

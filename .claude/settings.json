@@ -1,0 +1,11 @@
+{
+  "disabledMcpjsonServers": [
+    "chrome-devtools"
+  ],
+  "permissions": { "blockReadsOutsideWorkingDirectories": false },
+  "language": "portuguese",
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiatodosossantosembu",
+  "name": "Paróquia Todos os Santos",
+  "patrons": [
+    {
+      "name": "Todos os Santos",
+      "feast": {
+        "day": 1,
+        "month": 11
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Embu das Artes",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "20:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "14:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551147824849",
+    "whatsapp": "+5511942583489",
+    "instagram": "paroquiatodosossantosembu",
+    "facebook": "https://www.facebook.com/paroquiatodosossantosembu",
+    "youtube": "https://www.youtube.com/channel/UCaL6gi0zowJJAAcVoWkboOg"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Emília",
+      "isMain": true,
+      "address": [
+        "Rua Capri, 53",
+        "Jd. Santa Emília · Embu/SP · 06820-420"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-thu-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-sun-1100",
+          "kind": "confession",
+          "startsAt": "11:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-1000",
+          "kind": "confession",
+          "startsAt": "10:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-wed-1900",
+          "kind": "confession",
+          "startsAt": "19:00",
+          "endsAt": "20:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-2000",
+          "kind": "adoration",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.662162,
+        "lng": -46.798188
+      }
+    },
+    {
+      "id": "nossa-senhora-de-lourdes",
+      "name": "Comunidade Nossa Senhora de Lourdes",
+      "activities": [
+        {
+          "id": "nossa-senhora-de-lourdes-mass-sat-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "senhor-bom-jesus",
+      "name": "Comunidade Senhor Bom Jesus",
+      "address": [
+        "Av. das Pombas, 400",
+        "Jd. Julia · Embu das Artes/SP · 06826-380"
+      ],
+      "activities": [
+        {
+          "id": "senhor-bom-jesus-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "senhor-bom-jesus-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.657657,
+        "lng": -46.79958
+      }
+    }
+  ]
+}

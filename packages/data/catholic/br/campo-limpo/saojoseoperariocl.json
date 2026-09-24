@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "slug": "saojoseoperariocl",
+  "name": "Paróquia São José Operário",
+  "patrons": [
+    {
+      "name": "São José Operário",
+      "feast": {
+        "day": 1,
+        "month": 5
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Campo Limpo",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551129258647",
+    "whatsapp": "+551129258647",
+    "instagram": "saojoseoperariocl",
+    "facebook": "https://www.facebook.com/saojoseoperariocl",
+    "youtube": "https://www.youtube.com/c/Par%C3%B3quiaS%C3%A3oJos%C3%A9Oper%C3%A1rioCampoLimpo"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São José Operário",
+      "isMain": true,
+      "address": [
+        "Rua Miguel Gonçalves Correia, 305",
+        "Vl. Pirajussara · São Paulo/SP · 05786-160"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-fri-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1thu-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "thursday"
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-fri-0800",
+          "kind": "adoration",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.635956,
+        "lng": -46.772363
+      }
+    },
+    {
+      "id": "nossa-senhora-das-gracas",
+      "name": "Comunidade Nossa Senhora das Graças",
+      "address": [
+        "Rua Atucupe, 329",
+        "Jd. Leônidas Moreira · São Paulo/SP · 05792-050"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-das-gracas-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.641151,
+        "lng": -46.776106
+      }
+    },
+    {
+      "id": "santa-terezinha-do-menino-jesus",
+      "name": "Comunidade Santa Terezinha do Menino Jesus",
+      "address": [
+        "Rua Luiz Gonzaga Freire, 122",
+        "Jd. Helga · São Paulo/SP · 05794-260"
+      ],
+      "activities": [
+        {
+          "id": "santa-terezinha-do-menino-jesus-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.640948,
+        "lng": -46.772715
+      }
+    },
+    {
+      "id": "sao-vicente-de-paulo",
+      "name": "Comunidade São Vicente de Paulo",
+      "address": [
+        "Rua Januário da Cunha Barbosa, 456",
+        "Jd. Elizabeth · 05793-280 · São Paulo/SP"
+      ],
+      "activities": [
+        {
+          "id": "sao-vicente-de-paulo-mass-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.640425,
+        "lng": -46.77495
+      }
+    }
+  ]
+}

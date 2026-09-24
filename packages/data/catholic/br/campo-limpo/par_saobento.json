@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "slug": "par_saobento",
+  "name": "Paróquia São Bento",
+  "patrons": [
+    {
+      "name": "São Bento",
+      "feast": {
+        "day": 11,
+        "month": 7
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São José - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158732897",
+    "whatsapp": "+551158732897",
+    "instagram": "par_saobento",
+    "facebook": "https://www.facebook.com/paroquiasaobentocr"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Bento",
+      "isMain": true,
+      "address": [
+        "Rua Valdez, 19",
+        "Jd. São Bento Novo · São Paulo - SP - 05882-150"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Após as Santas Missas"
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-1sun-1800",
+          "kind": "adoration",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.679155,
+        "lng": -46.784018
+      }
+    },
+    {
+      "id": "santa-luzia",
+      "name": "Comunidade Santa Luzia",
+      "address": [
+        "Rua Joaquim Guerra de Azevedo, 257",
+        "Jd. Colégio · São Paulo/SP · 05883-100"
+      ],
+      "activities": [
+        {
+          "id": "santa-luzia-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santa-luzia-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Comunidade em construção"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.674433,
+        "lng": -46.779447
+      }
+    },
+    {
+      "id": "sao-joaquim-e-santa-ana",
+      "name": "Comunidade São Joaquim e Santa Ana",
+      "address": [
+        "Rua Benedito de Barros, 80",
+        "Jd. São Bento · São Paulo/SP · 05882-370"
+      ],
+      "activities": [
+        {
+          "id": "sao-joaquim-e-santa-ana-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-joaquim-e-santa-ana-mass-wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.681831,
+        "lng": -46.786095
+      }
+    }
+  ]
+}

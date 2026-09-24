@@ -1,0 +1,14 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
+# pnpm 12 bloqueia scripts de build por padrão (proteção de supply chain).
+# esbuild é dependência do Vite/Astro e precisa compilar seu binário.
+allowBuilds:
+  esbuild: true
+
+# Gate de idade mínima de release do pnpm 12: estas versões são recentes
+# e foram explicitamente liberadas na instalação inicial.
+minimumReleaseAgeExclude:
+  - '@astrojs/markdown-satteri@0.4.2'
+  - astro@7.3.4

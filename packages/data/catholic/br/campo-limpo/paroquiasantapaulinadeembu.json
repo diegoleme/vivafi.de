@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasantapaulinadeembu",
+  "name": "Paróquia Menino Jesus e Santa Paulina",
+  "patrons": [
+    {
+      "name": "Menino Jesus"
+    },
+    {
+      "name": "Santa Paulina"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Embu das Artes",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551147041833",
+    "whatsapp": "+551147041833",
+    "instagram": "paroquiasantapaulinadeembu",
+    "facebook": "https://www.facebook.com/santapaulinaembu",
+    "youtube": "https://www.youtube.com/channel/UCGzvX723qs04PG3uzYD5XPg"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Imaculada Conceição",
+      "isMain": true,
+      "address": [
+        "Rua Júpiter, 213",
+        "Jd. Novo Embu · Embu/SP · 06840-100"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1700",
+          "kind": "adoration",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.652074,
+        "lng": -46.860827
+      }
+    },
+    {
+      "id": "menino-jesus-de-itatuba",
+      "name": "Comunidade Menino Jesus e Santa Paulina",
+      "address": [
+        "Rua Sete de Setembro, 12.625",
+        "Itatuba · Embu das Artes/SP · 06845-000"
+      ],
+      "activities": [
+        {
+          "id": "menino-jesus-de-itatuba-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.644416,
+        "lng": -46.899376
+      }
+    },
+    {
+      "id": "nossa-senhora-de-fatima",
+      "name": "Comunidade Nossa Senhora de Fátima",
+      "address": [
+        "Estrada de Caputeiras, 20",
+        "Jd. Caputera · Cotia/SP · 06724-100"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-fatima-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.689939,
+        "lng": -46.901345
+      }
+    },
+    {
+      "id": "nossa-senhora-do-rosario-de-fatima",
+      "name": "Comunidade Nossa Senhora do Rosário de Fátima",
+      "address": [
+        "Estrada Ponta Porã, 1080",
+        "Capuava · Embu das Artes/SP · 06846-090"
+      ],
+      "activities": [],
+      "location": {
+        "lat": -23.62715,
+        "lng": -46.870283
+      }
+    },
+    {
+      "id": "sagrada-familia",
+      "name": "Comunidade Sagrada Família",
+      "address": [
+        "Estrada da Ressaca, 1081",
+        "Convento · Itapecerica da Serra/SP · 06888-050"
+      ],
+      "activities": [
+        {
+          "id": "sagrada-familia-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.673902,
+        "lng": -46.894499
+      }
+    },
+    {
+      "id": "sagrado-coracao-de-jesus",
+      "name": "Comunidade Sagrado Coração de Jesus",
+      "address": [
+        "Estrada do Caputera, 370",
+        "Ressaca · Cotia/SP · 06724-800"
+      ],
+      "activities": [
+        {
+          "id": "sagrado-coracao-de-jesus-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.679889,
+        "lng": -46.89689
+      }
+    },
+    {
+      "id": "santa-rita-de-cassia",
+      "name": "Comunidade Santa Rita de Cássia",
+      "address": [
+        "Rua Pardal, 255",
+        "Fazenda Atalaia · Cotia/SP · 06844-670"
+      ],
+      "activities": [
+        {
+          "id": "santa-rita-de-cassia-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.664124,
+        "lng": -46.910693
+      }
+    },
+    {
+      "id": "sao-jose",
+      "name": "Comunidade São José",
+      "address": [
+        "Rua Marmelo, 213",
+        "Cerejeiras · Cotia/SP · 06724-065"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-sat-1830",
+          "kind": "mass",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.700601,
+        "lng": -46.931845
+      }
+    },
+    {
+      "id": "sao-pedro",
+      "name": "Comunidade São Pedro",
+      "address": [
+        "Estrada Hengles, 82",
+        "Ressaca · Cotia/SP · 06703-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-pedro-mass-sat-1830",
+          "kind": "mass",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.670174,
+        "lng": -46.90741
+      }
+    }
+  ]
+}

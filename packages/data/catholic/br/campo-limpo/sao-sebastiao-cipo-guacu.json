@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "slug": "sao-sebastiao-cipo-guacu",
+  "name": "Paróquia São Sebastião",
+  "patrons": [
+    {
+      "name": "São Sebastião",
+      "feast": {
+        "day": 20,
+        "month": 1
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Mirim-Guaçu",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551146631047",
+    "facebook": "https://www.facebook.com/paroquiasaosebastiaocipo"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Sebastião",
+      "isMain": true,
+      "address": [
+        "Praça Henrique Schunck, 17",
+        "Cipó-Guaçu · Embu-Guaçu/SP · 06929-040"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-confession-thu-0900",
+          "kind": "confession",
+          "startsAt": "09:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1400",
+          "kind": "confession",
+          "startsAt": "14:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.877974,
+        "lng": -46.793377
+      }
+    },
+    {
+      "id": "santa-catarina-de-sena",
+      "name": "Comunidade Santa Catarina de Sena",
+      "address": [
+        "Rua Filarina Alves de Oliveira, 195",
+        "Pq. São Paulo · Embu-Guaçu · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "santa-catarina-de-sena-mass-2sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "santa-catarina-de-sena-mass-4sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 4,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.867507,
+        "lng": -46.790076
+      }
+    },
+    {
+      "id": "santa-rita-de-cassia",
+      "name": "Comunidade Santa Rita de Cássia",
+      "address": [
+        "Rua Mariana Gonçalves Luque, 165",
+        "Jd. Campestre · Embu-Guaçu · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "santa-rita-de-cassia-mass-2sun-1630",
+          "kind": "mass",
+          "startsAt": "16:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.880918,
+        "lng": -46.779301
+      }
+    },
+    {
+      "id": "santos-arcanjos",
+      "name": "Comunidade Santos Arcanjos",
+      "activities": [
+        {
+          "id": "santos-arcanjos-mass-3sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "sunday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sao-francisco-de-assis",
+      "name": "Comunidade São Francisco de Assis",
+      "address": [
+        "Avenida do Moinho, 396",
+        "Cipó do Meio · Embu-Guaçu · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-francisco-de-assis-mass-2sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.87522,
+        "lng": -46.779893
+      }
+    },
+    {
+      "id": "sao-joao-batista",
+      "name": "Comunidade São João Batista",
+      "address": [
+        "Estrada da Serraria, 700",
+        "Jd. Gramado · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-batista-mass-1sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.897602,
+        "lng": -46.78428
+      }
+    },
+    {
+      "id": "sao-judas-tadeu",
+      "name": "Comunidade São Judas Tadeu",
+      "address": [
+        "Estrada da Lagoa Grande, 2601",
+        "Lagoa Grande · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-judas-tadeu-mass-3sun-1630",
+          "kind": "mass",
+          "startsAt": "16:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.840611,
+        "lng": -46.785438
+      }
+    }
+  ]
+}

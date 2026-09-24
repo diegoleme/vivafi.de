@@ -1,0 +1,15 @@
+---
+import { CAMINHOS, type NomeIcone } from '../lib/icones';
+
+/**
+ * `path` inline, repetido a cada uso. Testei sprite com `<symbol>`/`<use>` e
+ * ficou **maior** (9214 contra 8994 bytes em gzip): a compressão já deduplica
+ * caminhos repetidos melhor do que as referências que o sprite acrescenta.
+ */
+interface Props { nome: NomeIcone; class?: string }
+const { nome, class: classe = 'size-4' } = Astro.props;
+---
+
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class={`inline-block shrink-0 ${classe}`}>
+  <path d={CAMINHOS[nome]} />
+</svg>

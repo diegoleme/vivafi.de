@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "slug": "prqsantaisabel",
+  "name": "Paróquia Santa Isabel",
+  "patrons": [
+    {
+      "name": "Santa Isabel",
+      "feast": {
+        "day": 4,
+        "month": 7
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Campo Limpo",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158410395",
+    "whatsapp": "+5511959720966",
+    "instagram": "prqsantaisabel",
+    "facebook": "https://www.facebook.com/prqsanaisabel"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Isabel",
+      "isMain": true,
+      "address": [
+        "Rua Prof. Orestes Rosólia, 100",
+        "Jd. Rosana · São Paulo/SP · 05795-300"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-mon-thu-fri-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "monday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-fri-0900",
+          "kind": "confession",
+          "startsAt": "09:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-fri-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "Quinta-feira das 09h às 18h30; Todo dia 04 do mês missa votiva a Santa Isabel, na matriz às 19h30."
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.647551,
+        "lng": -46.778235
+      }
+    },
+    {
+      "id": "nossa-senhora-da-assuncao",
+      "name": "Comunidade Nossa Senhora da Assunção",
+      "address": [
+        "Rua Golpazari, 25",
+        "Jd. Vale das Virtudes · São Paulo/SP · 05796-020"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-assuncao-mass-sun-1630",
+          "kind": "mass",
+          "startsAt": "16:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.649561,
+        "lng": -46.773869
+      }
+    },
+    {
+      "id": "nossa-senhora-dos-pobres",
+      "name": "Comunidade Nossa Senhora dos Pobres",
+      "address": [
+        "Rua Ajuruete, 47",
+        "Jd. Leônidas Moreira · São Paulo/SP · 05792-020"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-dos-pobres-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.642983,
+        "lng": -46.779047
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "vivafide",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.5.1",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "pnpm --filter @vivafide/site dev",
+    "build": "pnpm --filter @vivafide/site build",
+    "preview": "pnpm --filter @vivafide/site preview",
+    "test": "pnpm -r test",
+    "check": "pnpm -r check"
+  }
+}

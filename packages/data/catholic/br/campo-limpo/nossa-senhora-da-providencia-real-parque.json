@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "slug": "nossa-senhora-da-providencia-real-parque",
+  "name": "Paróquia Nossa Senhora da Providência",
+  "patrons": [
+    {
+      "name": "Nossa Senhora da Providência",
+      "feast": {
+        "day": 20,
+        "month": 11
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551137584908",
+    "whatsapp": "+551137584908",
+    "facebook": "https://www.facebook.com/nsprovidenciarealparque",
+    "youtube": "https://www.youtube.com/c/Par%C3%B3quiaNossaSenhoradaProvid%C3%AAnciaeSantaMarta"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora da Providência",
+      "isMain": true,
+      "address": [
+        "Rua Visconde de Nacar, 46",
+        "Real Parque · São Paulo/SP · 05685-010"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1830",
+          "kind": "mass",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-wed-thu-fri-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Segunda"
+          }
+        },
+        {
+          "id": "matriz-mass-desc-2",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "1º Sábado Imaculado Coração de Maria às 11h"
+          }
+        },
+        {
+          "id": "matriz-confession-thu-fri-1430",
+          "kind": "confession",
+          "startsAt": "14:30",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "5ª das 14h às 18h com benção solene"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.60869,
+        "lng": -46.705355
+      }
+    },
+    {
+      "id": "pio-xii",
+      "name": "Comunidade Pio XII",
+      "address": [
+        "Rua Colégio Pio XII, 233",
+        "Morumbi · São Paulo/SP · 05657-140"
+      ],
+      "activities": [
+        {
+          "id": "pio-xii-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.61973,
+        "lng": -46.71284
+      }
+    }
+  ]
+}

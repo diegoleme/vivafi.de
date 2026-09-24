@@ -1,0 +1,988 @@
+{
+  "schemaVersion": 1,
+  "slug": "catolicosls",
+  "name": "Paróquia Nossa Senhora Aparecida e São Lourenço",
+  "patrons": [
+    {
+      "name": "Nossa Senhora Aparecida",
+      "feast": {
+        "day": 12,
+        "month": 10
+      }
+    },
+    {
+      "name": "São Lourenço",
+      "feast": {
+        "day": 10,
+        "month": 8
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551146861235",
+    "whatsapp": "+5511951411235",
+    "instagram": "catolicosls",
+    "facebook": "https://www.facebook.com/equipedeteatrosls",
+    "youtube": "https://www.youtube.com/c/EquipedeTeatroSLS"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora Aparecida e São Lourenço",
+      "patrons": [
+        {
+          "name": "Nossa Senhora Aparecida",
+          "feast": {
+            "day": 12,
+            "month": 10
+          }
+        },
+        {
+          "name": "São Lourenço",
+          "feast": {
+            "day": 10,
+            "month": 8
+          }
+        }
+      ],
+      "isMain": true,
+      "address": [
+        "Rua Yoshinori Toyoda, 25",
+        "Centro · São Lourenço/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-thu-fri-0900",
+          "kind": "confession",
+          "startsAt": "09:00",
+          "endsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-thu-fri-1400",
+          "kind": "confession",
+          "startsAt": "14:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1830",
+          "kind": "adoration",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          },
+          "id": "matriz-mass-thu-1930"
+        }
+      ],
+      "location": {
+        "lat": -23.855325,
+        "lng": -46.944058
+      }
+    },
+    {
+      "id": "imaculado-coracao-de-maria",
+      "name": "Comunidade Imaculado Coração de Maria",
+      "patrons": [
+        {
+          "name": "Imaculado Coração de Maria",
+          "feast": {
+            "day": 28,
+            "month": 6
+          }
+        }
+      ],
+      "address": [
+        "BR 116, Km 304 - Sítio São José",
+        "Despézio · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "imaculado-coracao-de-maria-mass-1tue-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "tuesday"
+          }
+        },
+        {
+          "id": "imaculado-coracao-de-maria-mass-3tue-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "tuesday"
+          }
+        },
+        {
+          "id": "imaculado-coracao-de-maria-rosary-wed-1930",
+          "kind": "rosary",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          },
+          "title": "Terço das Mulheres"
+        },
+        {
+          "id": "imaculado-coracao-de-maria-rosary-thu-1930",
+          "kind": "rosary",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          },
+          "title": "Terço dos Homens"
+        },
+        {
+          "id": "imaculado-coracao-de-maria-rosary-thu-1800",
+          "kind": "rosary",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          },
+          "title": "Terço das Crianças"
+        },
+        {
+          "id": "imaculado-coracao-de-maria-adoration-lastthu-1930",
+          "kind": "adoration",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": "last",
+            "day": "thursday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jesus-misericordioso",
+      "name": "Comunidade Jesus Misericordioso",
+      "patrons": [
+        {
+          "name": "Jesus Misericordioso",
+          "feast": {
+            "day": 3,
+            "month": 4
+          }
+        }
+      ],
+      "address": [
+        "Estrada dos Carolinos, 2.500",
+        "Vila Rita Soares · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "jesus-misericordioso-mass-3wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "wednesday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.86021,
+        "lng": -46.960087
+      }
+    },
+    {
+      "id": "joao-paulo-ii",
+      "name": "Comunidade São João Paulo II",
+      "patrons": [
+        {
+          "name": "São João Paulo II",
+          "feast": {
+            "day": 22,
+            "month": 10
+          }
+        }
+      ],
+      "address": [
+        "Rua Jequitibá, 5.647",
+        "Itatuba · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "joao-paulo-ii-mass-4sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 4,
+            "day": "saturday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "patrons": [
+        {
+          "name": "Nossa Senhora Aparecida",
+          "feast": {
+            "day": 12,
+            "month": 10
+          }
+        }
+      ],
+      "address": [
+        "Rua Antônio Albuquerque, 44",
+        "Aldeinha · São Lourenço da Serra/SP · 06877-150"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-1sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "sunday"
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-mass-3sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "sunday"
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-mass-5sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 5,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.783987,
+        "lng": -46.911421
+      }
+    },
+    {
+      "id": "nossa-senhora-de-guadalupe",
+      "name": "Comunidade Nossa Senhora de Guadalupe",
+      "patrons": [
+        {
+          "name": "Nossa Senhora de Guadalupe",
+          "feast": {
+            "day": 12,
+            "month": 12
+          }
+        }
+      ],
+      "address": [
+        "Rua Jorge Israel da Cunha, 162",
+        "Jd. Serrano · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-guadalupe-mass-1sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.857732,
+        "lng": -46.92225
+      }
+    },
+    {
+      "id": "nossa-senhora-de-lourdes",
+      "name": "Comunidade Nossa Senhora de Lourdes",
+      "patrons": [
+        {
+          "name": "Nossa Senhora de Lourdes",
+          "feast": {
+            "day": 11,
+            "month": 2
+          }
+        }
+      ],
+      "address": [
+        "Rodovia Régis Bittencourt, 13 CS 2",
+        "Triângulo Azul · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-lourdes-mass-1fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          },
+          "title": "Em honra ao Sagrado Coração de Jesus"
+        },
+        {
+          "id": "nossa-senhora-de-lourdes-rosary-2sat-0500",
+          "kind": "rosary",
+          "startsAt": "05:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "saturday"
+          },
+          "title": "Rosário das Mil Ave-Marias"
+        }
+      ],
+      "location": {
+        "lat": -23.811067,
+        "lng": -46.925666
+      }
+    },
+    {
+      "id": "santa-cruz",
+      "name": "Comunidade Santa Cruz",
+      "patrons": [
+        {
+          "name": "Santa Cruz",
+          "feast": {
+            "day": 14,
+            "month": 9
+          }
+        }
+      ],
+      "address": [
+        "Rua Santa Cruz, 09",
+        "Paiol do Meio · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "santa-cruz-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.884483,
+        "lng": -46.976412
+      }
+    },
+    {
+      "id": "santa-tereza-de-calcuta",
+      "name": "Comunidade Santa Tereza de Calcutá",
+      "patrons": [
+        {
+          "name": "Santa Tereza de Calcutá",
+          "feast": {
+            "day": 5,
+            "month": 9
+          }
+        }
+      ],
+      "address": [
+        "Estrada Joaquim Pereira de Camargo, 726",
+        "Terezas · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "santa-tereza-de-calcuta-mass-1wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "wednesday"
+          }
+        },
+        {
+          "id": "santa-tereza-de-calcuta-rosary-3wed-1930",
+          "kind": "rosary",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "wednesday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.860862,
+        "lng": -46.953849
+      }
+    },
+    {
+      "id": "santa-terezinha",
+      "name": "Comunidade Santa Terezinha do Menino Jesus",
+      "patrons": [
+        {
+          "name": "Santa Terezinha do Menino Jesus",
+          "feast": {
+            "day": 1,
+            "month": 10
+          }
+        }
+      ],
+      "address": [
+        "Estrada Maria Soares Pereira, 4.717",
+        "Itatuba · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "santa-terezinha-mass-2sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "saturday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "santo-antonio",
+      "name": "Comunidade Santo Antônio",
+      "patrons": [
+        {
+          "name": "Santo Antônio",
+          "feast": {
+            "day": 13,
+            "month": 6
+          }
+        }
+      ],
+      "address": [
+        "Praça Santo Antônio, S/N",
+        "Centro · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "santo-antonio-mass-thu-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          },
+          "title": "Missa com adoração ao Santissimo"
+        },
+        {
+          "id": "santo-antonio-rosary-tue-1900",
+          "kind": "rosary",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          },
+          "title": "Terço das Mulheres"
+        }
+      ],
+      "location": {
+        "lat": -23.853287,
+        "lng": -46.943068
+      }
+    },
+    {
+      "id": "santo-expedito",
+      "name": "Comunidade Santo Expedito",
+      "patrons": [
+        {
+          "name": "Santo Expedito",
+          "feast": {
+            "day": 19,
+            "month": 4
+          }
+        }
+      ],
+      "address": [
+        "Estrada do Morro Grande, 921",
+        "Morro Grande · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "santo-expedito-mass-3sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "saturday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sao-benedito",
+      "name": "Comunidade São Benedito",
+      "patrons": [
+        {
+          "name": "São Benedito",
+          "feast": {
+            "day": 5,
+            "month": 10
+          }
+        }
+      ],
+      "address": [
+        "Estrada da Barrinha, 7941",
+        "Barrinha · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-benedito-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.861729,
+        "lng": -46.937617
+      }
+    },
+    {
+      "id": "sao-joao-batista",
+      "name": "Comunidade São João Batista",
+      "patrons": [
+        {
+          "name": "São João Batista",
+          "feast": {
+            "day": 24,
+            "month": 6
+          }
+        }
+      ],
+      "address": [
+        "Rua da Comunidade, 02",
+        "Despézio · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-batista-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.818076,
+        "lng": -46.929471
+      }
+    },
+    {
+      "id": "sao-jose-e-nossa-senhora-de-fatima",
+      "name": "Comunidade São José e Nossa Senhora de Fátima",
+      "patrons": [
+        {
+          "name": "São José",
+          "feast": {
+            "day": 19,
+            "month": 3
+          }
+        },
+        {
+          "name": "Nossa Senhora de Fátima",
+          "feast": {
+            "day": 13,
+            "month": 5
+          }
+        }
+      ],
+      "address": [
+        "Rua Antônio Cruânes Filho, 01",
+        "Floreal Park · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-e-nossa-senhora-de-fatima-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sao-judas-tadeu",
+      "name": "Comunidade São Judas Tadeu",
+      "patrons": [
+        {
+          "name": "São Judas Tadeu",
+          "feast": {
+            "day": 28,
+            "month": 10
+          }
+        }
+      ],
+      "address": [
+        "Rua José Delfino Pinto, 2.000",
+        "Fazenda Vitória · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-judas-tadeu-mass-d28-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "monthly-day",
+            "dayOfMonth": 28
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.832949,
+        "lng": -46.901599
+      }
+    },
+    {
+      "id": "sao-lourenco",
+      "name": "Comunidade São Lourenço",
+      "patrons": [
+        {
+          "name": "São Lourenço",
+          "feast": {
+            "day": 10,
+            "month": 8
+          }
+        }
+      ],
+      "address": [
+        "Rua Santo Antônio, 20",
+        "Centro · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-lourenco-mass-wed-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "sao-lourenco-mass-1fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          },
+          "title": "Em honra ao Sagrado Coração de Jesus"
+        },
+        {
+          "id": "sao-lourenco-mass-2fri-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "sao-lourenco-mass-3fri-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "sao-lourenco-mass-4fri-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 4,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "sao-lourenco-mass-5fri-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 5,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "sao-lourenco-rosary-tue-1900",
+          "kind": "rosary",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          },
+          "title": "Terço dos Homens"
+        }
+      ],
+      "location": {
+        "lat": -23.853311,
+        "lng": -46.945845
+      }
+    },
+    {
+      "id": "sao-paulo-apostolo",
+      "name": "Comunidade São Paulo Apóstolo",
+      "patrons": [
+        {
+          "name": "São Paulo Apóstolo",
+          "feast": {
+            "day": 25,
+            "month": 1
+          }
+        }
+      ],
+      "address": [
+        "Estrada dos Pratas, 1.560",
+        "Pratas · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-paulo-apostolo-mass-2tue-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "tuesday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.873289,
+        "lng": -46.944864
+      }
+    },
+    {
+      "id": "sao-pedro-apostolo",
+      "name": "Comunidade São Pedro Apóstolo",
+      "patrons": [
+        {
+          "name": "São Pedro Apóstolo",
+          "feast": {
+            "day": 29,
+            "month": 6
+          }
+        }
+      ],
+      "address": [
+        "Rua dos Godóis, 5.647",
+        "Portal · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-pedro-apostolo-mass-2sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.865873,
+        "lng": -46.941594
+      }
+    },
+    {
+      "id": "sao-sebastiao",
+      "name": "Comunidade São Sebastião",
+      "patrons": [
+        {
+          "name": "São Sebastião",
+          "feast": {
+            "day": 20,
+            "month": 1
+          }
+        }
+      ],
+      "address": [
+        "Estrada Francisco Carlos de Castro Neves, 01",
+        "Triângulo Azul · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-sebastiao-mass-1sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "sunday"
+          }
+        },
+        {
+          "id": "sao-sebastiao-mass-3sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.804484,
+        "lng": -46.934226
+      }
+    },
+    {
+      "id": "sao-vicente",
+      "name": "Comunidade São Vicente de Paulo",
+      "patrons": [
+        {
+          "name": "São Vicente de Paulo",
+          "feast": {
+            "day": 27,
+            "month": 9
+          }
+        }
+      ],
+      "address": [
+        "Rua Manoel Soares Oliveira, 251",
+        "Carolinos · São Lourenço da Serra/SP · 06890-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-vicente-mass-2wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "wednesday"
+          }
+        }
+      ]
+    }
+  ]
+}

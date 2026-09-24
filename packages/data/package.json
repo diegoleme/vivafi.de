@@ -1,0 +1,11 @@
+{
+  "name": "@vivafide/data",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Dados das paróquias, em catholic/<país ISO>/<diocese>/<slug>.json (D47). Editado à mão por humano e, depois, pela automação de WhatsApp (D2).",
+  "exports": {
+    "./package.json": "./package.json",
+    "./catholic/*": "./catholic/*"
+  }
+}

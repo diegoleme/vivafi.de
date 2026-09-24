@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "slug": "p.santissimatrindade",
+  "name": "Paróquia Santíssima Trindade",
+  "patrons": [
+    {
+      "name": "Santíssima Trindade"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Mirim-Guaçu",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:30",
+      "endsAt": "12:30"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551146691351",
+    "whatsapp": "+5511998045452",
+    "instagram": "p.santissimatrindade",
+    "facebook": "https://www.facebook.com/par.santissima.trindade",
+    "youtube": "https://www.youtube.com/@paroquiasantissimatrindade6611"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora da Conceição",
+      "isMain": true,
+      "address": [
+        "Rua Cesário Verde, 360",
+        "Jd. Jacira · Itapecerica da Serra/SP · 06864-340"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "2º e 4º Sábado do mês das 09h às 12h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.745068,
+        "lng": -46.795821
+      }
+    },
+    {
+      "id": "maria-imaculada",
+      "name": "Comunidade Maria Imaculada",
+      "address": [
+        "Rodovia José Simões Louro Jr., 3470",
+        "Itararé · Embu-Guaçu/SP · 06865-000"
+      ],
+      "activities": [
+        {
+          "id": "maria-imaculada-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.770448,
+        "lng": -46.794538
+      }
+    },
+    {
+      "id": "maria-mae-da-esperanca",
+      "name": "Comunidade Maria Mãe da Esperança",
+      "address": [
+        "Rua Presidente Getúlio Vargas, 5705",
+        "Jd. Analândia · Itapecerica da Serra/SP · 06864-550"
+      ],
+      "activities": [
+        {
+          "id": "maria-mae-da-esperanca-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.744926,
+        "lng": -46.806822
+      }
+    },
+    {
+      "id": "maria-mae-dos-pobres",
+      "name": "Comunidade Maria Mãe dos Pobres",
+      "address": [
+        "Rua Presidente Jânio Quadros, 38",
+        "Pq. São Francisco · Itapecerica da Serra/SP · 06864-610"
+      ],
+      "activities": [
+        {
+          "id": "maria-mae-dos-pobres-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "maria-mae-dos-pobres-mass-wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.743455,
+        "lng": -46.807905
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Hebert de Sousa, 150",
+        "Jd. do Éden · Itapecerica da Serra/SP · 06865-030"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sat-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.744142,
+        "lng": -46.791642
+      }
+    },
+    {
+      "id": "nossa-senhora-de-fatima-e-santo-antonio",
+      "name": "Comunidade Nossa Senhora de Fátima e Santo Antônio",
+      "address": [
+        "Rua São Daniel, 50",
+        "Jd. Progresso · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-fatima-e-santo-antonio-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.776716,
+        "lng": -46.804258
+      }
+    },
+    {
+      "id": "nossa-senhora-do-carmo",
+      "name": "Comunidade Nossa Senhora do Carmo",
+      "address": [
+        "Rua Origene Lessa, 01",
+        "Jd. do Carmo · Itapecerica da Serra/SP · 06864-220"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-do-carmo-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.749163,
+        "lng": -46.794291
+      }
+    },
+    {
+      "id": "nossa-senhora-dos-remedios",
+      "name": "Comunidade Nossa Senhora dos Remédios",
+      "address": [
+        "Rodovia José Simões Louro Jr., 212",
+        "Jd. Sônia Maria · Itapecerica da Serra/SP · 06568-800"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-dos-remedios-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.754987,
+        "lng": -46.789036
+      }
+    }
+  ]
+}

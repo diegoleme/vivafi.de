@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "slug": "santuariosantaterezinha",
+  "name": "Paróquia Santa Terezinha",
+  "patrons": [
+    {
+      "name": "Santa Terezinha",
+      "feast": {
+        "day": 1,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Taboão da Serra",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "contact": {
+    "phone": "+551134349000",
+    "whatsapp": "+5511947776209",
+    "instagram": "santuariosantaterezinha",
+    "facebook": "https://www.facebook.com/ss.terezinha.taboao"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "note": "Atendimento: Todos os dias das 8h às 20h",
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santuário Santa Terezinha",
+      "isMain": true,
+      "address": [
+        "Rua Thereza Maria Luizetto, 42",
+        "Centro · Taboão da Serra/SP · 06754-010"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-mon-tue-wed-thu-fri-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-mon-tue-wed-thu-fri-sat-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-mon-tue-wed-thu-fri-sat-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-tue-wed-thu-fri-sat-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-tue-wed-thu-fri-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-tue-wed-thu-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Todos os dias"
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "Todos os dias"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.607872,
+        "lng": -46.753328
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida-jd-taboao",
+      "name": "Comunidade Nossa Senhora Aparecida (Jd. Taboão)",
+      "address": [
+        "Av. Engenheiro Saraiva de Oliveira, 350",
+        "Jd. Taboão · Taboão da Serra/SP · 05741-200"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-jd-taboao-mass-sat-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.610608,
+        "lng": -46.749705
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida-solar",
+      "name": "Comunidade Nossa Senhora Aparecida (Solar)",
+      "address": [
+        "Rua Alfredo Mendes da Silva, 39",
+        "Cond. Solar dos Amigos · 05525-000 - São Paulo/SP"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-solar-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.605086,
+        "lng": -46.748351
+      }
+    },
+    {
+      "id": "nossa-senhora-de-guadalupe",
+      "name": "Comunidade Nossa Senhora de Guadalupe",
+      "address": [
+        "Rua Iracema de Jesus Marquesine, 578",
+        "Jd. Maria Rosa · Taboão da Serra/SP · 06763-340"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-guadalupe-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-de-guadalupe-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.61445,
+        "lng": -46.763112
+      }
+    },
+    {
+      "id": "sao-luiz-e-santa-zelia-martin",
+      "name": "Comunidade São Luiz e Santa Zélia Martin",
+      "address": [
+        "Av. Dr. José Maciel, 986",
+        "Jd. Maria Rosa · Taboão da Serra/SP · 06763-270"
+      ],
+      "activities": [
+        {
+          "id": "sao-luiz-e-santa-zelia-martin-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-luiz-e-santa-zelia-martin-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.614317,
+        "lng": -46.766044
+      }
+    }
+  ]
+}

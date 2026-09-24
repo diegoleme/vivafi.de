@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiaguadalupemorumbi",
+  "name": "Paróquia Nossa Senhora de Guadalupe",
+  "patrons": [
+    {
+      "name": "Nossa Senhora de Guadalupe",
+      "feast": {
+        "day": 12,
+        "month": 12
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "19:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551135028114",
+    "whatsapp": "+5511993866167",
+    "instagram": "paroquiaguadalupemorumbi",
+    "facebook": "https://www.facebook.com/paroquiaguadalupemorumbi",
+    "youtube": "https://www.youtube.com/c/CapelaGuadalupeMorum"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora de Guadalupe",
+      "isMain": true,
+      "address": [
+        "Rua Itapecoca, 110",
+        "Vila Andrade · São Paulo/SP · 05715-030"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0830",
+          "kind": "mass",
+          "startsAt": "08:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1230",
+          "kind": "mass",
+          "startsAt": "12:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-tue-wed-thu-fri-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-wed-thu-fri-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Após as Santas Missas"
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1700",
+          "kind": "adoration",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.630526,
+        "lng": -46.731605
+      }
+    }
+  ]
+}

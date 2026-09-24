@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "slug": "santo-antonio-jardim-lilah",
+  "name": "Paróquia Santo Antônio",
+  "patrons": [
+    {
+      "name": "Santo Antônio",
+      "feast": {
+        "day": 13,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São José - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158736182"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santo Antônio",
+      "isMain": true,
+      "address": [
+        "Rua Lapa dos Esteios, 140",
+        "Jd. Lilah · São Paulo/SP · 05885-320"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-tue-wed-thu-fri-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "1ª Sexta-feira do mês 19h30 (Matriz)"
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.67095,
+        "lng": -46.781797
+      }
+    },
+    {
+      "id": "imaculada-conceicao",
+      "name": "Comunidade Imaculada Conceição",
+      "address": [
+        "Rua Árvore da Vida, 10",
+        "Jd. São Bento Novo · São Paulo/SP · 05885-700"
+      ],
+      "activities": [
+        {
+          "id": "imaculada-conceicao-mass-sun-0830",
+          "kind": "mass",
+          "startsAt": "08:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "imaculada-conceicao-mass-wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.680229,
+        "lng": -46.788929
+      }
+    },
+    {
+      "id": "mae-admiravel",
+      "name": "Comunidade Mãe Admirável",
+      "address": [
+        "Travessa Carvalho do Mar, 233",
+        "Cohab Adventista II · São Paulo-SP · 05868-690"
+      ],
+      "activities": [
+        {
+          "id": "mae-admiravel-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "mae-admiravel-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.663801,
+        "lng": -46.777119
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida-e-sao-geraldo",
+      "name": "Comunidade Nossa Senhora Aparecida e São Geraldo",
+      "address": [
+        "Rua Serra das Vertentes, 14",
+        "Jd. Amália · São Paulo/SP · 05890-250"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-e-sao-geraldo-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-e-sao-geraldo-mass-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.664932,
+        "lng": -46.786052
+      }
+    },
+    {
+      "id": "santa-isabel-de-portugal-e-sao-benedito",
+      "name": "Comunidade Santa Isabel de Portugal e São Benedito",
+      "address": [
+        "Rua Antônio José Bentes, 01",
+        "Jd. Irene · São Paulo/SP · 05891-160"
+      ],
+      "activities": [
+        {
+          "id": "santa-isabel-de-portugal-e-sao-benedito-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santa-isabel-de-portugal-e-sao-benedito-mass-tue-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.66289,
+        "lng": -46.793447
+      }
+    },
+    {
+      "id": "santa-terezinha-do-menino-jesus",
+      "name": "Comunidade Santa Terezinha do Menino Jesus",
+      "address": [
+        "Av. Dom Rodrigo Sanches, 1531",
+        "Jd. Irapiranga · São Paulo/SP · 05892-360"
+      ],
+      "activities": [
+        {
+          "id": "santa-terezinha-do-menino-jesus-mass-sun-0830",
+          "kind": "mass",
+          "startsAt": "08:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santa-terezinha-do-menino-jesus-mass-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.65961,
+        "lng": -46.793169
+      }
+    }
+  ]
+}

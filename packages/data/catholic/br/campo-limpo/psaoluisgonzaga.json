@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "slug": "psaoluisgonzaga",
+  "name": "Paróquia São Luís Gonzaga",
+  "patrons": [
+    {
+      "name": "São Luís Gonzaga",
+      "feast": {
+        "day": 21,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158344179",
+    "whatsapp": "+5511930926088",
+    "instagram": "psaoluisgonzaga",
+    "facebook": "https://www.facebook.com/psaoluisgonzaga"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Luís Gonzaga",
+      "isMain": true,
+      "address": [
+        "Rua Paolo Porpora, 70",
+        "Pq. Novo Santo Amaro · São Paulo - SP - 05875-350"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "thursday"
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.694467,
+        "lng": -46.781746
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua da Paz, 10",
+        "Jd. Turquesa · São Paulo/SP · 04943-120"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.70257,
+        "lng": -46.790236
+      }
+    },
+    {
+      "id": "sagrado-coracao-de-jesus",
+      "name": "Comunidade Sagrado Coração de Jesus",
+      "address": [
+        "Rua Carvalheiras, 10",
+        "Jd. Turquesa · São Paulo/SP · 04943-020"
+      ],
+      "activities": [
+        {
+          "id": "sagrado-coracao-de-jesus-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sagrado-coracao-de-jesus-mass-1fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.702447,
+        "lng": -46.785438
+      }
+    },
+    {
+      "id": "santo-antonio",
+      "name": "Comunidade Santo Antônio",
+      "address": [
+        "Rua José Alves da Silva, 684",
+        "Pq. Novo Santo Amaro · São Paulo/SP · 05874-030"
+      ],
+      "activities": [
+        {
+          "id": "santo-antonio-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.697726,
+        "lng": -46.782687
+      }
+    },
+    {
+      "id": "santos-reis",
+      "name": "Comunidade Santos Reis",
+      "address": [
+        "Rua Ararinha Azul, 150",
+        "Jd. dos Reis · São Paulo/SP · 04943-200"
+      ],
+      "activities": [
+        {
+          "id": "santos-reis-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.708492,
+        "lng": -46.790213
+      }
+    },
+    {
+      "id": "sao-lourenco",
+      "name": "Comunidade São Lourenço",
+      "address": [
+        "Rua Manuel de Azevedo, 252",
+        "Jd. São Lourenço · São Paulo/SP · 04943-080"
+      ],
+      "activities": [
+        {
+          "id": "sao-lourenco-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.704534,
+        "lng": -46.788953
+      }
+    },
+    {
+      "id": "senhora-da-paz",
+      "name": "Comunidade Senhora da Paz",
+      "address": [
+        "Rua Vulnerária, 226",
+        "Pq. Novo Santo Amaro · São Paulo/SP · 05878-190"
+      ],
+      "activities": [
+        {
+          "id": "senhora-da-paz-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.692735,
+        "lng": -46.782164
+      }
+    }
+  ]
+}

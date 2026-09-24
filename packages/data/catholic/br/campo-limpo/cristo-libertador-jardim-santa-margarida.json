@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "slug": "cristo-libertador-jardim-santa-margarida",
+  "name": "Paróquia Cristo Libertador",
+  "patrons": [
+    {
+      "name": "Cristo Libertador",
+      "feast": {
+        "day": 25,
+        "month": 4
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "contact": {
+    "phone": "+551158335519",
+    "whatsapp": "+551158326695",
+    "facebook": "https://www.facebook.com/pclcristolibertador"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "note": "Atendimento: 2ª a sábado 08h às 12h",
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Marcos Evangelista",
+      "isMain": true,
+      "address": [
+        "Rua do Tom Maior, 35",
+        "Jd. Santa Margarida · São Paulo/SP · 04930-230"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.683987,
+        "lng": -46.754907
+      }
+    },
+    {
+      "id": "santa-tereza",
+      "name": "Comunidade Santa Tereza",
+      "address": [
+        "Rua Iglesias, 06",
+        "Jd. Santa Tereza · São Paulo/SP · 04916-020"
+      ],
+      "activities": [
+        {
+          "id": "santa-tereza-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.685087,
+        "lng": -46.749963
+      }
+    }
+  ]
+}

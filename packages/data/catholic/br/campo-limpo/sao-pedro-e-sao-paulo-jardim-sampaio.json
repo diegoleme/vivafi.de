@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "slug": "sao-pedro-e-sao-paulo-jardim-sampaio",
+  "name": "Paróquia São Pedro e São Paulo",
+  "patrons": [
+    {
+      "name": "São Pedro"
+    },
+    {
+      "name": "São Paulo"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+5511911548831"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Pedro",
+      "isMain": true,
+      "address": [
+        "Rua João Antônio da Silva Júnior, 241",
+        "Jd. Sampaio · Itapecerica da Serra/SP · 06851-080"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.719097,
+        "lng": -46.865455
+      }
+    },
+    {
+      "id": "nossa-senhora-de-fatima",
+      "name": "Comunidade Nossa Senhora de Fátima",
+      "address": [
+        "Rua Santa Amélia, 52",
+        "Santa Amélia · Itapecerica da Serra/SP · 06852-730"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-fatima-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.704303,
+        "lng": -46.870735
+      }
+    },
+    {
+      "id": "sagrada-familia",
+      "name": "Comunidade Sagrada Família",
+      "address": [
+        "Rua Hiraki Kurachi, 57",
+        "Potuverá · Itapecerica da Serra · 06852-850"
+      ],
+      "activities": [
+        {
+          "id": "sagrada-familia-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Missas quinzenais aos domingos, às 17 horas"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.708091,
+        "lng": -46.869954
+      }
+    }
+  ]
+}

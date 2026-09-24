@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "slug": "juventude_sjt",
+  "name": "Paróquia São Judas Tadeu e Santa Clara",
+  "patrons": [
+    {
+      "name": "São Judas Tadeu"
+    },
+    {
+      "name": "Santa Clara"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Embu das Artes",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551147780691",
+    "whatsapp": "+551147780691",
+    "instagram": "juventude_sjt",
+    "facebook": "https://www.facebook.com/paroquiasaojudastadeuesantaclara"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Judas Tadeu",
+      "isMain": true,
+      "address": [
+        "Rua dos Pinheiros, 344",
+        "Jd. Pinheirinho · Embu/SP · 06835-240"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-wed-thu-fri-sat-0900",
+          "kind": "confession",
+          "startsAt": "09:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-fri-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1900",
+          "kind": "adoration",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.679479,
+        "lng": -46.854435
+      }
+    },
+    {
+      "id": "santa-clara",
+      "name": "Comunidade Santa Clara",
+      "address": [
+        "Rua Tabarana, 44",
+        "Jd. Santa clara · Embu das Artes/SP · 06843-090"
+      ],
+      "activities": [
+        {
+          "id": "santa-clara-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santa-clara-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.681646,
+        "lng": -46.863412
+      }
+    },
+    {
+      "id": "sao-francisco-de-assis",
+      "name": "Comunidade São Francisco de Assis",
+      "address": [
+        "Rua Mirassol, 35",
+        "Jd. Pinheiros · Embu das Artes/SP · 06835-030"
+      ],
+      "activities": [
+        {
+          "id": "sao-francisco-de-assis-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.670401,
+        "lng": -46.855006
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "slug": "pnscaparecida_lidia",
+  "name": "Paróquia Nossa Senhora da Conceição Aparecida",
+  "patrons": [
+    {
+      "name": "Nossa Senhora da Conceição Aparecida",
+      "feast": {
+        "day": 12,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São Luiz - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551135698594",
+    "instagram": "pnscaparecida_lidia",
+    "facebook": "https://www.facebook.com/pnscaparecidalidia"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora da Conceição Aparecida",
+      "isMain": true,
+      "address": [
+        "Rua João Gois, 185",
+        "Jd. Lídia · São Paulo/SP · 05862-200"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1600",
+          "kind": "mass",
+          "startsAt": "16:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-sat-0900",
+          "kind": "confession",
+          "startsAt": "09:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.668422,
+        "lng": -46.765943
+      }
+    },
+    {
+      "id": "sagrado-coracao-de-jesus",
+      "name": "Comunidade Sagrado Coração de Jesus",
+      "address": [
+        "Rua Antônio de Jesus, 02",
+        "Jd. Sandra · São Paulo/SP · 05860-010"
+      ],
+      "activities": [
+        {
+          "id": "sagrado-coracao-de-jesus-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sagrado-coracao-de-jesus-mass-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.665998,
+        "lng": -46.763337
+      }
+    },
+    {
+      "id": "sao-pedro",
+      "name": "Comunidade São Pedro",
+      "address": [
+        "Rua Francisco de Abreu, 130",
+        "Jd. Imbé · São Paulo/SP · 05863-100"
+      ],
+      "activities": [
+        {
+          "id": "sao-pedro-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-pedro-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "sao-pedro-mass-sat-1830",
+          "kind": "mass",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.677653,
+        "lng": -46.767696
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+---
+/** Relógio: o produto é sobre *quando*, e a face de relógio lê a 16px. */
+interface Props { class?: string }
+const { class: classe = 'size-4' } = Astro.props;
+---
+
+<svg viewBox="0 0 32 32" aria-hidden="true" class={`inline-block shrink-0 ${classe}`}>
+  <circle cx="16" cy="16" r="12" fill="none" stroke="currentColor" stroke-width="3" />
+  <path d="M16 8.5V16.5l5.5 3.4" fill="none" stroke="currentColor" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round" />
+</svg>

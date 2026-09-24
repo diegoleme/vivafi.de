@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "slug": "santuarionsp",
+  "name": "Paróquia Nossa Senhora dos Prazeres e Divina Misericórdia",
+  "patrons": [
+    {
+      "name": "Nossa Senhora dos Prazeres"
+    },
+    {
+      "name": "Divina Misericórdia"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "11:30"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "16:30"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "13:00"
+    }
+  ],
+  "contact": {
+    "phone": "+5511466636192",
+    "whatsapp": "+551146663619",
+    "instagram": "santuarionsp",
+    "facebook": "https://www.facebook.com/nsprazeres",
+    "youtube": "https://www.youtube.com/user/Programaecc"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santuário Diocesano Nossa Senhora dos Prazeres e da Divina Misericórdia",
+      "isMain": true,
+      "address": [
+        "Largo da Matriz de Nossa Senhora dos Prazeres, S/N",
+        "Centro · Itapecerica/SP · 06850-730"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-tue-wed-thu-fri-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-tue-wed-thu-fri-sat-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-tue-wed-thu-fri-1830",
+          "kind": "mass",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Nas segundas às 9h Missa por cura e libertação"
+          }
+        },
+        {
+          "id": "matriz-confession-tue-sat-0900",
+          "kind": "confession",
+          "startsAt": "09:00",
+          "endsAt": "11:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-1430",
+          "kind": "confession",
+          "startsAt": "14:30",
+          "endsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "3ª das 09h às 11h30 e 13h às 18h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.717563,
+        "lng": -46.849567
+      }
+    },
+    {
+      "id": "beatissima-virgem-maria",
+      "name": "Comunidade Beatíssima Virgem Maria",
+      "address": [
+        "Rua América, 155",
+        "Jd. Imperatriz · Itapecerica da Serra/SP · 06859-420"
+      ],
+      "activities": [
+        {
+          "id": "beatissima-virgem-maria-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.708582,
+        "lng": -46.835074
+      }
+    },
+    {
+      "id": "menino-jesus",
+      "name": "Comunidade Menino Jesus",
+      "address": [
+        "Av. Constantinopla, 856",
+        "Jd. São Marcos · Itapecerica da Serra/SP · 06871-300"
+      ],
+      "activities": [
+        {
+          "id": "menino-jesus-mass-1sun-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "sunday"
+          }
+        },
+        {
+          "id": "menino-jesus-mass-3sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.732842,
+        "lng": -46.859632
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rodovia Regis Bittencourt - Km 293",
+        "Potuverá · Itapecerica da Serra/SP · 06882-700"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-2sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "sunday"
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-mass-3sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.747652,
+        "lng": -46.900397
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida-2",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Catende, 82",
+        "Jd. Nissalves · Itapecerica da Serra/SP · 06851-240"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-2-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "2º, 4º e 5º Sábado às 17h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.747652,
+        "lng": -46.900397
+      }
+    },
+    {
+      "id": "nossa-senhora-da-penha",
+      "name": "Comunidade Nossa Senhora da Penha",
+      "address": [
+        "Estrada do Mato Adentro, 49",
+        "Samambaia · Cotia/SP · 06887-400"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-penha-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.748678,
+        "lng": -46.90115
+      }
+    },
+    {
+      "id": "santa-luzia",
+      "name": "Comunidade Santa Luzia",
+      "address": [
+        "Rua Diego Teodoro, S/N",
+        "Lagoa · Itapecerica da Serra/SP · 06858-210"
+      ],
+      "activities": [
+        {
+          "id": "santa-luzia-mass-1sat-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "santa-luzia-mass-3sat-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.701429,
+        "lng": -46.822896
+      }
+    },
+    {
+      "id": "santa-tereza-de-calcuta",
+      "name": "Comunidade Santa Tereza de Calcutá",
+      "address": [
+        "Estrada Novo Alvorecer, S/N",
+        "Alto do Potuverá · São Paulo/SP · 06886-510"
+      ],
+      "activities": [
+        {
+          "id": "santa-tereza-de-calcuta-mass-3sun-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.721008,
+        "lng": -46.899032
+      }
+    },
+    {
+      "id": "sao-joao-batista",
+      "name": "Comunidade São João Batista",
+      "address": [
+        "Rua Maria de Borba Oliveira - Km 290",
+        "Potuverá - Bar do Vovô · Itapecerica da Serra/SP · 06850-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-batista-mass-4sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 4,
+            "day": "saturday"
+          }
+        }
+      ]
+    }
+  ]
+}

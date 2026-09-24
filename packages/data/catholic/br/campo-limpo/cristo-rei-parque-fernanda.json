@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "slug": "cristo-rei-parque-fernanda",
+  "name": "Paróquia Cristo Rei",
+  "patrons": [
+    {
+      "name": "Cristo Rei"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São José - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "17:30"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:30",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158211052",
+    "whatsapp": "+551158211052",
+    "facebook": "https://www.facebook.com/comunicacaocristorei"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Cristo Rei",
+      "isMain": true,
+      "address": [
+        "Rua Capitão Cerqueira Leite, 904",
+        "Pq. Fernanda · São Paulo/SP · 05888-020"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-tue-wed-fri-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "tuesday",
+              "wednesday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-thu-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.67279,
+        "lng": -46.793663
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Serafim Ponte Grande, 157",
+        "Jd. Amália · São Paulo/SP · 05890-210"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-0830",
+          "kind": "mass",
+          "startsAt": "08:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-mass-1fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.667851,
+        "lng": -46.790064
+      }
+    },
+    {
+      "id": "nossa-senhora-das-vitorias",
+      "name": "Comunidade Nossa Senhora das Vitórias",
+      "address": [
+        "Rua Tajal, 1010",
+        "Conj. Habitacional Jd. São Bento · São Paulo - SP"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-das-vitorias-mass-2sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.67822,
+        "lng": -46.79311
+      }
+    },
+    {
+      "id": "sao-judas",
+      "name": "Comunidade São Judas",
+      "address": [
+        "Rua Raul de Azevedo, 06",
+        "Jd. Amália · São Paulo/SP · 05890-150"
+      ],
+      "activities": [
+        {
+          "id": "sao-judas-mass-sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.666788,
+        "lng": -46.791699
+      }
+    }
+  ]
+}

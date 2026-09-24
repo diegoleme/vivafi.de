@@ -1,0 +1,177 @@
+---
+/**
+ * Navegação de one-page: uma tira horizontal que gruda no topo.
+ *
+ * Rola lateralmente, então 14 seções custam a mesma altura que 3 — e continuam
+ * **visíveis**, não escondidas atrás de um toque. Foi por isso que hambúrguer e
+ * `<details>` foram descartados: os dois escondiam uma linha de texto para não
+ * economizar espaço nenhum.
+ *
+ * Sem JavaScript continua funcionando como âncoras; o script só acrescenta o
+ * destaque da seção atual.
+ */
+interface Props {
+  secoes: { href: string; titulo: string }[];
+}
+const { secoes } = Astro.props;
+---
+
+{secoes.length > 1 && (
+  <div class="tira-envelope">
+    <nav data-tira aria-label="Seções desta página" class="tira">
+      <div class="mx-auto flex w-max gap-x-2 px-4 sm:w-full sm:max-w-2xl sm:justify-center sm:px-6">
+        {secoes.map((s, i) => (
+          <>
+            {/* O divisor é irmão dos itens, não `::before` de um deles: dentro
+                do item ele entraria na caixa que recebe a sublinha do ativo, e
+                a marca passaria por baixo da bolinha. `aria-hidden` porque é
+                pontuação visual — a lista de links já se explica sozinha. */}
+            {i > 0 && <span aria-hidden="true" class="divisor-tira">·</span>}
+            <a href={s.href} class="item-tira">{s.titulo}</a>
+          </>
+        ))}
+      </div>
+    </nav>
+  </div>
+)}
+
+<script is:inline>
+  /**
+   * Destaca a seção visível e mantém o item correspondente à vista na tira.
+   *
+   * Cálculo direto em vez de `IntersectionObserver` com `rootMargin`: a seção
+   * ativa é a **última cujo topo já passou por baixo do cabeçalho grudado**.
+   * É determinístico, acerta o estado inicial, e não depende de calibrar uma
+   * faixa invisível que muda com a altura da tela.
+   */
+  /**
+   * Roda só com o DOM pronto. O script mora no meio do `<body>`, logo depois da
+   * tira: no instante em que é lido, **nenhuma seção existe ainda**. Chamando
+   * na hora, `document.querySelector('#tipo-mass')` devolve `null`, a lista de
+   * alvos sai vazia e a função inteira morria no `return` — véus, altura medida
+   * e destaque, tudo junto.
+   */
+  (function () {
+    function iniciar() {
+    var tira = document.querySelector('[data-tira]');
+    if (!tira) return;
+
+    var links = Array.prototype.slice.call(tira.querySelectorAll('a'));
+    var alvos = links
+      .map(function (a) {
+        return { link: a, el: document.querySelector(a.getAttribute('href')) };
+      })
+      .filter(function (p) { return p.el; });
+
+    var atual = null;
+
+    /** Só conta quem de fato fica grudado: no celular o select vai pro rodapé. */
+    function alturaBarra() {
+      var barra = document.querySelector('[data-barra]');
+      return barra && getComputedStyle(barra).position === 'sticky'
+        ? Math.ceil(barra.getBoundingClientRect().height)
+        : 0;
+    }
+
+    function alturaFixa() {
+      var r = tira.getBoundingClientRect();
+      return r.top + r.height + alturaBarra();
+    }
+
+    /**
+     * Mesma folga do `scroll-margin-top` das âncoras (0.75rem), mais 2px de
+     * sobra para as alturas fracionárias.
+     *
+     * Os dois números precisam bater: clicar num item para a seção exatamente
+     * em `--altura-fixa + 0.75rem`, e se o limite for menor que isso o item
+     * clicado não acende — só depois de rolar mais alguns pixels. Era o que
+     * acontecia com uma folga de 8px contra os 12px da âncora.
+     */
+    var FOLGA = 12 + 2;
+
+    function atualizar() {
+      if (alvos.length === 0) return;
+      var limite = alturaFixa() + FOLGA;
+      var escolhido = alvos[0];
+      for (var i = 0; i < alvos.length; i++) {
+        if (alvos[i].el.getBoundingClientRect().top <= limite) escolhido = alvos[i];
+      }
+      // No fim da página, a última seção é a ativa mesmo sem ter cruzado o limite.
+      if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 2) {
+        escolhido = alvos[alvos.length - 1];
+      }
+      if (escolhido.link === atual) return;
+      atual = escolhido.link;
+
+      links.forEach(function (a) {
+        var ativo = a === escolhido.link;
+        a.toggleAttribute('data-ativo', ativo);
+        if (ativo) a.setAttribute('aria-current', 'true');
+        else a.removeAttribute('aria-current');
+      });
+
+      // Mantém o item ativo visível quando a tira rola lateralmente (celular).
+      if (tira.scrollWidth > tira.clientWidth + 1) {
+        var alvo = escolhido.link.offsetLeft - tira.clientWidth / 2 + escolhido.link.offsetWidth / 2;
+        tira.scrollTo({ left: Math.max(0, alvo), behavior: 'smooth' });
+        setTimeout(atualizarVeus, 400);
+      }
+    }
+
+    var agendado = false;
+    function agendar() {
+      if (agendado) return;
+      agendado = true;
+      requestAnimationFrame(function () {
+        agendado = false;
+        atualizar();
+      });
+    }
+
+    /**
+     * A altura da tira é medida, não chutada: o select gruda em
+     * `--altura-tira`, e um chute menor faria ele cobrir a linha da tira.
+     *
+     * Arredonda para cima: a altura real é fracionária (45,375px) e
+     * `offsetHeight` trunca, o que deixava o select meio pixel por cima.
+     */
+    function medirAltura() {
+      var envelope = tira.parentElement;
+      if (!envelope) return;
+      var h = Math.ceil(envelope.getBoundingClientRect().height);
+      var raiz = document.documentElement.style;
+      raiz.setProperty('--altura-tira', h + 'px');
+      // `--altura-fixa` inclui o select grudado; é o que a âncora precisa
+      // descontar para o título não parar embaixo dele.
+      raiz.setProperty('--altura-fixa', h + alturaBarra() + 'px');
+    }
+
+    /** Véu só do lado em que ainda há conteúdo fora da vista. */
+    function atualizarVeus() {
+      var envelope = tira.parentElement;
+      if (!envelope) return;
+      var sobra = tira.scrollWidth - tira.clientWidth;
+      envelope.toggleAttribute('data-rola-esq', tira.scrollLeft > 1);
+      envelope.toggleAttribute('data-rola-dir', sobra > 1 && tira.scrollLeft < sobra - 1);
+    }
+
+    tira.addEventListener('scroll', atualizarVeus, { passive: true });
+    addEventListener('scroll', agendar, { passive: true });
+    addEventListener('resize', function () { medirAltura(); atualizarVeus(); agendar(); });
+
+    medirAltura();
+    atualizarVeus();
+    atualizar();
+
+    // A largura dos itens muda quando a fonte real substitui a de sistema, e
+    // com ela a conta da sobra: sem remedir, o véu ficaria decidido pela
+    // medida errada.
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(function () { medirAltura(); atualizarVeus(); });
+    }
+    }
+
+    if (document.readyState === 'loading') addEventListener('DOMContentLoaded', iniciar);
+    else iniciar();
+  })();
+</script>

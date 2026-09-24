@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquia.doparaiso",
+  "name": "Paróquia Nossa Senhora do Paraíso",
+  "patrons": [
+    {
+      "name": "Nossa Senhora do Paraíso",
+      "feast": {
+        "day": 6,
+        "month": 12
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551135015738",
+    "whatsapp": "+551135015738",
+    "instagram": "paroquia.doparaiso",
+    "youtube": "https://www.youtube.com/channel/UCxli4P49SUpAsgLfqOBV2tA"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora Aparecida",
+      "isMain": true,
+      "address": [
+        "Rua Itapanhaú, 164",
+        "Paraisópolis · São Paulo/SP · 05665-060"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-1830",
+          "kind": "mass",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1830",
+          "kind": "confession",
+          "startsAt": "18:30",
+          "endsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1830",
+          "kind": "adoration",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.614814,
+        "lng": -46.720338
+      }
+    },
+    {
+      "id": "santa-luzia",
+      "name": "Comunidade Santa Luzia",
+      "address": [
+        "Rua Manoel Antônio Pinto, 818",
+        "Vila Andrade · São Paulo/SP · 05663-020"
+      ],
+      "activities": [
+        {
+          "id": "santa-luzia-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.613411,
+        "lng": -46.72739
+      }
+    },
+    {
+      "id": "santo-expedito",
+      "name": "Comunidade Santo Expedito",
+      "address": [
+        "Rua Ernest Renan, 19",
+        "Paraisópolis · São Paulo/SP · 05659-020"
+      ],
+      "activities": [
+        {
+          "id": "santo-expedito-mass-2sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.611028,
+        "lng": -46.723755
+      }
+    },
+    {
+      "id": "sao-sebastiao",
+      "name": "Comunidade São Sebastião",
+      "address": [
+        "Rua Ernest Renan, 1029",
+        "Parasópolis · São Paulo/SP · 05656-020"
+      ],
+      "activities": [
+        {
+          "id": "sao-sebastiao-mass-4sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 4,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.614192,
+        "lng": -46.724063
+      }
+    }
+  ]
+}

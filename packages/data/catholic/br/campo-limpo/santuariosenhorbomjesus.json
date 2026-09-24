@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "slug": "santuariosenhorbomjesus",
+  "name": "Paróquia Senhor Bom Jesus de Piraporinha",
+  "patrons": [
+    {
+      "name": "Senhor Bom Jesus de Piraporinha",
+      "feast": {
+        "day": 6,
+        "month": 8
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "19:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551155146511",
+    "whatsapp": "+551155146511",
+    "instagram": "santuariosenhorbomjesus",
+    "facebook": "https://www.facebook.com/santuariosenhorbomjesusdepiraporinha",
+    "youtube": "https://www.youtube.com/channel/UCyownUeFB9b6q83B7QE7tFg"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santuário Bom Jesus de Piraporinha",
+      "isMain": true,
+      "address": [
+        "Lg. Bom Jesus de Piraporinha, S/N",
+        "Chácara Santana · São Paulo/SP · 05831-055"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-mon-tue-wed-thu-fri-sat-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-tue-wed-thu-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-thu-sat-0900",
+          "kind": "confession",
+          "startsAt": "09:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-thu-sat-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-0800",
+          "kind": "adoration",
+          "startsAt": "08:00",
+          "endsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.672382,
+        "lng": -46.743921
+      }
+    },
+    {
+      "id": "santa-ana",
+      "name": "Comunidade Santa Ana",
+      "address": [
+        "Rua Arquiteto José Carlos de Lima, 04",
+        "Chácara Santana · São Paulo/SP · 05831-025"
+      ],
+      "activities": [
+        {
+          "id": "santa-ana-mass-sun-0830",
+          "kind": "mass",
+          "startsAt": "08:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.671911,
+        "lng": -46.74702
+      }
+    }
+  ]
+}

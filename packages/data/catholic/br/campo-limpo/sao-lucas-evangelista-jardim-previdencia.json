@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "slug": "sao-lucas-evangelista-jardim-previdencia",
+  "name": "Paróquia São Lucas Evangelista",
+  "patrons": [
+    {
+      "name": "São Lucas Evangelista",
+      "feast": {
+        "day": 18,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:30",
+      "endsAt": "13:30"
+    }
+  ],
+  "contact": {
+    "phone": "+551137215306"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Lucas Evangelista",
+      "isMain": true,
+      "address": [
+        "Rua Major Almeida Queiróz, 04",
+        "Jd. Previdência · São Paulo · 05531-020"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Antes e depois das Santas Missas"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.579171,
+        "lng": -46.723855
+      }
+    }
+  ]
+}

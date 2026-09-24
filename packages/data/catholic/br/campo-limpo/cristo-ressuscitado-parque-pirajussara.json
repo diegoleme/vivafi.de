@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "slug": "cristo-ressuscitado-parque-pirajussara",
+  "name": "Paróquia Cristo Ressuscitado",
+  "patrons": [
+    {
+      "name": "Cristo Ressuscitado"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Embu das Artes",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551141491059",
+    "whatsapp": "+5511916691059",
+    "facebook": "https://www.facebook.com/paroquiacristoressuscitado.oficial",
+    "youtube": "https://www.youtube.com/channel/UC7lxMpBElClZzjBsPorlt_Q"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Mateus",
+      "isMain": true,
+      "address": [
+        "Rua Araribóia, 201",
+        "Pq. Pirajussara · Embu/SP · 06815-270"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1900",
+          "kind": "confession",
+          "startsAt": "19:00",
+          "endsAt": "21:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-wed-2000",
+          "kind": "adoration",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.652921,
+        "lng": -46.814594
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Francisca Rodrigues Adriano, 500",
+        "Vila Isis Cristina · Embu das Artes/SP · 06816-110"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.652122,
+        "lng": -46.821036
+      }
+    },
+    {
+      "id": "santa-luiza-de-marillac",
+      "name": "Comunidade Santa Luiza de Marillac",
+      "address": [
+        "Rua Aramina, 02",
+        "Pq. Luiza · Embu das Artes/SP · 06816-180"
+      ],
+      "activities": [
+        {
+          "id": "santa-luiza-de-marillac-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.647277,
+        "lng": -46.82037
+      }
+    },
+    {
+      "id": "sao-miguel",
+      "name": "Comunidade São Miguel",
+      "address": [
+        "Rua Ator, 82",
+        "Vila Isis Cristina · Embu das Artes/SP · 06815-460"
+      ],
+      "activities": [
+        {
+          "id": "sao-miguel-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "3º Sábado de cada mês às 18 horas"
+          }
+        }
+      ]
+    }
+  ]
+}

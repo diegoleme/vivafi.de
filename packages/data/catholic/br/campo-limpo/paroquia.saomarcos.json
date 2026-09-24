@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquia.saomarcos",
+  "name": "Paróquia São Marcos",
+  "patrons": [
+    {
+      "name": "São Marcos",
+      "feast": {
+        "day": 25,
+        "month": 4
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Embu das Artes",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "11:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551141497095",
+    "whatsapp": "+5511911285213",
+    "instagram": "paroquia.saomarcos",
+    "facebook": "https://www.facebook.com/parsaomarcos"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Marcos",
+      "isMain": true,
+      "address": [
+        "Av. Augusto de A. Batista, 411",
+        "Jd. São Marcos · Embu/SP · 06807-310"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-fri-sat-0800",
+          "kind": "confession",
+          "startsAt": "08:00",
+          "endsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-fri-sat-1300",
+          "kind": "confession",
+          "startsAt": "13:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-1fri-1900",
+          "kind": "adoration",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.659866,
+        "lng": -46.81533
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Santo Antônio, 480",
+        "Chácara São Marcos · Embu das Artes/SP · 06814-420"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.663635,
+        "lng": -46.810737
+      }
+    },
+    {
+      "id": "santa-luzia",
+      "name": "Comunidade Santa Luzia",
+      "address": [
+        "Rua Eridano, 35",
+        "Jd. do Colégio · Embu das Artes/SP · 06815-390"
+      ],
+      "activities": [
+        {
+          "id": "santa-luzia-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.655592,
+        "lng": -46.819438
+      }
+    },
+    {
+      "id": "santa-rita-de-cassia",
+      "name": "Comunidade Santa Rita de Cássia",
+      "address": [
+        "Rua Bolívia, 61",
+        "Jd. dos Moraes · Embu das Artes/SP · 06814-210"
+      ],
+      "activities": [
+        {
+          "id": "santa-rita-de-cassia-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.659798,
+        "lng": -46.820235
+      }
+    }
+  ]
+}

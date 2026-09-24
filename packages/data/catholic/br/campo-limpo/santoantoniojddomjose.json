@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "slug": "santoantoniojddomjose",
+  "name": "Paróquia Santo Antônio de Pádua",
+  "patrons": [
+    {
+      "name": "Santo Antônio de Pádua",
+      "feast": {
+        "day": 13,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São José - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158267450",
+    "whatsapp": "+551158267450",
+    "instagram": "santoantoniojddomjose",
+    "facebook": "https://www.facebook.com/paroquiasantoantoniodepaduajddomjose"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santo Antônio de Pádua",
+      "isMain": true,
+      "address": [
+        "Rua Açafrão da Terra, 12",
+        "Jd. Dom José · São Paulo/SP · 05887-180"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-wed-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.67997,
+        "lng": -46.798057
+      }
+    },
+    {
+      "id": "nossa-senhora-da-esperanca",
+      "name": "Comunidade Nossa Senhora da Esperança",
+      "address": [
+        "Rua Acomayo, 36",
+        "Vila Clélia · São Paulo/SP · 05886-010"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-esperanca-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-da-esperanca-mass-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.683059,
+        "lng": -46.794814
+      }
+    }
+  ]
+}

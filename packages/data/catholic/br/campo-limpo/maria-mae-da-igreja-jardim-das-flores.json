@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "slug": "maria-mae-da-igreja-jardim-das-flores",
+  "name": "Paróquia Maria Mãe da Igreja",
+  "patrons": [
+    {
+      "name": "Maria Mãe da Igreja",
+      "feast": {
+        "day": 21,
+        "month": 5
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "07:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551155143229",
+    "whatsapp": "+551155143229"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Sebastião",
+      "isMain": true,
+      "address": [
+        "Rua João Alves de Torres, 09",
+        "Jd. das Flores · São Paulo/SP · 04904-120"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-wed-fri-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "wednesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Antes das missas"
+          }
+        },
+        {
+          "id": "matriz-adoration-fri-0900",
+          "kind": "adoration",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.673346,
+        "lng": -46.739618
+      }
+    },
+    {
+      "id": "nossa-senhora-da-misericordia",
+      "name": "Comunidade Nossa Senhora da Misericórdia",
+      "address": [
+        "Rua Mateus Martins do Prado, 19",
+        "Pq. Alves · São Paulo/SP · 04902-080"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-misericordia-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-da-misericordia-mass-thu-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.668495,
+        "lng": -46.730933
+      }
+    },
+    {
+      "id": "nossa-senhora-de-fatima",
+      "name": "Comunidade Nossa Senhora de Fátima",
+      "address": [
+        "Rua João Scalão, 42",
+        "Jd. Tupã · São Paulo/SP · 04904-050"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-fatima-mass-tue-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.671858,
+        "lng": -46.735283
+      }
+    }
+  ]
+}

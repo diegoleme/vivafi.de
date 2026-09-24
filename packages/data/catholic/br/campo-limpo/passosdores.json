@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "slug": "passosdores",
+  "name": "Paróquia Senhor dos Passos e Nossa Senhora das Dores",
+  "patrons": [
+    {
+      "name": "Senhor dos Passos"
+    },
+    {
+      "name": "Nossa Senhora das Dores"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Campo Limpo",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "10:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158245658",
+    "whatsapp": "+551158245658",
+    "instagram": "passosdores",
+    "facebook": "https://www.facebook.com/PassosDores",
+    "youtube": "https://www.youtube.com/c/Par%C3%B3quiaSrdosPassos"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Senhor dos Passos",
+      "isMain": true,
+      "address": [
+        "Rua José Máximo P. de Lima, 410",
+        "Jd. Ipê · São Paulo/SP · 05797-340"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Quinta-feira às 14h30 (agendado na secretaria)"
+          }
+        },
+        {
+          "id": "matriz-adoration-tue-1800",
+          "kind": "adoration",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.652765,
+        "lng": -46.77285
+      }
+    },
+    {
+      "id": "mae-peregrina",
+      "name": "Comunidade Mãe Peregrina",
+      "address": [
+        "Rua Miguel Auza, 385",
+        "Jd. Vista Linda · São Paulo/SP · 05798-270"
+      ],
+      "activities": [
+        {
+          "id": "mae-peregrina-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "mae-peregrina-mass-1thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "thursday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.65833,
+        "lng": -46.772049
+      }
+    },
+    {
+      "id": "santa-francisca-xavier-cabrini",
+      "name": "Comunidade Santa Francisca Xavier Cabrini",
+      "address": [
+        "Rua Gerson Marques da Silva, 101",
+        "Cidade Auziliadora · São Paulo/SP · 05798-100"
+      ],
+      "activities": [
+        {
+          "id": "santa-francisca-xavier-cabrini-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "santa-francisca-xavier-cabrini-mass-1wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "wednesday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.656328,
+        "lng": -46.768378
+      }
+    }
+  ]
+}

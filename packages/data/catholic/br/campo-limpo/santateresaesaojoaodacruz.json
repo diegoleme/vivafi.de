@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "slug": "santateresaesaojoaodacruz",
+  "name": "Paróquia Santa Teresa de Jesus e São João da Cruz",
+  "patrons": [
+    {
+      "name": "Santa Teresa de Jesus"
+    },
+    {
+      "name": "São João da Cruz"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Embu das Artes",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:30",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551145575327",
+    "whatsapp": "+5511954949241",
+    "instagram": "santateresaesaojoaodacruz",
+    "facebook": "https://www.facebook.com/santateresadejesusesaojoaodacruz"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Teresa",
+      "isMain": true,
+      "address": [
+        "Av. João Paulo II, 1321",
+        "Jd. Santa Tereza · Embu/SP · 06810-240"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-wed-fri-1430",
+          "kind": "confession",
+          "startsAt": "14:30",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "1ª Sexta-feira do mês das 15h às 19h e às 5ª às 15h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.647449,
+        "lng": -46.800533
+      }
+    },
+    {
+      "id": "imaculado-coracao-de-maria",
+      "name": "Comunidade Imaculado Coração de Maria",
+      "activities": [
+        {
+          "id": "imaculado-coracao-de-maria-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Confirmar na secretaria"
+          }
+        }
+      ]
+    },
+    {
+      "id": "santa-terezinha",
+      "name": "Comunidade Santa Terezinha",
+      "address": [
+        "Rua Cerqueira Cesar, 600",
+        "Jd. Santa Tereza · Embu das Artes/SP · 06813-200"
+      ],
+      "activities": [
+        {
+          "id": "santa-terezinha-mass-sun-1600",
+          "kind": "mass",
+          "startsAt": "16:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.6502,
+        "lng": -46.806038
+      }
+    },
+    {
+      "id": "sao-pedro",
+      "name": "Comunidade São Pedro",
+      "address": [
+        "Rua Penha, 190",
+        "Jd. Laila · Embu das Artes/SP · 06813-150"
+      ],
+      "activities": [
+        {
+          "id": "sao-pedro-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.651675,
+        "lng": -46.803131
+      }
+    }
+  ]
+}

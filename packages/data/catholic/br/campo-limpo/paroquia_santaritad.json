@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquia_santaritad",
+  "name": "Paróquia Santa Rita de Cássia",
+  "patrons": [
+    {
+      "name": "Santa Rita de Cássia",
+      "feast": {
+        "day": 22,
+        "month": 5
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "18:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+5511975224614",
+    "whatsapp": "+5511975224614",
+    "instagram": "paroquia_santaritad",
+    "facebook": "https://www.facebook.com/profile.php?id=100063104765421"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Rita de Cássia",
+      "isMain": true,
+      "address": [
+        "Rua das Hortências, 50",
+        "Jd.das Palmeiras · Juquitiba/SP · 06950-000"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-confession-tue-wed-thu-fri-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-sat-0900",
+          "kind": "confession",
+          "startsAt": "09:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1400",
+          "kind": "adoration",
+          "startsAt": "14:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.930718,
+        "lng": -47.0071
+      }
+    },
+    {
+      "id": "bom-jesus",
+      "name": "Comunidade Bom Jesus",
+      "activities": [
+        {
+          "id": "bom-jesus-mass-1wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "wednesday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Estrada dos Florianos, 155",
+        "Juquiazinho · Juquitiba/SP · 06950-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sat-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.985486,
+        "lng": -47.018983
+      }
+    },
+    {
+      "id": "santo-antonio",
+      "name": "Comunidade Santo Antônio",
+      "address": [
+        "Rua Antônio Nunes Moreira, 30",
+        "Palmeiras · Juquitiba/SP · 06950-000"
+      ],
+      "activities": [
+        {
+          "id": "santo-antonio-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.921892,
+        "lng": -46.992656
+      }
+    },
+    {
+      "id": "santo-expedito",
+      "name": "Comunidade Santo Expedito",
+      "activities": [
+        {
+          "id": "santo-expedito-mass-1tue-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "tuesday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sao-francisco-de-assis",
+      "name": "Comunidade São Francisco de Assis",
+      "activities": [
+        {
+          "id": "sao-francisco-de-assis-mass-1fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sao-jose",
+      "name": "Comunidade São José",
+      "address": [
+        "Praça Daniel Vaz Pereira, 30",
+        "Palmeirinha · Juquitiba/SP · 06850-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-1fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.894366,
+        "lng": -46.986667
+      }
+    },
+    {
+      "id": "sao-sebastiao",
+      "name": "Comunidade São Sebastião",
+      "activities": [
+        {
+          "id": "sao-sebastiao-mass-3wed-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "wednesday"
+          }
+        }
+      ]
+    }
+  ]
+}

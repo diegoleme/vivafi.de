@@ -1,0 +1,11 @@
+{
+  // Site estático servido por Workers Static Assets: não há código de Worker,
+  // só a pasta que o Astro gera. É o que mantém a D5 (sem adapter) de pé —
+  // a Cloudflare serve arquivo, não executa nada nosso.
+  "name": "vivafide",
+  "compatibility_date": "2026-09-24",
+  "assets": {
+    // Caminho a partir da raiz do repositório, que é onde o build roda.
+    "directory": "./apps/site/dist"
+  }
+}

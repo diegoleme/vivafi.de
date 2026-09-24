@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "slug": "jesus-bom-pastor-jardim-vale-verde",
+  "name": "Paróquia Jesus Bom Pastor",
+  "patrons": [
+    {
+      "name": "Jesus Bom Pastor"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Mirim-Guaçu",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "18:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551155170250",
+    "whatsapp": "+551155170250",
+    "facebook": "https://www.facebook.com/BompastorCampoLimpo"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santo Antônio",
+      "isMain": true,
+      "address": [
+        "Estrada da Baronesa, 109",
+        "Jd. Vale Verde · São Paulo/SP · 04919-015"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-fri-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.718972,
+        "lng": -46.782865
+      }
+    },
+    {
+      "id": "sao-joao-batista",
+      "name": "Comunidade São João Batista",
+      "address": [
+        "Rua Jaime Treiger, 32",
+        "Parque do Lago · São Paulo/SP · 04945-070"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-batista-mass-tue-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "sao-joao-batista-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.714643,
+        "lng": -46.777508
+      }
+    },
+    {
+      "id": "sao-jose",
+      "name": "Comunidade São José",
+      "address": [
+        "Rua dos Pirarucus, 146",
+        "Parque do Lago · São Paulo/SP · 04944-130"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-jose-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.710845,
+        "lng": -46.776292
+      }
+    }
+  ]
+}

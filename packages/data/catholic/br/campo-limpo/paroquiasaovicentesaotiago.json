@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasaovicentesaotiago",
+  "name": "Paróquia São Vicente de Paulo e São Tiago Apóstolo",
+  "patrons": [
+    {
+      "name": "São Vicente de Paulo"
+    },
+    {
+      "name": "São Tiago Apóstolo"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Embu das Artes",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551147825181",
+    "instagram": "paroquiasaovicentesaotiago",
+    "facebook": "https://www.facebook.com/paroquiasaovicentesaotiago"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São vicente",
+      "isMain": true,
+      "address": [
+        "Rua Urca, 17",
+        "Jd. São Vicente · Embu/SP · 06826-260"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-tue-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-sat-1000",
+          "kind": "confession",
+          "startsAt": "10:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.659113,
+        "lng": -46.805157
+      }
+    },
+    {
+      "id": "sao-francisco",
+      "name": "Comunidade São Francisco",
+      "address": [
+        "Rua São Caetano, 1104",
+        "Jd. Valo Verde · Embu das Artes/SP · 06815-300"
+      ],
+      "activities": [
+        {
+          "id": "sao-francisco-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-francisco-mass-wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.655142,
+        "lng": -46.8086
+      }
+    },
+    {
+      "id": "sao-tiago",
+      "name": "Comunidade São Tiago",
+      "address": [
+        "Rua Guaiba, 544",
+        "Jd. Novo Campo Limpo · Embu das Artes/SP · 06826-510"
+      ],
+      "activities": [
+        {
+          "id": "sao-tiago-mass-thu-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday",
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.661214,
+        "lng": -46.800563
+      }
+    }
+  ]
+}

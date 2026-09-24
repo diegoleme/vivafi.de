@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasaolucasoficial",
+  "name": "Paróquia São Lucas Evangelista",
+  "patrons": [
+    {
+      "name": "São Lucas Evangelista",
+      "feast": {
+        "day": 18,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Mirim-Guaçu",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:30",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+5511947295775",
+    "whatsapp": "+5511947295775",
+    "instagram": "paroquiasaolucasoficial",
+    "facebook": "https://www.facebook.com/paroquiasaolucasoficial"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Lucas Evangelista",
+      "isMain": true,
+      "address": [
+        "Av. Taquandava, 136",
+        "Cidade Ipava · São Paulo/SP · 04950-000"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-wed-thu-fri-sat-0600",
+          "kind": "mass",
+          "startsAt": "06:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-thu-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "16:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria"
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "2ª a 6ª das 09h às 19h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.723104,
+        "lng": -46.76429
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Agostinho Ferreira Escudeiro, 55",
+        "Jd. Aracati · São Paulo/SP · 04949-140"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.719757,
+        "lng": -46.770805
+      }
+    },
+    {
+      "id": "santissima-trindade",
+      "name": "Comunidade Santíssima Trindade",
+      "address": [
+        "Estrada da Cumbica, 68",
+        "Vila Gilda · São Paulo/SP · 04947-000"
+      ],
+      "activities": [
+        {
+          "id": "santissima-trindade-mass-tue-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "santissima-trindade-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.736365,
+        "lng": -46.742953
+      }
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+---
+import {
+  ACTIVITY_KIND_LABELS, ACTIVITY_KINDS, WEEKDAYS,
+  describeRecurrence, nextOccurrence, oneOffActivities,
+  upcomingChanges, weekdayOf,
+  type Activity, type ActivityKind, type Community, type Parish,
+  type UpcomingChange,
+} from '@vivafide/core';
+import { nomeIgreja, nomesCurtos } from '../lib/abreviar';
+import { formatShortDate, umaComunidadeSo, weekdayName } from '../lib/parishes';
+
+const PLURAL_TIPO: Partial<Record<ActivityKind, string>> = {
+  mass: 'Missas', confession: 'Confissões', novena: 'Novenas', rosary: 'Terços',
+  event: 'Eventos', 'prayer-group': 'Grupos de oração', ministry: 'Pastorais',
+};
+
+interface Props { parish: Parish; today: string }
+const { parish, today } = Astro.props;
+
+/**
+ * Com uma comunidade só, a coluna da comunidade repetiria "Matriz ›" em toda
+ * linha — 34% da largura numa tela de 390px para dizer o que já se sabe. Ela
+ * deixa de ser renderizada, e a grade devolve o espaço ao rótulo da
+ * recorrência, que é onde mora "Agendar na secretaria paroquial".
+ *
+ * A célula continua existindo quando tem algo próprio a dizer: título da
+ * atividade e aviso de mudança moram nela.
+ */
+const umaSo = umaComunidadeSo(parish);
+
+type Item = { a: Activity; c: Community };
+const itens: Item[] = parish.communities.flatMap((c) => c.activities.map((a) => ({ a, c })));
+const mudancas = upcomingChanges(parish, today, 35);
+const pontuais = oneOffActivities(parish, today, 120);
+
+/**
+ * Uma entrada por horário, ordenadas pelo relógio.
+ *
+ * Não agrupa por comunidade: quem varre a coluna procurando "que horas" lê de
+ * cima para baixo, e agrupar quebrava a ordem — as 18:00 da matriz apareciam
+ * antes das 09:00 de outra comunidade.
+ */
+interface Entrada { c: Community; kind: ActivityKind; title?: string; hora?: string; mudancas: UpcomingChange[] }
+function entradas(is: Item[]): Entrada[] {
+  const vistas = new Set<string>();
+  const out: Entrada[] = [];
+  for (const { a, c } of is) {
+    const hora = a.startsAt ? (a.endsAt ? `${a.startsAt} - ${a.endsAt}` : a.startsAt) : undefined;
+    const chave = `${c.id}|${a.kind}|${a.title ?? ''}|${hora ?? ''}`;
+    if (vistas.has(chave)) continue;
+    vistas.add(chave);
+    out.push({
+      c, kind: a.kind,
+      ...(a.title && { title: a.title }),
+      ...(hora && { hora }),
+      mudancas: mudancas.get(a.id) ?? [],
+    });
+  }
+  return out.sort((x, y) => (x.hora ?? '').localeCompare(y.hora ?? ''));
+}
+
+/** Ordena: semanais primeiro (por dia), depois mensais (por posição), texto por último. */
+function ordemRecorrencia(r: Activity['recurrence']): number {
+  if (r.type === 'weekly') return WEEKDAYS.indexOf(r.day[0]!);
+  if (r.type === 'described') return 900;
+  return 100 + posicaoNoMes(r);
+}
+
+function posicaoNoMes(r: Activity['recurrence']): number {
+  if (r.type === 'monthly-ordinal') return (r.ordinal === 'last' ? 4 : r.ordinal - 1) * 7 + WEEKDAYS.indexOf(r.day) + 1;
+  if (r.type === 'monthly-day') return r.dayOfMonth;
+  return 99;
+}
+
+const hojeDia = weekdayOf(today);
+
+/** Uma linha por recorrência: "sextas e sábados · 09:00 - 11:30, 14:00 - 16:00". */
+function agruparPorRecorrencia(is: Item[], from: string) {
+  const mapa = new Map<string, Item[]>();
+  for (const i of is) {
+    const k = describeRecurrence(i.a.recurrence);
+    mapa.set(k, [...(mapa.get(k) ?? []), i]);
+  }
+  return [...mapa].map(([rotulo, grupo]) => ({
+    rotulo,
+    ordem: ordemRecorrencia(grupo[0]!.a.recurrence),
+    proxima: grupo[0]!.a.recurrence.type === 'weekly' ? null : nextOccurrence(grupo[0]!.a.recurrence, from),
+    linhas: entradas(grupo),
+  })).sort((x, y) => x.ordem - y.ordem);
+}
+
+/**
+ * Uma seção por tipo, na ordem de `ACTIVITY_KINDS` — missa primeiro.
+ *
+ * A ordem é fixa de propósito: nenhuma paróquia real pediu outra ainda, e o
+ * campo seria opcional com default, então acrescentar depois não migra nada.
+ */
+const secoes = ACTIVITY_KINDS.map((kind) => {
+  const doTipo = itens.filter((i) => i.a.kind === kind);
+  if (doTipo.length === 0 && !pontuais.some((p) => p.activity.kind === kind)) return null;
+
+  const semanaisPorDia = WEEKDAYS.map((dia) => ({
+    dia,
+    ehHoje: dia === hojeDia,
+    linhas: entradas(doTipo.filter((i) => i.a.recurrence.type === 'weekly' && i.a.recurrence.day.includes(dia))),
+  }));
+
+  return {
+    kind,
+    titulo: PLURAL_TIPO[kind] ?? ACTIVITY_KIND_LABELS[kind],
+    /**
+     * Missa é densa e ganha grade por dia da semana; os outros tipos são
+     * esparsos e ganham lista com a recorrência escrita — senão "sextas e
+     * sábados" viraria duas linhas idênticas.
+     *
+     * Dias sem missa são omitidos: a grade é lista de quando há missa, não
+     * calendário de sete dias.
+     */
+    semanais: kind === 'mass' ? semanaisPorDia.filter((d) => d.linhas.length > 0) : [],
+    lista: kind === 'mass' ? [] : agruparPorRecorrencia(doTipo, today),
+    mensais: kind !== 'mass' ? [] : [...
+      doTipo
+        .filter((i) => i.a.recurrence.type === 'monthly-ordinal' || i.a.recurrence.type === 'monthly-day')
+        .reduce((m, i) => m.set(describeRecurrence(i.a.recurrence), [...(m.get(describeRecurrence(i.a.recurrence)) ?? []), i]), new Map<string, Item[]>())
+    ].map(([rotulo, is]) => ({
+      rotulo,
+      ordem: posicaoNoMes(is[0]!.a.recurrence),
+      proxima: nextOccurrence(is[0]!.a.recurrence, today),
+      linhas: entradas(is),
+    })).sort((x, y) => x.ordem - y.ordem),
+    semHorario: kind === 'mass' ? doTipo.filter((i) => i.a.recurrence.type === 'described') : [],
+    pontuais: pontuais.filter((p) => p.activity.kind === kind),
+  };
+}).filter((s) => s !== null);
+
+/** Só na tabela: o nome completo continua em Endereços, no select e no `title`. */
+const curtos = nomesCurtos(parish.communities, parish.name);
+const curto = (c: Community) => curtos.get(c.id) ?? c.name;
+
+/**
+ * O título aparece sozinho: a seção já diz o tipo. Prefixar daria
+ * "Missa · Devoção a São José" dentro do bloco "Missas".
+ */
+function textoMudanca(m: UpcomingChange): string {
+  const dia = `${weekdayName(m.date)} (${formatShortDate(m.date)})`;
+  if (m.status === 'cancelled') return `Não acontece ${dia}${m.reason ? ` — ${m.reason}` : ''}`;
+  const destino = parish.communities.find((c) => c.id === m.movedTo?.communityId)?.name ?? '';
+  return `${dia}: acontece em ${destino}${m.movedTo?.startsAt ? `, às ${m.movedTo.startsAt}` : ''}${m.reason ? ` — ${m.reason}` : ''}`;
+}
+---
+
+<section id="conteudo" aria-labelledby="t-prog" data-prog data-tz={parish.timezone} data-date={today}>
+  <h2 id="t-prog" class="sr-only">Programação</h2>
+
+  <p id="pagina-antiga" hidden class="mb-3 rounded border border-line bg-warn-soft px-3 py-2 text-sm text-warn">
+    Esta página foi gerada em {formatShortDate(today)} e pode estar desatualizada.
+  </p>
+
+  <p data-vazio hidden class="border-y border-line py-5 text-ink-muted">
+    Esta comunidade não tem nada na programação.
+  </p>
+
+  {secoes.map((s) => (
+    <div data-bloco id={`tipo-${s.kind}`}>
+      <h2 class="titulo-secao">{s.titulo}</h2>
+
+      <div class:list={['tabela-prog mt-4', umaSo && 'uma-comunidade']}>
+        {[
+          ...s.semanais.map((d) => ({
+            rotulo: describeRecurrence({ type: 'weekly' as const, day: [d.dia] }),
+            destaque: d.ehHoje,
+            proxima: null as string | null,
+            linhas: d.linhas,
+            subtitulo: null as string | null,
+          })),
+          ...s.lista.map((g) => ({ ...g, destaque: false, subtitulo: null as string | null })),
+          ...s.mensais.map((g, i) => ({
+            ...g,
+            destaque: false,
+            subtitulo: i === 0 ? ('Missas ocasionais' as string | null) : null,
+          })),
+          ...s.semHorario.map(({ a, c }, i) => ({
+            rotulo: a.recurrence.type === 'described' ? a.recurrence.text : '',
+            destaque: false,
+            proxima: null as string | null,
+            linhas: [{ c, kind: a.kind, ...(a.title && { title: a.title }), mudancas: [] }] as Entrada[],
+            subtitulo: i === 0 ? ('Sem horário fixo' as string | null) : null,
+          })),
+        ].map((g, gi) => (
+          <Fragment>
+            {/* `data-decora` marca o que existe só por causa do que vem
+                depois. O filtro de comunidade esconde grupos, e sem isso
+                sobrava divisor sem nada em volta e subtítulo sem conteúdo. */}
+            {g.subtitulo ? (
+              <p
+                class="subtitulo-prog text-xs font-semibold uppercase tracking-wider text-ink-muted"
+                data-decora="titulo"
+              >
+                {g.subtitulo}
+              </p>
+            ) : gi > 0 ? (
+              <div class="divisor-prog" data-decora="divisor" />
+            ) : null}
+
+            <div class="grupo-prog" data-linha>
+              {/* `--linhas` diz ao rótulo quantas linhas da grade ele cobre: a
+                  recorrência vale para todas as missas daquele dia, não só
+                  para a primeira. O filtro de comunidade reescreve o valor
+                  quando esconde entradas. */}
+              <div
+                class:list={['rotulo-prog', g.linhas.every((l) => !l.hora) && 'sem-hora']}
+                data-rotulo
+                style={`--linhas: ${g.linhas.length}`}
+              >
+                <p class:list={['text-sm font-medium leading-snug', g.destaque && 'text-next']}>
+                  {g.rotulo}{g.destaque && <span class="block text-xs font-normal">hoje</span>}
+                </p>
+                {g.proxima && <p class="tabular text-xs text-ink-muted">próxima {formatShortDate(g.proxima)}</p>}
+              </div>
+
+              {g.linhas.map((l) => (
+                <div
+                  class:list={['entrada-prog', !l.hora && 'sem-hora']}
+                  role="listitem"
+                  data-item
+                  data-comunidade={l.c.id}
+                >
+                  {l.hora && <span class="cel-hora tabular font-semibold">{l.hora}</span>}
+                  {(!umaSo || l.title || l.mudancas.length > 0) && (
+                    <span class="cel-com min-w-0">
+                      {!umaSo && (
+                        <a href={`#onde-${l.c.id}`} title={nomeIgreja(l.c)} class="link-comunidade text-sm">
+                          {curto(l.c)}<span aria-hidden="true"> ›</span>
+                        </a>
+                      )}
+                      {l.title && <span class="block text-sm text-ink-muted">{l.title}</span>}
+                      {l.mudancas.slice(0, 2).map((m) => (
+                        <span class="mt-0.5 block rounded bg-warn-soft px-1.5 py-0.5 text-xs font-medium text-warn">
+                          {textoMudanca(m)}
+                        </span>
+                      ))}
+                    </span>
+                  )}
+                </div>
+              ))}
+
+            </div>
+          </Fragment>
+        ))}
+
+        {s.pontuais.length > 0 && (
+          <>
+            <p class="subtitulo-prog text-xs font-semibold uppercase tracking-wider text-ink-muted">
+              Só nestas datas
+            </p>
+            {s.pontuais.map(({ date, activity }) => (
+              <div class="grupo-prog" data-linha>
+                <div class="rotulo-prog">
+                  <p class="text-sm font-medium">{weekdayName(date)}</p>
+                  <p class="tabular text-xs text-ink-muted">{formatShortDate(date)}</p>
+                </div>
+                <div class="entrada-prog" role="listitem" data-item data-comunidade={activity.communityId}>
+                  <span class="cel-hora tabular font-semibold">{activity.startsAt}</span>
+                  {(!umaSo || activity.title || activity.reason) && (
+                    <span class="cel-com min-w-0">
+                      {!umaSo && (
+                        <a href={`#onde-${activity.communityId}`} class="link-comunidade text-sm">
+                          {curtos.get(activity.communityId) ?? activity.communityId}<span aria-hidden="true"> ›</span>
+                        </a>
+                      )}
+                      {activity.title && <span class="block text-sm text-ink-muted">{activity.title}</span>}
+                      {activity.reason && <span class="block text-sm text-ink-muted">{activity.reason}</span>}
+                    </span>
+                  )}
+                </div>
+              </div>
+            ))}
+          </>
+        )}
+      </div>
+    </div>
+  ))}
+</section>

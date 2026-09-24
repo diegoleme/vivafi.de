@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "slug": "santo-eugenio-de-mazenod-parque-santo-antonio",
+  "name": "Paróquia Santo Eugênio de Mazenod",
+  "patrons": [
+    {
+      "name": "Santo Eugênio de Mazenod",
+      "feast": {
+        "day": 21,
+        "month": 5
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "18:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158975659",
+    "whatsapp": "+551158975659",
+    "facebook": "https://www.facebook.com/santoeugeniodemazenod",
+    "youtube": "https://www.youtube.com/c/santoeugenio"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santo Antônio",
+      "isMain": true,
+      "address": [
+        "Rua Deocleciano de O. Filho, 115",
+        "Pq. Santo Antônio · São Paulo/SP · 05834-000"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.665203,
+        "lng": -46.753868
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Baltazar Gomes de Azevedo, 193",
+        "Pq. Otero · São Paulo/SP · 05823-070"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-mass-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.663434,
+        "lng": -46.750572
+      }
+    },
+    {
+      "id": "santa-rita",
+      "name": "Comunidade Santa Rita",
+      "address": [
+        "Rua Cristalina, 410",
+        "Jd. Cris · São Paulo/SP · 05832-240"
+      ],
+      "activities": [
+        {
+          "id": "santa-rita-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.673059,
+        "lng": -46.754438
+      }
+    },
+    {
+      "id": "santo-eugenio-de-mazenoud",
+      "name": "Comunidade São Roque",
+      "address": [
+        "Rua Emílio Bramante, 06",
+        "Jd. Vale da Ribeira · São Paulo/SP · 05834-100"
+      ],
+      "activities": [
+        {
+          "id": "santo-eugenio-de-mazenoud-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santo-eugenio-de-mazenoud-mass-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.670298,
+        "lng": -46.753571
+      }
+    },
+    {
+      "id": "santo-eugenio-de-mazenoud-2",
+      "name": "Comunidade Santo Eugênio de Mazenoud",
+      "address": [
+        "Rua Ângelo Herculano Teixeira da Silva, 68",
+        "Pq. Santo Antônio · São Paulo/SP · 05852-420"
+      ],
+      "activities": [
+        {
+          "id": "santo-eugenio-de-mazenoud-2-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.669161,
+        "lng": -46.756954
+      }
+    },
+    {
+      "id": "sao-joao-batista",
+      "name": "Comunidade São João Batista",
+      "address": [
+        "Rua Maria Amélia Gouveia André, 51",
+        "Pq. Santo Antônio · São Paulo/SP · 05850-250"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-batista-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.660098,
+        "lng": -46.756831
+      }
+    },
+    {
+      "id": "verbo-divino",
+      "name": "Comunidade Verbo Divino",
+      "address": [
+        "Rua Durval Guerra Azevedo, 279",
+        "Jd. Antonieta · São Paulo/SP · 05852-440"
+      ],
+      "activities": [
+        {
+          "id": "verbo-divino-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "verbo-divino-mass-tue-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.666644,
+        "lng": -46.758108
+      }
+    }
+  ]
+}

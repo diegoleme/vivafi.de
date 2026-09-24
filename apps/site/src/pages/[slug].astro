@@ -1,0 +1,59 @@
+---
+import BarraComunidade from '../components/BarraComunidade.astro';
+import Redes from '../components/Redes.astro';
+import Secretaria from '../components/Secretaria.astro';
+import Tira from '../components/Tira.astro';
+import Enderecos from '../components/Enderecos.astro';
+import Marca from '../components/Marca.astro';
+import Programacao from '../components/Programacao.astro';
+import Base from '../layouts/Base.astro';
+import { loadParishes } from '../lib/parishes';
+import { secoesDaPagina } from '../lib/secoes';
+import { todayIn } from '@vivafide/core';
+
+export function getStaticPaths() {
+  return loadParishes().map((parish) => ({ params: { slug: parish.slug }, props: { parish } }));
+}
+
+const { parish } = Astro.props;
+
+/**
+ * `VIVAFIDE_TODAY=2026-12-25 pnpm build` gera a página como ela ficará naquele
+ * dia — é como a secretária confere, no staging, se a mudança que ela pediu
+ * ficou certa antes de aprovar (D3).
+ */
+const today = process.env.VIVAFIDE_TODAY ?? todayIn(parish.timezone);
+const matriz = parish.communities.find((c) => c.isMain);
+const secoes = secoesDaPagina(parish);
+---
+
+<Base
+  title={`Missas — ${parish.name}`}
+  description={`Horários de missa da ${parish.name}${matriz?.address ? `, ${matriz.address}` : ''}.`}
+>
+  <header slot="cabecalho" class="mb-3 text-center">
+    <h1 class="titulo-paroquia text-balance">{parish.name}</h1>
+    {parish.diocese && <p class="mt-1 text-xs text-ink-muted">{parish.diocese}</p>}
+  </header>
+
+  <Tira slot="tira" secoes={secoes} />
+
+  {/* Antes do conteúdo no DOM: no celular é `fixed` e a posição não importa;
+      no desktop volta ao fluxo, logo abaixo da tira — onde um filtro faz sentido. */}
+  <BarraComunidade parish={parish} />
+
+  <Programacao parish={parish} today={today} />
+  <Enderecos parish={parish} />
+  <Secretaria parish={parish} />
+  <Redes parish={parish} />
+
+  {/* `vivafi.de` ainda não é link: a home não existe, e link quebrado é pior
+      que texto. Vira link quando houver para onde ir. */}
+  <footer class="mt-20 text-center text-sm text-ink-muted">
+    <p class="inline-flex items-center gap-1.5 font-medium text-ink">
+      <Marca class="size-4 text-next" />
+      <span>vivafi.de</span>
+    </p>
+    <p class="mt-0.5">Feito com carinho para a sua comunidade</p>
+  </footer>
+</Base>

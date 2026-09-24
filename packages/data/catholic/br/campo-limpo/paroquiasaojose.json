@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasaojose",
+  "name": "Paróquia São José",
+  "patrons": [
+    {
+      "name": "São José",
+      "feast": {
+        "day": 19,
+        "month": 3
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "19:00"
+    }
+  ],
+  "contact": {
+    "phone": "+5511959078000",
+    "whatsapp": "+5511959078000",
+    "instagram": "_paroquiasaojose",
+    "facebook": "https://www.facebook.com/MATRIZSJ",
+    "youtube": "https://www.youtube.com/channel/UCX5U7MWzs-kf0-nT0mYl3Fg"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São José",
+      "isMain": true,
+      "address": [
+        "Rua Itajubaquara, 340",
+        "Paraisópolis · São Paulo/SP · 05661-050"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-confession-tue-thu-fri-1800",
+          "kind": "confession",
+          "startsAt": "18:00",
+          "endsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-sat-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.616902,
+        "lng": -46.728679
+      }
+    },
+    {
+      "id": "nossa-senhora-da-penha",
+      "name": "Comunidade Nossa Senhora da Penha",
+      "address": [
+        "Rua Melchior Giola, 562",
+        "Paraisópolis · São Paulo/SP · 05664-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-penha-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.616368,
+        "lng": -46.728687
+      }
+    },
+    {
+      "id": "nossa-senhora-das-gracas-e-santa-terezinha",
+      "name": "Comunidade Nossa Senhora das Graças e Santa Terezinha",
+      "address": [
+        "Rua Taubaté, 1315",
+        "Paraisópolis · São Paulo/SP · 05660-010"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-das-gracas-e-santa-terezinha-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Sem missa no momento"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.613884,
+        "lng": -46.725498
+      }
+    },
+    {
+      "id": "santa-rita",
+      "name": "Comunidade Santa Rita",
+      "address": [
+        "Rua Dr. Jerônimo de Campos Freire, 310 - Bl 01",
+        "Jd. Parque Morumbi · São Paulo/SP · 05712-030"
+      ],
+      "activities": [
+        {
+          "id": "santa-rita-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.620807,
+        "lng": -46.727933
+      }
+    }
+  ]
+}

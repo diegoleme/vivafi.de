@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.astro/
+.output/
+.wrangler/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+
+# Configuração local de máquina
+.claude/settings.local.json
+
+# Skills baixadas — restauráveis a partir de skills-lock.json
+.agents/skills/
+.claude/skills/

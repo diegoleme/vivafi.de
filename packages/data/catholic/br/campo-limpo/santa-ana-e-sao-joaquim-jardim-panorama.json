@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "slug": "santa-ana-e-sao-joaquim-jardim-panorama",
+  "name": "Paróquia Santa Ana e São Joaquim",
+  "patrons": [
+    {
+      "name": "Santa Ana"
+    },
+    {
+      "name": "São Joaquim"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Taboão da Serra",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551142457744",
+    "whatsapp": "+551142457744",
+    "facebook": "https://www.facebook.com/Par%C3%B3quia-Santa-Ana-986546684689364"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Ana e São Joaquim",
+      "isMain": true,
+      "address": [
+        "Rua Graziela Cunha Campos, 106",
+        "Jd. Panorama · Taboão/SP · 06785-090"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.63716,
+        "lng": -46.804457
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Nossa Senhora Aparecida, S/N",
+        "Sítio das Madres · Taboão da Serra/SP · 06775-020"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.632845,
+        "lng": -46.799172
+      }
+    },
+    {
+      "id": "sao-francisco-de-assis",
+      "name": "Comunidade São Francisco de Assis",
+      "address": [
+        "Rua José Gonçalves do Espírito Santo, 158",
+        "Jd. Trianon · Taboão da Serra/SP · 06783-270"
+      ],
+      "activities": [
+        {
+          "id": "sao-francisco-de-assis-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-francisco-de-assis-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.629531,
+        "lng": -46.795278
+      }
+    },
+    {
+      "id": "sao-jose",
+      "name": "Comunidade São José",
+      "address": [
+        "Rua Constância Glória do Nascimento, 102",
+        "Jd. Freitas Júnior · Taboão da Serra/SP · 06784-350"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.633752,
+        "lng": -46.79678
+      }
+    }
+  ]
+}

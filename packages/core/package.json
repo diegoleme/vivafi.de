@@ -1,0 +1,24 @@
+{
+  "name": "@vivafide/core",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "TZ=UTC vitest run && TZ=Pacific/Kiritimati vitest run && TZ=America/Sao_Paulo vitest run",
+    "check": "tsc --noEmit && pnpm validar",
+    "validar": "node --experimental-strip-types scripts/validar.ts"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.1"
+  }
+}

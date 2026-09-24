@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "slug": "santaclaraparoquia",
+  "name": "Paróquia Santa Clara de Assis",
+  "patrons": [
+    {
+      "name": "Santa Clara de Assis",
+      "feast": {
+        "day": 11,
+        "month": 8
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551146678067",
+    "whatsapp": "+551146678067",
+    "instagram": "santaclaraparoquia",
+    "facebook": "https://www.facebook.com/santaclaradeassisbrancaflor"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Clara de Assis",
+      "isMain": true,
+      "address": [
+        "Rua Jaguarão, 186",
+        "Jd. Branca Flor · Itapecerica/SP · 06855-620"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-thu-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1000",
+          "kind": "confession",
+          "startsAt": "10:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1400",
+          "kind": "confession",
+          "startsAt": "14:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1300",
+          "kind": "adoration",
+          "startsAt": "13:00",
+          "endsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.687407,
+        "lng": -46.824471
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Nova Independência, 80",
+        "Recreio Campestre · Itapecerica da Serra/SP · 06856-050"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.688355,
+        "lng": -46.816752
+      }
+    },
+    {
+      "id": "santa-monica-e-sao-jorge",
+      "name": "Comunidade Santa Mônica e São Jorge",
+      "activities": [
+        {
+          "id": "santa-monica-e-sao-jorge-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Comunidade em construção"
+          }
+        }
+      ]
+    }
+  ]
+}

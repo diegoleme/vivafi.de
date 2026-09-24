@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "slug": "sagrado-coracao-de-jesus-jardim-das-margaridas",
+  "name": "Paróquia Sagrado Coração de Jesus",
+  "patrons": [
+    {
+      "name": "Sagrado Coração de Jesus",
+      "feast": {
+        "day": 24,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Taboão da Serra",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551142454015",
+    "whatsapp": "+551142454015",
+    "facebook": "https://www.facebook.com/Par%C3%B3quia-Sagrado-Cora%C3%A7%C3%A3o-De-Jesus-1350322575012742"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Sagrado Coração de Jesus",
+      "isMain": true,
+      "address": [
+        "Rua Gonçalves Dias, 67",
+        "Jd. das Margaridas · Taboão/SP · 06786-270"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-tue-thu-1400",
+          "kind": "confession",
+          "startsAt": "14:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-1fri-1700",
+          "kind": "adoration",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.625821,
+        "lng": -46.808973
+      }
+    },
+    {
+      "id": "sao-jose",
+      "name": "Comunidade São José",
+      "address": [
+        "Rua Ilha Porchat, S/N",
+        "Pq. Esplanada · Embu das Artes · 06769-027"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.624917,
+        "lng": -46.81337
+      }
+    },
+    {
+      "id": "sao-judas-tadeu",
+      "name": "Comunidade São Judas Tadeu",
+      "address": [
+        "Rua Vicente Leporace, 77",
+        "Jd. São Judas Tadeu · Taboão da Serra/SP · 06786-510"
+      ],
+      "activities": [
+        {
+          "id": "sao-judas-tadeu-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-judas-tadeu-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-judas-tadeu-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.629166,
+        "lng": -46.811344
+      }
+    }
+  ]
+}

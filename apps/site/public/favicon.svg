@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Vivafide">
+  <!-- Disco claro próprio: o verde da marca sumiria numa aba escura. -->
+  <circle cx="16" cy="16" r="15" fill="#faf8f5"/>
+  <circle cx="16" cy="16" r="12" fill="none" stroke="#1f513a" stroke-width="3"/>
+  <path d="M16 8.5V16.5l5.5 3.4" fill="none" stroke="#1f513a" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

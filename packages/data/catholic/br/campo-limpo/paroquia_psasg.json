@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquia_psasg",
+  "name": "Paróquia Santo Antônio de Sant'Anna Galvão",
+  "patrons": [
+    {
+      "name": "Santo Antônio de Sant'Anna Galvão",
+      "feast": {
+        "day": 25,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "13:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158973043",
+    "whatsapp": "+551158973043",
+    "instagram": "paroquia_psasg",
+    "facebook": "https://www.facebook.com/ParoquiaSantoAntoniodeSantanaGalvao"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Francisco",
+      "isMain": true,
+      "address": [
+        "Rua Severina Dias da Rocha, 80",
+        "Jd. Guarujá · São Paulo/SP · 05830-350"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-sat-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-thu-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Antes das missas"
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.668164,
+        "lng": -46.748294
+      }
+    },
+    {
+      "id": "sao-judas-tadeu",
+      "name": "Comunidade São Judas Tadeu",
+      "address": [
+        "Rua Pedro Armani, 131",
+        "Jd. Letícia · São Paulo/SP · 05820-220"
+      ],
+      "activities": [
+        {
+          "id": "sao-judas-tadeu-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-judas-tadeu-mass-wed-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "sao-judas-tadeu-mass-1fri-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.667624,
+        "lng": -46.744573
+      }
+    }
+  ]
+}

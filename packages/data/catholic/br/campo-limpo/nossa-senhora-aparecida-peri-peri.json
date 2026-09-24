@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "slug": "nossa-senhora-aparecida-peri-peri",
+  "name": "Paróquia Nossa Senhora Aparecida Peri Peri",
+  "patrons": [
+    {
+      "name": "Nossa Senhora Aparecida Peri Peri",
+      "feast": {
+        "day": 12,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551137410466",
+    "whatsapp": "+5511963361424",
+    "facebook": "https://www.facebook.com/ParoquiaNossaSenhoraAparecidaJardimPeriPeri"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora Aparecida",
+      "isMain": true,
+      "address": [
+        "Av. Min. Laudo Ferreira Camargo, 250",
+        "Jd. Peri Peri · São Paulo/SP · 05537-001"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0830",
+          "kind": "mass",
+          "startsAt": "08:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-wed-thu-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-fri-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "1ª Quinta-feira do mês"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.587438,
+        "lng": -46.736455
+      }
+    },
+    {
+      "id": "sao-pedro-e-sao-paulo",
+      "name": "Comunidade São Pedro e São Paulo",
+      "address": [
+        "Rua Fernando Belmonte, 37",
+        "Jd. Olympia · São Paulo/SP · 05542-160"
+      ],
+      "activities": [
+        {
+          "id": "sao-pedro-e-sao-paulo-mass-sat-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.588722,
+        "lng": -46.748258
+      }
+    }
+  ]
+}

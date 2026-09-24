@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "slug": "rainha_defatima",
+  "name": "Paróquia Imaculado Coração de Maria",
+  "patrons": [
+    {
+      "name": "Imaculado Coração de Maria"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Campo Limpo",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158212294",
+    "whatsapp": "+551158212489",
+    "instagram": "rainha_defatima",
+    "youtube": "https://www.youtube.com/channel/UC0B6Newr3BUY8BUp28zAbgQ"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Francisco de Assis",
+      "isMain": true,
+      "address": [
+        "Rua Agostinho de Paiva, 257",
+        "Jd. Macedônia · São Paulo/SP · 05894-230"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "4ª 15h às 17h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.651864,
+        "lng": -46.790281
+      }
+    },
+    {
+      "id": "nossa-senhora-de-fatima",
+      "name": "Comunidade Nossa Senhora de Fátima",
+      "address": [
+        "Rua Teixeira Lopes, 57",
+        "Jd. das Rosas · São Paulo/SP · 05893-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-fatima-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-de-fatima-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.657846,
+        "lng": -46.788937
+      }
+    }
+  ]
+}

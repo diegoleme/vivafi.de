@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiansrda",
+  "name": "Paróquia Nossa Senhora Rainha da Paz",
+  "patrons": [
+    {
+      "name": "Nossa Senhora Rainha da Paz",
+      "feast": {
+        "day": 25,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São José - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "13:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158723153",
+    "whatsapp": "+551158723153",
+    "instagram": "paroquiansrda",
+    "facebook": "https://www.facebook.com/ParoquiaN.S.R.daPaz"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora Rainha da Paz",
+      "isMain": true,
+      "address": [
+        "Rua Diamante Verde, 28",
+        "Pq. Independência · São Paulo - SP - 05882-280"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Quarta"
+          }
+        },
+        {
+          "id": "matriz-confession-sat-1030",
+          "kind": "confession",
+          "startsAt": "10:30",
+          "endsAt": "13:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "5ª (dia inteiro)"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.685666,
+        "lng": -46.788814
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Bernadim Ribeiro, 1001",
+        "Jd. Guarujá · São Paulo/SP · 05877-180"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-aparecida-mass-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.693727,
+        "lng": -46.788102
+      }
+    }
+  ]
+}

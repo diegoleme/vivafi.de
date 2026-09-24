@@ -1,0 +1,8306 @@
+[
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-catedral-sagrada-familia",
+  "nome": "Paróquia Catedral Sagrada Família",
+  "forania": "Campo Limpo",
+  "festa": "29 de Dezembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 19h00",
+   "Segunda",
+   "12h00, 19h00",
+   "Terça",
+   "12h00, 19h00",
+   "Quarta",
+   "12h00, 19h00",
+   "Quinta",
+   "12h00, 19h00",
+   "Sexta",
+   "12h00, 19h00",
+   "Sábado",
+   "12h00, 19h00",
+   "Domingo",
+   "08h00, 10h00, 19h00",
+   "Segunda",
+   "12h00, 19h00",
+   "Terça",
+   "12h00, 19h00",
+   "Quarta",
+   "12h00, 19h00",
+   "Quinta",
+   "12h00, 19h00",
+   "Sexta",
+   "12h00, 19h00",
+   "Sábado",
+   "12h00, 19h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Antes das Santas Missas"
+  ],
+  "adoracao": [
+   "5ª às 18h"
+  ],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-cristo-libertador",
+  "nome": "Paróquia Cristo Libertador",
+  "forania": "M'Boi Mirim",
+  "festa": "25 de Abril",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00",
+   "Quarta",
+   "20h00",
+   "Domingo",
+   "08h00, 10h00",
+   "Quarta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-santa-tereza"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-cristo-rei",
+  "nome": "Paróquia Cristo Rei",
+  "forania": "São José - CR",
+  "festa": "Último domingo do calendário litúrgico",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 10h00, 18h00",
+   "Terça",
+   "18h00",
+   "Quarta",
+   "18h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "18h00",
+   "Sábado",
+   "18h00",
+   "Domingo",
+   "07h00, 10h00, 18h00",
+   "Terça",
+   "18h00",
+   "Quarta",
+   "18h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "18h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [
+   "Terça",
+   "15h00 - 17h00",
+   "Quinta",
+   "15h00 - 17h00"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-4",
+   "comunidade-nossa-senhora-das-vitorias",
+   "comunidade-sao-judas"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-cristo-ressuscitado",
+  "nome": "Paróquia Cristo Ressuscitado",
+  "forania": "Embu das Artes",
+  "festa": "Dia da Páscoa",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Sexta",
+   "20h00",
+   "Sábado",
+   "19h30",
+   "Domingo",
+   "08h00, 19h00",
+   "Sábado",
+   "19h30",
+   "Sexta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Terça",
+   "15h00 - 17h00",
+   "Quinta",
+   "19h00 - 21h00"
+  ],
+  "adoracao": [
+   "4ª às 20h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-13",
+   "comunidade-santa-luiza-de-marillac",
+   "comunidade-sao-miguel"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-da-divina-misericorida",
+  "nome": "Paróquia da Divina Misericórdia",
+  "forania": "M'Boi Mirim",
+  "festa": "2º Domingo da Páscoa",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00",
+   "Quarta",
+   "20h00",
+   "Sexta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Quarta",
+   "19h - 19h45",
+   "Sexta",
+   "19h - 19h45"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-visitacao",
+   "comunidade-santa-teresa-de-los-andes"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-divino-espirito-santo",
+  "nome": "Paróquia Divino Espírito Santo",
+  "forania": "São Luiz - CR",
+  "festa": "Festa de Pentecostes",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "08h00, 10h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Missas Ocasionais",
+   "1ª Sexta às 20h"
+  ],
+  "confissoes": [
+   "Quinta",
+   "17h00 - 19h00"
+  ],
+  "adoracao": [
+   "5ª das 18h30"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-7",
+   "comunidade-sao-felix-do-morro"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-imaculada-conceicao",
+  "nome": "Paróquia Imaculada Conceição",
+  "forania": "M'Boi Mirim",
+  "festa": "8 de Dezembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Segunda",
+   "07h00",
+   "Terça",
+   "07h00",
+   "Quarta",
+   "07h00",
+   "Quinta",
+   "07h00",
+   "Sexta",
+   "07h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Segunda",
+   "07h00",
+   "Terça",
+   "07h00",
+   "Quarta",
+   "07h00",
+   "Quinta",
+   "07h00",
+   "Sexta",
+   "07h00",
+   "Sábado"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-menino-jesus-de-praga",
+   "comunidade-sagrada-familia-de-nazare",
+   "comunidade-santa-paulina",
+   "comunidade-santa-rita-de-cassia"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-imaculado-coracao-de-maria",
+  "nome": "Paróquia Imaculado Coração de Maria",
+  "forania": "Campo Limpo",
+  "festa": "Sábado seguinte a Solenidade do Sagrado Coração de Jesus",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 20h"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "4ª 15h às 17h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-de-fatima-3"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-jesus-bom-pastor",
+  "nome": "Paróquia Jesus Bom Pastor",
+  "forania": "Mirim-Guaçu",
+  "festa": "Solenidade do Bom Pastor",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 09h30",
+   "Sexta",
+   "19h00",
+   "Domingo",
+   "07h00, 09h30",
+   "Sexta",
+   "19h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-sao-joao-batista-6",
+   "comunidade-sao-jose-5"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-jesus-de-nazare",
+  "nome": "Paróquia Jesus de Nazaré",
+  "forania": "Itapecerica",
+  "festa": null,
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00",
+   "Domingo",
+   "07h00"
+  ],
+  "confissoes": [
+   "Quinta",
+   "10h00 - 12h00"
+  ],
+  "adoracao": [
+   "5ª das 10h às 12h"
+  ],
+  "comunidades": [
+   "comunidade-maria-de-nazare",
+   "comunidade-sagrado-coracao-de-jesus-9",
+   "comunidade-santo-expedito-8"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-maria-mae-da-igreja",
+  "nome": "Paróquia Maria Mãe da Igreja",
+  "forania": "M'Boi Mirim",
+  "festa": "21 de Maio",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 08h00, 18h00",
+   "Quarta",
+   "08h00",
+   "Quinta",
+   "17h00",
+   "Sexta",
+   "08h00",
+   "Domingo",
+   "08h00, 07h00, 18h00",
+   "Quarta",
+   "08h00",
+   "Quinta",
+   "17h00",
+   "Sexta",
+   "08h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Antes das missas"
+  ],
+  "adoracao": [
+   "6ª às 9h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-misericordia",
+   "comunidade-nossa-senhora-de-fatima-2"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-maria-mae-dos-caminhantes",
+  "nome": "Paróquia Maria Mãe dos Caminhantes",
+  "forania": "Itapecerica",
+  "festa": "31 de Maio",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "05h00, 19h00",
+   "Domingo",
+   "08h00, 10h00, 19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "05h00, 19h00"
+  ],
+  "confissoes": [
+   "Quinta",
+   "15h00 - 18h00",
+   "Sexta",
+   "15h00 - 18h00"
+  ],
+  "adoracao": [],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-aparecida-2",
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "forania": "Mirim-Guaçu",
+  "festa": "12 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 18h00",
+   "Quinta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Domingo",
+   "08h00, 18h00",
+   "Quinta",
+   "19h30",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [
+   "Quarta",
+   "09h00 - 12h00 e 14h00 - 17h00",
+   "Sexta",
+   "09h00 - 12h00 e 14h00 - 17h00",
+   "Sábado",
+   "09h00 - 12h00 e 14h00 - 17h00"
+  ],
+  "adoracao": [
+   "5ª às 19h"
+  ],
+  "comunidades": [
+   "comunidade-imaculada-conceicao-2",
+   "comunidade-santa-rita-de-cassia-10",
+   "comunidade-sao-sebastiao-4"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-aparecida-e-sao-lourenco",
+  "nome": "Paróquia Nossa Senhora Aparecida e São Lourenço",
+  "forania": "Itapecerica",
+  "festa": "10 de Agosto",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "09h00, 19h00",
+   "Domingo",
+   "09h00, 19h00"
+  ],
+  "confissoes": [
+   "Terça",
+   "09h00 - 11h00 e 14h00 - 17h00",
+   "Quinta",
+   "09h00 - 11h00 e 14h00 - 17h00",
+   "Sexta",
+   "09h00 - 11h00 e 14h00 - 17h00"
+  ],
+  "adoracao": [
+   "5ª às 19h30"
+  ],
+  "comunidades": [
+   "comunidade-imaculado-coracao-de-maria-6",
+   "comunidade-jesus-bom-pastor-3",
+   "comunidade-jesus-misericordioso",
+   "comunidade-joao-paulo-ii",
+   "comunidade-nossa-senhora-aparecida-24",
+   "comunidade-nossa-senhora-de-fatima-13",
+   "comunidade-nossa-senhora-de-guadalupe-2",
+   "comunidade-nossa-senhora-de-lourdes-3",
+   "comunidade-santa-cruz",
+   "comunidade-santa-tereza-de-calcuta-2",
+   "comunidade-santa-terezinha-2",
+   "comunidade-santo-antonio-4",
+   "comunidade-santo-expedito-11",
+   "comunidade-sao-benedito-2",
+   "comunidade-sao-joao-batista-10",
+   "comunidade-sao-jose-12",
+   "comunidade-sao-jose-e-nossa-senhora-de-fatima",
+   "comunidade-sao-judas-tadeu-8",
+   "comunidade-sao-lourenco-2",
+   "comunidade-sao-paulo-apostolo-2",
+   "comunidade-sao-pedro-apostolo",
+   "comunidade-sao-sebastiao-7",
+   "comunidade-sao-vicente"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-aparecida-monte-kemel",
+  "nome": "Paróquia Nossa Senhora Aparecida Monte Kemel",
+  "forania": "Morumbi",
+  "festa": "12 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h30, 11h00, 18h30",
+   "Quarta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "17h00",
+   "Domingo",
+   "08h30, 11h00, 18h30",
+   "Quarta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "17h00"
+  ],
+  "confissoes": [
+   "Quinta",
+   "15h00 - 18h00",
+   "Horários",
+   "Agendar na secretaria por telefone ou whatsapp"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-8"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-aparecida-peri-peri",
+  "nome": "Paróquia Nossa Senhora Aparecida Peri Peri",
+  "forania": "Morumbi",
+  "festa": "12 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h30, 10h30, 19h00",
+   "Terça",
+   "07h30",
+   "Quarta",
+   "07h30",
+   "Quinta",
+   "07h30",
+   "Sexta",
+   "15h00",
+   "Sábado",
+   "18h00",
+   "Domingo",
+   "08h30, 10h30, 19h00",
+   "Terça",
+   "07h30",
+   "Quarta",
+   "07h30",
+   "Quinta",
+   "07h30",
+   "Sexta",
+   "15h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "1ª Quinta-feira do mês"
+  ],
+  "comunidades": [
+   "comunidade-sao-pedro-e-sao-paulo"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-aparecida",
+  "nome": "Paróquia Nossa Senhora Aparecida - Taboão",
+  "forania": "Taboão da Serra",
+  "festa": "12 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 18h00",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "08h00, 18h00",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "19h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h"
+  ],
+  "confissoes": [
+   "Quinta",
+   "18h00 - 19h00",
+   "Sábado",
+   "18h00 - 19h00"
+  ],
+  "adoracao": [
+   "5ª às 18h"
+  ],
+  "comunidades": [
+   "comunidade-bom-jesus",
+   "comunidade-nossa-senhora-de-fatima-5",
+   "comunidade-santo-expedito-5"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-auxiliadora",
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "forania": "M'Boi Mirim",
+  "festa": "24 de Maio",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 17h00",
+   "Segunda",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "17h00"
+  ],
+  "confissoes": [
+   "Quinta",
+   "19h"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida",
+   "comunidade-nossa-senhora-de-fatima"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-da-conceicao-aparecida",
+  "nome": "Paróquia Nossa Senhora da Conceição Aparecida",
+  "forania": "São Luiz - CR",
+  "festa": "12 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "18h00",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "16h00",
+   "Domingo",
+   "18h00",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "16h00"
+  ],
+  "confissoes": [
+   "Quinta",
+   "15h00 - 17h00",
+   "Sábado",
+   "09h00 - 12h00"
+  ],
+  "adoracao": [
+   "5ª às 15h"
+  ],
+  "comunidades": [
+   "comunidade-sagrado-coracao-de-jesus",
+   "comunidade-sao-pedro"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-da-esperanca",
+  "nome": "Paróquia Nossa Senhora da Esperança",
+  "forania": "M'Boi Mirim",
+  "festa": "26 de abril",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 11h00, 19h00",
+   "Quarta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Domingo",
+   "07h30, 11h00, 19h00",
+   "Quarta",
+   "19h00",
+   "Sexta",
+   "19h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Sexta-feira após às 15h"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-dos-arcanjos",
+   "comunidade-nossa-senhora-da-esperanca-2",
+   "comunidade-nossa-senhora-do-caminho"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-da-providencia",
+  "nome": "Paróquia Nossa Senhora da Providência",
+  "forania": "Morumbi",
+  "festa": "20 de Novembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "09h00, 11h00, 18h30",
+   "Terça",
+   "19h00",
+   "Quarta",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "18h00",
+   "Domingo",
+   "09h00, 11h00, 18h30",
+   "Segunda",
+   "Terça",
+   "19h00",
+   "Quarta",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "18h00",
+   "Missas Ocasionais",
+   "1º Sábado Imaculado Coração de Maria às 11h"
+  ],
+  "confissoes": [
+   "Quinta",
+   "14h30 - 17h",
+   "Sexta",
+   "14h30 - 17h"
+  ],
+  "adoracao": [
+   "5ª das 14h às 18h com benção solene"
+  ],
+  "comunidades": [
+   "comunidade-pio-xii"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-das-dores",
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "forania": "Itapecerica",
+  "festa": "15 de Setembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h30, 18h00",
+   "Domingo",
+   "08h30, 18h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [
+   "Sexta",
+   "09h00 - 11h30 e 14h00 - 16h00",
+   "Sábado",
+   "09h00 - 11h30 e 14h00 - 16h00"
+  ],
+  "adoracao": [
+   "1ª Sexta-feira do mês às 19h"
+  ],
+  "comunidades": [
+   "comunidade-imaculada-conceicao-3",
+   "comunidade-nossa-senhora-aparecida-21",
+   "comunidade-nossa-senhora-de-fatima-9",
+   "comunidade-santa-catarina-de-alexandria",
+   "comunidade-santa-terezinha-do-menino-jesus-2",
+   "comunidade-santo-antonio-de-padua-2",
+   "comunidade-sao-francisco-de-assis-10",
+   "comunidade-sao-jose-8",
+   "comunidade-sao-judas-tadeu-7",
+   "comunidade-sao-miguel-arcanjo-3",
+   "comunidade-sao-sebastiao-5"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-das-gracas",
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "forania": "M'Boi Mirim",
+  "festa": "27 de Novembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 10h00, 18h00",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "07h30, 10h00, 18h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "5ª às 19h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-das-candeias",
+   "comunidade-sagrado-coracao-de-jesus-e-imaculado-coracao-de-maria",
+   "comunidade-santa-teresinha-do-menino-jesus"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-das-vitorias-e-sao-lucas",
+  "nome": "Paróquia Nossa Senhora das Vitórias e São Lucas",
+  "forania": "Embu das Artes",
+  "festa": "15 de Agosto e 18 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 11h00, 18h00",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "08h00, 11h00, 18h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Quinta",
+   "19h00 - 20h00"
+  ],
+  "adoracao": [
+   "5ª às 18h"
+  ],
+  "comunidades": [
+   "comunidade-sao-sebatiao"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-de-fatima-2",
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "forania": "Morumbi",
+  "festa": "13 de Maio",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h30, 19h00",
+   "Terça",
+   "19h30",
+   "Quarta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "15h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-do-carmo"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-de-fatima",
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "forania": "São Luiz - CR",
+  "festa": "13 de Maio",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Terça",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Terça",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [
+   "Quinta",
+   "16h00 - 18h00"
+  ],
+  "adoracao": [
+   "3ª quinta-feira de cada mês às 15h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-penha",
+   "comunidade-sao-francisco-de-assis-2",
+   "comunidade-sao-joao-batista-e-santa-rita",
+   "comunidade-sao-roque",
+   "comunidade-sao-sebastiao"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-de-guadalupe-2",
+  "nome": "Paróquia Nossa Senhora de Guadalupe",
+  "forania": "Mirim-Guaçu",
+  "festa": "12 de Dezembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 19h00",
+   "Segunda",
+   "12h00",
+   "Quarta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "07h00, 19h00",
+   "Segunda",
+   "12h00",
+   "Quarta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "19h00",
+   "Missas Ocasionais",
+   "Sexta-feira Adoração ao Santíssimo à partir das 17h"
+  ],
+  "confissoes": [
+   "Quarta",
+   "15h00 - 17h00",
+   "Sexta",
+   "15h00 - 17h00",
+   "Sábado",
+   "08h00 - 10h00"
+  ],
+  "adoracao": [
+   "5ª das 17h às 19h"
+  ],
+  "comunidades": [
+   "comunidade-santa-josefina-bakita",
+   "comunidade-santa-rita-de-cassia-9",
+   "comunidade-sao-francisco-de-assis-8",
+   "comunidade-sao-judas-tadeu-6"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-de-guadalupe",
+  "nome": "Paróquia Nossa Senhora de Guadalupe",
+  "forania": "Morumbi",
+  "festa": "12 de Dezembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h30, 10h30, 12h30, 17h00, 19h00",
+   "Segunda",
+   "18h00",
+   "Terça",
+   "12h00, 18h00",
+   "Quarta",
+   "12h00, 18h00",
+   "Quinta",
+   "12h00, 18h00",
+   "Sexta",
+   "12h00, 18h00",
+   "Sábado",
+   "17h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Após as Santas Missas"
+  ],
+  "adoracao": [
+   "5ª às 17h"
+  ],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-de-lourdes",
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "forania": "M'Boi Mirim",
+  "festa": "11 de Fevereiro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 18h00",
+   "Quinta",
+   "19h00",
+   "Domingo",
+   "08h00, 10h00, 18h00",
+   "Quinta",
+   "19h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do Mês às 20h"
+  ],
+  "confissoes": [
+   "Quinta",
+   "15h00 - 18h00",
+   "Sábado",
+   "10h00 - 12h00"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-santo-expedito"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-do-bom-conselho",
+  "nome": "Paróquia Nossa Senhora do Bom Conselho",
+  "forania": "São Luiz - CR",
+  "festa": "26 de Abril",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 11h30, 18h00",
+   "Segunda",
+   "07h30",
+   "Terça",
+   "12h00",
+   "Quarta",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "11h00",
+   "Domingo",
+   "08h00, 10h00, 11h30, 18h00",
+   "Segunda",
+   "07h30",
+   "Terça",
+   "12h00",
+   "Quarta",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "11h00"
+  ],
+  "confissoes": [
+   "Quarta",
+   "15h30 - 18h00",
+   "Quinta",
+   "15h00 - 19h00"
+  ],
+  "adoracao": [
+   "5ª das 18h às 19h15"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-das-gracas-e-sao-sebastiao",
+   "comunidade-sao-tarcisio"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-do-carmo",
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "forania": "São Luiz - CR",
+  "festa": "16 de Julho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 09h00, 10h30, 17h00, 19h00",
+   "Segunda",
+   "19h00",
+   "Quarta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "07h00, 09h00, 10h30, 17h00, 19h00",
+   "Segunda",
+   "19h00",
+   "Quarta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-sao-francisco-de-paula",
+   "comunidade-sao-pedro-e-sao-judas"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-do-paraiso",
+  "nome": "Paróquia Nossa Senhora do Paraíso",
+  "forania": "Morumbi",
+  "festa": "06 de Dezembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "10h30, 17h00",
+   "Terça",
+   "19h30",
+   "Quinta",
+   "18h30",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [
+   "Quinta",
+   "18h30 - 19h30"
+  ],
+  "adoracao": [
+   "5ª às 18h30"
+  ],
+  "comunidades": [
+   "comunidade-santa-luzia-3",
+   "comunidade-santo-expedito-3",
+   "comunidade-sao-sebastiao-2"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-do-rosario",
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "forania": "Embu das Artes",
+  "festa": "07 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 12h00, 18h00",
+   "Segunda",
+   "19h30",
+   "Quarta",
+   "15h00",
+   "Domingo",
+   "08h00, 12h00, 18h00",
+   "Segunda",
+   "19h30",
+   "Quarta",
+   "15h00",
+   "Missas Ocasionais",
+   "Capelas: São Lázaro está em reforma, por enquanto, sem horário de celebrações."
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "Quintas às 15h"
+  ],
+  "comunidades": [
+   "capela-de-sao-lazaro",
+   "capela-santa-cruz",
+   "capela-sao-jose",
+   "centro-pastoral-do-rosario",
+   "comunidade-nossa-senhora-aparecida-12",
+   "comunidade-nossa-senhora-auxiliadora",
+   "comunidade-nossa-senhora-das-gracas-5",
+   "comunidade-nossa-senhora-de-lourdes",
+   "comunidade-nossa-senhora-do-caravaggio",
+   "comunidade-santa-luzia-8"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-dos-prazeres-e-divina-misericordia",
+  "nome": "Paróquia Nossa Senhora dos Prazeres e Divina Misericórdia",
+  "forania": "Itapecerica",
+  "festa": "1º Domingo depois da Páscoa",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 12h00, 18h30",
+   "Segunda",
+   "09h00",
+   "Terça",
+   "08h00, 12h00, 18h30",
+   "Quarta",
+   "08h00, 12h00, 18h30",
+   "Quinta",
+   "08h00, 12h00, 18h30",
+   "Sexta",
+   "08h00, 12h00, 18h30",
+   "Sábado",
+   "12h00, 19h00",
+   "Domingo",
+   "08h00, 10h00, 12h00, 18h30",
+   "Segunda",
+   "09h00",
+   "Terça",
+   "08h00, 12h00, 18h30",
+   "Quarta",
+   "08h00, 12h00, 18h30",
+   "Quinta",
+   "08h00, 12h00, 18h30",
+   "Sexta",
+   "08h00, 12h00, 18h30",
+   "Sábado",
+   "12h00, 19h00",
+   "Missas Ocasionais",
+   "Nas segundas às 9h Missa por cura e libertação"
+  ],
+  "confissoes": [
+   "Terça",
+   "09h00 - 11h30 e 14h30 - 17h30",
+   "Sábado",
+   "09h00 - 11h30"
+  ],
+  "adoracao": [
+   "3ª das 09h às 11h30 e 13h às 18h"
+  ],
+  "comunidades": [
+   "comunidade-beatissima-virgem-maria",
+   "comunidade-menino-jesus",
+   "comunidade-nossa-senhora-aparecida-19",
+   "comunidade-nossa-senhora-aparecida-20",
+   "comunidade-nossa-senhora-da-penha-4",
+   "comunidade-santa-luzia-11",
+   "comunidade-santa-tereza-de-calcuta",
+   "comunidade-sao-joao-batista-8"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-rainha-da-paz",
+  "nome": "Paróquia Nossa Senhora Rainha da Paz",
+  "forania": "São José - CR",
+  "festa": "25 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 19h30",
+   "Terça",
+   "20h00",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "19h30",
+   "Domingo",
+   "07h30, 19h30",
+   "Terça",
+   "20h00",
+   "Quarta",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [
+   "Sábado",
+   "10h30 - 13h00"
+  ],
+  "adoracao": [
+   "5ª (dia inteiro)"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-5"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-nossa-senhora-rainha-dos-apostolos",
+  "nome": "Paróquia Nossa Senhora Rainha dos Apóstolos",
+  "forania": "Campo Limpo",
+  "festa": "22 de Agosto",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Segunda",
+   "19h30",
+   "Quarta",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Sábado",
+   "19h00",
+   "Segunda",
+   "19h30",
+   "Quarta",
+   "19h30",
+   "Quinta",
+   "19h30"
+  ],
+  "confissoes": [
+   "Sexta",
+   "18h30 - 19h30"
+  ],
+  "adoracao": [
+   "6ª às 18h30"
+  ],
+  "comunidades": [
+   "comunidade-santa-luzia-6"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sagrado-coracao-de-jesus-2",
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "forania": "São Luiz - CR",
+  "festa": "1ª Sexta-feira depois de Corpus Christi",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 18h30",
+   "Terça",
+   "19h00",
+   "Quarta",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h30",
+   "Domingo",
+   "08h00, 10h00, 18h30",
+   "Terça",
+   "19h00",
+   "Quarta",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [
+   "Sexta",
+   "15h00 - 17h30"
+  ],
+  "adoracao": [
+   "6ª das 15h às 17h Benção do Santíssimo na Missa às 19h30"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-6"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sagrado-coracao-de-jesus-3",
+  "nome": "Paróquia Sagrado Coração de Jesus - Pq. Ipê",
+  "forania": "Campo Limpo",
+  "festa": "24 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Quarta",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Quarta",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "4ª, 5ª e 6ª das 17h às 19h"
+  ],
+  "adoracao": [
+   "5ª das 17h às 18h45"
+  ],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sagrado-coracao-de-jesus-4",
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "forania": "Taboão da Serra",
+  "festa": "24 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 18h00",
+   "Terça",
+   "20h00",
+   "Domingo",
+   "08h00, 18h00",
+   "Terça",
+   "20h00"
+  ],
+  "confissoes": [
+   "Terça",
+   "14h00 - 18h00",
+   "Quinta",
+   "14h00 - 18h00"
+  ],
+  "adoracao": [
+   "1ª Sexta-feira às 17h"
+  ],
+  "comunidades": [
+   "comunidade-sao-jose-2",
+   "comunidade-sao-judas-tadeu-4"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sagrado-coracao-de-jesus",
+  "nome": "Paróquia Sagrado Coração de Jesus - Jangadeiro",
+  "forania": "São José - CR",
+  "festa": "Sexta-feira após o 2º domingo depois de Pentecostes",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "10h00, 18h00",
+   "Quarta",
+   "20h00",
+   "Quinta",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Domingo",
+   "10h00, 18h00",
+   "Quarta",
+   "20h00",
+   "Quinta",
+   "20h00",
+   "Sexta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sagrado-coracao-morumbi",
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "forania": "Morumbi",
+  "festa": "Data móvel",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "10h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Missas Ocasionais",
+   "Adoração ao Santíssimo 5ª das 14h às 17h"
+  ],
+  "confissoes": [
+   "Quarta",
+   "09h00 - 12h00 e 14h00-16h00"
+  ],
+  "adoracao": [
+   "5ª das 15h às 19h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-esperanca-4",
+   "comunidade-sagrada-familia-2",
+   "comunidade-santa-luzia-4"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-ana-e-sao-joaquim",
+  "nome": "Paróquia Santa Ana e São Joaquim",
+  "forania": "Taboão da Serra",
+  "festa": "26 de Julho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-10",
+   "comunidade-sao-francisco-de-assis-5",
+   "comunidade-sao-jose"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-clara-de-assis",
+  "nome": "Paróquia Santa Clara de Assis",
+  "forania": "Itapecerica",
+  "festa": "11 de Agosto",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 10h00, 18h00",
+   "Quarta",
+   "20h00",
+   "Quinta",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Domingo",
+   "07h00, 10h00, 18h00",
+   "Quarta",
+   "20h00",
+   "Quinta",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 20h"
+  ],
+  "confissoes": [
+   "Quinta",
+   "10h00 - 12h00 e 14h00 - 17h00"
+  ],
+  "adoracao": [
+   "5ª das 13h às 18h30"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-22",
+   "comunidade-santa-monica-e-sao-jorge"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-cruz",
+  "nome": "Paróquia Santa Cruz",
+  "forania": "Campo Limpo",
+  "festa": "14 de Setembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 11h00, 18h00",
+   "Quarta",
+   "19h00",
+   "Sexta",
+   "12h00",
+   "Sábado",
+   "18h00",
+   "Domingo",
+   "07h30, 11h00, 18h00",
+   "Quarta",
+   "19h00",
+   "Sábado",
+   "18h00",
+   "Sexta",
+   "12h00"
+  ],
+  "confissoes": [
+   "Sexta",
+   "14h30 - 17h30",
+   "Sábado",
+   "09h00 - 12h00"
+  ],
+  "adoracao": [
+   "4ª às 18h (matriz) e comunidade Santa Rita 5ª às 18h"
+  ],
+  "comunidades": [
+   "comunidade-santa-rita-de-cassia-2"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-edwiges-e-sao-miguel-arcanjo",
+  "nome": "Paróquia Santa Edwiges e São Miguel Arcanjo",
+  "forania": "M'Boi Mirim",
+  "festa": "16 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 10h00, 12h00, 19h00",
+   "Sexta",
+   "20h00",
+   "Domingo",
+   "07h00, 10h00, 12h00, 19h00",
+   "Sexta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Após as missas"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-2",
+   "comunidade-santo-expedito-2",
+   "comunidade-senhora-de-fatima"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-edwiges",
+  "nome": "Paróquia Santa Edwiges",
+  "forania": "Morumbi",
+  "festa": "16 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 18h00",
+   "Quinta",
+   "19h30",
+   "Missas Ocasionais",
+   "1ª sábado do mês 10h"
+  ],
+  "confissoes": [
+   "Horários",
+   "Após as Santas Missas"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-cabeca"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-ines",
+  "nome": "Paróquia Santa Inês",
+  "forania": "Embu das Artes",
+  "festa": "21 de Janeiro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 08h30, 19h00",
+   "Quinta",
+   "19h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 20h"
+  ],
+  "confissoes": [
+   "Quinta",
+   "16h00 - 18h00"
+  ],
+  "adoracao": [
+   "5ª às 15h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-de-fatima-7",
+   "comunidade-sao-miguel-arcanjo-2"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-isabel",
+  "nome": "Paróquia Santa Isabel",
+  "forania": "Campo Limpo",
+  "festa": "04 de Julho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h30",
+   "Segunda",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "19h30",
+   "Domingo",
+   "08h00, 19h30",
+   "Segunda",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [
+   "Sexta",
+   "09h00 - 12h00 e 15h00 - 18h00"
+  ],
+  "adoracao": [
+   "Quinta-feira das 09h às 18h30; Todo dia 04 do mês missa votiva a Santa Isabel, na matriz às 19h30."
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-assuncao",
+   "comunidade-nossa-senhora-dos-pobres"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-luzia",
+  "nome": "Paróquia Santa Luzia",
+  "forania": "Mirim-Guaçu",
+  "festa": "13 de Dezembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 18h00",
+   "Quarta",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Domingo",
+   "08h00, 18h00",
+   "Quarta",
+   "20h00",
+   "Sexta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "5ª às 15h"
+  ],
+  "comunidades": [
+   "comunidade-imaculado-coracao-de-maria-4",
+   "comunidade-sao-joao-batista-7",
+   "comunidade-sao-roque-2"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-margarida-maria-alacoque",
+  "nome": "Paróquia Santa Margarida Maria Alacoque",
+  "forania": "Taboão da Serra",
+  "festa": "16 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 18h00",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "08h00, 18h00",
+   "Quinta",
+   "20h00",
+   "Missas Ocasionais",
+   "Segunda feira | 20h: CEM Santa Tereza de Calcutá CEM Santa Dulce dos Pobres CEM São Francisco de Assis CEM Nossa Senhora da Conceição. Terça feira | 15h: CEM Nossa Senhora da Saúde 20h CEM São José CEM Santa Luzia CEM São Charles de Foucauld CEM Nossa Senhora de Fátima. Quarta feira | 20h: CEM Nossa Senhora Aparecida CEM Nossa Senhora de Guadalupe CEM Santo Antônio de Pádua. Quinta feira | 20h: CEM Sagrada Família CEM Imaculado Coração de Maria."
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "1ª Quinta-feira do mês das 15h às 19h"
+  ],
+  "comunidades": [
+   "comunidade-santa-rita-de-cassia-3",
+   "comunidade-santo-expedito-6",
+   "comunidade-sao-francisco-de-assis-4"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-maria-goretti",
+  "nome": "Paróquia Santa Maria Goretti",
+  "forania": "São Luiz - CR",
+  "festa": "06 de Julho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 19h00",
+   "Segunda",
+   "19h30",
+   "Terça",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "19h30",
+   "Domingo",
+   "08h00, 10h00, 19h30",
+   "Segunda",
+   "19h30",
+   "Terça",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [
+   "Segunda",
+   "19h00 - 20h00",
+   "Terça",
+   "19h00 - 20h00",
+   "Sexta",
+   "19h00 - 20h00"
+  ],
+  "adoracao": [
+   "1ª Sexta-feira do mês"
+  ],
+  "comunidades": [
+   "comunidade-sao-joao-paulo-ii"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-otilia",
+  "nome": "Paróquia Santa Otília",
+  "forania": "Embu das Artes",
+  "festa": "13 de Dezembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Quarta",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Quarta",
+   "20h00",
+   "Sexta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Sexta",
+   "15h00 - 16h00"
+  ],
+  "adoracao": [
+   "5ª às 15h"
+  ],
+  "comunidades": [
+   "comunidade-imaculado-coracao-de-maria-2",
+   "comunidade-nossa-senhora-aparecida-14",
+   "comunidade-sagrado-coracao-de-jesus-4",
+   "comunidade-santa-rita-de-cassia-5"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-paulina",
+  "nome": "Paróquia Menino Jesus e Santa Paulina",
+  "forania": "Embu das Artes",
+  "festa": "09 de Julho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "10h00",
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [
+   "Quinta",
+   "15h00 - 18h00"
+  ],
+  "adoracao": [
+   "5ª às 17h"
+  ],
+  "comunidades": [
+   "comunidade-menino-jesus-de-itatuba",
+   "comunidade-nossa-senhora-de-fatima-6",
+   "comunidade-nossa-senhora-do-rosario-de-fatima",
+   "comunidade-sagrada-familia",
+   "comunidade-sagrado-coracao-de-jesus-5",
+   "comunidade-santa-rita-de-cassia-7",
+   "comunidade-sao-jose-3",
+   "comunidade-sao-pedro-4"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-rita-de-cassia-2",
+  "nome": "Paróquia Santa Rita de Cássia",
+  "forania": "Itapecerica",
+  "festa": "22 de Maio",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 18h00",
+   "Quinta",
+   "19h30",
+   "Domingo",
+   "08h00, 18h00",
+   "Quinta",
+   "19h30",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [
+   "Terça",
+   "15h00 - 18h00",
+   "Quarta",
+   "15h00 - 18h00",
+   "Quinta",
+   "15h00 - 18h00",
+   "Sexta",
+   "15h00 - 18h00",
+   "Sábado",
+   "09h00 - 12h00"
+  ],
+  "adoracao": [
+   "5ª das 14h às 18h"
+  ],
+  "comunidades": [
+   "comunidade-bom-jesus-2",
+   "comunidade-nossa-senhora-aparecida-23",
+   "comunidade-santo-antonio-3",
+   "comunidade-santo-expedito-10",
+   "comunidade-sao-francisco-de-assis-11",
+   "comunidade-sao-jose-10",
+   "comunidade-sao-sebastiao-6"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-rita-de-cassia",
+  "nome": "Paróquia Santa Rita de Cássia",
+  "forania": "São José - CR",
+  "festa": "22 de Maio",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 18h00",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "18h00",
+   "Domingo",
+   "07h00, 18h00",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "18h00",
+   "Missas Ocasionais",
+   "4ª às 15 horas (unção dos enfermos)"
+  ],
+  "confissoes": [
+   "Terça",
+   "10h00 - 12h00",
+   "Quarta",
+   "10h00 - 12h00",
+   "Quinta",
+   "15h00 - 17h00",
+   "Sábado",
+   "10h00 - 12h00"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-das-gracas",
+   "comunidade-sao-benedito"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-rosa-de-lima",
+  "nome": "Paróquia Santa Rosa de Lima",
+  "forania": "São Luiz - CR",
+  "festa": "23 de Agosto",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 11h00, 17h00",
+   "Quarta",
+   "19h30",
+   "Domingo",
+   "07h00, 11h00, 17h00",
+   "Quarta",
+   "19h30",
+   "Missas Ocasionais",
+   "1º Sábado às 08h"
+  ],
+  "confissoes": [
+   "Quarta",
+   "18h00 - 19h30",
+   "Horários",
+   "Às sextas-feiras agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "5ª das 19h às 21h"
+  ],
+  "comunidades": [
+   "comunidade-sagrado-coracao-de-jesus-2",
+   "comunidade-santa-isabel-da-hungria",
+   "comunidade-sao-francisco-de-assis-3"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-suzana",
+  "nome": "Paróquia Santa Suzana e São Carlo Acutis",
+  "forania": "Morumbi",
+  "festa": "28 de Agosto",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h30",
+   "Segunda",
+   "18h00",
+   "Terça",
+   "18h00",
+   "Quarta",
+   "18h00",
+   "Quinta",
+   "18h00",
+   "Sexta",
+   "18h00",
+   "Sábado",
+   "18h00",
+   "Segunda",
+   "18h00",
+   "Terça",
+   "18h00",
+   "Quarta",
+   "18h00",
+   "Quinta",
+   "18h00",
+   "Sexta",
+   "18h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "1ª Sexta-feira do mês às 9h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-das-gracas-2",
+   "comunidade-santa-suzana",
+   "comunidade-sao-paulo-apostolo"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-teresa-de-jesus-e-sao-joao-da-cruz",
+  "nome": "Paróquia Santa Teresa de Jesus e São João da Cruz",
+  "forania": "Embu das Artes",
+  "festa": "15 de Outubro e 14 de Dezembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 18h00",
+   "Quinta",
+   "15h00",
+   "Sexta",
+   "19h30",
+   "Domingo",
+   "08h00, 10h00, 18h00",
+   "Quinta",
+   "15h00",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [
+   "Quarta",
+   "14h30 - 17h00",
+   "Sexta",
+   "14h30 - 17h00"
+  ],
+  "adoracao": [
+   "1ª Sexta-feira do mês das 15h às 19h e às 5ª às 15h"
+  ],
+  "comunidades": [
+   "comunidade-imaculado-coracao-de-maria",
+   "comunidade-santa-terezinha",
+   "comunidade-sao-pedro-3"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-terezinha-do-menino-jesus",
+  "nome": "Paróquia Santa Terezinha do Menino Jesus",
+  "forania": "Mirim-Guaçu",
+  "festa": "01 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Segunda",
+   "12h00",
+   "Terça",
+   "18h00",
+   "Quinta",
+   "18h00",
+   "Sexta",
+   "18h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Segunda",
+   "12h00",
+   "Terça",
+   "18h00",
+   "Quinta",
+   "18h00",
+   "Sexta",
+   "18h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "3ª Sábado do mês às 15h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-de-fatima-8",
+   "comunidade-sagrado-coracao-de-jesus-6",
+   "comunidade-sao-felipe-e-sao-thiago-apostolos",
+   "comunidade-sao-jose-4"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santa-terezinha",
+  "nome": "Paróquia Santa Terezinha",
+  "forania": "Taboão da Serra",
+  "festa": "01 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 10h00, 12h00, 15h00, 17h30, 19h00",
+   "Segunda",
+   "07h00, 10h00, 12h00, 15h00, 18h00, 20h00",
+   "Terça",
+   "07h00, 10h00, 12h00, 15h00, 18h00, 20h00",
+   "Quarta",
+   "07h00, 10h00, 12h00, 15h00, 18h00, 20h00",
+   "Quinta",
+   "07h00, 10h00, 12h00, 15h00, 18h00, 20h00",
+   "Sexta",
+   "07h00, 10h00, 12h00, 15h00, 18h00, 20h00",
+   "Sábado",
+   "07h00, 09h00, 12h00, 15h00, 19h00",
+   "Domingo",
+   "07h30, 10h00, 12h00, 15h00, 17h30, 19h00",
+   "Segunda",
+   "07h00, 10h00, 12h00, 15h00, 18h00, 20h00",
+   "Terça",
+   "07h00, 10h00, 12h00, 15h00, 18h00, 20h00",
+   "Quarta",
+   "07h00, 10h00, 12h00, 15h00, 18h00, 20h00",
+   "Quinta",
+   "07h00, 10h00, 12h00, 15h00, 18h00, 20h00",
+   "Sexta",
+   "07h00, 10h00, 12h00, 15h00, 18h00, 20h00",
+   "Sábado",
+   "07h00, 09h00, 12h00, 15h00, 19h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Todos os dias"
+  ],
+  "adoracao": [
+   "Todos os dias"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-jd-taboao",
+   "comunidade-nossa-senhora-aparecida-solar",
+   "comunidade-nossa-senhora-de-guadalupe",
+   "comunidade-sao-luiz-e-santa-zelia-martin"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santissima-trindade",
+  "nome": "Paróquia Santíssima Trindade",
+  "forania": "Mirim-Guaçu",
+  "festa": "Festa da Santíssima Trindade",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Sexta",
+   "20h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Sexta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "2º e 4º Sábado do mês das 09h às 12h"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-maria-imaculada",
+   "comunidade-maria-mae-da-esperanca",
+   "comunidade-maria-mae-dos-pobres",
+   "comunidade-nossa-senhora-aparecida-16",
+   "comunidade-nossa-senhora-de-fatima-e-santo-antonio",
+   "comunidade-nossa-senhora-do-carmo-4",
+   "comunidade-nossa-senhora-dos-remedios"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santissimo-sacramento",
+  "nome": "Paróquia Santíssimo Sacramento",
+  "forania": "Taboão da Serra",
+  "festa": "Corpus Christi",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h30",
+   "Domingo",
+   "08h00, 10h00",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [
+   "Quinta",
+   "15h00 - 16h30"
+  ],
+  "adoracao": [
+   "5ª das 15h às 17h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-11"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santo-antonio-2",
+  "nome": "Paróquia Santo Antônio",
+  "forania": "Morumbi",
+  "festa": "13 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 12h00, 19h00",
+   "Segunda",
+   "12h00",
+   "Terça",
+   "12h00, 18h00",
+   "Quarta",
+   "12h00, 18h00",
+   "Quinta",
+   "12h00, 18h00",
+   "Sexta",
+   "12h00, 18h00",
+   "Sábado",
+   "12h00, 18h00",
+   "Domingo",
+   "08h00, 10h00, 12h00, 19h00",
+   "Segunda",
+   "12h00",
+   "Terça",
+   "12h00, 18h00",
+   "Quarta",
+   "12h00, 18h00",
+   "Quinta",
+   "12h00, 18h00",
+   "Sexta",
+   "12h00, 18h00",
+   "Sábado",
+   "12h00, 18h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "3ª a 6ª após as missas"
+  ],
+  "adoracao": [
+   "5ª às 15h"
+  ],
+  "comunidades": [
+   "santuario-santa-cruz-da-reconciliacao"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santo-antonio-3",
+  "nome": "Paróquia Santo Antônio",
+  "forania": "Taboão da Serra",
+  "festa": "13 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "19h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 20h"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-santa-ana-2",
+   "comunidade-santa-rita-e-sao-joao-paulo-ii"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santo-antonio-de-padua-2",
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "forania": "Itapecerica",
+  "festa": "13 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h30, 19h00",
+   "Quarta",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Domingo",
+   "08h30, 19h00",
+   "Quarta",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "Sábado às 18h"
+  ],
+  "comunidades": [
+   "comunidade-imaculado-coracao-de-maria-5",
+   "comunidade-nossa-senhora-de-fatima-12",
+   "comunidade-nossa-senhora-do-carmo-5",
+   "comunidade-santos-arcanjos-2",
+   "comunidade-sao-francisco-3",
+   "comunidade-sao-jose-11",
+   "nossa-senhora-das-gracas"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santo-antonio-de-padua",
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "forania": "São José - CR",
+  "festa": "13 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 10h30, 19h00",
+   "Quarta",
+   "19h30",
+   "Sábado",
+   "19h30",
+   "Domingo",
+   "07h30, 10h30, 19h00",
+   "Quarta",
+   "19h30",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [
+   "Quarta",
+   "15h00 - 17h00"
+  ],
+  "adoracao": [
+   "5ª das 15h às 17h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-esperanca-3"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santo-antonio-de-sant-anna-galvao",
+  "nome": "Paróquia Santo Antônio de Sant'Anna Galvão",
+  "forania": "M'Boi Mirim",
+  "festa": "25 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Terça",
+   "20h00",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "08h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Terça",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Sábado",
+   "08h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 20h"
+  ],
+  "confissoes": [
+   "Horários",
+   "Antes das missas"
+  ],
+  "adoracao": [
+   "Quinta-feira das 15h às 17h"
+  ],
+  "comunidades": [
+   "comunidade-sao-judas-tadeu-2"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santo-antonio",
+  "nome": "Paróquia Santo Antônio",
+  "forania": "São José - CR",
+  "festa": "13 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 18h00",
+   "Terça",
+   "07h00, 19h30",
+   "Quarta",
+   "07h00",
+   "Quinta",
+   "07h00",
+   "Sexta",
+   "07h00, 19h30",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês 19h30 (Matriz)"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-imaculada-conceicao",
+   "comunidade-mae-admiravel",
+   "comunidade-nossa-senhora-aparecida-e-sao-geraldo",
+   "santa-isabel-de-portugal-e-sao-benedito",
+   "santa-terezinha-do-menino-jesus"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santo-eugenio-de-mazenod",
+  "nome": "Paróquia Santo Eugênio de Mazenod",
+  "forania": "M'Boi Mirim",
+  "festa": "21 de Maio",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 19h00",
+   "Quarta",
+   "19h30",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "08h00, 10h00, 19h00",
+   "Quarta",
+   "19h30",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-3",
+   "comunidade-santa-rita",
+   "comunidade-santo-eugenio-de-mazenoud",
+   "comunidade-santo-eugenio-de-mazenoud-2",
+   "comunidade-sao-joao-batista-2",
+   "comunidade-verbo-divino"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santo-expedito",
+  "nome": "Paróquia Santo Expedito",
+  "forania": "Itapecerica",
+  "festa": "19 de Abril",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "11h00",
+   "Domingo",
+   "11h00",
+   "Missas Ocasionais",
+   "Todo dia 19 do mês às 20h"
+  ],
+  "confissoes": [
+   "Terça",
+   "15h00 - 18h00",
+   "Quarta",
+   "15h00 - 18h00",
+   "Quinta",
+   "15h00 - 18h00",
+   "Sexta",
+   "15h00 - 18h00"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-penha-5",
+   "comunidade-santa-escolastica",
+   "comunidade-santa-isabel-da-hungria-2",
+   "comunidade-sao-joao-batista-9",
+   "comunidade-sao-joao-paulo-ii-2"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santo-inacio-de-loyola",
+  "nome": "Paróquia Santo Inácio de Loyola",
+  "forania": "Mirim-Guaçu",
+  "festa": "31 de Julho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00",
+   "Domingo",
+   "08h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 17h e 1º Sábado às 09h"
+  ],
+  "confissoes": [
+   "Quarta",
+   "14h00 - 17h00 e 18h30 às 21h00",
+   "Quinta",
+   "19h00 - 20h00"
+  ],
+  "adoracao": [
+   "5ª às 19h30"
+  ],
+  "comunidades": [
+   "comunidade-imaculado-coracao-de-maria-3",
+   "comunidade-jesus-bom-pastor-2",
+   "comunidade-santa-clara-de-assis",
+   "comunidade-santa-isabel-de-portugal",
+   "comunidade-santo-expedito-7",
+   "comunidade-sao-francisco-de-assis-9",
+   "comunidade-sao-jose-6",
+   "comunidade-sao-judas-tadeu-e-santa-gema-galgani",
+   "comunidade-sao-marcos-evangelista"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-santos-martires",
+  "nome": "Paróquia Santos Mártires",
+  "forania": "M'Boi Mirim",
+  "festa": null,
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00",
+   "Terça",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h30",
+   "Domingo",
+   "08h00",
+   "Terça",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h30",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [
+   "Terça",
+   "20h - 20h30",
+   "Quarta",
+   "09h - 10h",
+   "Quinta",
+   "15h - 16h",
+   "Sexta",
+   "08h30 - 09h30",
+   "Sábado",
+   "09h - 11h"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-do-rosario",
+   "comunidade-santa-luzia",
+   "comunidade-sao-francisco-de-assis",
+   "comunidade-sao-judas-tadeu"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-benedito",
+  "nome": "Paróquia São Benedito",
+  "forania": "Morumbi",
+  "festa": "05 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 10h00, 15h00, 19h00",
+   "Quinta",
+   "17h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "07h30, 10h00, 19h00",
+   "Quinta",
+   "17h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "5ª às 16h"
+  ],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-bento-2",
+  "nome": "Paróquia São Bento",
+  "forania": "Morumbi",
+  "festa": "11 de Julho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 09h00, 11h00, 19h00",
+   "Terça",
+   "19h00",
+   "Quarta",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00"
+  ],
+  "confissoes": [
+   "Sexta",
+   "14h00 - 17h00"
+  ],
+  "adoracao": [
+   "6ª das 17h às 18h30"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-imaculada-conceicao"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-bento",
+  "nome": "Paróquia São Bento",
+  "forania": "São José - CR",
+  "festa": "11 de Julho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "09h00, 18h00",
+   "Terça",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Domingo",
+   "09h00, 18h00",
+   "Terça",
+   "19h30",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [
+   "Horários",
+   "Após as Santas Missas"
+  ],
+  "adoracao": [
+   "5ª às 15h e 1º Domingo do mês às 18h"
+  ],
+  "comunidades": [
+   "comunidade-santa-luzia-2",
+   "comunidade-sao-joaquim-e-santa-ana"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-francisco-de-assis-2",
+  "nome": "Paróquia São Francisco de Assis",
+  "forania": "São José - CR",
+  "festa": "04 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 09h00, 11h00, 17h00, 19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "07h00, 09h00, 11h00, 17h00, 19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [
+   "Quarta",
+   "15h00 - 18h00",
+   "Quinta",
+   "15h00 - 18h00",
+   "Sexta",
+   "09h00 - 12h00",
+   "Sábado",
+   "09h00 - 12h00"
+  ],
+  "adoracao": [
+   "2ª a 6ª das 14h às 18h"
+  ],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-francisco-de-assis-3",
+  "nome": "Paróquia São Francisco de Assis",
+  "forania": "Morumbi",
+  "festa": "04 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 18h00",
+   "Quarta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "15h00"
+  ],
+  "confissoes": [
+   "Quarta",
+   "09h00 - 12h00 e 14h00 - 16h00",
+   "Sexta",
+   "09h00 - 12h00 e 14h00 - 16h00"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-do-rosario-2",
+   "comunidade-sao-judas-tadeu-3"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-francisco-de-assis",
+  "nome": "Paróquia São Francisco de Assis",
+  "forania": "M'Boi Mirim",
+  "festa": "04 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 20h"
+  ],
+  "confissoes": [],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-esperanca",
+   "comunidade-sao-joaquim-e-sant-ana"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-francisco-e-santo-estevao",
+  "nome": "Paróquia São Francisco e Santo Estevão",
+  "forania": "Campo Limpo",
+  "festa": "04 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "09h00, 11h00, 19h00",
+   "Terça",
+   "20h00",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "09h00, 11h00, 19h00",
+   "Terça",
+   "20h00",
+   "Quinta",
+   "20h00",
+   "Missas Ocasionais",
+   "Sexta-feira Missa Vetus Ordo (Em latim) às 08h e Sábados Missa Vetus Ordo (Em latim) às 19h"
+  ],
+  "confissoes": [
+   "Terça",
+   "15h00 - 17h30",
+   "Quinta",
+   "15h00 - 18h00"
+  ],
+  "adoracao": [
+   "5ª às 19h"
+  ],
+  "comunidades": [
+   "comunidade-santa-clara",
+   "comunidade-santo-estevao"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-joao-batista-2",
+  "nome": "Paróquia São João Batista",
+  "forania": "M'Boi Mirim",
+  "festa": "24.06",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "10h00",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "10h00",
+   "Quinta",
+   "19h30",
+   "Missas Ocasionais",
+   "1ª sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-mae-da-divina-providencia",
+   "comunidade-santa-margarida"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-joao-batista",
+  "nome": "Paróquia São João Batista",
+  "forania": "Taboão da Serra",
+  "festa": "24 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "10h00, 19h30",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "10h00, 19h30",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Quinta",
+   "17h00 - 18h00",
+   "Sábado",
+   "10h00 - 11h00"
+  ],
+  "adoracao": [
+   "3º Domingo do mês às 19h (Comunidade São Pedro)"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-e-sao-luis-montfort",
+   "comunidade-sao-lucas-e-sao-patricio",
+   "comunidade-sao-pedro-2",
+   "comunidade-sao-sebastiao-3"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-joao-evangelista",
+  "nome": "Paróquia São João Evangelista",
+  "forania": "Embu das Artes",
+  "festa": "27 de Dezembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h30",
+   "Sábado",
+   "15h00, 19h00",
+   "Missas Ocasionais",
+   "1ª Sábado do mês às 15h"
+  ],
+  "confissoes": [
+   "Quarta",
+   "14h00 - 17h00",
+   "Quinta",
+   "14h00 - 17h00",
+   "Sexta",
+   "14h00 - 17h00"
+  ],
+  "adoracao": [
+   "5ª às 20h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-das-gracas-6",
+   "comunidade-santa-barbara",
+   "comunidade-santo-antonio"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-joao-maria-vianney",
+  "nome": "Paróquia São João Maria Vianney",
+  "forania": "Taboão da Serra",
+  "festa": "04 de Agosto",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "19h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "5ª às 20h"
+  ],
+  "comunidades": [
+   "comunidade-jesus-bom-pastor",
+   "comunidade-nossa-senhora-do-perpetuo-socorro",
+   "comunidade-santa-helena",
+   "comunidade-sao-jose-operario"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-joao-paulo-ii",
+  "nome": "Paróquia São João Paulo II",
+  "forania": "Campo Limpo",
+  "festa": "22 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "10h00, 18h00",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "18h00",
+   "Domingo",
+   "10h00, 18h00",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-jose-2",
+  "nome": "Paróquia São José",
+  "forania": "Taboão da Serra",
+  "festa": "19 de Março",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Quarta",
+   "19h30",
+   "Sexta",
+   "15h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Quarta",
+   "19h30",
+   "Sexta",
+   "15h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Antes das missas"
+  ],
+  "adoracao": [
+   "4ª às 19h30 e 5ª às 15h"
+  ],
+  "comunidades": [
+   "comunidade-sao-joao-batista-4"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-jose-e-santo-eduardo",
+  "nome": "Paróquia São José e Santo Eduardo",
+  "forania": "Embu das Artes",
+  "festa": "19 de Março",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 15h00, 19h00",
+   "Quarta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "19h30",
+   "Domingo",
+   "07h30, 15h00, 19h00",
+   "Quarta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [
+   "Quarta",
+   "09h30 - 11h30",
+   "Quinta",
+   "09h30 - 11h30",
+   "Sexta",
+   "09h30 - 11h30 e 14h30 - 16h30",
+   "Sábado",
+   "09h30 - 11h30"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-divino-espirito-santo",
+   "comunidade-santa-luzia-9",
+   "comunidade-santa-rita-de-cassia-4",
+   "comunidade-santo-eduardo",
+   "comunidade-sao-gabriel"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-jose-operario-2",
+  "nome": "Paróquia São José Operário",
+  "forania": "Campo Limpo",
+  "festa": "01 de Maio",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h30, 18h00",
+   "Domingo",
+   "08h00, 10h30, 18h00",
+   "Sexta",
+   "09h00",
+   "Missas Ocasionais",
+   "1ª quinta-feira do mês às 9h"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "6ª às 8h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-das-gracas-3",
+   "comunidade-santa-terezinha-do-menino-jesus",
+   "comunidade-sao-vicente-de-paulo-3"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-jose-operario",
+  "nome": "Paróquia São José Operário",
+  "forania": "São José - CR",
+  "festa": "01 de Maio",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "06h00, 08h00, 10h00, 12h00, 15h00, 17h00, 19h00",
+   "Segunda",
+   "12h00, 19h00",
+   "Terça",
+   "07h30, 12h00",
+   "Quarta",
+   "07h30, 12h00, 19h00",
+   "Quinta",
+   "07h30, 12h00, 20h00",
+   "Sexta",
+   "07h30, 12h00, 19h00",
+   "Sábado",
+   "07h30, 12h00, 19h00",
+   "Domingo",
+   "08h00, 06h00, 10h00, 12h00, 15h00, 17h00, 19h00",
+   "Segunda",
+   "12h00, 19h00",
+   "Terça",
+   "07h30, 12h00",
+   "Quarta",
+   "07h30, 12h00, 19h00",
+   "Quinta",
+   "07h30, 12h00, 20h00",
+   "Sexta",
+   "07h30, 12h00, 19h00",
+   "Sábado",
+   "07h30, 12h00, 19h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Consultar a secretaria paroquial"
+  ],
+  "adoracao": [
+   "5ª às 15h"
+  ],
+  "comunidades": [
+   "comunidade-sao-vicente-de-paulo"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-jose",
+  "nome": "Paróquia São José",
+  "forania": "Morumbi",
+  "festa": "19 de Março",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h30, 19h00",
+   "Quarta",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30."
+  ],
+  "confissoes": [
+   "Terça",
+   "18h - 19h",
+   "Quinta",
+   "18h - 19h",
+   "Sexta",
+   "18h - 19h",
+   "Sábado",
+   "15h - 19h30"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-penha-3",
+   "comunidade-nossa-senhora-das-gracas-e-santa-terezinha",
+   "comunidade-santa-rita-3"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-judas-tadeu-e-santa-clara",
+  "nome": "Paróquia São Judas Tadeu e Santa Clara",
+  "forania": "Embu das Artes",
+  "festa": "28 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "10h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "10h00, 19h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Terça",
+   "09h00 - 12h00",
+   "Quarta",
+   "09h00 - 12h00",
+   "Quinta",
+   "09h00 - 12h00 e 15h00 - 17h00",
+   "Sexta",
+   "09h00 - 12h00 e 15h00 - 17h00",
+   "Sábado",
+   "09h00 - 12h00"
+  ],
+  "adoracao": [
+   "5ª às 19h"
+  ],
+  "comunidades": [
+   "comunidade-santa-clara-2",
+   "comunidade-sao-francisco-de-assis-6"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-judas-tadeu",
+  "nome": "Paróquia São Judas Tadeu",
+  "forania": "Campo Limpo",
+  "festa": "28 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 09h30, 12h00, 19h00",
+   "Segunda",
+   "19h00",
+   "Terça",
+   "19h00",
+   "Quarta",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "07h00, 09h30, 12h00, 19h00",
+   "Segunda",
+   "19h00",
+   "Terça",
+   "19h00",
+   "Quarta",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "19h00",
+   "Missas Ocasionais",
+   "Todo dia 28 às 9h, 15h e 20h."
+  ],
+  "confissoes": [
+   "Quarta",
+   "09h00 - 12h00 e 14h00 - 17h00",
+   "Quinta",
+   "09h00 - 12h00 e 14h00 - 17h00",
+   "Sexta",
+   "09h00 - 12h00 e 14h00 - 17h00",
+   "Sábado",
+   "09h00 - 12h00 e 14h00 - 17h00"
+  ],
+  "adoracao": [
+   "5ª das 8h às 18h30"
+  ],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-lucas-evangelista-2",
+  "nome": "Paróquia São Lucas Evangelista",
+  "forania": "Mirim-Guaçu",
+  "festa": "18 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 11h00",
+   "Terça",
+   "06h00",
+   "Quarta",
+   "06h00",
+   "Quinta",
+   "06h00, 20h00",
+   "Sexta",
+   "06h00",
+   "Sábado",
+   "06h00, 18h00",
+   "Domingo",
+   "07h30, 11h00",
+   "Terça",
+   "06h00",
+   "Quarta",
+   "06h00",
+   "Quinta",
+   "06h00, 20h00",
+   "Sexta",
+   "06h00",
+   "Sábado",
+   "06h00, 18h00"
+  ],
+  "confissoes": [
+   "Terça",
+   "15h00 - 16h30",
+   "Quinta",
+   "15h00 - 16h30",
+   "Horários",
+   "Agendar na secretaria"
+  ],
+  "adoracao": [
+   "2ª a 6ª das 09h às 19h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-18",
+   "comunidade-santissima-trindade"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-lucas-evangelista",
+  "nome": "Paróquia São Lucas Evangelista",
+  "forania": "Morumbi",
+  "festa": "18 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "09h00, 11h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Antes e depois das Santas Missas"
+  ],
+  "adoracao": [],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-luis-gonzaga",
+  "nome": "Paróquia São Luís Gonzaga",
+  "forania": "M'Boi Mirim",
+  "festa": "21 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 19h00",
+   "Domingo",
+   "08h00, 19h30",
+   "Missas Ocasionais",
+   "1ª quinta-feira do mês às 19h30"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-17",
+   "comunidade-sagrado-coracao-de-jesus-8",
+   "comunidade-santo-antonio-2",
+   "comunidade-santos-reis",
+   "comunidade-sao-lourenco",
+   "comunidade-senhora-da-paz"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-luiz-gonzaga",
+  "nome": "Paróquia São Luiz Gonzaga",
+  "forania": "São Luiz - CR",
+  "festa": "21 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 09h00, 19h00",
+   "Quarta",
+   "19h30",
+   "Sexta",
+   "19h30",
+   "Domingo",
+   "07h00, 09h00, 19h00",
+   "Quarta",
+   "19h30",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [
+   "Sexta",
+   "17h00 - 19h00"
+  ],
+  "adoracao": [
+   "5ª das 15h às 17h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-da-penha-2"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-marcos",
+  "nome": "Paróquia São Marcos",
+  "forania": "Embu das Artes",
+  "festa": "25 de Abril",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 18h00",
+   "Domingo",
+   "07h00, 18h00"
+  ],
+  "confissoes": [
+   "Sexta",
+   "08h00 - 11h00 e 13h00 - 17h00",
+   "Sábado",
+   "08h00 - 11h00 e 13h00 - 17h00"
+  ],
+  "adoracao": [
+   "1ª Sexta-feira do mês às 19h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-15",
+   "comunidade-santa-luzia-10",
+   "comunidade-santa-rita-de-cassia-6"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-miguel-arcanjo",
+  "nome": "Paróquia São Miguel Arcanjo",
+  "forania": "Itapecerica",
+  "festa": "29 de Setembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 18h00",
+   "Quarta",
+   "20h00",
+   "Domingo",
+   "08h00, 18h00",
+   "Quarta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Sábado",
+   "15h00 - 17h00"
+  ],
+  "adoracao": [
+   "4ª às 19h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-das-dores",
+   "comunidade-nossa-senhora-de-fatima-11",
+   "comunidade-sao-jose-9"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-paulo-apostolo",
+  "nome": "Paróquia São Paulo Apóstolo",
+  "forania": "Campo Limpo",
+  "festa": "29 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "09h00, 19h00",
+   "Quinta",
+   "20h00",
+   "Domingo",
+   "09h00, 19h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nosso-senhor-dos-passos",
+   "sao-francisco-de-assis-e-santo-expedito"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-pedro-apostolo-2",
+  "nome": "Paróquia São Pedro Apóstolo",
+  "forania": "Itapecerica",
+  "festa": "29 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 10h00, 18h00",
+   "Sábado",
+   "18h00",
+   "Domingo",
+   "08h00, 10h00, 18h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": [
+   "1ª Quinta-feira do mês às 20h"
+  ],
+  "comunidades": []
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-pedro-apostolo",
+  "nome": "Paróquia São Pedro Apóstolo",
+  "forania": "Taboão da Serra",
+  "festa": "29 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Quarta",
+   "19h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Quarta",
+   "19h00"
+  ],
+  "confissoes": [
+   "Quarta",
+   "18h00 - 20h00"
+  ],
+  "adoracao": [
+   "5ª das 8h às 17h"
+  ],
+  "comunidades": [
+   "comunidade-maria-mae-da-igreja",
+   "comunidade-nossa-senhora-das-gracas-4",
+   "comunidade-nossa-senhora-de-fatima-4",
+   "comunidade-santa-luzia-7"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-pedro-e-sao-paulo-2",
+  "nome": "Paróquia São Pedro e São Paulo",
+  "forania": "Itapecerica",
+  "festa": "29 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00"
+  ],
+  "confissoes": [],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-nossa-senhora-de-fatima-10",
+   "comunidade-sagrada-familia-3"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-pedro-e-sao-paulo",
+  "nome": "Paróquia São Pedro e São Paulo",
+  "forania": "Morumbi",
+  "festa": "29 de Junho",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "10h00, 12h00, 18h00, 20h00",
+   "Segunda",
+   "08h00, 11h00",
+   "Terça",
+   "08h00, 11h00",
+   "Quarta",
+   "08h00, 11h00",
+   "Quinta",
+   "08h00, 11h00",
+   "Sexta",
+   "08h00, 11h00",
+   "Sábado",
+   "12h00",
+   "Domingo",
+   "10h00, 12h00, 18h00, 20h00",
+   "Segunda",
+   "08h00, 11h00",
+   "Terça",
+   "08h00, 11h00",
+   "Quarta",
+   "08h00, 11h00",
+   "Quinta",
+   "08h00, 11h00",
+   "Sexta",
+   "08h00, 11h00",
+   "Sábado",
+   "12h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "2ª, 3ª, 4ª e 6ª das 7h às 8h; as 5ª às 11h e sábado das 10h30 às 11h30"
+  ],
+  "comunidades": [
+   "santuario-diocesano-da-mae-tres-vezes-admiravel-de-schoenstatt"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-pedro-fourier",
+  "nome": "Paróquia São Pedro Fourier",
+  "forania": "Campo Limpo",
+  "festa": "09 de Dezembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "10h00, 12h00, 18h00",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "17h00",
+   "Domingo",
+   "10h00, 12h00, 18h00",
+   "Quinta",
+   "20h00",
+   "Sábado",
+   "17h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-sao-joao-batista-3"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-pio-x",
+  "nome": "Paróquia São Pio X",
+  "forania": "Campo Limpo",
+  "festa": "21 de Agosto",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 18h00",
+   "Terça",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sexta",
+   "19h00",
+   "Domingo",
+   "08h00, 18h00",
+   "Terça",
+   "19h30",
+   "Quinta",
+   "19h30",
+   "Sexta",
+   "19h00"
+  ],
+  "confissoes": [
+   "Sábado",
+   "09h30 - 11h30"
+  ],
+  "adoracao": [
+   "5ª das 15h às 18h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-do-carmo-2",
+   "comunidade-santo-antonio-de-padua",
+   "comunidade-sao-vicente-de-paulo-2"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-sebastiao-2",
+  "nome": "Paróquia São Sebastião",
+  "forania": "Mirim-Guaçu",
+  "festa": "20 de Janeiro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h30",
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h30",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 08h"
+  ],
+  "confissoes": [
+   "Quinta",
+   "09h00 - 12h00 e 14h00 - 17h00"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-santa-catarina-de-sena",
+   "comunidade-santa-rita-de-cassia-8",
+   "comunidade-santos-arcanjos",
+   "comunidade-sao-francisco-de-assis-7",
+   "comunidade-sao-joao-batista-5",
+   "comunidade-sao-judas-tadeu-5"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-sebastiao",
+  "nome": "Paróquia São Sebastião",
+  "forania": "Campo Limpo",
+  "festa": "20 de Janeiro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 12h00, 19h00",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "16h00",
+   "Domingo",
+   "07h00, 12h00, 19h00",
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "16h00"
+  ],
+  "confissoes": [
+   "Quinta",
+   "15h00 - 17h00",
+   "Sábado",
+   "10h30 - 12h00"
+  ],
+  "adoracao": [
+   "Quinta-feira das 14h às 18h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-aparecida-9",
+   "comunidade-sagrado-coracao-de-jesus-3",
+   "comunidade-santa-luzia-5"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-vicente-de-paulo-e-sao-tiago-apostolo",
+  "nome": "Paróquia São Vicente de Paulo e São Tiago Apóstolo",
+  "forania": "Embu das Artes",
+  "festa": "27 de Setembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "09h30, 19h00",
+   "Segunda",
+   "20h00",
+   "Terça",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Sábado",
+   "08h00",
+   "Domingo",
+   "09h30, 19h00",
+   "Segunda",
+   "20h00",
+   "Terça",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Sábado",
+   "08h00"
+  ],
+  "confissoes": [
+   "Sábado",
+   "10h00 - 12h00"
+  ],
+  "adoracao": [
+   "5ª às 15h"
+  ],
+  "comunidades": [
+   "comunidade-sao-francisco",
+   "comunidade-sao-tiago"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-sao-vicente-de-paulo",
+  "nome": "Paróquia São Vicente de Paulo",
+  "forania": "São José - CR",
+  "festa": "27 de Setembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 12h00",
+   "Quarta",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "08h00, 12h00",
+   "Sábado",
+   "19h00",
+   "Quinta",
+   "19h00",
+   "Sexta",
+   "19h00"
+  ],
+  "confissoes": [
+   "Quarta",
+   "10h00 - 12h00",
+   "Sexta",
+   "10h00 - 12h00"
+  ],
+  "adoracao": [],
+  "comunidades": [
+   "comunidade-santa-rita-2"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-senhor-bom-jesus-de-piraporinha",
+  "nome": "Paróquia Senhor Bom Jesus de Piraporinha",
+  "forania": "M'Boi Mirim",
+  "festa": "06 de Agosto",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h30, 10h00, 12h00, 17h00, 19h00",
+   "Segunda",
+   "12h00, 19h30",
+   "Terça",
+   "12h00, 19h30",
+   "Quarta",
+   "12h00, 19h30",
+   "Quinta",
+   "12h00, 19h30",
+   "Sexta",
+   "12h00, 19h30",
+   "Sábado",
+   "12h00, 15h00",
+   "Domingo",
+   "07h30, 10h00, 12h00, 17h00, 19h00",
+   "Segunda",
+   "12h00, 19h30",
+   "Terça",
+   "12h00, 19h30",
+   "Quarta",
+   "12h00, 19h30",
+   "Quinta",
+   "12h00, 19h30",
+   "Sexta",
+   "12h00, 19h30",
+   "Sábado",
+   "12h00, 15h00"
+  ],
+  "confissoes": [
+   "Terça",
+   "09h00 - 12h00 15h00 -19h00",
+   "Quinta",
+   "09h00 - 12h00 15h00 -19h00",
+   "Sábado",
+   "09h00 - 12h00 15h00 -19h00"
+  ],
+  "adoracao": [
+   "5ª das 08h às 19h"
+  ],
+  "comunidades": [
+   "comunidade-santa-ana"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-senhor-dos-passos-e-nossa-senhora-das-dores",
+  "nome": "Paróquia Senhor dos Passos e Nossa Senhora das Dores",
+  "forania": "Campo Limpo",
+  "festa": "14 e 15 de Setembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 17h00",
+   "Sexta",
+   "19h30",
+   "Domingo",
+   "08h00, 17h00",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [
+   "Horários",
+   "Quinta-feira às 14h30 (agendado na secretaria)"
+  ],
+  "adoracao": [
+   "3ª às 18h"
+  ],
+  "comunidades": [
+   "comunidade-mae-peregrina",
+   "comunidade-santa-francisca-xavier-cabrini"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-todos-os-santos",
+  "nome": "Paróquia Todos os Santos",
+  "forania": "Embu das Artes",
+  "festa": "01 de Novembro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "07h00, 11h00, 19h00",
+   "Terça",
+   "20h00",
+   "Quinta",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Sábado",
+   "19h00",
+   "Domingo",
+   "07h00, 11h00, 19h00",
+   "Terça",
+   "20h00",
+   "Quinta",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [
+   "Domingo",
+   "11h00 - 12h00",
+   "Terça",
+   "10h00 - 12h00",
+   "Quarta",
+   "19h00 - 20h30"
+  ],
+  "adoracao": [
+   "5ª às 20h"
+  ],
+  "comunidades": [
+   "comunidade-nossa-senhora-de-lourdes-2",
+   "comunidade-senhor-bom-jesus"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "paroquia-verbo-divino",
+  "nome": "Paróquia Verbo Divino",
+  "forania": "Mirim-Guaçu",
+  "festa": "12 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "08h00, 19h00",
+   "Quarta",
+   "20h00",
+   "Domingo",
+   "08h00, 19h00",
+   "Quarta",
+   "20h00"
+  ],
+  "confissoes": [
+   "Horários",
+   "Agendar na secretaria paroquial"
+  ],
+  "adoracao": [
+   "5ª às 09h às 12h"
+  ],
+  "comunidades": [
+   "comunidade-sagrado-coracao-de-jesus-7",
+   "comunidade-santa-edwiges",
+   "comunidade-sao-jose-7"
+  ]
+ },
+ {
+  "tipo": "paroquia",
+  "slug": "unidade-pastoral-nossa-senhora-aparecida",
+  "nome": "Unidade Pastoral Nossa Senhora Aparecida",
+  "forania": "Itapecerica",
+  "festa": "12 de Outubro",
+  "missas": [
+   "Horários de missa da Matriz paroquial. Para outros horários, consulte abaixo as comunidades da paróquia.",
+   "Domingo",
+   "17h00",
+   "Domingo",
+   "17h00"
+  ],
+  "confissoes": [
+   "Domingo",
+   "16h00 - 17h00"
+  ],
+  "adoracao": [
+   "5ª às 19h"
+  ],
+  "comunidades": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "capela-de-sao-lazaro",
+  "nome": "Capela de São Lázaro",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "Capela: São Lázaro está em reforma, por enquanto, sem horário de celebrações."
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "capela-santa-cruz",
+  "nome": "Capela Santa Cruz",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "Quintas, 1ª Sextas e datas específicas (Rodízio entre as capelas, é necessário confirmar pelas redes sociais mês a mês @rosario_de_embu"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "capela-sao-jose",
+  "nome": "Capela São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "centro-pastoral-do-rosario",
+  "nome": "Centro Pastoral do Rosário",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "Quintas, 1ª Sextas e datas específicas (Rodízio entre as capelas, é necessário confirmar pelas redes sociais mês a mês @rosario_de_embu"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-beatissima-virgem-maria",
+  "nome": "Comunidade Beatíssima Virgem Maria",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-bom-jesus-2",
+  "nome": "Comunidade Bom Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Quarta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-bom-jesus",
+  "nome": "Comunidade Bom Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-divino-espirito-santo",
+  "nome": "Comunidade Divino Espírito Santo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-dos-arcanjos",
+  "nome": "Comunidade dos Arcanjos",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "17h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-imaculada-conceicao-2",
+  "nome": "Comunidade Imaculada Conceição",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-imaculada-conceicao-3",
+  "nome": "Comunidade Imaculada Conceição",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "4º Sábado do mês às 18h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-imaculada-conceicao",
+  "nome": "Comunidade Imaculada Conceição",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h30",
+   "Quarta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-imaculado-coracao-de-maria-2",
+  "nome": "Comunidade Imaculado Coração de Maria",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-imaculado-coracao-de-maria-3",
+  "nome": "Comunidade Imaculado Coração de Maria",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1º Sábado às 18h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-imaculado-coracao-de-maria-4",
+  "nome": "Comunidade Imaculado Coração de Maria",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-imaculado-coracao-de-maria-5",
+  "nome": "Comunidade Imaculado Coração de Maria",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Sábado do mês às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-imaculado-coracao-de-maria-6",
+  "nome": "Comunidade Imaculado Coração de Maria",
+  "forania": null,
+  "festa": null,
+  "missas": [],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-imaculado-coracao-de-maria",
+  "nome": "Comunidade Imaculado Coração de Maria",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "Confirmar na secretaria"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-jesus-bom-pastor-2",
+  "nome": "Comunidade Jesus Bom Pastor",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1º Sábado às 16h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-jesus-bom-pastor-3",
+  "nome": "Comunidade Jesus Bom Pastor",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Domingo às 15h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-jesus-bom-pastor",
+  "nome": "Comunidade Jesus Bom Pastor",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Terça",
+   "20h00",
+   "Sábado",
+   "17h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-jesus-misericordioso",
+  "nome": "Comunidade Jesus Misericordioso",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Quarta às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-joao-paulo-ii",
+  "nome": "Comunidade João Paulo II",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "4º Sábado às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-mae-admiravel",
+  "nome": "Comunidade Mãe Admirável",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "18h00",
+   "Quarta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-mae-da-divina-providencia",
+  "nome": "Comunidade Mãe da Divina Providência",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-mae-peregrina",
+  "nome": "Comunidade Mãe Peregrina",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Missas Ocasionais",
+   "1ª quinta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-maria-de-nazare",
+  "nome": "Comunidade Maria de Nazaré",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-maria-imaculada",
+  "nome": "Comunidade Maria Imaculada",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-maria-mae-da-esperanca",
+  "nome": "Comunidade Maria Mãe da Esperança",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-maria-mae-da-igreja",
+  "nome": "Comunidade Maria Mãe da Igreja",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30, 19h00",
+   "Terça",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-maria-mae-dos-pobres",
+  "nome": "Comunidade Maria Mãe dos Pobres",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Quarta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-menino-jesus-de-itatuba",
+  "nome": "Comunidade Menino Jesus e Santa Paulina",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-menino-jesus-de-praga",
+  "nome": "Comunidade Menino Jesus de Praga",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 20h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-menino-jesus",
+  "nome": "Comunidade Menino Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1º Domingo às 15h e 3º Sábado às 19h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-10",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-11",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-12",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-13",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-14",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-15",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-16",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "17h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-17",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-18",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-19",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º e 3º Domingo às 10h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-2",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-20",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º, 4º e 5º Sábado às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-21",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Quinta do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-22",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-23",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-24",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1º, 3º e 5º Domingo às 11h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-3",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Quinta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-4",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h30",
+   "Quarta",
+   "20h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 20h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-5",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30",
+   "Sexta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-6",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-7",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Quarta",
+   "19h30",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-8",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "11h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-9",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00, 19h00",
+   "Terça",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-e-sao-geraldo",
+  "nome": "Comunidade Nossa Senhora Aparecida e São Geraldo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Quinta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-e-sao-luis-montfort",
+  "nome": "Comunidade Nossa Senhora Aparecida e São Luís Montfort",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-jd-taboao",
+  "nome": "Comunidade Nossa Senhora Aparecida (Jd. Taboão)",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "17h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida-solar",
+  "nome": "Comunidade Nossa Senhora Aparecida (Solar)",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-aparecida",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-auxiliadora",
+  "nome": "Comunidade Nossa Senhora Auxiliadora",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-assuncao",
+  "nome": "Comunidade Nossa Senhora da Assunção",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "16h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-cabeca",
+  "nome": "Comunidade Nossa Senhora da Cabeça",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Domingo do mês 10h."
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-esperanca-2",
+  "nome": "Comunidade Nossa Senhora da Esperança",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "16h00",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-esperanca-3",
+  "nome": "Comunidade Nossa Senhora da Esperança",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00",
+   "Quinta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-esperanca-4",
+  "nome": "Comunidade Nossa Senhora da Esperança",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-esperanca",
+  "nome": "Comunidade Nossa Senhora da Esperança",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Quarta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-imaculada-conceicao",
+  "nome": "Comunidade Nossa Senhora da Imaculada Conceição",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-misericordia",
+  "nome": "Comunidade Nossa Senhora da Misericórdia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Quinta",
+   "09h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-penha-2",
+  "nome": "Comunidade Nossa Senhora da Penha",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-penha-3",
+  "nome": "Comunidade Nossa Senhora da Penha",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-penha-4",
+  "nome": "Comunidade Nossa Senhora da Penha",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-penha-5",
+  "nome": "Comunidade Nossa Senhora da Penha",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-penha",
+  "nome": "Comunidade Nossa Senhora da Penha",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-da-visitacao",
+  "nome": "Comunidade Nossa Senhora da Visitação",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-candeias",
+  "nome": "Comunidade Nossa Senhora das Candeias",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-dores",
+  "nome": "Comunidade Nossa Senhora das Dores",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-gracas-2",
+  "nome": "Comunidade Nossa Senhora das Graças",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-gracas-3",
+  "nome": "Comunidade Nossa Senhora das Graças",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-gracas-4",
+  "nome": "Comunidade Nossa Senhora das Graças",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00, 19h00",
+   "Quinta",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-gracas-5",
+  "nome": "Comunidade Nossa Senhora das Graças",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-gracas-6",
+  "nome": "Comunidade Nossa Senhora das Graças",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h30",
+   "Missas Ocasionais",
+   "Missa do Apostolado da Oração (Matriz) 1º Sábado às 15h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-gracas-e-santa-terezinha",
+  "nome": "Comunidade Nossa Senhora das Graças e Santa Terezinha",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "Sem missa no momento"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-gracas-e-sao-sebastiao",
+  "nome": "Comunidade Nossa Senhora das Graças e São Sebastião",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2ª sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-gracas",
+  "nome": "Comunidade Nossa Senhora das Graças",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-das-vitorias",
+  "nome": "Comunidade Nossa Senhora das Vitórias",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Sábado às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-10",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-11",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-12",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1º Domingo às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-13",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Sábado do mês às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-2",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Terça",
+   "19h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-3",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-4",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30, 19h00",
+   "Sexta",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-5",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-6",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-7",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h30",
+   "Quarta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-8",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "4º Domingo às 10h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-9",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Quinta do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima-e-santo-antonio",
+  "nome": "Comunidade Nossa Senhora de Fátima e Santo Antônio",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-fatima",
+  "nome": "Comunidade Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-guadalupe-2",
+  "nome": "Comunidade Nossa Senhora de Guadalupe",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Sábado do mês às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-guadalupe",
+  "nome": "Comunidade Nossa Senhora de Guadalupe",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-lourdes-2",
+  "nome": "Comunidade Nossa Senhora de Lourdes",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "15h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-lourdes-3",
+  "nome": "Comunidade Nossa Senhora de Lourdes",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-de-lourdes",
+  "nome": "Comunidade Nossa Senhora de Lourdes",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-do-caminho",
+  "nome": "Comunidade Nossa Senhora do Caminho",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00",
+   "Quinta",
+   "12h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-do-caravaggio",
+  "nome": "Comunidade Nossa Senhora do Caravaggio",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-do-carmo-2",
+  "nome": "Comunidade Nossa Senhora do Carmo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "17h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-do-carmo-4",
+  "nome": "Comunidade Nossa Senhora do Carmo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-do-carmo-5",
+  "nome": "Comunidade Nossa Senhora do Carmo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Sábado às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-do-carmo",
+  "nome": "Comunidade Nossa Senhora do Carmo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-do-perpetuo-socorro",
+  "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "06h30, 10h30",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 20h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-do-rosario-2",
+  "nome": "Comunidade Nossa Senhora do Rosário",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Terça",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-do-rosario-de-fatima",
+  "nome": "Comunidade Nossa Senhora do Rosário de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-do-rosario",
+  "nome": "Comunidade Nossa Senhora do Rosário",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-dos-pobres",
+  "nome": "Comunidade Nossa Senhora dos Pobres",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nossa-senhora-dos-remedios",
+  "nome": "Comunidade Nossa Senhora dos Remédios",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-nosso-senhor-dos-passos",
+  "nome": "Comunidade Nosso Senhor dos Passos",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-pio-xii",
+  "nome": "Comunidade Pio XII",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrada-familia-2",
+  "nome": "Comunidade Sagrada Família",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1º Domingo do mês às 11h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrada-familia-3",
+  "nome": "Comunidade Sagrada Família",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "Missas quinzenais aos domingos, às 17 horas"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrada-familia-de-nazare",
+  "nome": "Comunidade Sagrada Família de Nazaré",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrada-familia",
+  "nome": "Comunidade Sagrada Família",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrado-coracao-de-jesus-2",
+  "nome": "Comunidade Sagrado Coração de Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrado-coracao-de-jesus-3",
+  "nome": "Comunidade Sagrado Coração de Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrado-coracao-de-jesus-4",
+  "nome": "Comunidade Sagrado Coração de Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrado-coracao-de-jesus-5",
+  "nome": "Comunidade Sagrado Coração de Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrado-coracao-de-jesus-6",
+  "nome": "Comunidade Sagrado Coração de Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Domingo às 10h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrado-coracao-de-jesus-7",
+  "nome": "Comunidade Sagrado Coração de Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 20h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrado-coracao-de-jesus-8",
+  "nome": "Comunidade Sagrado Coração de Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "11h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrado-coracao-de-jesus-9",
+  "nome": "Comunidade Sagrado Coração de Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrado-coracao-de-jesus-e-imaculado-coracao-de-maria",
+  "nome": "Comunidade Sagrado Coração de Jesus e Imaculado Coração de Maria",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sagrado-coracao-de-jesus",
+  "nome": "Comunidade Sagrado Coração de Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-ana-2",
+  "nome": "Comunidade Santa Ana",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Sexta",
+   "15h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-ana",
+  "nome": "Comunidade Santa Ana",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-barbara",
+  "nome": "Comunidade Santa Bárbara",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-catarina-de-alexandria",
+  "nome": "Comunidade Santa Catarina de Alexandria",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Sexta às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-catarina-de-sena",
+  "nome": "Comunidade Santa Catarina de Sena",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º e 4º Sábado às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-clara-2",
+  "nome": "Comunidade Santa Clara",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00",
+   "Quarta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-clara-de-assis",
+  "nome": "Comunidade Santa Clara de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º e 4º Domingo às 10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-clara",
+  "nome": "Comunidade Santa Clara",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00",
+   "Terça",
+   "19h00",
+   "Sábado",
+   "17h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-cruz",
+  "nome": "Comunidade Santa Cruz",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-edwiges",
+  "nome": "Comunidade Santa Edwiges",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-escolastica",
+  "nome": "Comunidade Santa Escolástica",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Terça",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-francisca-xavier-cabrini",
+  "nome": "Comunidade Santa Francisca Xavier Cabrini",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30",
+   "Missas Ocasionais",
+   "1ª Quarta-feira às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-helena",
+  "nome": "Comunidade Santa Helena",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-isabel-da-hungria-2",
+  "nome": "Comunidade Santa Isabel da Hungria",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º e 4º Domingo às 8h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-isabel-da-hungria",
+  "nome": "Comunidade Santa Isabel da Hungria",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-isabel-de-portugal",
+  "nome": "Comunidade Santa Isabel de Portugal",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2ª e 4 ª às 19h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-josefina-bakita",
+  "nome": "Comunidade Santa Josefina Bakita",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Domingo às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luiza-de-marillac",
+  "nome": "Comunidade Santa Luiza de Marillac",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "11h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia-10",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia-11",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1º e 3º Sábado às 17h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia-2",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h30",
+   "Missas Ocasionais",
+   "Comunidade em construção"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia-3",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia-4",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia-5",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia-6",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia-7",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30",
+   "Terça",
+   "19h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia-8",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia-9",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-luzia",
+  "nome": "Comunidade Santa Luzia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-margarida",
+  "nome": "Comunidade Santa Margarida Maria Alacoque",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-monica-e-sao-jorge",
+  "nome": "Comunidade Santa Mônica e São Jorge",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "Comunidade em construção"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-paulina",
+  "nome": "Comunidade Santa Paulina",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-2",
+  "nome": "Comunidade Santa Rita",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Terça",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-3",
+  "nome": "Comunidade Santa Rita",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-de-cassia-10",
+  "nome": "Comunidade Santa Rita de Cássia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-de-cassia-2",
+  "nome": "Comunidade Santa Rita de Cássia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00",
+   "Quinta",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-de-cassia-3",
+  "nome": "Comunidade Santa Rita de Cássia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-de-cassia-4",
+  "nome": "Comunidade Santa Rita de Cássia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-de-cassia-5",
+  "nome": "Comunidade Santa Rita de Cássia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-de-cassia-6",
+  "nome": "Comunidade Santa Rita de Cássia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-de-cassia-7",
+  "nome": "Comunidade Santa Rita de Cássia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-de-cassia-8",
+  "nome": "Comunidade Santa Rita de Cássia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Domingo do mês às 16h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-de-cassia-9",
+  "nome": "Comunidade Santa Rita de Cássia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-de-cassia",
+  "nome": "Comunidade Santa Rita de Cássia",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "12h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita-e-sao-joao-paulo-ii",
+  "nome": "Comunidade Santa Rita e São João Paulo II",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-rita",
+  "nome": "Comunidade Santa Rita",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-suzana",
+  "nome": "Comunidade Santa Suzana",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "11h00, 18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-teresa-de-los-andes",
+  "nome": "Comunidade Santa Teresa de Los Andes",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-teresinha-do-menino-jesus",
+  "nome": "Comunidade Santa Teresinha do Menino Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-tereza-de-calcuta-2",
+  "nome": "Comunidade Santa Tereza de Calcutá",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Quarta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-tereza-de-calcuta",
+  "nome": "Comunidade Santa Tereza de Calcutá",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Domingo às 15h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-tereza",
+  "nome": "Comunidade Santa Tereza",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-terezinha-2",
+  "nome": "Comunidade Santa Terezinha do Menino Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Sábado do mês às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-terezinha-do-menino-jesus-2",
+  "nome": "Comunidade Santa Terezinha do Menino Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Sábado do mês às 18h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-terezinha-do-menino-jesus",
+  "nome": "Comunidade Santa Terezinha do Menino Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santa-terezinha",
+  "nome": "Comunidade Santa Terezinha",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "16h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santissima-trindade",
+  "nome": "Comunidade Santíssima Trindade",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Terça",
+   "20h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-antonio-2",
+  "nome": "Comunidade Santo Antônio",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "11h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-antonio-3",
+  "nome": "Comunidade Santo Antônio",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-antonio-4",
+  "nome": "Comunidade Santo Antônio",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Quinta",
+   "18h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-antonio-de-padua-2",
+  "nome": "Comunidade Santo Antônio de Pádua",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "07h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-antonio-de-padua",
+  "nome": "Comunidade Santo Antônio de Pádua",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-antonio",
+  "nome": "Comunidade Santo Antônio",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00, 10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-eduardo",
+  "nome": "Comunidade Santo Eduardo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-estevao",
+  "nome": "Comunidade Santo Estevão",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "07h30, 17h30",
+   "Quarta",
+   "20h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 07h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-eugenio-de-mazenoud-2",
+  "nome": "Comunidade Santo Eugênio de Mazenoud",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-eugenio-de-mazenoud",
+  "nome": "Comunidade São Roque",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00",
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-expedito-10",
+  "nome": "Comunidade Santo Expedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Terça-feira do mês às 18h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-expedito-11",
+  "nome": "Comunidade Santo Expedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Sábado às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-expedito-2",
+  "nome": "Comunidade Santo Expedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "18h00",
+   "Terça",
+   "20h00",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-expedito-3",
+  "nome": "Comunidade Santo Expedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Sábado do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-expedito-5",
+  "nome": "Comunidade Santo Expedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-expedito-6",
+  "nome": "Comunidade Santo Expedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "18h00",
+   "Quarta",
+   "20h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-expedito-7",
+  "nome": "Comunidade Santo Expedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Sábado às 18h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-expedito-8",
+  "nome": "Comunidade Santo Expedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "07h00",
+   "Sábado",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santo-expedito",
+  "nome": "Comunidade Santo Expedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santos-arcanjos-2",
+  "nome": "Comunidade Santos Arcanjos",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "4º Sábado do mês às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santos-arcanjos",
+  "nome": "Comunidade Santos Arcanjos",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Domingo às 10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-santos-reis",
+  "nome": "Comunidade Santos Reis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-benedito-2",
+  "nome": "Comunidade São Benedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-benedito",
+  "nome": "Comunidade São Benedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-felipe-e-sao-thiago-apostolos",
+  "nome": "Comunidade São Felipe e São Thiago Apóstolos",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Domingo às 10h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-felix-do-morro",
+  "nome": "Comunidade São Félix do Morro",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-3",
+  "nome": "Comunidade São Francisco",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º, 3º, 4º e 5ª Domingo do mês às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis-10",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis-11",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis-2",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis-3",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis-4",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis-5",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h30, 18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis-6",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis-7",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Domingo às 10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis-8",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis-9",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Terça",
+   "19h00",
+   "Missas Ocasionais",
+   "1º, 2º e 4º Domingo às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-assis",
+  "nome": "Comunidade São Francisco de Assis",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco-de-paula",
+  "nome": "Comunidade São Francisco de Paula",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-francisco",
+  "nome": "Comunidade São Francisco",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00",
+   "Quarta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-gabriel",
+  "nome": "Comunidade São Gabriel",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-batista-10",
+  "nome": "Comunidade São João Batista",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "07h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-batista-2",
+  "nome": "Comunidade São João Batista",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-batista-3",
+  "nome": "Comunidade São João Batista",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-batista-4",
+  "nome": "Comunidade São João Batista",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00, 17h00",
+   "Quinta",
+   "19h30",
+   "Missas Ocasionais",
+   "Todo dia 24 de cada mês às 17 horas"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-batista-5",
+  "nome": "Comunidade São João Batista",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1º Domingo às 10h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-batista-6",
+  "nome": "Comunidade São João Batista",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Terça",
+   "19h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-batista-7",
+  "nome": "Comunidade São João Batista",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-batista-8",
+  "nome": "Comunidade São João Batista",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "4º Sábado às 19h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-batista-9",
+  "nome": "Comunidade São João Batista",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "07h00, 09h00",
+   "Sexta",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-batista-e-santa-rita",
+  "nome": "Comunidade São João Batista e Santa Rita",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-paulo-ii-2",
+  "nome": "Comunidade São João Paulo II",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joao-paulo-ii",
+  "nome": "Comunidade São João Paulo II",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "16h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joaquim-e-sant-ana",
+  "nome": "Comunidade São Joaquim e Sant'Ana",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Terça",
+   "20h00",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-joaquim-e-santa-ana",
+  "nome": "Comunidade São Joaquim e Santa Ana",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "07h30",
+   "Quarta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-10",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-11",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Sábado às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-12",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º e 4º Domingo às 11h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-2",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-3",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-4",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Sábado às 19h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-5",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "11h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-6",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Sábado às 19h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-7",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-8",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-9",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-e-nossa-senhora-de-fatima",
+  "nome": "Comunidade São José e Nossa Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "07h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose-operario",
+  "nome": "Comunidade São José Operário",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00",
+   "Quarta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-jose",
+  "nome": "Comunidade São José",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-judas-tadeu-2",
+  "nome": "Comunidade São Judas Tadeu",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Quarta",
+   "20h00",
+   "Sexta",
+   "20h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 8h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-judas-tadeu-3",
+  "nome": "Comunidade São Judas Tadeu",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Quinta",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-judas-tadeu-4",
+  "nome": "Comunidade São Judas Tadeu",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00, 18h00",
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-judas-tadeu-5",
+  "nome": "Comunidade São Judas Tadeu",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Domingo às 16h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-judas-tadeu-6",
+  "nome": "Comunidade São Judas Tadeu",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-judas-tadeu-7",
+  "nome": "Comunidade São Judas Tadeu",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "4º Quinta do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-judas-tadeu-8",
+  "nome": "Comunidade São Judas Tadeu",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "Todo dia 28 às 15h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-judas-tadeu-e-santa-gema-galgani",
+  "nome": "Comunidade São Judas Tadeu",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Domingo às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-judas-tadeu",
+  "nome": "Comunidade São Judas Tadeu",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-judas",
+  "nome": "Comunidade São Judas",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-lourenco-2",
+  "nome": "Comunidade São Lourenço",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Quarta",
+   "07h00",
+   "Missas Ocasionais",
+   "1ª Sexta-feira do mês às 19h30 e demais sextas às 15h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-lourenco",
+  "nome": "Comunidade São Lourenço",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-lucas-e-sao-patricio",
+  "nome": "Comunidade São Lucas e São Patrício",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-luiz-e-santa-zelia-martin",
+  "nome": "Comunidade São Luiz e Santa Zélia Martin",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00, 17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-marcos-evangelista",
+  "nome": "Comunidade São Marcos Evangelista",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª e 3º Domingo às 10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-miguel-arcanjo-2",
+  "nome": "Comunidade São Miguel Arcanjo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-miguel-arcanjo-3",
+  "nome": "Comunidade São Miguel Arcanjo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Quinta às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-miguel",
+  "nome": "Comunidade São Miguel",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Sábado de cada mês às 18 horas"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-paulo-apostolo-2",
+  "nome": "Comunidade São Paulo Apóstolo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2ª Terça-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-paulo-apostolo",
+  "nome": "Comunidade São Paulo Apóstolo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-pedro-2",
+  "nome": "Comunidade São Pedro",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "07h30, 19h00",
+   "Terça",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-pedro-3",
+  "nome": "Comunidade São Pedro",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-pedro-4",
+  "nome": "Comunidade São Pedro",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-pedro-apostolo",
+  "nome": "Comunidade São Pedro Apóstolo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2º Sábado às 19h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-pedro-e-sao-judas",
+  "nome": "Comunidade São Pedro e São Judas",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-pedro-e-sao-paulo",
+  "nome": "Comunidade São Pedro e São Paulo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "09h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-pedro",
+  "nome": "Comunidade São Pedro",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Quarta",
+   "20h00",
+   "Sábado",
+   "18h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-roque-2",
+  "nome": "Comunidade São Roque",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-roque",
+  "nome": "Comunidade São Roque",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-sebastiao-2",
+  "nome": "Comunidade São Sebastião",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "4º sábado do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-sebastiao-3",
+  "nome": "Comunidade São Sebastião",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-sebastiao-4",
+  "nome": "Comunidade São Sebastião",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-sebastiao-5",
+  "nome": "Comunidade São Sebastião",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3º Sexta às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-sebastiao-6",
+  "nome": "Comunidade São Sebastião",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3ª Quarta-feira do mês às 18h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-sebastiao-7",
+  "nome": "Comunidade São Sebastião",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "1ª e 3º Domingo do mês às 17h"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-sebastiao",
+  "nome": "Comunidade São Sebastião",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-sebatiao",
+  "nome": "Comunidade São Sebatião",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Terça",
+   "20h00",
+   "Sábado",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-tarcisio",
+  "nome": "Comunidade São Tarcísio",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "3ª quinta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-tiago",
+  "nome": "Comunidade São Tiago",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Quinta",
+   "19h30",
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-vicente-de-paulo-2",
+  "nome": "Comunidade São Vicente de Paulo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-vicente-de-paulo-3",
+  "nome": "Comunidade São Vicente de Paulo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sexta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-vicente-de-paulo",
+  "nome": "Comunidade São Vicente de Paulo",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00, 10h00",
+   "Sábado",
+   "18h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-sao-vicente",
+  "nome": "Comunidade São Vicente",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Missas Ocasionais",
+   "2ª Quarta-feira do mês às 19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-senhor-bom-jesus",
+  "nome": "Comunidade Senhor Bom Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h00",
+   "Quarta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-senhora-da-paz",
+  "nome": "Comunidade Senhora da Paz",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-senhora-de-fatima",
+  "nome": "Comunidade Senhora de Fátima",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "18h00",
+   "Quinta",
+   "20h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "comunidade-verbo-divino",
+  "nome": "Comunidade Verbo Divino",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h00",
+   "Terça",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "nossa-senhora-das-gracas",
+  "nome": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "forania": null,
+  "festa": null,
+  "missas": [],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "santa-isabel-de-portugal-e-sao-benedito",
+  "nome": "Comunidade Santa Isabel de Portugal e São Benedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00",
+   "Terça",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "santa-terezinha-do-menino-jesus",
+  "nome": "Comunidade Santa Terezinha do Menino Jesus",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "08h30",
+   "Quinta",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "santuario-diocesano-da-mae-tres-vezes-admiravel-de-schoenstatt",
+  "nome": "Santuário Diocesano da Mãe Três Vezes Admirável de Schoenstatt",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "10h00, 12h00",
+   "Segunda",
+   "17h00",
+   "Terça",
+   "17h00",
+   "Quarta",
+   "17h00",
+   "Quinta",
+   "17h00",
+   "Sexta",
+   "17h00",
+   "Sábado",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "santuario-santa-cruz-da-reconciliacao",
+  "nome": "Santuário Santa Cruz da Reconciliação",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Domingo",
+   "09h30, 18h00",
+   "Segunda",
+   "18h00",
+   "Terça",
+   "18h00",
+   "Quarta",
+   "18h00",
+   "Quinta",
+   "18h00",
+   "Sexta",
+   "18h00",
+   "Sábado",
+   "17h00"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ },
+ {
+  "tipo": "comunidade",
+  "slug": "sao-francisco-de-assis-e-santo-expedito",
+  "nome": "Comunidade São Francisco de Assis e Santo Expedito",
+  "forania": null,
+  "festa": null,
+  "missas": [
+   "Sábado",
+   "19h30"
+  ],
+  "confissoes": [],
+  "adoracao": []
+ }
+]

@@ -1,0 +1,68 @@
+---
+import { COMMUNITY_STATUS_LABELS, type Parish } from '@vivafide/core';
+import Icone from './Icone.astro';
+import { abreviarEndereco, nomeIgreja } from '../lib/abreviar';
+import { mapsUrl } from '../lib/links';
+import { umaComunidadeSo } from '../lib/parishes';
+
+interface Props { parish: Parish }
+const { parish } = Astro.props;
+
+/**
+ * Com uma comunidade só, o nome não encabeça o endereço: "Matriz" não
+ * distingue de nada, e em 7 das 12 o nome da matriz é o mesmo da paróquia —
+ * seria o `<h1>` repetido três linhas abaixo dele.
+ */
+const semCabecalho = umaComunidadeSo(parish);
+
+/** Matriz primeiro — é a ordenação que torna o rótulo "MATRIZ" desnecessário aqui. */
+const comunidades = [...parish.communities].sort((a, b) =>
+  a.isMain === b.isMain ? a.name.localeCompare(b.name, 'pt-BR') : a.isMain ? -1 : 1,
+);
+---
+
+<section data-bloco aria-labelledby="t-enderecos" class="mt-20">
+  <h2 id="t-enderecos" class="titulo-secao">{semCabecalho ? 'Endereço' : 'Endereços'}</h2>
+  <div class="mt-4 space-y-5">
+    {comunidades.map((c) => (
+      <div data-linha data-item data-comunidade={c.id} id={`onde-${c.id}`}>
+        {/* O selo de status fica mesmo sem o nome: ele não é decoração do
+            cabeçalho, é aviso de que a comunidade não está em funcionamento. */}
+        {(!semCabecalho || c.status !== 'active') && (
+          <p class="flex flex-wrap items-baseline gap-x-2">
+            {!semCabecalho && <span class="font-medium">{nomeIgreja(c)}</span>}
+            {c.status !== 'active' && (
+              <span class="rounded bg-warn-soft px-1.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-warn">
+                {COMMUNITY_STATUS_LABELS[c.status]}
+              </span>
+            )}
+          </p>
+        )}
+
+        {c.address ? (
+          <address class="mt-1 not-italic">
+            {/* O endereço inteiro é o link: é o que a pessoa tocaria para ir até lá.
+                O alfinete abre a linha para dar a pista do que acontece ao tocar. */}
+            <a
+              href={mapsUrl(c.address, c.location)}
+              target="_blank"
+              rel="noopener"
+              class="link-endereco grid grid-cols-[auto_1fr] gap-x-1.5 text-sm text-ink-muted"
+            >
+              <Icone nome="pin" class="size-4 self-center text-ink" />
+              <span>
+                {abreviarEndereco(c.address).map((linha) => <span class="block">{linha}</span>)}
+                <span class="sr-only"> — abrir no mapa</span>
+              </span>
+            </a>
+          </address>
+        ) : (
+          <p class="mt-1 text-sm text-ink-muted">Endereço não informado.</p>
+        )}
+
+        {c.statusReason && <p class="mt-1 text-sm text-warn">{c.statusReason}</p>}
+        {c.note && <p class="mt-1 text-sm text-ink-muted">{c.note}</p>}
+      </div>
+    ))}
+  </div>
+</section>

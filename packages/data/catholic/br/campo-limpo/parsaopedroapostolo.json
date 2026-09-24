@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "slug": "parsaopedroapostolo",
+  "name": "Paróquia São Pedro Apóstolo",
+  "patrons": [
+    {
+      "name": "São Pedro Apóstolo",
+      "feast": {
+        "day": 29,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Taboão da Serra",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551141376944",
+    "whatsapp": "+551141391821",
+    "instagram": "parsaopedroapostolo",
+    "facebook": "https://www.facebook.com/par.pedroapostolo",
+    "youtube": "https://www.youtube.com/c/Par%C3%B3quiaS%C3%A3oPedroAp%C3%B3stoloTS"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Pedro Apóstolo",
+      "isMain": true,
+      "address": [
+        "Rosa Provencial Delgaudio, 465",
+        "Pq. Pinheiros · Taboão/SP · 06767-140"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-wed-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-wed-1800",
+          "kind": "confession",
+          "startsAt": "18:00",
+          "endsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-0800",
+          "kind": "adoration",
+          "startsAt": "08:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.628573,
+        "lng": -46.784134
+      }
+    },
+    {
+      "id": "maria-mae-da-igreja",
+      "name": "Comunidade Maria Mãe da Igreja",
+      "address": [
+        "Rua Leonor Florinda Baruti, 19",
+        "Pq. Marabá · Taboão da Serra/SP · 06766-030"
+      ],
+      "activities": [
+        {
+          "id": "maria-mae-da-igreja-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "maria-mae-da-igreja-mass-sun-tue-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "tuesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.625471,
+        "lng": -46.77675
+      }
+    },
+    {
+      "id": "nossa-senhora-das-gracas",
+      "name": "Comunidade Nossa Senhora das Graças",
+      "address": [
+        "Rua Murilo Faraco, 85",
+        "Pq. Pinheiros · Taboão da Serra/SP · 06767-060"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-das-gracas-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-das-gracas-mass-sun-thu-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.622756,
+        "lng": -46.78454
+      }
+    },
+    {
+      "id": "nossa-senhora-de-fatima",
+      "name": "Comunidade Nossa Senhora de Fátima",
+      "address": [
+        "Estrada Kizaemon Takeuti, 243",
+        "Jd. Clementino · Taboão da Serra/SP · 06775-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-fatima-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-de-fatima-mass-sun-fri-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.634513,
+        "lng": -46.780143
+      }
+    },
+    {
+      "id": "santa-luzia",
+      "name": "Comunidade Santa Luzia",
+      "address": [
+        "Rua Clara Muchini Costa, 350",
+        "Jd. Saporito · Taboão da Serra/SP · 06783-030"
+      ],
+      "activities": [
+        {
+          "id": "santa-luzia-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santa-luzia-mass-tue-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.6323,
+        "lng": -46.788
+      }
+    }
+  ]
+}

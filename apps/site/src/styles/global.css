@@ -1,0 +1,360 @@
+@import "tailwindcss";
+
+/**
+ * Paleta sóbria, de quadro de avisos paroquial: quase monocromática, com
+ * hierarquia feita por tamanho e peso, não por cor. Cor sozinha nunca carrega
+ * informação — missa cancelada é tachada E rotulada, porque daltonismo e sol
+ * na tela do celular são a mesma coisa na prática.
+ */
+@theme {
+  --color-paper: #faf8f5;
+  --color-surface: #ffffff;
+  --color-ink: #1c1b17;
+  --color-ink-muted: #63604f;
+  --color-line: #e4dfd4;
+  --color-next: #1f513a;
+  --color-next-soft: #e8f0eb;
+  --color-warn: #7a4a12;
+  --color-warn-soft: #fbf1e3;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  /* Serifa só nos títulos. Corpo e horários ficam na sans do sistema: custo
+     zero e algarismos tabulares nativos, que é o que alinha a coluna de horas. */
+  --font-serif: var(--fonte-serifa), Georgia, "Times New Roman", serif;
+}
+
+/* Só claro: a página é lida na porta da igreja, quase sempre sob luz ambiente
+   alta, e um tema a menos é metade dos pares de contraste para garantir. */
+html { color-scheme: light; }
+
+/**
+ * Rolagem suave nas âncoras da tira.
+ *
+ * O salto seco tira a referência de onde a página estava — o movimento é o que
+ * mostra que se andou dentro da mesma página, e não que outra abriu.
+ *
+ * Atrás de `prefers-reduced-motion`: para quem tem enjoo de movimento a
+ * rolagem animada é sintoma, não enfeite. Sem a preferência declarada o salto
+ * instantâneo continua valendo.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Números de horário alinham em coluna, como num quadro de horários. */
+.tabular { font-variant-numeric: tabular-nums; }
+
+:where(a, button):focus-visible {
+  outline: 2px solid var(--color-next);
+  outline-offset: 2px;
+}
+
+/**
+ * O filtro nasce escondido e só aparece via JS. Sem JS a página mostra tudo —
+ * nenhuma informação se perde, e ninguém encara um controle morto.
+ * Filtro é conveniência; a programação é a informação.
+ */
+
+/**
+ * Barra fixa no rodapé: zona do polegar, e custa zero na primeira tela — que
+ * é onde a informação precisa estar. Nasce escondida e só aparece com JS,
+ * junto do espaçamento que impede que ela cubra o fim da página.
+ */
+.barra-fixa {
+  position: fixed;
+  inset: auto 0 0 0;
+  background: var(--color-paper);
+  border-top: 1px solid var(--color-line);
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+body.com-barra { padding-bottom: 5.5rem; }
+
+/**
+ * No desktop o select sobe e gruda logo abaixo da tira — os dois acompanham a
+ * rolagem juntos. A zona do polegar não existe ali, então uma faixa no rodapé
+ * seria peso sem função.
+ */
+@media (min-width: 640px) {
+  .barra-fixa {
+    position: sticky;
+    inset: auto;
+    top: var(--altura-tira);
+    z-index: 9;
+    border-top: 0;
+    padding-bottom: 0;
+  }
+  body.com-barra { padding-bottom: 0; }
+}
+
+/**
+ * Link discreto: a grade é a superfície principal de leitura e precisa ficar
+ * calma, então o nome da comunidade não vem sublinhado. O "›" dá a pista, e o
+ * sublinhado aparece no toque, no hover e no foco — para quem procura, não
+ * para todo mundo o tempo todo.
+ */
+.link-comunidade {
+  color: inherit;
+  text-decoration: none;
+}
+/**
+ * O "›" nunca fica órfão numa linha só dele.
+ *
+ * O espaço que o separa do nome mora dentro do `<span>`; com `nowrap` ele
+ * deixa de ser oportunidade de quebra, então a seta cola na última palavra e
+ * a linha quebra no espaço anterior — "N. Sra. das / Candeias ›".
+ */
+.link-comunidade > span {
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+}
+.link-comunidade:hover,
+.link-comunidade:focus-visible,
+.link-comunidade:active {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/**
+ * Tira de navegação do one-page. Gruda no topo e rola lateralmente, então o
+ * número de seções não muda a altura. A barra de rolagem some: em toque ela é
+ * ruído, e a sobra de item cortado na borda já sinaliza que há mais.
+ */
+/* Valor inicial; o script substitui pela altura medida, para o select
+   grudar exatamente abaixo da tira sem cobrir a linha dela. */
+:root { --altura-tira: 2.75rem; --altura-fixa: 2.75rem; }
+
+.tira {
+  background: var(--color-paper);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.tira::-webkit-scrollbar { display: none; }
+
+/**
+ * Respiro no fim da rolagem e véu de degradê na borda direita: em celular,
+ * nada mais indica que a tira continua além da tela. O véu não intercepta
+ * toque, senão engoliria o último item.
+ */
+/**
+ * O sticky mora aqui, não na `.tira`: elemento grudento não passa da caixa do
+ * pai, e o envelope tem exatamente a altura da tira — ela rolava embora junto.
+ */
+.tira-envelope {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--color-paper);
+  /**
+   * A linha é `box-shadow`, não `border-bottom`.
+   *
+   * A sombra pinta **fora** da caixa e junto com o elemento grudado, então ela
+   * acompanha o `z-index: 10` da tira: nada que venha depois — o select
+   * grudado, um véu, o conteúdo rolando por baixo — consegue cobri-la. Com
+   * borda, bastava um pixel de diferença no `--altura-tira` para o select
+   * comer a linha.
+   */
+  box-shadow: 0 1px 0 var(--color-line);
+}
+/**
+ * Véus nas duas bordas, cada um visível só quando há rolagem naquele lado.
+ * O script marca `data-rola-esq` / `data-rola-dir`; sem JS nenhum véu aparece,
+ * e aí é melhor não ter véu do que ter um que esconde item sem motivo.
+ *
+ * Podem ir até `bottom: 0`: a linha agora é sombra, pintada fora da caixa.
+ */
+.tira-envelope::before,
+.tira-envelope::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 120ms linear;
+}
+.tira-envelope::before {
+  inset-inline-start: 0;
+  background: linear-gradient(to left, transparent, var(--color-paper) 70%);
+}
+.tira-envelope::after {
+  inset-inline-end: 0;
+  background: linear-gradient(to right, transparent, var(--color-paper) 70%);
+}
+.tira-envelope[data-rola-esq]::before,
+.tira-envelope[data-rola-dir]::after { opacity: 1; }
+
+/**
+ * Bolinha entre os itens.
+ *
+ * É um elemento próprio, irmão dos itens. Como `::before` do item ela ficava
+ * dentro da caixa que recebe a sublinha do ativo — a marca corria por baixo da
+ * bolinha, como se ela fizesse parte da seção. O `padding` repete o do item
+ * para o glifo cair na mesma linha do texto.
+ */
+.divisor-tira {
+  flex: none;
+  padding: 0.7rem 0;
+  font-size: 0.875rem;
+  color: var(--color-ink-muted);
+  opacity: 0.55;
+  user-select: none;
+}
+.item-tira {
+  flex: none;
+  padding: 0.7rem 0;
+  font-size: 0.875rem;
+  color: var(--color-ink-muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+.item-tira[data-ativo] {
+  color: var(--color-ink);
+  font-weight: 600;
+  border-bottom-color: var(--color-next);
+}
+.item-tira:hover,
+.item-tira:focus-visible { color: var(--color-ink); }
+
+/**
+ * Respiro entre os blocos da programação.
+ *
+ * Não dá para usar `:first-child`: os primeiros filhos da seção são o título
+ * `sr-only` e dois parágrafos `hidden`, então o primeiro bloco nunca seria o
+ * primeiro filho. E o filtro de comunidade esconde blocos, então "primeiro"
+ * precisa dizer *primeiro visível* — daí o `:not([hidden]) ~`.
+ */
+#conteudo > [data-bloco] { margin-top: 1.5rem; }
+#conteudo > [data-bloco]:not([hidden]) ~ [data-bloco] { margin-top: 5rem; }
+
+/* Âncora não pode parar embaixo da tira grudada. */
+[id^='tipo-'],
+[id^='onde-'],
+#t-enderecos,
+#t-secretaria { scroll-margin-top: calc(var(--altura-fixa) + 0.75rem); }
+
+/**
+ * Larguras das colunas da programação.
+ *
+ * **Fixas, não `max-content`.** `max-content` é calculado por grade, então
+ * MISSAS e CONFISSÕES ficavam com larguras diferentes. Valor fixo faz todas as
+ * seções compartilharem a mesma estrutura, que é o ponto do alinhamento.
+ *
+ * No celular a soma não cabe em 360px de qualquer jeito — o nome da comunidade
+ * quebra em duas linhas, e tudo bem. No desktop há folga para tudo numa linha,
+ * inclusive a faixa dupla de confissão.
+ */
+:root {
+  --col-rotulo: 6rem;
+  /* Pior caso é uma faixa: "09:00 - 11:30", 95px medidos contra os 104px da
+     coluna. Era 13rem quando vários horários dividiam a mesma célula — sobrava
+     um vão entre o horário e a comunidade que dificultava associar um ao outro. */
+  --col-horario: 6.5rem;
+  --gap-prog: 0.75rem;
+}
+@media (min-width: 640px) {
+  :root {
+    --col-rotulo: 9rem;
+    --col-horario: 6.5rem;
+    --gap-prog: 1rem;
+  }
+}
+
+/**
+ * Tabela da programação: três colunas alinhadas — recorrência, horário, comunidade.
+ *
+ * Uma grade por seção, não por sub-bloco: "Missas ocasionais" precisa alinhar
+ * com a grade semanal acima dela. Grupos e entradas usam `display: contents`
+ * para que suas células entrem nessa grade única, e `role` explícito preserva a
+ * semântica de lista que `display: contents` removeria.
+ */
+.tabela-prog {
+  display: grid;
+  grid-template-columns: var(--col-rotulo) var(--col-horario) 1fr;
+  column-gap: var(--gap-prog);
+  row-gap: 0.5rem;
+  align-items: baseline;
+}
+/**
+ * Uma comunidade só: a terceira coluna deixa de ser reservada e passa a medir
+ * pelo conteúdo — zero quando não há nada, a largura do aviso quando há missa
+ * cancelada ou título de atividade. A sobra vai para o rótulo da recorrência,
+ * que é a coluna que de fato informa.
+ */
+.tabela-prog.uma-comunidade {
+  /* `minmax` no rótulo porque `auto` na terceira coluna tem prioridade sobre
+     `1fr`: sem o piso, um aviso de missa cancelada espremia a recorrência para
+     66px — menos do que ela tinha antes de tudo isso. */
+  grid-template-columns: minmax(var(--col-rotulo), 1fr) var(--col-horario) auto;
+}
+
+.grupo-prog,
+.entrada-prog { display: contents; }
+.grupo-prog[hidden],
+.entrada-prog[hidden] { display: none; }
+
+/**
+ * O rótulo cobre todas as linhas do grupo.
+ *
+ * "3ª quinta-feira do mês" vale para as duas missas daquele dia; ocupando uma
+ * linha só, a segunda ficava órfã, como se não tivesse recorrência. O número
+ * vem do `--linhas` que o componente escreve — e que o filtro de comunidade
+ * corrige quando esconde entradas.
+ */
+.rotulo-prog {
+  grid-column: 1;
+  grid-row: span var(--linhas, 1);
+}
+/* A faixa tem espaços, e espaço é lugar de quebra: sem `nowrap` um
+   "09:00 - 11:30" apertado viraria duas linhas com o traço solto. */
+.cel-hora {
+  grid-column: 2;
+  white-space: nowrap;
+}
+.cel-com { grid-column: 3; }
+
+.rotulo-prog.sem-hora { grid-column: 1 / 3; }
+
+.subtitulo-prog {
+  grid-column: 1 / -1;
+  margin-top: 0.75rem;
+  border-top: 1px solid var(--color-line);
+  padding-top: 0.75rem;
+}
+.divisor-prog {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--color-line);
+}
+
+
+/**
+ * Títulos em serifa; corpo em sans. A serifa dá gravidade adequada ao contexto
+ * paroquial sem custar legibilidade, porque nunca desce a corpo pequeno.
+ */
+h1, .titulo-secao, .titulo-paroquia {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/**
+ * Missa é o motivo da página existir, então pesa mais que as outras seções.
+ * Hierarquia por tamanho, não por cor.
+ */
+/* Todas as seções no mesmo peso: missa já lidera pela posição, não precisa
+   liderar também pelo tamanho. */
+.titulo-secao { font-size: 1.5rem; line-height: 1.2; }
+
+/* O nome da paróquia é a primeira coisa que confirma "estou no lugar certo". */
+.titulo-paroquia { font-size: 1.75rem; line-height: 1.15; }
+@media (min-width: 640px) {
+  .titulo-paroquia { font-size: 2.125rem; }
+}

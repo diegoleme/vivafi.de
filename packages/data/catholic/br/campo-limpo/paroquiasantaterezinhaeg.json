@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasantaterezinhaeg",
+  "name": "Paróquia Santa Terezinha do Menino Jesus",
+  "patrons": [
+    {
+      "name": "Santa Terezinha do Menino Jesus",
+      "feast": {
+        "day": 1,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Mirim-Guaçu",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday"
+        ]
+      },
+      "startsAt": "08:30",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "16:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551146612346",
+    "whatsapp": "+551146612346",
+    "instagram": "paroquiasantaterezinhaeg",
+    "facebook": "https://www.facebook.com/Par%C3%B3quia-Santa-Terezinha-do-Menino-JesusEmbu-Gua%C3%A7u-SP-113021927974439"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Terezinha",
+      "isMain": true,
+      "address": [
+        "Rua Arlindo Luz, 155",
+        "Centro · Embu-Guaçu/SP · 06900-120"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-thu-fri-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-3sat-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.829522,
+        "lng": -46.814263
+      }
+    },
+    {
+      "id": "nossa-senhora-de-fatima",
+      "name": "Comunidade Nossa Senhora de Fátima",
+      "address": [
+        "Rua Nossa Senhora de Fátima, 227",
+        "Jd. Emilia · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-fatima-mass-4sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 4,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.834519,
+        "lng": -46.813608
+      }
+    },
+    {
+      "id": "sagrado-coracao-de-jesus",
+      "name": "Comunidade Sagrado Coração de Jesus",
+      "address": [
+        "Rua Sebastião Pereira de Andrade, 365",
+        "Recanto da Lagoa Grande · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "sagrado-coracao-de-jesus-mass-1sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.84149,
+        "lng": -46.794006
+      }
+    },
+    {
+      "id": "sao-felipe-e-sao-thiago-apostolos",
+      "name": "Comunidade São Felipe e São Thiago Apóstolos",
+      "address": [
+        "Rua Doutor André Stucchi, 49",
+        "Jd. Valflor · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-felipe-e-sao-thiago-apostolos-mass-3sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.811846,
+        "lng": -46.82533
+      }
+    },
+    {
+      "id": "sao-jose",
+      "name": "Comunidade São José",
+      "address": [
+        "Rua Maria da Conceição Louro, 81",
+        "Vila Louro · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-2sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.835873,
+        "lng": -46.80929
+      }
+    }
+  ]
+}

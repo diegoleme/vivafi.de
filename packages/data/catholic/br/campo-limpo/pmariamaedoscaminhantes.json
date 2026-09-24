@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "slug": "pmariamaedoscaminhantes",
+  "name": "Paróquia Maria Mãe dos Caminhantes",
+  "patrons": [
+    {
+      "name": "Maria Mãe dos Caminhantes",
+      "feast": {
+        "day": 31,
+        "month": 5
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551146674550",
+    "instagram": "pmariamaedoscaminhantes",
+    "facebook": "https://www.facebook.com/paroquiamariamae"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Maria Mãe dos Caminhantes",
+      "isMain": true,
+      "address": [
+        "Rua Filipinas, 1615",
+        "Pq. Paraíso · Itapecerica/SP · 06852-270"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-thu-fri-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "thursday",
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-0500",
+          "kind": "mass",
+          "startsAt": "05:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-fri-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday",
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.705269,
+        "lng": -46.857076
+      }
+    }
+  ]
+}

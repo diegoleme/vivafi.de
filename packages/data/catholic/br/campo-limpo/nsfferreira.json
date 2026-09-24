@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "slug": "nsfferreira",
+  "name": "Paróquia Nossa Senhora de Fátima",
+  "patrons": [
+    {
+      "name": "Nossa Senhora de Fátima",
+      "feast": {
+        "day": 13,
+        "month": 5
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Morumbi",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551137512151",
+    "whatsapp": "+5511969219166",
+    "instagram": "nsfferreira",
+    "facebook": "https://www.facebook.com/nsfferreira",
+    "youtube": "https://www.youtube.com/channel/UCrG4Fu3iV-o9phQk52JIMcw"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora de Fátima",
+      "isMain": true,
+      "address": [
+        "R: Nossa Sra do Monte Serrat, 316",
+        "Ferreira · São Paulo/SP · 05524-060"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-wed-fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.679521,
+        "lng": -46.752817
+      }
+    },
+    {
+      "id": "nossa-senhora-do-carmo",
+      "name": "Comunidade Nossa Senhora do Carmo",
+      "address": [
+        "Rua Benvenuto Cellini, 68",
+        "Jd. das Vertentes · São Paulo/SP · 05541-240"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-do-carmo-mass-sun-0930",
+          "kind": "mass",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.5929,
+        "lng": -46.746382
+      }
+    }
+  ]
+}

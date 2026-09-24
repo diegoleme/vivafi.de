@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "slug": "psmaitapecerica",
+  "name": "Paróquia São Miguel Arcanjo",
+  "patrons": [
+    {
+      "name": "São Miguel Arcanjo",
+      "feast": {
+        "day": 29,
+        "month": 9
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551146669537",
+    "whatsapp": "+551146669537",
+    "instagram": "psmaitapecerica",
+    "facebook": "https://www.facebook.com/psmaitapecerica",
+    "youtube": "https://www.youtube.com/channel/UCrZrVF_8WviRurKA5AC3Dmw"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Judas Tadeu",
+      "isMain": true,
+      "address": [
+        "Rua Mesopotânia, 381",
+        "Jd. Idemori · Itapecerica/SP · 06857-780"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-sat-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-wed-1900",
+          "kind": "adoration",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.703611,
+        "lng": -46.794209
+      }
+    },
+    {
+      "id": "nossa-senhora-das-dores",
+      "name": "Comunidade Nossa Senhora das Dores",
+      "address": [
+        "Avenida Getúlio Vargas, 65",
+        "Jd. Cinira · Itapecerica da Serra/SP · 06857-530"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-das-dores-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-das-dores-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.707538,
+        "lng": -46.804061
+      }
+    },
+    {
+      "id": "nossa-senhora-de-fatima",
+      "name": "Comunidade Nossa Senhora de Fátima",
+      "address": [
+        "Rua Hortênsia, 18",
+        "Jd. Vitória · Itapecerica da Serra/SP · 06857-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-de-fatima-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sao-jose",
+      "name": "Comunidade São José",
+      "address": [
+        "Rua Fernandópolis, 585",
+        "Recreio Primavera · Itapecerica da Serra/SP · 06857-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.709349,
+        "lng": -46.79883
+      }
+    }
+  ]
+}

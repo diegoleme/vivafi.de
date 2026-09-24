@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquia-exemplo",
+  "name": "Paróquia Exemplo (arquivo de referência — não é paróquia real)",
+  "patrons": [
+    {
+      "name": "São Pedro",
+      "feast": {
+        "day": 29,
+        "month": 6
+      }
+    },
+    {
+      "name": "São Paulo",
+      "feast": {
+        "day": 29,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Exemplo",
+  "deanery": "Forania Central",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-22",
+  "source": "parish",
+  "note": "Arquivo de referência: exercita todos os recursos do schema. Coberto por teste.",
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Igreja Matriz Santo Exemplo",
+      "isMain": true,
+      "address": [
+        "Praça da Matriz, 1 — Centro"
+      ],
+      "status": "active",
+      "note": "Estacionamento pela lateral aos domingos.",
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": "sunday"
+          }
+        },
+        {
+          "id": "matriz-mass-mon-tue-wed-thu-fri-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-0930",
+          "kind": "mass",
+          "title": "Missa das crianças",
+          "startsAt": "09:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": "sunday"
+          },
+          "note": "Com liturgia infantil na sala ao lado."
+        },
+        {
+          "id": "matriz-mass-lastsat-0800",
+          "kind": "mass",
+          "title": "Vetus Ordo (em latim)",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": "last",
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "matriz-mass-d19-2000",
+          "kind": "mass",
+          "title": "Devoção a São José",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-day",
+            "dayOfMonth": 19
+          }
+        },
+        {
+          "id": "matriz-mass-2wed-1500",
+          "kind": "mass",
+          "title": "Missa com unção dos enfermos",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "wednesday"
+          }
+        },
+        {
+          "id": "matriz-confession-fri-sat-0900",
+          "kind": "confession",
+          "startsAt": "09:00",
+          "endsAt": "11:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Antes das Santas Missas"
+          }
+        },
+        {
+          "id": "matriz-adoration-1fri-1800",
+          "kind": "adoration",
+          "title": "Adoração ao Santíssimo Sacramento",
+          "startsAt": "18:00",
+          "endsAt": "19:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-rosary-sat-1730",
+          "kind": "rosary",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "matriz-novena-wed-1930",
+          "kind": "novena",
+          "title": "Novena de Nossa Senhora",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": "wednesday"
+          }
+        },
+        {
+          "id": "matriz-prayer-group-thu-2000",
+          "kind": "prayer-group",
+          "title": "Grupo de Oração Nova Aliança",
+          "startsAt": "20:00",
+          "endsAt": "21:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": "thursday"
+          }
+        },
+        {
+          "id": "matriz-youth-meeting-3sat-1900",
+          "kind": "youth-meeting",
+          "title": "Encontro de Jovens",
+          "startsAt": "19:00",
+          "endsAt": "21:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "matriz-catechesis-sat-0900",
+          "kind": "catechesis",
+          "title": "Catequese infantil",
+          "startsAt": "09:00",
+          "endsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "matriz-formation-desc",
+          "kind": "formation",
+          "title": "Formação para catequistas",
+          "recurrence": {
+            "type": "described",
+            "text": "Mensal, datas divulgadas no mural e no Instagram"
+          }
+        },
+        {
+          "id": "matriz-ministry-1sat-1400",
+          "kind": "ministry",
+          "title": "Pastoral da Caridade — entrega de cestas",
+          "startsAt": "14:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "matriz-event-desc-1800",
+          "kind": "event",
+          "title": "Festa Junina da Paróquia",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "described",
+            "text": "Todo mês de junho; data confirmada em maio"
+          }
+        },
+        {
+          "id": "matriz-other-desc",
+          "kind": "other",
+          "title": "Bênção de objetos religiosos",
+          "recurrence": {
+            "type": "described",
+            "text": "Após a missa dominical das 19h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.6021,
+        "lng": -46.7541
+      }
+    },
+    {
+      "id": "sao-joao-batista",
+      "name": "Comunidade São João Batista",
+      "address": [
+        "Rua das Acácias, 200 — Jardim Alvorada"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-batista-mass-2thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "thursday"
+          }
+        },
+        {
+          "id": "sao-joao-batista-mass-4sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 4,
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "sao-joao-batista-prayer-group-tue-2000",
+          "kind": "prayer-group",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": "tuesday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.6189,
+        "lng": -46.7702
+      }
+    },
+    {
+      "id": "sao-lazaro",
+      "name": "Capela São Lázaro",
+      "status": "under-renovation",
+      "statusReason": "Em reforma desde agosto; sem celebrações até a conclusão do telhado.",
+      "activities": []
+    },
+    {
+      "id": "santa-clara",
+      "name": "Comunidade Santa Clara",
+      "status": "under-construction",
+      "statusReason": "Comunidade em construção. Missas acontecem no salão cedido pela escola vizinha.",
+      "activities": [
+        {
+          "id": "santa-clara-mass-3sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "sunday"
+          },
+          "note": "No salão da Escola Municipal Vila Nova, até a capela ficar pronta."
+        }
+      ],
+      "location": {
+        "lat": -23.5877,
+        "lng": -46.7365
+      }
+    },
+    {
+      "id": "sao-pedro-pescador",
+      "name": "Capela São Pedro Pescador",
+      "status": "no-services",
+      "statusReason": "Sem padre disponível para a região neste semestre. A comunidade se reúne para o terço.",
+      "activities": [
+        {
+          "id": "sao-pedro-pescador-rosary-wed-1900",
+          "kind": "rosary",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": "wednesday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.6312,
+        "lng": -46.7889
+      }
+    }
+  ],
+  "exceptions": [
+    {
+      "action": "cancel-all",
+      "date": "2026-04-03",
+      "reason": "Sexta-feira Santa: não se celebra missa. Confissões mantidas.",
+      "except": [
+        "matriz-confession-fri-sat-0900",
+        "matriz-confession-desc"
+      ]
+    },
+    {
+      "action": "add",
+      "date": "2026-04-03",
+      "activity": {
+        "community": "sao-joao-batista",
+        "kind": "event",
+        "title": "Via-Sacra pelas ruas do bairro",
+        "startsAt": "19:00",
+        "endsAt": "21:00"
+      }
+    },
+    {
+      "action": "cancel-all",
+      "date": "2026-06-29",
+      "reason": "Festa do Padroeiro: missa única às 10h no campo"
+    },
+    {
+      "action": "add",
+      "date": "2026-06-29",
+      "reason": "Festa do Padroeiro",
+      "activity": {
+        "id": "festa-2026-campal",
+        "community": "matriz",
+        "kind": "mass",
+        "title": "Missa campal com procissão",
+        "startsAt": "10:00",
+        "note": "Concentração às 9h em frente ao salão paroquial."
+      }
+    },
+    {
+      "action": "move",
+      "date": "2026-10-11",
+      "reason": "Missa campal em Santa Clara",
+      "activityIds": [
+        "matriz-mass-sun-0700",
+        "matriz-mass-sun-0930"
+      ],
+      "to": {
+        "community": "santa-clara"
+      }
+    },
+    {
+      "action": "move",
+      "date": "2026-12-24",
+      "reason": "Véspera de Natal",
+      "activityIds": [
+        "matriz-mass-mon-tue-wed-thu-fri-1900"
+      ],
+      "to": {
+        "community": "matriz",
+        "startsAt": "18:00"
+      }
+    },
+    {
+      "action": "add",
+      "date": "2026-12-24",
+      "reason": "Natal",
+      "activity": {
+        "community": "matriz",
+        "kind": "mass",
+        "title": "Missa do Galo",
+        "startsAt": "22:00"
+      }
+    },
+    {
+      "action": "cancel",
+      "date": "2026-11-07",
+      "reason": "Retiro de catequistas",
+      "activityIds": [
+        "matriz-catechesis-sat-0900"
+      ]
+    },
+    {
+      "action": "cancel",
+      "date": "2026-11-08",
+      "activityIds": [
+        "matriz-mass-sun-0930"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "name": "Dona Marlene (secretaria)",
+      "whatsapp": "+5511987654321",
+      "role": "secretary"
+    },
+    {
+      "name": "Rafael — PASCOM",
+      "whatsapp": "+5511912345678",
+      "role": "pascom"
+    },
+    {
+      "name": "Pe. Antônio",
+      "whatsapp": "+5511999998888",
+      "role": "priest"
+    }
+  ],
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "described",
+        "text": "Fechada em janeiro"
+      },
+      "note": "Recesso de fim de ano"
+    }
+  ],
+  "contact": {
+    "phone": "+551133334444",
+    "whatsapp": "+5511988887777",
+    "email": "secretaria@paroquiaexemplo.org.br",
+    "website": "https://paroquiaexemplo.org.br",
+    "instagram": "paroquiaexemplo",
+    "facebook": "https://www.facebook.com/paroquiaexemplo",
+    "youtube": "https://www.youtube.com/@paroquiaexemplo"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "slug": "santa-edwiges-e-sao-miguel-arcanjo-parque-europa",
+  "name": "Paróquia Santa Edwiges e São Miguel Arcanjo",
+  "patrons": [
+    {
+      "name": "Santa Edwiges"
+    },
+    {
+      "name": "São Miguel Arcanjo"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "12:30",
+      "endsAt": "17:30"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "13:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158919168",
+    "whatsapp": "+551158919168",
+    "facebook": "https://www.facebook.com/Santaedwiges.saomiguel"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santa Edwiges",
+      "isMain": true,
+      "address": [
+        "Av. George Anselmi, 228",
+        "Pq. Europa · São Paulo/SP · 04912-050"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Após as missas"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.679917,
+        "lng": -46.744385
+      }
+    },
+    {
+      "id": "nossa-senhora-aparecida",
+      "name": "Comunidade Nossa Senhora Aparecida",
+      "address": [
+        "Rua Bácio de Filicaia, 203",
+        "Pq. Figueira Grande · São Paulo/SP · 04914-060"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-aparecida-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.676622,
+        "lng": -46.745947
+      }
+    },
+    {
+      "id": "santo-expedito",
+      "name": "Comunidade Santo Expedito",
+      "address": [
+        "Rua Dover, 20",
+        "Jd. Universal · São Paulo/SP · 04913-060"
+      ],
+      "activities": [
+        {
+          "id": "santo-expedito-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santo-expedito-mass-tue-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "santo-expedito-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.678226,
+        "lng": -46.740086
+      }
+    },
+    {
+      "id": "senhora-de-fatima",
+      "name": "Comunidade Senhora de Fátima",
+      "address": [
+        "Av. Hungria, 800",
+        "Pq. Europa · São Paulo/SP · 04912-065"
+      ],
+      "activities": [
+        {
+          "id": "senhora-de-fatima-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "senhora-de-fatima-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.682597,
+        "lng": -46.742955
+      }
+    }
+  ]
+}

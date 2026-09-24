@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "slug": "sao-joao-evangelista-jardim-magali",
+  "name": "Paróquia São João Evangelista",
+  "patrons": [
+    {
+      "name": "São João Evangelista",
+      "feast": {
+        "day": 27,
+        "month": 12
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Embu das Artes",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "10:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551147043487",
+    "whatsapp": "+551147043487",
+    "facebook": "https://www.facebook.com/parsaojoaoevangelista",
+    "youtube": "https://www.youtube.com/channel/UCFJOY6NPcDlbToR9RKAhLBQ"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São João Evangelista",
+      "isMain": true,
+      "address": [
+        "Estrada Prof. Mário Osassa, 19",
+        "Jd. Magali · Embu/SP · 06833-090"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0830",
+          "kind": "mass",
+          "startsAt": "08:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1sat-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "matriz-confession-wed-thu-fri-1400",
+          "kind": "confession",
+          "startsAt": "14:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-2000",
+          "kind": "adoration",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.656293,
+        "lng": -46.842031
+      }
+    },
+    {
+      "id": "nossa-senhora-das-gracas",
+      "name": "Comunidade Nossa Senhora das Graças",
+      "address": [
+        "Rua Santa Benta, 122",
+        "Jd. Santo Antônio · Embu das Artes/SP · 06835-515"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-das-gracas-mass-sat-1830",
+          "kind": "mass",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-das-gracas-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Missa do Apostolado da Oração (Matriz) 1º Sábado às 15h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.672969,
+        "lng": -46.849346
+      }
+    },
+    {
+      "id": "santa-barbara",
+      "name": "Comunidade Santa Bárbara",
+      "address": [
+        "Rua das Glicínias, 256",
+        "Jd. Santa Bárbara · Embu das Artes/SP · 06817-070"
+      ],
+      "activities": [
+        {
+          "id": "santa-barbara-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.639646,
+        "lng": -46.829753
+      }
+    },
+    {
+      "id": "santo-antonio",
+      "name": "Comunidade Santo Antônio",
+      "address": [
+        "Rua Nossa Senhora da Conceição, 232",
+        "Jd. Santo Antônio · Embu das Artes/SP · 06835-430"
+      ],
+      "activities": [
+        {
+          "id": "santo-antonio-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santo-antonio-mass-sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.67324,
+        "lng": -46.846156
+      }
+    }
+  ]
+}

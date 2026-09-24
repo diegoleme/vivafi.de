@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquia.santoexpedito",
+  "name": "Paróquia Santo Expedito",
+  "patrons": [
+    {
+      "name": "Santo Expedito",
+      "feast": {
+        "day": 19,
+        "month": 4
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "18:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+5511972621854",
+    "whatsapp": "+5511972621854",
+    "instagram": "paroquia.santoexpedito",
+    "facebook": "https://www.facebook.com/santoexpeditoparoquia",
+    "youtube": "https://www.youtube.com/channel/UCqFrzVBLUoWss88eQKpBNKQ"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santo Expedito",
+      "isMain": true,
+      "address": [
+        "Rua Cananéia, 113",
+        "Vl. João Montesano-Itapecerica-SP · 06853-570"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-d19-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-day",
+            "dayOfMonth": 19
+          }
+        },
+        {
+          "id": "matriz-confession-tue-wed-thu-fri-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.688687,
+        "lng": -46.851238
+      }
+    },
+    {
+      "id": "nossa-senhora-da-penha",
+      "name": "Comunidade Nossa Senhora da Penha",
+      "address": [
+        "Rua José Antônio da Luz, 41",
+        "Embu-Mirim · Itapecerica da Serra/SP · 06854-020"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-penha-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.691457,
+        "lng": -46.844006
+      }
+    },
+    {
+      "id": "santa-escolastica",
+      "name": "Comunidade Santa Escolástica",
+      "address": [
+        "Rua Maracujá, 99",
+        "Pq. Santa Adélia · Itapecerica da Serra/SP · 06885-000"
+      ],
+      "activities": [
+        {
+          "id": "santa-escolastica-mass-tue-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.701397,
+        "lng": -46.877139
+      }
+    },
+    {
+      "id": "santa-isabel-da-hungria",
+      "name": "Comunidade Santa Isabel da Hungria",
+      "address": [
+        "Estrada João Rodrigues, 1460",
+        "Ressaca · Itapecerica da Serra/SP · 06850-000"
+      ],
+      "activities": [
+        {
+          "id": "santa-isabel-da-hungria-mass-2sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "sunday"
+          }
+        },
+        {
+          "id": "santa-isabel-da-hungria-mass-4sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 4,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.699121,
+        "lng": -46.893095
+      }
+    },
+    {
+      "id": "sao-joao-batista",
+      "name": "Comunidade São João Batista",
+      "address": [
+        "Rua Terra Nova, 60",
+        "Jd. Itapecerica · Itapecerica da Serra/SP · 06850-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-batista-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-joao-batista-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sao-joao-batista-mass-fri-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.689202,
+        "lng": -46.860252
+      }
+    },
+    {
+      "id": "sao-joao-paulo-ii",
+      "name": "Comunidade São João Paulo II",
+      "address": [
+        "Avenida dos Legisladores, 90",
+        "Pq. Paraíso · Itapecerica da Serra/SP · 06850-340"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-paulo-ii-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.700118,
+        "lng": -46.853235
+      }
+    }
+  ]
+}

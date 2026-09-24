@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasaopioxcl",
+  "name": "Paróquia São Pio X",
+  "patrons": [
+    {
+      "name": "São Pio X",
+      "feast": {
+        "day": 21,
+        "month": 8
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Campo Limpo",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158254509",
+    "whatsapp": "+551158254509",
+    "instagram": "paroquiasaopioxcl"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São João Batista",
+      "isMain": true,
+      "address": [
+        "R. Padre José S. Paraopeba, 254",
+        "Jd. Valquíria · São Paulo/SP · 05857-420"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-fri-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-sat-0930",
+          "kind": "confession",
+          "startsAt": "09:30",
+          "endsAt": "11:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1500",
+          "kind": "adoration",
+          "startsAt": "15:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.653242,
+        "lng": -46.778264
+      }
+    },
+    {
+      "id": "nossa-senhora-do-carmo",
+      "name": "Comunidade Nossa Senhora do Carmo",
+      "address": [
+        "Rua Luzia Pinhatta Andreatti, 50",
+        "Jd. Jerivá · São Paulo/SP · 05857-370"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-do-carmo-mass-sat-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.659598,
+        "lng": -46.781363
+      }
+    },
+    {
+      "id": "santo-antonio-de-padua",
+      "name": "Comunidade Santo Antônio de Pádua",
+      "address": [
+        "Rua Maria Gomes da Silva, 308",
+        "Jd. Campo dos Ferreiras · São Paulo/SP · 05857-310"
+      ],
+      "activities": [
+        {
+          "id": "santo-antonio-de-padua-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.656107,
+        "lng": -46.778742
+      }
+    },
+    {
+      "id": "sao-vicente-de-paulo",
+      "name": "Comunidade São Vicente de Paulo",
+      "address": [
+        "Rua Ignácio de Almeida, 46",
+        "Pq. Lígia · São Paulo/SP · 05857-510"
+      ],
+      "activities": [
+        {
+          "id": "sao-vicente-de-paulo-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.658268,
+        "lng": -46.782725
+      }
+    }
+  ]
+}

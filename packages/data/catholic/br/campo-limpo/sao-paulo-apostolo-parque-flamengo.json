@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "slug": "sao-paulo-apostolo-parque-flamengo",
+  "name": "Paróquia São Paulo Apóstolo",
+  "patrons": [
+    {
+      "name": "São Paulo Apóstolo",
+      "feast": {
+        "day": 29,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Campo Limpo",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158120717",
+    "whatsapp": "+5511986784873",
+    "facebook": "https://www.facebook.com/paroquiaspapostolo"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Paulo Apóstolo",
+      "isMain": true,
+      "address": [
+        "Rua Isidoro Larraiá, 30",
+        "Pq. Flamengo · São Paulo/SP · 05783-090"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.641525,
+        "lng": -46.767088
+      }
+    },
+    {
+      "id": "nosso-senhor-dos-passos",
+      "name": "Comunidade Nosso Senhor dos Passos",
+      "address": [
+        "Rua Vicente Pinheiro, 505",
+        "Jd. Umuarama · São Paulo/SP · 05794-400"
+      ],
+      "activities": [
+        {
+          "id": "nosso-senhor-dos-passos-mass-sun-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.64554,
+        "lng": -46.772445
+      }
+    },
+    {
+      "id": "sao-francisco-de-assis-e-santo-expedito",
+      "name": "Comunidade São Francisco de Assis e Santo Expedito",
+      "address": [
+        "Rua Novojoá, S/Nº",
+        "Jd. Vale das Virtudes · São Paulo/SP · 05796-160"
+      ],
+      "activities": [
+        {
+          "id": "sao-francisco-de-assis-e-santo-expedito-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.649917,
+        "lng": -46.772808
+      }
+    }
+  ]
+}

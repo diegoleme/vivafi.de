@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "slug": "nossa-senhora-de-fatima-vila-das-belezas",
+  "name": "Paróquia Nossa Senhora de Fátima",
+  "patrons": [
+    {
+      "name": "Nossa Senhora de Fátima",
+      "feast": {
+        "day": 13,
+        "month": 5
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "São Luiz - CR",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551142839245",
+    "whatsapp": "+551142839245",
+    "facebook": "https://www.facebook.com/fatimaviladasbelezas"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora de Fátima",
+      "isMain": true,
+      "address": [
+        "Rua Manuel de Oliveira Falcão, 90",
+        "Vila das Belezas · São Paulo/SP · 05777-100"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-thu-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1600",
+          "kind": "confession",
+          "startsAt": "16:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "3ª quinta-feira de cada mês às 15h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.642984,
+        "lng": -46.743058
+      }
+    },
+    {
+      "id": "nossa-senhora-da-penha",
+      "name": "Comunidade Nossa Senhora da Penha",
+      "address": [
+        "Av. Tomas de Souza, 724",
+        "Jd. Monte Azul · São Paulo/SP · 05836-350"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-penha-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.646304,
+        "lng": -46.736967
+      }
+    },
+    {
+      "id": "sao-francisco-de-assis",
+      "name": "Comunidade São Francisco de Assis",
+      "address": [
+        "Rua Lucilo de Almeida, 360",
+        "Pq. Arariba · São Paulo/SP · 05778-250"
+      ],
+      "activities": [
+        {
+          "id": "sao-francisco-de-assis-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.642509,
+        "lng": -46.753949
+      }
+    },
+    {
+      "id": "sao-joao-batista-e-santa-rita",
+      "name": "Comunidade São João Batista e Santa Rita",
+      "address": [
+        "Rua Enrico Rossi, 09B",
+        "Jd. Casa Branca · São Paulo/SP · 05841-140"
+      ],
+      "activities": [
+        {
+          "id": "sao-joao-batista-e-santa-rita-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.648864,
+        "lng": -46.742132
+      }
+    },
+    {
+      "id": "sao-roque",
+      "name": "Comunidade São Roque",
+      "address": [
+        "Rua João Maximiano, 51",
+        "Jd. São Roque · São Paulo/SP · 05736-150"
+      ],
+      "activities": [
+        {
+          "id": "sao-roque-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.634375,
+        "lng": -46.742227
+      }
+    },
+    {
+      "id": "sao-sebastiao",
+      "name": "Comunidade São Sebastião",
+      "address": [
+        "Rua Jaime Ensor, 106",
+        "Jd. Novo Oriente · São Paulo/SP · 05772-040"
+      ],
+      "activities": [
+        {
+          "id": "sao-sebastiao-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.638151,
+        "lng": -46.75885
+      }
+    }
+  ]
+}

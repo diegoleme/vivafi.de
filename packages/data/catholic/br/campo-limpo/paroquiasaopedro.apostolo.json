@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiasaopedro.apostolo",
+  "name": "Paróquia São Pedro Apóstolo",
+  "patrons": [
+    {
+      "name": "São Pedro Apóstolo",
+      "feast": {
+        "day": 29,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+5511981294975",
+    "whatsapp": "+5511912584868",
+    "instagram": "paroquiasaopedro.apostolo",
+    "facebook": "https://www.facebook.com/paroquiasaopedroapostolo.itapecericadaserra"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Pedro Apóstolo",
+      "isMain": true,
+      "address": [
+        "Rua Adalcina Fca da Silva, 500",
+        "Jd. São Pedro · Itapecerica/SP · 06863-160"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-1thu-2000",
+          "kind": "adoration",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "thursday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.723096,
+        "lng": -46.7987
+      }
+    }
+  ]
+}

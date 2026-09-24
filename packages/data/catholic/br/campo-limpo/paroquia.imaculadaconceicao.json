@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquia.imaculadaconceicao",
+  "name": "Paróquia Imaculada Conceição",
+  "patrons": [
+    {
+      "name": "Imaculada Conceição",
+      "feast": {
+        "day": 8,
+        "month": 12
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+5511977516166",
+    "whatsapp": "+5511977516166",
+    "instagram": "paroquia.imaculadaconceicao",
+    "facebook": "https://www.facebook.com/paroquia.imaculada.9"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São José",
+      "isMain": true,
+      "address": [
+        "Rua Joaquim de Paula, 452",
+        "Jd. Nakamura · São Paulo/SP · 04942-130"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-mon-tue-wed-thu-fri-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Sábado"
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.7001,
+        "lng": -46.772718
+      }
+    },
+    {
+      "id": "menino-jesus-de-praga",
+      "name": "Comunidade Menino Jesus de Praga",
+      "address": [
+        "Rua Amalfi, 501",
+        "Jd. Fugihara · São Paulo/SP · 04942-170"
+      ],
+      "activities": [
+        {
+          "id": "menino-jesus-de-praga-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "menino-jesus-de-praga-mass-1fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.699491,
+        "lng": -46.771528
+      }
+    },
+    {
+      "id": "sagrada-familia-de-nazare",
+      "name": "Comunidade Sagrada Família de Nazaré",
+      "address": [
+        "Rua Miguel Dionisio Valle, S/N",
+        "Jd. Nakamura · São Paulo/SP · 04942-040"
+      ],
+      "activities": [
+        {
+          "id": "sagrada-familia-de-nazare-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.695627,
+        "lng": -46.777652
+      }
+    },
+    {
+      "id": "santa-paulina",
+      "name": "Comunidade Santa Paulina",
+      "address": [
+        "Rua Nova Providência, 600",
+        "Pq. Boulogne · São Paulo/SP · 04941-090"
+      ],
+      "activities": [
+        {
+          "id": "santa-paulina-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.702195,
+        "lng": -46.775499
+      }
+    },
+    {
+      "id": "santa-rita-de-cassia",
+      "name": "Comunidade Santa Rita de Cássia",
+      "address": [
+        "Rua Antípodas, 35",
+        "Pq. Bologne · São Paulo/SP · 04941-060"
+      ],
+      "activities": [
+        {
+          "id": "santa-rita-de-cassia-mass-sun-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.704205,
+        "lng": -46.774311
+      }
+    }
+  ]
+}

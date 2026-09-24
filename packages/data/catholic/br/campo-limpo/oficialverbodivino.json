@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "oficialverbodivino",
+  "name": "Paróquia Verbo Divino",
+  "patrons": [
+    {
+      "name": "Verbo Divino",
+      "feast": {
+        "day": 12,
+        "month": 10
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Mirim-Guaçu",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551155171664",
+    "whatsapp": "+551155171664",
+    "instagram": "oficialverbodivino",
+    "facebook": "https://www.facebook.com/oficialverbodivino",
+    "youtube": "https://www.youtube.com/c/VemPraVerbo"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Nossa Senhora Aparecida",
+      "isMain": true,
+      "address": [
+        "Rua Alan Napier, 42",
+        "Jd. Horizonte Azul · São Paulo/SP · 04963-110"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        },
+        {
+          "id": "matriz-adoration-desc",
+          "kind": "adoration",
+          "recurrence": {
+            "type": "described",
+            "text": "5ª às 09h às 12h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.748882,
+        "lng": -46.779908
+      }
+    },
+    {
+      "id": "sagrado-coracao-de-jesus",
+      "name": "Comunidade Sagrado Coração de Jesus",
+      "address": [
+        "Rua Carlos Caprole, 164",
+        "Jd. Vera Cruz · São Paulo/SP · 04965-070"
+      ],
+      "activities": [
+        {
+          "id": "sagrado-coracao-de-jesus-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "sagrado-coracao-de-jesus-mass-1fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.737149,
+        "lng": -46.779122
+      }
+    },
+    {
+      "id": "santa-edwiges",
+      "name": "Comunidade Santa Edwiges",
+      "address": [
+        "Rua Maria Trevissani, 223",
+        "Jd. Vera Cruz · São Paulo/SP · 04965-150"
+      ],
+      "activities": [
+        {
+          "id": "santa-edwiges-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santa-edwiges-mass-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.740571,
+        "lng": -46.780411
+      }
+    },
+    {
+      "id": "sao-jose",
+      "name": "Comunidade São José",
+      "address": [
+        "Rua Messenia, 634",
+        "Vila Sol · São Paulo/SP · 04962-200"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.737424,
+        "lng": -46.783294
+      }
+    }
+  ]
+}

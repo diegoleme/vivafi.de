@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "slug": "parsaofranciscoesantoestevao",
+  "name": "Paróquia São Francisco e Santo Estevão",
+  "patrons": [
+    {
+      "name": "São Francisco"
+    },
+    {
+      "name": "Santo Estevão"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Campo Limpo",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "20:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158426911",
+    "whatsapp": "+551158426911",
+    "instagram": "parsaofranciscoesantoestevao",
+    "facebook": "https://www.facebook.com/paroquiasaofranciscoesantoestevao",
+    "youtube": "https://www.youtube.com/Par%C3%B3quiaS%C3%A3oFranciscoeSantoEst%C3%AAv%C3%A3o"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Francisco de Assis",
+      "isMain": true,
+      "address": [
+        "Rua Mário Maia, 54",
+        "Jd. Maria Virgínia · São Paulo/SP · 05761-330"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-tue-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "Sexta-feira Missa Vetus Ordo (Em latim) às 08h e Sábados Missa Vetus Ordo (Em latim) às 19h"
+          }
+        },
+        {
+          "id": "matriz-confession-tue-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1500",
+          "kind": "confession",
+          "startsAt": "15:00",
+          "endsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1900",
+          "kind": "adoration",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.634236,
+        "lng": -46.764735
+      }
+    },
+    {
+      "id": "santa-clara",
+      "name": "Comunidade Santa Clara",
+      "address": [
+        "Rua Adão Costa Mendes, 444",
+        "Jd. Paris · São Paulo/SP · 05794-200"
+      ],
+      "activities": [
+        {
+          "id": "santa-clara-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santa-clara-mass-tue-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "santa-clara-mass-sat-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.637649,
+        "lng": -46.76992
+      }
+    },
+    {
+      "id": "santo-estevao",
+      "name": "Comunidade Santo Estevão",
+      "address": [
+        "Av. Amadeu da Silva Samelo, 40",
+        "Jd. Faria Lima · São Paulo/SP · 05760-140"
+      ],
+      "activities": [
+        {
+          "id": "santo-estevao-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santo-estevao-mass-sun-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santo-estevao-mass-wed-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "santo-estevao-mass-1fri-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.631072,
+        "lng": -46.768061
+      }
+    }
+  ]
+}

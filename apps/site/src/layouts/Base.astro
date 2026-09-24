@@ -1,0 +1,43 @@
+---
+import { Font } from 'astro:assets';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <Font cssVariable="--fonte-serifa" preload />
+  </head>
+  <body class="min-h-dvh">
+    <a
+      href="#conteudo"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-20 focus:bg-surface focus:px-3 focus:py-2 focus:text-ink"
+    >
+      Ir para o conteúdo
+    </a>
+
+    <div class="mx-auto w-full max-w-2xl px-4 pt-5 sm:px-6">
+      <slot name="cabecalho" />
+    </div>
+
+    {/* Fora do contêiner com padding: a tira precisa de fundo de ponta a ponta,
+        senão o conteúdo rola por trás das laterais quando ela está grudada. */}
+    <slot name="tira" />
+
+    <div class="mx-auto w-full max-w-2xl px-4 pb-8 sm:px-6">
+      <slot />
+    </div>
+  </body>
+</html>

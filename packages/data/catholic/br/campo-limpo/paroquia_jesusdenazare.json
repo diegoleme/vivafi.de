@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquia_jesusdenazare",
+  "name": "Paróquia Jesus de Nazaré",
+  "patrons": [
+    {
+      "name": "Jesus de Nazaré"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Itapecerica",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "saturday"
+        ]
+      },
+      "startsAt": "13:00",
+      "endsAt": "16:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551146692657",
+    "whatsapp": "+5511961494648",
+    "instagram": "paroquia_jesusdenazare",
+    "facebook": "https://www.facebook.com/paroquiaJesusdeNazare"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Jesus de Nazaré",
+      "isMain": true,
+      "address": [
+        "Rua Marajó, 08",
+        "Santa Júlia · Itapecerica/SP · 06867-440"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1000",
+          "kind": "confession",
+          "startsAt": "10:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1000",
+          "kind": "adoration",
+          "startsAt": "10:00",
+          "endsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.758358,
+        "lng": -46.807207
+      }
+    },
+    {
+      "id": "maria-de-nazare",
+      "name": "Comunidade Maria de Nazaré",
+      "address": [
+        "Rua das Hortências, 45",
+        "Jd. Vitória · Itapecerica da Serra/SP · 06867-308"
+      ],
+      "activities": [
+        {
+          "id": "maria-de-nazare-mass-sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.710902,
+        "lng": -46.806623
+      }
+    },
+    {
+      "id": "sagrado-coracao-de-jesus",
+      "name": "Comunidade Sagrado Coração de Jesus",
+      "address": [
+        "Rua Juruá, 04",
+        "Cidade Santa Júlia · Itapecerica da Serra/SP · 06866-540"
+      ],
+      "activities": [
+        {
+          "id": "sagrado-coracao-de-jesus-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.758077,
+        "lng": -46.800683
+      }
+    },
+    {
+      "id": "santo-expedito",
+      "name": "Comunidade Santo Expedito",
+      "address": [
+        "Rua Aristides Pires de Andrade, 232",
+        "Jd. Oliveiras · Itapecerica da Serra/SP · 06867-508"
+      ],
+      "activities": [
+        {
+          "id": "santo-expedito-mass-sun-0700",
+          "kind": "mass",
+          "startsAt": "07:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santo-expedito-mass-sat-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.75926,
+        "lng": -46.813801
+      }
+    }
+  ]
+}

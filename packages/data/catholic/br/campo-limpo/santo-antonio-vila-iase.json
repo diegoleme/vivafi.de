@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "slug": "santo-antonio-vila-iase",
+  "name": "Paróquia Santo Antônio",
+  "patrons": [
+    {
+      "name": "Santo Antônio",
+      "feast": {
+        "day": 13,
+        "month": 6
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Taboão da Serra",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "13:30",
+      "endsAt": "18:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551141376626",
+    "whatsapp": "+551141376626"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Santo Antônio",
+      "isMain": true,
+      "address": [
+        "Rua Ribeirão Preto, 135",
+        "Vila Iase · Taboão da Serra/SP · 06780-190"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "saturday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Agendar na secretaria paroquial"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.62077,
+        "lng": -46.791126
+      }
+    },
+    {
+      "id": "santa-ana",
+      "name": "Comunidade Santa Ana",
+      "address": [
+        "Rua Isabel Soria Mainardes, 75",
+        "Jd. Maria Helena · Taboão da Serra/SP · 06787-110"
+      ],
+      "activities": [
+        {
+          "id": "santa-ana-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "santa-ana-mass-fri-1500",
+          "kind": "mass",
+          "startsAt": "15:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "friday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.628667,
+        "lng": -46.800495
+      }
+    },
+    {
+      "id": "santa-rita-e-sao-joao-paulo-ii",
+      "name": "Comunidade Santa Rita e São João Paulo II",
+      "address": [
+        "Rua Cachoerinha, 467",
+        "Jd. Record · Taboão da Serra/SP · 06784-400"
+      ],
+      "activities": [
+        {
+          "id": "santa-rita-e-sao-joao-paulo-ii-mass-sun-1000",
+          "kind": "mass",
+          "startsAt": "10:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.625743,
+        "lng": -46.79643
+      }
+    }
+  ]
+}

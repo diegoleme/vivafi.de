@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquians.esperanca",
+  "name": "Paróquia Nossa Senhora da Esperança",
+  "patrons": [
+    {
+      "name": "Nossa Senhora da Esperança",
+      "feast": {
+        "day": 26,
+        "month": 4
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "M'Boi Mirim",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "12:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "14:00",
+      "endsAt": "18:00"
+    },
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "sunday"
+        ]
+      },
+      "startsAt": "09:00",
+      "endsAt": "13:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551158315247",
+    "whatsapp": "+5511934511333",
+    "instagram": "paroquians.esperanca",
+    "facebook": "https://www.facebook.com/secretarianaesperanca"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "Sant'Ana e São Joaquim",
+      "isMain": true,
+      "address": [
+        "Av. Olivier Bachelin, 08",
+        "Alto do Rivieira · São Paulo -SP · 04929-170"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0730",
+          "kind": "mass",
+          "startsAt": "07:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-wed-fri-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday",
+              "wednesday",
+              "friday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-desc",
+          "kind": "confession",
+          "recurrence": {
+            "type": "described",
+            "text": "Sexta-feira após às 15h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.700149,
+        "lng": -46.763821
+      }
+    },
+    {
+      "id": "dos-arcanjos",
+      "name": "Comunidade dos Arcanjos",
+      "address": [
+        "Rua Piranense, 13",
+        "Alto do Rivieira · São Paulo/SP · 04929-000"
+      ],
+      "activities": [
+        {
+          "id": "dos-arcanjos-mass-sat-1730",
+          "kind": "mass",
+          "startsAt": "17:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.700035,
+        "lng": -46.768031
+      }
+    },
+    {
+      "id": "nossa-senhora-da-esperanca",
+      "name": "Comunidade Nossa Senhora da Esperança",
+      "address": [
+        "Rua Armando Rodrigues Tavares, 348",
+        "Alto do Riviera · São Paulo/SP · 04929-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-da-esperanca-mass-sun-1600",
+          "kind": "mass",
+          "startsAt": "16:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-da-esperanca-mass-sat-1930",
+          "kind": "mass",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.696779,
+        "lng": -46.762512
+      }
+    },
+    {
+      "id": "nossa-senhora-do-caminho",
+      "name": "Comunidade Nossa Senhora do Caminho",
+      "address": [
+        "Estrada da Riveira, 4624",
+        "Riviera · São Paulo/SP · 04916-000"
+      ],
+      "activities": [
+        {
+          "id": "nossa-senhora-do-caminho-mass-sun-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "nossa-senhora-do-caminho-mass-thu-1200",
+          "kind": "mass",
+          "startsAt": "12:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.705459,
+        "lng": -46.743267
+      }
+    }
+  ]
+}

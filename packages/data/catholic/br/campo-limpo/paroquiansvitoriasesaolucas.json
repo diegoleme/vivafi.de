@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "slug": "paroquiansvitoriasesaolucas",
+  "name": "Paróquia Nossa Senhora das Vitórias e São Lucas",
+  "patrons": [
+    {
+      "name": "Nossa Senhora das Vitórias"
+    },
+    {
+      "name": "São Lucas"
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Embu das Artes",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:30",
+      "endsAt": "17:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551143851266",
+    "whatsapp": "+551143851266",
+    "instagram": "paroquiansvitoriasesaolucas",
+    "facebook": "https://www.facebook.com/paroquiansvitoriasesaolucas"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Lucas",
+      "isMain": true,
+      "address": [
+        "Estrada de Itapecerica à Campo Limpo, 202",
+        "Jd. Independência · Embu/SP · 06820-000"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1100",
+          "kind": "mass",
+          "startsAt": "11:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-sun-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-thu-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1900",
+          "kind": "confession",
+          "startsAt": "19:00",
+          "endsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1800",
+          "kind": "adoration",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.65098,
+        "lng": -46.794325
+      }
+    },
+    {
+      "id": "sao-sebatiao",
+      "name": "Comunidade São Sebatião",
+      "address": [
+        "Rua Nilo, 187",
+        "Jd. Casa Branca · Embu das Artes/SP · 06810-410"
+      ],
+      "activities": [
+        {
+          "id": "sao-sebatiao-mass-tue-sat-2000",
+          "kind": "mass",
+          "startsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday",
+              "saturday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.646259,
+        "lng": -46.796933
+      }
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "slug": "santo-inacio-de-loyola-jardim-valflor",
+  "name": "Paróquia Santo Inácio de Loyola",
+  "patrons": [
+    {
+      "name": "Santo Inácio de Loyola",
+      "feast": {
+        "day": 31,
+        "month": 7
+      }
+    }
+  ],
+  "diocese": "Diocese de Campo Limpo",
+  "deanery": "Mirim-Guaçu",
+  "timezone": "America/Sao_Paulo",
+  "confirmedAt": "2026-09-23",
+  "source": "diocese-website",
+  "officeHours": [
+    {
+      "recurrence": {
+        "type": "weekly",
+        "day": [
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ]
+      },
+      "startsAt": "08:00",
+      "endsAt": "16:00"
+    }
+  ],
+  "contact": {
+    "phone": "+551146612564",
+    "whatsapp": "+5511930756599",
+    "facebook": "https://www.facebook.com/profile.php?id=100008541094376"
+  },
+  "escalation": [],
+  "exceptions": [],
+  "communities": [
+    {
+      "id": "matriz",
+      "name": "São Miguel Arcanjo",
+      "isMain": true,
+      "address": [
+        "Rua Gino Pares Paulinetti, 450",
+        "Jd. Valflor · Embu-Guaçu/SP · 06906-250"
+      ],
+      "activities": [
+        {
+          "id": "matriz-mass-sun-0800",
+          "kind": "mass",
+          "startsAt": "08:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "sunday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-mass-1fri-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "friday"
+          }
+        },
+        {
+          "id": "matriz-mass-1sat-0900",
+          "kind": "mass",
+          "startsAt": "09:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "saturday"
+          }
+        },
+        {
+          "id": "matriz-confession-wed-1400",
+          "kind": "confession",
+          "startsAt": "14:00",
+          "endsAt": "17:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-wed-1830",
+          "kind": "confession",
+          "startsAt": "18:30",
+          "endsAt": "21:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "wednesday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-confession-thu-1900",
+          "kind": "confession",
+          "startsAt": "19:00",
+          "endsAt": "20:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        },
+        {
+          "id": "matriz-adoration-thu-1930",
+          "kind": "adoration",
+          "startsAt": "19:30",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "thursday"
+            ]
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.806337,
+        "lng": -46.811842
+      }
+    },
+    {
+      "id": "imaculado-coracao-de-maria",
+      "name": "Comunidade Imaculado Coração de Maria",
+      "address": [
+        "Estrada José do Patrocínio, 5",
+        "Chácara dos Amigos · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "imaculado-coracao-de-maria-mass-1sat-1830",
+          "kind": "mass",
+          "startsAt": "18:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.784824,
+        "lng": -46.823621
+      }
+    },
+    {
+      "id": "jesus-bom-pastor",
+      "name": "Comunidade Jesus Bom Pastor",
+      "address": [
+        "Estrada dos Alves, 200",
+        "Itaquaciara · Itapecerica da Serra/SP · 06874-050"
+      ],
+      "activities": [
+        {
+          "id": "jesus-bom-pastor-mass-1sat-1600",
+          "kind": "mass",
+          "startsAt": "16:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.785444,
+        "lng": -46.851329
+      }
+    },
+    {
+      "id": "santa-clara-de-assis",
+      "name": "Comunidade Santa Clara de Assis",
+      "address": [
+        "Estrada Mina de Ouro, km 42,5",
+        "Xororó · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "santa-clara-de-assis-mass-2sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "sunday"
+          }
+        },
+        {
+          "id": "santa-clara-de-assis-mass-4sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 4,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.831738,
+        "lng": -46.846987
+      }
+    },
+    {
+      "id": "santa-isabel-de-portugal",
+      "name": "Comunidade Santa Isabel de Portugal",
+      "address": [
+        "Rodovia José Simões Louro Júnior, 21",
+        "Jd. Santa Isabel · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "santa-isabel-de-portugal-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "2ª e 4 ª às 19h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.811493,
+        "lng": -46.819212
+      }
+    },
+    {
+      "id": "santo-expedito",
+      "name": "Comunidade Santo Expedito",
+      "address": [
+        "Estrada Brasilio Vieira, 269 - km 48",
+        "Congonhal · Embu-Guçu/SP · 069000-000"
+      ],
+      "activities": [
+        {
+          "id": "santo-expedito-mass-3sat-1800",
+          "kind": "mass",
+          "startsAt": "18:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.835343,
+        "lng": -46.858557
+      }
+    },
+    {
+      "id": "sao-francisco-de-assis",
+      "name": "Comunidade São Francisco de Assis",
+      "address": [
+        "Estrada Brasílio Vieira, s/n",
+        "Sapateiro · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-francisco-de-assis-mass-tue-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "weekly",
+            "day": [
+              "tuesday"
+            ]
+          }
+        },
+        {
+          "id": "sao-francisco-de-assis-mass-desc",
+          "kind": "mass",
+          "recurrence": {
+            "type": "described",
+            "text": "1º, 2º e 4º Domingo às 17h"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.836834,
+        "lng": -46.864158
+      }
+    },
+    {
+      "id": "sao-jose",
+      "name": "Comunidade São José",
+      "address": [
+        "Estrada Abias da Silva, s/n",
+        "Mombaça · Itapecerica da Serra/SP · 06868-700"
+      ],
+      "activities": [
+        {
+          "id": "sao-jose-mass-2sat-1900",
+          "kind": "mass",
+          "startsAt": "19:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 2,
+            "day": "saturday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.758494,
+        "lng": -46.838945
+      }
+    },
+    {
+      "id": "sao-judas-tadeu-e-santa-gema-galgani",
+      "name": "Comunidade São Judas Tadeu",
+      "address": [
+        "Estrada dos Hengles, 300",
+        "Palmeiras · Itapecerica da Serra/SP · 06872-080"
+      ],
+      "activities": [
+        {
+          "id": "sao-judas-tadeu-e-santa-gema-galgani-mass-3sun-1700",
+          "kind": "mass",
+          "startsAt": "17:00",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.75759,
+        "lng": -46.879998
+      }
+    },
+    {
+      "id": "sao-marcos-evangelista",
+      "name": "Comunidade São Marcos Evangelista",
+      "address": [
+        "Estrada Antônio Gerassi, 776",
+        "Jd. Santa Lúcia · Embu-Guaçu/SP · 06900-000"
+      ],
+      "activities": [
+        {
+          "id": "sao-marcos-evangelista-mass-1sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 1,
+            "day": "sunday"
+          }
+        },
+        {
+          "id": "sao-marcos-evangelista-mass-3sun-1030",
+          "kind": "mass",
+          "startsAt": "10:30",
+          "recurrence": {
+            "type": "monthly-ordinal",
+            "ordinal": 3,
+            "day": "sunday"
+          }
+        }
+      ],
+      "location": {
+        "lat": -23.809789,
+        "lng": -46.855321
+      }
+    }
+  ]
+}
