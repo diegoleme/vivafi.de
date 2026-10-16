@@ -216,7 +216,8 @@ que a secretária aprova; merge na principal publica. Preview protegido por Clou
 - [ ] Comando de build no painel é `pnpm test && pnpm check && pnpm build` — o `check` valida os
       113 JSONs contra o schema, e é o que impede dado inválido de ir ao ar
 - [ ] *Build watch paths* configurados: editar `docs/` ou `tasks/` não dispara build do site
-- [ ] `vivafi.de/` decidido: hoje o build não gera `index.html` na raiz, só as 113 pastas
+- [x] `vivafi.de/` decidido: home institucional voltada à paróquia (o que é, como atualizar,
+      gratuito), com CTA para o WhatsApp e imagem de compartilhamento em `public/og.png`
 
 **Verificação:**
 - [ ] Manual: abrir o preview em janela anônima e confirmar que pede autenticação

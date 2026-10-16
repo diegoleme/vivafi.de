@@ -47,13 +47,11 @@ const secoes = secoesDaPagina(parish);
   <Secretaria parish={parish} />
   <Redes parish={parish} />
 
-  {/* `vivafi.de` ainda não é link: a home não existe, e link quebrado é pior
-      que texto. Vira link quando houver para onde ir. */}
   <footer slot="rodape" class="mt-20 text-center text-sm text-ink-muted">
-    <p class="inline-flex items-center gap-1.5 font-medium text-ink">
+    <a href="/" class="inline-flex items-center gap-1.5 font-medium text-ink hover:underline">
       <Marca class="size-4 text-next" />
       <span>vivafi.de</span>
-    </p>
+    </a>
     <p class="mt-0.5">Feito com carinho para a sua comunidade</p>
   </footer>
 </Base>

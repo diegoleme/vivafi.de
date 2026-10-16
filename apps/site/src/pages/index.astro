@@ -1,0 +1,247 @@
+---
+import Icone from '../components/Icone.astro';
+import Marca from '../components/Marca.astro';
+import Base from '../layouts/Base.astro';
+
+/**
+ * A raiz fala com a paróquia, não com o fiel: quem decide e opera é a
+ * secretária paroquial (projeto.md, "Intent confirmado"). O fiel chega pelo
+ * link da própria paróquia, nunca por aqui.
+ *
+ * Número no formato internacional, só dígitos (ex.: 5511999999999). Vazio,
+ * o botão não aparece — botão para lugar nenhum é pior que nenhum botão.
+ */
+const WHATSAPP = '5511935031903';
+// Cada botão abre a conversa com a mensagem que combina com o próprio texto.
+const whatsApp = (mensagem: string) =>
+  WHATSAPP && `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(mensagem)}`;
+const linkQueroSite = whatsApp('Olá! Quero o site da minha paróquia no vivafi.de.');
+const linkConversa = whatsApp('Olá! Quero entender melhor como o vivafi.de funciona para a minha paróquia.');
+
+/**
+ * O exemplo é a festa do padroeiro, não a grade semanal: a exceção é o
+ * produto (projeto.md, "O problema"). É o mesmo dia que o mock do hero mostra.
+ */
+const passos = [
+  {
+    titulo: 'Você manda pelo WhatsApp',
+    texto: 'Festa do padroeiro, missa extra, horário mudado? Escreva do jeito que você escreveria para um fiel.',
+  },
+  {
+    titulo: 'A gente atualiza e te mostra',
+    texto: 'Você recebe a prévia da página para conferir antes de qualquer pessoa ver.',
+  },
+  {
+    titulo: 'Você aprova e está no ar',
+    texto: 'O link de sempre já mostra a novidade. Não precisa compartilhar de novo.',
+  },
+];
+---
+
+<Base
+  title="vivafi.de — sua paróquia com um site só dela"
+  description="Site simples e gratuito para paróquias católicas. Você manda os horários pelo WhatsApp e a gente coloca no ar."
+  image="/og.png"
+>
+  {/* Hero de ponta a ponta, mas ainda dentro do <main>: vaza o contêiner com
+      margem negativa em vez de usar o slot "tira", que fica fora do landmark.
+      O -mt-5 anula o pt-5 do contêiner do cabeçalho no Base, que fica vazio
+      aqui: a marca mora dentro do hero, e o verde encosta no topo. */}
+  <section
+    aria-labelledby="titulo"
+    class="mx-[calc(50%-50vw)] -mt-5 mb-14 bg-next px-4 pt-6 pb-12 text-white sm:px-6 sm:pb-16"
+  >
+    <p class="mx-auto mb-10 flex max-w-4xl items-center gap-2 text-lg font-medium sm:mb-12">
+      <Marca class="size-5 text-next-soft" />
+      <span>vivafi.de</span>
+    </p>
+    <div class="mx-auto grid max-w-4xl items-center gap-10 md:grid-cols-[1fr_auto]">
+      <div>
+        <p class="text-sm font-medium tracking-wide text-next-soft uppercase">Para paróquias católicas</p>
+        <h1 id="titulo" class="titulo-paroquia mt-2 text-balance">
+          Sua paróquia com um site só dela
+        </h1>
+        <p class="mt-4 max-w-md text-pretty text-white/85">
+          Vai ter missa festiva do padroeiro? Você manda o horário pelo WhatsApp e a gente
+          coloca no ar. O fiel abre <strong class="text-white">vivafi.de/suaparoquia</strong> e
+          já vê o horário certo, sem precisar ligar na secretaria.
+        </p>
+        <ul class="mt-5 space-y-1.5 text-sm text-white/85">
+          <li>✓ Gratuito para a paróquia</li>
+          <li>✓ A parte técnica fica com a gente</li>
+          <li>✓ Sem ferramenta nova, é tudo pelo WhatsApp</li>
+        </ul>
+        {linkQueroSite && (
+          <a
+            href={linkQueroSite}
+            class="mt-7 inline-flex items-center gap-2 rounded-lg bg-white px-5 py-3 font-medium text-next hover:bg-next-soft"
+          >
+            <Icone nome="whatsapp" class="size-5" />
+            Quero o site da minha paróquia
+          </a>
+        )}
+      </div>
+
+      {/* Mock decorativo de paróquia fictícia: a moldura de celular já diz que é
+          ilustração, e aria-hidden o tira do leitor de tela. */}
+      <figure class="mx-auto w-64">
+        <div
+          aria-hidden="true"
+          class="overflow-hidden rounded-[2rem] border-[6px] border-ink bg-paper text-ink shadow-2xl"
+        >
+          <p class="bg-line/60 py-1.5 text-center text-[0.65rem] text-ink-muted">vivafi.de/saojose</p>
+          <div class="px-4 pt-4 pb-5">
+            <p class="text-center font-serif text-lg leading-tight font-semibold">Paróquia São José</p>
+
+            <div class="mt-3 flex gap-1 overflow-hidden text-[0.6rem] whitespace-nowrap">
+              <span class="rounded-full bg-next px-2 py-0.5 text-white">Missas</span>
+              <span class="rounded-full bg-surface px-2 py-0.5">Confissões</span>
+              <span class="rounded-full bg-surface px-2 py-0.5">Endereços</span>
+              <span class="rounded-full bg-surface px-2 py-0.5">Secretaria</span>
+            </div>
+
+            <p class="mt-4 font-serif text-sm font-semibold">Missas</p>
+            <div class="tabular mt-2 rounded-lg border border-line bg-surface p-2.5 text-[0.7rem]">
+              <p class="font-medium">Quinta, 19 de março <span class="font-normal text-next">· hoje</span></p>
+              <p class="mt-0.5 mb-1.5 text-[0.6rem] text-warn">Festa de São José, padroeiro</p>
+              <ul class="space-y-1">
+                <li class="flex justify-between text-ink-muted"><span>07:00</span><span>Matriz</span></li>
+                <li class="flex justify-between"><span>18:00</span><span class="text-ink-muted">Procissão</span></li>
+                <li class="-mx-1.5 flex justify-between rounded bg-next-soft px-1.5 py-0.5 font-medium text-next">
+                  <span>19:00</span><span>próxima · Missa festiva</span>
+                </li>
+                <li class="flex justify-between text-ink-muted">
+                  <span class="line-through">19:30</span><span>não haverá</span>
+                </li>
+              </ul>
+            </div>
+            <div class="tabular mt-2 rounded-lg border border-line bg-surface p-2.5 text-[0.7rem]">
+              <p class="mb-1 font-medium">Sexta, 20 de março</p>
+              <p class="flex justify-between"><span>19:30</span><span class="text-ink-muted">Matriz</span></p>
+            </div>
+
+            <p class="mt-4 flex items-center justify-center gap-1 text-[0.6rem] text-ink-muted">
+              <Marca class="size-3 text-next" /> vivafi.de
+            </p>
+          </div>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="como-funciona" class="mb-14">
+    <h2 id="como-funciona" class="titulo-secao text-xl">Como atualizar os horários</h2>
+    {/* Numeral serifado numa coluna à esquerda, fora do cartão. O <ol> já
+        anuncia a ordem ao leitor de tela; numeral e ilustração são decorativos
+        (aria-hidden), e o título e o texto de cada passo dizem tudo. */}
+    <ol class="mt-6 space-y-6">
+      {passos.map((p, i) => (
+        <li class="grid grid-cols-[2.5rem_1fr] gap-3 sm:grid-cols-[3.5rem_1fr] sm:gap-4">
+          <span aria-hidden="true" class="text-center font-serif text-5xl leading-none font-semibold text-next sm:text-6xl">{i + 1}</span>
+          <div class="grid gap-4 rounded-xl border border-line bg-surface p-4 sm:grid-cols-[1fr_14rem] sm:items-center sm:p-5">
+            <div>
+              <h3 class="font-serif text-lg font-semibold">{p.titulo}</h3>
+              <p class="mt-1 text-sm text-pretty text-ink-muted">{p.texto}</p>
+            </div>
+
+          <div aria-hidden="true" class="rounded-lg bg-paper p-3 text-xs">
+            {i === 0 && (
+              <div>
+                <p class="mb-2 flex items-center gap-1.5 font-medium text-ink-muted">
+                  <Icone nome="whatsapp" class="size-3.5 text-next" /> WhatsApp
+                </p>
+                <div class="ml-auto max-w-[90%] rounded-lg rounded-tr-none bg-next-soft px-3 py-2 shadow-sm">
+                  <p>Dia 19 é festa de São José! Missa festiva às 19h, com procissão às 18h. A das 19h30 não vai ter 🙏</p>
+                  <p class="mt-1 text-right text-[0.65rem] text-ink-muted">14:32 ✓✓</p>
+                </div>
+              </div>
+            )}
+            {i === 1 && (
+              <div class="rounded-md border border-line bg-surface p-2.5">
+                <p class="flex items-center justify-between">
+                  <span class="font-medium">Quinta, 19 de março</span>
+                  <span class="rounded bg-warn-soft px-1.5 py-0.5 text-[0.65rem] text-warn">prévia</span>
+                </p>
+                <p class="mb-1.5 text-[0.65rem] text-warn">Festa de São José, padroeiro</p>
+                <ul class="tabular space-y-1">
+                  <li class="flex justify-between"><span>18:00</span><span class="text-ink-muted">Procissão</span></li>
+                  <li class="flex justify-between font-medium text-next"><span>19:00</span><span>Missa festiva</span></li>
+                  <li class="flex justify-between text-ink-muted"><span class="line-through">19:30</span><span>não haverá</span></li>
+                </ul>
+              </div>
+            )}
+            {i === 2 && (
+              <div class="space-y-2">
+                <div class="ml-auto max-w-[80%] rounded-lg rounded-tr-none bg-next-soft px-3 py-2 shadow-sm">
+                  <p>Ficou certo, pode publicar!</p>
+                  <p class="mt-1 text-right text-[0.65rem] text-ink-muted">14:51 ✓✓</p>
+                </div>
+                <p class="flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 font-medium">
+                  <Marca class="size-3.5 text-next" /> vivafi.de/suaparoquia
+                  <span class="ml-auto flex items-center gap-1 text-[0.65rem] font-normal text-next">
+                    <span class="size-1.5 rounded-full bg-next"></span> no ar
+                  </span>
+                </p>
+              </div>
+            )}
+          </div>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  {/* Segunda faixa larga, em verde bem mais escuro que o do hero: mesma
+      família de cor, mas o salto de tom basta para separar o assunto.
+      "Gratuito" fala só do vivafi.de/<slug>: domínio próprio deve virar plano
+      pago, então nada aqui promete que não haverá cobrança alguma. */}
+  <section
+    aria-labelledby="gratuito"
+    class="mx-[calc(50%-50vw)] bg-[#12301f] px-4 py-12 text-paper sm:px-6 sm:py-16"
+  >
+    <div class="mx-auto max-w-4xl text-center">
+      <h2 id="gratuito" class="titulo-paroquia text-balance">O site da paróquia é gratuito</h2>
+      <p class="mx-auto mt-3 max-w-md text-pretty text-paper/75">
+        Não precisa pagar nem aprender nada novo para ter a página no ar.
+      </p>
+      <ul class="mt-8 grid gap-4 text-center sm:grid-cols-3">
+        {[
+          ['R$ 0', 'A página da paróquia no ar, sem custo nenhum.'],
+          ['Sem cadastro', 'Nada de criar conta, lembrar senha ou acessar painel.'],
+          ['Sem aplicativo', 'Tudo pelo WhatsApp que a secretaria já usa todo dia.'],
+        ].map(([titulo, texto]) => (
+          <li class="rounded-xl bg-white/[0.07] p-5">
+            <p class="font-serif text-2xl font-semibold">{titulo}</p>
+            <p class="mt-2 text-sm text-pretty text-paper/75">{texto}</p>
+          </li>
+        ))}
+      </ul>
+      {/* Botão verde sumiria no fundo verde-escuro: aqui ele é branco, como no hero. */}
+      {linkConversa && (
+        <a
+          href={linkConversa}
+          class="mt-8 inline-flex items-center gap-2 rounded-lg bg-white px-5 py-3 font-medium text-next hover:bg-next-soft"
+        >
+          <Icone nome="whatsapp" class="size-5" />
+          Chama a gente no WhatsApp
+        </a>
+      )}
+    </div>
+  </section>
+
+  <footer slot="rodape" class="mt-16 text-center text-sm text-ink-muted">
+    <p class="inline-flex items-center gap-2">
+      <span aria-hidden="true" class="text-xl">❤️</span>
+      <span>
+        {/* Na mesma linha de propósito: a quebra entre "por" e o <a> some no build. */}
+        Feito com carinho para a sua comunidade, por <a href="https://www.linkedin.com/in/diegoleme" class="underline-offset-2 hover:underline">Diego</a>
+      </span>
+      <span aria-hidden="true" class="text-xl">⛪</span>
+    </p>
+  </footer>
+</Base>
+
+<style is:global>
+  /* `clip`, não `hidden`: não cria contêiner de rolagem. */
+  html { overflow-x: clip; }
+</style>
