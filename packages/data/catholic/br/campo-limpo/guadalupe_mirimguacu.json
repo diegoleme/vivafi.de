@@ -21,20 +21,13 @@
       "recurrence": {
         "type": "weekly",
         "day": [
+          "monday",
+          "wednesday",
+          "thursday",
           "friday"
         ]
       },
       "startsAt": "08:00",
-      "endsAt": "12:00"
-    },
-    {
-      "recurrence": {
-        "type": "weekly",
-        "day": [
-          "friday"
-        ]
-      },
-      "startsAt": "13:00",
       "endsAt": "17:00"
     },
     {
@@ -102,14 +95,6 @@
           }
         },
         {
-          "id": "matriz-mass-desc",
-          "kind": "mass",
-          "recurrence": {
-            "type": "described",
-            "text": "Sexta-feira Adoração ao Santíssimo à partir das 17h"
-          }
-        },
-        {
           "id": "matriz-confession-wed-fri-1500",
           "kind": "confession",
           "startsAt": "15:00",
@@ -135,14 +120,13 @@
           }
         },
         {
-          "id": "matriz-adoration-thu-1700",
+          "id": "matriz-adoration-fri-1700",
           "kind": "adoration",
           "startsAt": "17:00",
-          "endsAt": "19:00",
           "recurrence": {
             "type": "weekly",
             "day": [
-              "thursday"
+              "friday"
             ]
           }
         }
